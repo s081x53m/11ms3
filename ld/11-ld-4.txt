@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit:4 History and Culture<br>
+ Qin Dynasty<br>
+ <br>
+Ways with words<br>
+A. Match the words with their meanings.<br>
+a. brevity- v. lasting only for a short time<br>
+b. conquest- vii. victory over a place or people by use of military force<br>
+c. resemblance- i. the state of being alike<br>
+d. barbarian- ii. a member of an uncivilised group of people or culture<br>
+e. ally - x. one state united to another by a treaty or a league for a military purpose<br>
+f. nobility- iii. state of being noble in character, quality, or rank<br>
+g. ruthlessness- ix. character of having no pity or compassion<br>
+h. decimation viii. the killing or destruction of a large number of a population<br>
+i. harsh- vi. cruel<br>
+j. elixir- iv. liquid that is believed to cure all ills<br>
+B. Find the following words in the text and use them in sentences of your own.<br>
+invasion<br>
+ <br>
+Answer:<br>
+Her parents left Czecholovakia after the Russian invasion in 1968.<br>
+ <br>
+disregard<br>
+ <br>
+Answer:<br>
+His sister totally disregarded all the advice she was given.<br>
+ <br>
+paramount<br>
+ <br>
+Answer:<br>
+The well-being of the child must always be the court&rsquo;s paramount consideration.<br>
+ <br>
+populace<br>
+ <br>
+Answer:<br>
+He had the support of large section of the local populace.<br>
+ <br>
+revolt<br>
+ <br>
+Answer:<br>
+Teenagers often revolt against parental discipline.<br>
+ <br>
+assassination<br>
+ <br>
+Answer:<br>
+Kennedy&rsquo;s assassination took place in November 22, 1963.<br>
+ <br>
+serfdom<br>
+ <br>
+Answer:<br>
+Serfdom was abolished in Russia in 1861.<br>
+ <br>
+Homographs are the words with different pronunciations and different meanings but same spellings.<br>
+D. Consult a dictionary and prepare a list of ten homographs.<br>
+Bank<br>
+Book<br>
+Bar<br>
+Band<br>
+Bow<br>
+Can<br>
+Compact<br>
+Conduct<br>
+Bear<br>
+Lead<br>
+ <br>
+ <br>
+F. Here is a very old limerick taken from a book &lsquo;A Book of Nonsense&rsquo; by Edward Lear. Find the stressed words.<br>
+There ONCE was a FLY on the WALL.<br>
+I WONdered &ldquo;why DIDn&rsquo;t it FALL?&rdquo;<br>
+WERE it&rsquo;s feet STUCK?<br>
+Or WAS it just LUCK?<br>
+Or does GRAvity MISS things so SMALL?<br>
+ <br>
+ <br>
+Comprehension<br>
+ <br>
+B. Answer these questions.<br>
+a. Why is the Zhou Age called a feudal age?<br>
+ <br>
+Answer:<br>
+The Zhou Age is called a feudal age because the Zhou government bore a strong resemblance to some of the forms of feudalism in medieval Europe.<br>
+ <br>
+b. What is the location advantage of the Qin?<br>
+ <br>
+Answer:<br>
+The territory of the Quin State in modern Shaanxi Province is well guarded from the east by mountains and gorges and has easy access to the North China plain through the Yellow River passes. No major battle ever took place in the Qin&rsquo;s heartland.<br>
+ <br>
+c. What contributed to the success in the warfare as described in the text?<br>
+ <br>
+Answer:<br>
+The location of the state, their size of the army, and their expert use of the chariot contributed to their success in warfare.<br>
+ <br>
+d. Why did the Qin invite the foreign advisor, Shang Yang?<br>
+ <br>
+Answer:<br>
+The Qin invited the foreign advisor, Shang Yang to suggest them the idea of state policy.<br>
+ <br>
+e. What were the key features of the Qin political system?<br>
+ <br>
+Answer:<br>
+Fear and control were the key features the Qin political system.<br>
+ <br>
+f. How were the people treated during the Qin Period?<br>
+ <br>
+Answer:<br>
+During the Quin Period, those who contributed the most to the state were highly rewarded while those whose live were considered of no consequence were sent to work as slaves on Shi Huangdi's building projects such as the Great Wall of China, the Grand Canal, and the roads.<br>
+ <br>
+g. Why did Shi Huangdi stop educating ordinary people?<br>
+ <br>
+Answer:<br>
+Shi Huangdi stopped educating ordinary people because he believed that uneducated people were easier to control.<br>
+ <br>
+h. What did the Qin achieve by the legalism in practice?<br>
+ <br>
+Answer:<br>
+The Qin achieved the efficiency and strength of the state, a superior army, a disciplined bureaucracy, an obedient populace, and the unquestioned a uthority of a strong central government by the legalism in practice.<br>
+ <br>
+i. Why did Shi Huangdi never sleep in the same room for two consecutive nights?<br>
+ <br>
+Answer:<br>
+Shi Huangdi never slept in the same room for two consecutive nights because of constant fear of assassination.<br>
+ <br>
+j. What are the everlasting marks of the Qin Dynasty?<br>
+ <br>
+Answer:<br>
+The everlasting marks of the Qin Dynasty:<br>
+The standard of bureaucratic government and the Legalistic policies<br>
+A wonder of ancient artwork: The Terracotta Army in Xi'an<br>
+The Great Wall of China<br>
+The Grand Canal, and the roads which today link the cities of China and the countryside<br>
+ <br>
+ <br>
+Critical thinking<br>
+a. The Great Wall and the Taj Mahal are the creation of the autocratic rulers. Present your view for or against this statement.<br>
+ <br>
+In an autocracy, power is concentrated in the hands of a single individual. Fear and control are features of the authoritarian political system. Absolute monarchs and military dictators have historically served as instances of autocracy. When rapid and definite action is required, autocracy has a significant benefit in that important choices can be taken swiftly. Autocratic leaders often make decisions based on their own ideas and judgements, and they seldom take input from their followers.<br>
+ <br>
+The rulers have the ability to collect resources for whatever seems to be essential and then command their subjects to carry out the vision. Autocrats had some of the most powerful militaries in history. They're helpful for keeping an eye on both their own people and invading neighbours. Autocrats don't have to worry about anybody since they set their own rules and have unchallenged power. The Great Wall, the Taj Mahal, and other great wonders of civilisation have all been the brainchild of autocrats. The kings built such marvels in the sake of immortality, celebrating a war win, devotion to their loved ones, garnering popularity, and employing unskilled and semi-skilled workers as well as brilliant craftsmen.<br>
+ <br>
+ <br>
+ <br>
+b. How do you describe the pros and cons of feudalism?<br>
+Feudalism is a social system that prevailed in Europe during the Middle Ages in which people (vassals) were given land and protection by a nobleman (lord), and had to work and fight for him in return.<br>
+ <br>
+The lowest class members of society were provided with social and economic protection during the feudal system. The landlords couldn't take away the vassals' land, so they had to look after them while they were disabled. The method aided in the development of character traits such as loyalty, courage, charity, humility, and politeness. Lords and vassals formed alliances based on a strong regard for honesty and keeping promises. The vassals treated the lords with the utmost respect and served them with devotion and humility. In exchange, the lords showed their love and generosity to the vassals. Social and moral trends were formed by feudal rulers. They demonstrated to the rest of the world how to dress, dine, and approach a woman for a dance, among other things.<br>
+ <br>
+Feudal laws had the ability to bind the monarch. This was very useful to the middle classes in checking royal tyranny in the later era. The feudal system paved the groundwork for contemporary state formation. With the passage of time, certain feudal lords were able to gain an advantage over their competitors and expand their domains. As a result, powerful kingdoms arose.<br>
+Feudalism, it is said, created social class divides. The population were split into two classes: nobles and vassals. It also produced a wealth gap between the wealthy and the poor. The poor had to make do with what they had, while the nobility and the wealthy lived a life of luxury and idleness.<br>
+ <br>
+The vassals' living circumstances were terrible during the feudal system. The vassals may retain territories that the nobility had granted them. They were expected to serve the nobility as slaves and labour for them. It became more difficult for countries to form under the feudal system. Nobles from one area continued to battle nobles from other regions, making it impossible to create peaceful countries under such unstable conditions. The frequent feuds amongst nobility produced an environment of unrest. <br>
+ <br>
+Furthermore, the presence of such volatile circumstances made it impossible for society to evolve. Due to competition, mistrust, and conflict, Europe was unable to unify. The feudal system seemed to be a factor in Europe's failure to unify. There could be no really sovereign nations in Europe if there was no unity.<br>
+ <br>
+ <br>
+ <br>
+Grammar (Past Tense)<br>
+B. Complete the texts below using the correct past forms of the verbs from the bracket.<br>
+a. The Maya established a very advanced civilisation in the jungles of the Yucatan. However, their culture&#8230;&#8230;&#8230;&#8230;&#8230; (disappear) by the time Europeans first &#8230;&#8230;&#8230;&#8230;&#8230; (arrive) in the New World.<br>
+ <br>
+Answer:<br>
+The Maya established a very advanced civilisation in the jungles of the Yucatan. However, their culture had disappeared by the time Europeans first arrived in the New World.<br>
+ <br>
+b. When I &#8230;&#8230;&#8230;(turn) on the radio yesterday, I &#8230;&#8230;&#8230;.(hear) a song that was popular when I &#8230;&#8230;(be) at the basic level of my study. It &#8230;&#8230;&#8230;.. (take) me back to some old memories.<br>
+ <br>
+Answer:<br>
+b. When I turned on the radio yesterday, I heard a song that was popular when I was at the basic level of my study. It took me back to some old memories.<br>
+ <br>
+c. I was looking for a job. I&#8230;&#8230;&#8230;(apply) for a job last week. Fortunately, I&#8230;&#8230; (get) it and now I am a job holder.<br>
+ <br>
+Answer:<br>
+I was looking for a job. I applied for a job last week. Fortunately, I got it and now I am a job holder.<br>
+ <br>
+C. Choose the correct words from the list and complete the sentences with the correct verb form.<br>
+[teach, write, see, get up, throw, cost]<br>
+a. Newton&#8230;&#8230;&#8230;&#8230; an apple falling from the tree.<br>
+ <br>
+Answer:<br>
+Newton saw an apple falling from the tree.<br>
+ <br>
+b. Ramesh Bikal &#8230;&#8230;&#8230;&#8230; many popular stories.<br>
+ <br>
+Answer:<br>
+Ramesh Bikal wrote many popular stories.<br>
+ <br>
+c. My jacket is expensive. It&#8230;&#8230;&#8230; me Rs 5000.<br>
+ <br>
+Answer:<br>
+c. My jacket is expensive. It cost me Rs 5000.<br>
+ <br>
+d. She&#8230;&#8230;&#8230;&#8230; early in the morning yesterday.<br>
+ <br>
+Answer:<br>
+She got up early in the morning yesterday.<br>
+ <br>
+e. When I was small, my father&#8230;&#8230;&#8230; me at home.<br>
+ <br>
+Answer:<br>
+When I was small, my father taught me at home.<br>
+ <br>
+f. Why did you&#8230;&#8230;&#8230;&#8230; the cap away?<br>
+ <br>
+Answer:<br>
+Why did you throw the cap away?<br>
+ <br>
+D. Put the verb into the correct form and complete the sentences.<br>
+a. I went to see the film, but I&#8230;&#8230;&#8230;&#8230; it. (not/enjoy)<br>
+ <br>
+Answer:<br>
+I went to see the film, but I did not enjoy it.<br>
+ <br>
+b. I &#8230;&#8230;&#8230;&#8230; Rojina in town in a few days ago. (meet)<br>
+ <br>
+Answer:<br>
+I met Rojina in town in a few days ago.<br>
+ <br>
+c. It was very warm, so I&#8230;&#8230;&#8230; my coat. (take off)<br>
+ <br>
+Answer:<br>
+It was very warm, so I took off my coat.<br>
+ <br>
+d. Though the bed was very comfortable, I &#8230;&#8230;&#8230; very well. (not/sleep)<br>
+ <br>
+Answer:<br>
+Though the bed was very comfortable, I did not sleep very well.<br>
+ <br>
+e. I &#8230;&#8230;&#8230; new job last week. (start)<br>
+ <br>
+Answer:<br>
+I started new job last week.<br>
+ <br>
+g. He &#8230;&#8230;&#8230; too busy in the office yesterday. (be)<br>
+ <br>
+Answer:<br>
+He was too busy in the office yesterday.<br>
+ <br>
+h. Nita&#8230;&#8230;&#8230;&#8230; her to the party, but she didn&rsquo;t come. (invite)<br>
+ <br>
+Answer:<br>
+Nita invited her to the party, but she didn&rsquo;t come.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

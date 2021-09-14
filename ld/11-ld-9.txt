@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit 9 Democracy and Human Rights<br>
+Inauguration Speech of Nelson Mandela<br>
+Ways with words<br>
+A. Find the words in the text that mean the same as the following. The first letters are given.<br>
+a. the system that completely separated black people from white people (a .........)<br>
+ <br>
+Answer:<br>
+apartheid<br>
+ <br>
+b. formal objection (p.........)<br>
+ <br>
+Answer:<br>
+protest<br>
+ <br>
+c. an ethnical group of people (t........)<br>
+ <br>
+Answer:<br>
+tribe<br>
+ <br>
+d. an act undertaken to achieve a set goal (c .........)<br>
+ <br>
+Answer:<br>
+campaign<br>
+ <br>
+e. the formal beginning of any movement (i ........)<br>
+ <br>
+Answer:<br>
+inauguration<br>
+ <br>
+f. a strong feeling of excitement and happiness (e ..........)<br>
+ <br>
+Answer:<br>
+exhilaration<br>
+ <br>
+g. being set free from legal, social, or political restrictions (e ............)<br>
+ <br>
+Answer:<br>
+emancipation<br>
+ <br>
+B. Find these words in a dictionary and write their meanings as they are used in the text.<br>
+a. liberty<br>
+ <br>
+Answer:<br>
+the state of being free to live as you choose without too many restrictions from government or authority<br>
+ <br>
+b. conflict<br>
+ <br>
+Answer:<br>
+a serious disagreement between / among people or groups with opposing opinions or principles<br>
+ <br>
+c. ideology<br>
+ <br>
+Answer:<br>
+a set of beliefs that an economic or political system is based on<br>
+ <br>
+d. oppression<br>
+ <br>
+Answer:<br>
+cruel and unfair treatment of authority or power<br>
+ <br>
+e. privilege<br>
+ <br>
+Answer:<br>
+something that are proud and lucky to have the opportunity to do<br>
+ <br>
+f. dignity<br>
+ <br>
+Answer:<br>
+the fact of being worthy of honor and respect<br>
+ <br>
+g. surrender<br>
+ <br>
+Answer:<br>
+to give up control of something when you are forced to<br>
+ <br>
+h. reconciliation<br>
+ <br>
+Answer:<br>
+the restoration of a good relationship<br>
+ <br>
+C. The 'd' or 'ed' in the following verbs have different pronunciation. Put these verbs in the correct box.<br>
+[asked, killed, missed, ended, decided, washed, visited, lasted, watched, picked, smiled, fixed, walked, blessed, brushed, stopped, wanted, reached, laughed, enjoyed]<br>
+/t/<br>
+/d/<br>
+/&#618;d/<br>
+asked, missed, washed, watched, picked, fixed, walked, blessed (v), brushed, stopped, reached, laughed<br>
+killed, smiled<br>
+ended, decided, visited, lasted, blessed (adj), wanted, enjoyed<br>
+ <br>
+D. Put these nouns into the correct box according to the pronunciation of the plural suffix: s/es.<br>
+[cats, dogs, horses, houses, books, roofs, boys, rooms, girls, noises, shops, trees, pages, babies, benches, classes]<br>
+/s/<br>
+/z/<br>
+/&#618;z/<br>
+cats, books, roofs, shops<br>
+dogs, boys, rooms, girls, trees,<br>
+horses, houses, noises, pages, babies, benches, classes<br>
+ <br>
+Comprehension<br>
+Answer these questions.<br>
+a. What were the restrictions imposed on the Blacks in South Africa?<br>
+ <br>
+Answer:<br>
+Racial segregation, and political and economic discrimination were the restrictions imposed on the Blacks in South Africa.<br>
+ <br>
+b. Why was Mandela arrested?<br>
+ <br>
+Answer:<br>
+Mandela was arrested because he was charged with organizing an armed wing of the ANC.<br>
+ <br>
+c. How did he describe racism and racial oppression?<br>
+ <br>
+Answer:<br>
+He described racism and racial oppression as the pernicious ideology and practice.<br>
+ <br>
+d. Why did he thank all the international guests?<br>
+ <br>
+Answer:<br>
+He thanked all the international guests for having come to take possession with the people of his country of what is a common victory for justice, for peace and for human dignity.<br>
+ <br>
+e. Why did he think that people in his country had achieved political emancipation?<br>
+ <br>
+Answer:<br>
+He thought that people in his country had achieved political emancipation to liberate themselves from the continuing bondage of poverty, deprivation, suffering, gender and other discrimination.<br>
+ <br>
+e. What is the main point of Mandela's speech?<br>
+ <br>
+Answer:<br>
+The main point of Mandela&rsquo;s speech is that people of South Africa should build a society where there will be justice, peace, rights, and equality for all people.<br>
+ <br>
+Critical thinking<br>
+a. What does Mandela mean when he says - a rainbow nation at peace with itself and the world?<br>
+The phrase &quot;a rainbow nation at peace with itself and the globe,&quot; coined by Mandela, refers to the oneness of multi-culturalism and the coming-together of individuals from many different countries in a country that was previously divided into white and black under Apartheid rule.<br>
+ <br>
+A rainbow is a colour combination comprising seven different hues. In contrast to the previous separation based on skin colour, South Africa is referred to as a Rainbow Nation to describe the unification of different cultural, racial, or ethnic groupings in the nation during the post-apartheid era. The rainbow is a sign of optimism and a bright future in various South African traditions.<br>
+Mandela envisioned a peaceful setting in which they could create a society in which all South Africans, black and white, could live without fear and with complete human dignity. He wished for them to live and work together like a rainbow's ring of colours. He hoped they could have forgotten the past's brutality and oppression.<br>
+ <br>
+ <br>
+ <br>
+b. Mandela should have avenged those who imprisoned him for such a long period. Instead, he followed the path of reconciliation. Why do you think he did so?<br>
+Mandela skillfully governed his nation, fostering healing and living up to the aspirations of his worldwide followers. He effectively navigated a nation in disarray toward a negotiated solution. He affirmed national reconciliation, a concept he didn't only promote in theory, but put into practise by reaching out to old foes. He never avenged those who imprisoned him, tormented his people, and perpetrated crimes against South Africa's non-white population.<br>
+ <br>
+Mandela has the ability to forgive others. He thought that feelings of hatred, vengeance, and rivalry separate individuals, causing chaos and instability. A societal divide, in his opinion, disrupts social peace. He regarded national reconciliation as the most important job of his presidency, as he presided over the country's transition from apartheid minority control to multicultural democracy.<br>
+ <br>
+Mandela reassured South Africa's white people that they were protected and represented in the country after visiting other postcolonial African countries that had been ruined by the departure of white elites. He persuaded his followers that success was impossible without togetherness. His goal was to free all of his people from the shackles of poverty, hardship, pain, gender, and other forms of prejudice.<br>
+ <br>
+c. Why and how have societies struggled with segregation in the world? Do you find any evidence of segregation in your society? Discuss.<br>
+The social division of people based on a variety of criteria such as race, ethnicity, or country is called Segregation . It's used to denote an unequal situation. Many civilizations throughout the globe have battled with this issue. Racial segregation is one of the most frequent types of segregation, and although it is usually prohibited, it may nevertheless persist due to societal conventions even if no strong individual desire exists. Racial segregation has shown itself in multiracial societies all throughout the globe.<br>
+ <br>
+Segregation is a practise that may be either deliberate or self-imposed. Segregation in any form may cause social, economic, and political problems. Minorities flee mainstream culture because they are seen as lesser creatures. The concept of segregation denies disadvantaged people their civil and political rights. This long-standing practise often obstructs basic integration and equality. Such behaviour is often shown, for example, in the denial of equal chances that impact people's living circumstances. <br>
+ <br>
+Women, members of castes, homosexuals, and members of other religious groups have all seen persecution throughout history. Nepalese law forbids any segregation of society based on religion, caste, or ethnicity. It is recognised, however, because of its inherent existence in communities. Temple security closely monitors entry into the inner courtyard of Pashupati temple. Only Hindu and Buddhist descendants of Indian and Tibetan ancestors are allowed to enter the temple courtyard. Non-Nepali, Indian, and Tibetan Hindus and Buddhists, as well as other non-Hindu tourists, are prohibited from entering the temple complex.<br>
+ <br>
+ <br>
+Modals: should and had better<br>
+Should- used to give advice and suggestions/ to mean that you expect something to happen in the future<br>
+My brother told me he's on his way. He should be here soon.<br>
+You should start waking up earlier.<br>
+She is late again. She should have gotten here before 15 minutes.<br>
+You should go to Raju&rsquo;s if you want to eat amazing Mo: Mo.<br>
+ <br>
+Had better &ndash; used to give strong advice with bad consequences (warning)<br>
+You had better give up smoking or you'll die.<br>
+He had better not be late again or he&rsquo;ll lose his job.<br>
+It&rsquo;s a cold day. You had better wear warm clothes before going outside or you&rsquo;ll catch a cold.<br>
+B. Complete the sentences with should or shouldn't. Use one of these verbs.<br>
+[drink, visit, leave, roam, quit]<br>
+a. You have really done a wonderful job. I recommend you &#8230;&#8230; it.<br>
+ <br>
+Answer:<br>
+You have really done a wonderful job. I recommend you shouldn&rsquo;t leave it.<br>
+ <br>
+b. That's a very dangerous area. Tourists &#8230;&#8230; there.<br>
+ <br>
+Answer:<br>
+That's a very dangerous area. Tourists shouldn&rsquo;t visit there.<br>
+ <br>
+c. I'm going to be late. Do you think I &#8230;&#8230; now?<br>
+ <br>
+Answer:<br>
+I'm going to be late. Do you think I should leave now?<br>
+ <br>
+d. Children &#8230;&#8230; sugary drinks. It's not very healthy.<br>
+ <br>
+Answer:<br>
+Children shouldn&rsquo;t drink sugary drinks. It's not very healthy.<br>
+ <br>
+e. I have lots of homework. I &#8230;&#8230; here and there today.<br>
+ <br>
+Answer:<br>
+I have lots of homework. I shouldn&rsquo;t roam here and there today.<br>
+ <br>
+C. Put in had better or should.<br>
+a. I think you &#8230;&#8230; learn English to enroll a university course.<br>
+ <br>
+Answer:<br>
+I think you should learn English to enroll a university course.<br>
+ <br>
+b. It's a great film. You &#8230;&#8230; go and see it.<br>
+ <br>
+Answer:<br>
+It's a great film. You should go and see it.<br>
+ <br>
+c. I have to meet my friend in ten minutes. I &#8230;&#8230; go now or I'll be late.<br>
+ <br>
+Answer:<br>
+I have to meet my friend in ten minutes. I had better go now or I'll be late.<br>
+ <br>
+d. These biscuits are delicious. You &#8230;&#8230; try one.<br>
+ <br>
+Answer:<br>
+These biscuits are delicious. You should try one.<br>
+ <br>
+e. We &#8230;&#8230; get to the airport by 2 pm or else we may miss the flight.<br>
+ <br>
+Answer:<br>
+We had better get to the airport by 2 pm or else we may miss the flight.<br>
+ <br>
+f. When people are driving, they &#8230;&#8230; keep their eyes on the road.<br>
+ <br>
+Answer:<br>
+When people are driving, they should keep their eyes on the road.<br>
+ <br>
+g. I &#8230;&#8230; get up early tomorrow. I've got a lot to do.<br>
+ <br>
+Answer:<br>
+I should get up early tomorrow. I've got a lot to do.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+UNIT 20 SCIENCE AND TECHNOLOGY<br>
+<br>
+By Shriram Lamichhane<br>
+ <br>
+Ways with words<br>
+ <br>
+A. Match the words with their correct definitions.<br>
+ <br>
+a. Freshman---------- a first-year student at a university, college, or high school<br>
+ <br>
+b. Na&iuml;ve-------------- having a lack of experience or knowledge<br>
+ <br>
+c. Obliviously------- without conscious awareness<br>
+ <br>
+d. Brag---------------- says something in a boastful manner<br>
+ <br>
+e. Disposal----------- action of throwing away something<br>
+ <br>
+f. Dorm-------------- dormitory, student residence hall or building<br>
+ <br>
+g. Suitemate--------- someone who shares your bathroom/living room/kitchen<br>
+ <br>
+h. Incalculable------- not able to be calculated or estimated<br>
+ <br>
+ <br>
+ <br>
+ <br>
+B. Replace the bold words in (a&ndash;h) selecting synonyms from the box.<br>
+ <br>
+a. Her story is unbelievable in the literal sense of the word. > incredible<br>
+ <br>
+b. We often read the novels of the reputed writers in the world. > Potential<br>
+ <br>
+c. The Facebook users are scattered but connected to each other through the Internet. > Fragmented<br>
+ <br>
+d. Sometimes unexpected events happen in our life. > Unanticipated<br>
+ <br>
+e. He paused, examining the faces of Anjana and Manju with his glittering eyes.<br>
+> Scrutinizing<br>
+ <br>
+f. I am sorry to say your handwriting is unreadable. > Indecipherable<br>
+ <br>
+g. He is matured. He can direct his own journey to make his career better. > Navigated<br>
+ <br>
+h. Gita's heart swelled with pleasure, translating her confidence into power. > Delight<br>
+ <br>
+ <br>
+ <br>
+C. Complete the sentences by choosing the correct word given in brackets.<br>
+ <br>
+a. Does television affect children? (affect/effect)<br>
+ <br>
+b. Does television have an effect on children? (affect/effect)<br>
+ <br>
+c. Could you lend me your book, please? (borrow/lend)<br>
+ <br>
+d. Can I borrow your pen? (borrow/lend)<br>
+ <br>
+e. Prices seem to rise every year. (raise/rise)<br>
+ <br>
+f. You can raise your hand if you want to ask a question. (raise/rise)<br>
+ <br>
+g. What did he say to you? (say/tell)<br>
+ <br>
+h. I can't speak Hindi. (speak/talk)<br>
+ <br>
+i. I will talk to you on the phone. (speak/talk)<br>
+ <br>
+j. I think that's a very sensible idea. (sensible/sensitive)<br>
+ <br>
+k. My teeth are very sensitive to cold. (sensible/sensitive)<br>
+ <br>
+l. Our principal is a popular person. (principal/principle)<br>
+ <br>
+m. I couldn't understand the principle of gravity. (principal/principle)<br>
+ <br>
+n. All friends, expect Nabina, came to the party. (accept/except)<br>
+ <br>
+o. Will you accept my request? (accept/except)<br>
+ <br>
+p. They were making too much noise (noise/sound)<br>
+ <br>
+q. All she could hear was the sound of the waves. (noise/sound)<br>
+ <br>
+r. Did you give him any advice for his career? (advice/advise)<br>
+ <br>
+s. My parents advise me to be a teacher. (advice/advise)<br>
+ <br>
+ <br>
+Comprehension<br>
+Answer these questions.<br>
+ <br>
+a. Why did the author feel that she was lucky to be so na&iuml;ve of her freshman year at college?<br>
+ <br>
+Ans:<br>
+When a person thinks s/he knows everything, the tendency to search for the extra knowledge starts vanishing. When we don't know anything else, we start exploring for knowledge and wisdom. Hence, she feels so lucky to be naive in her freshman year at college because being foolish, she got an opportunity to explore new things.<br>
+ <br>
+ <br>
+ <br>
+b. Why did she say that she went to college in the Stone Age?<br>
+ <br>
+Ans:<br>
+ <br>
+Technology was not such a use at her time. Compared to the present time, she was not so lucky to use cell phones, electronic gadgets to the fullest like his son is doing now. Seeing her son, using electronic devices and technology almost everywhere, she says that her time was so primitive, hence she said she went to college in the stone age.<br>
+ <br>
+c. What kinds of technological tools can Hayden use at his college life unlike at his mother&rsquo;s time?<br>
+ <br>
+Ans:<br>
+Hayeden uses every technological shortcuts to make his living easier. Wherever it is possible, he imposes the usage of technology whether it is a small thing or big. He utilizes cell phones for exploring applications, Facebook, Twitter. Instagram, Youtube etc<br>
+ <br>
+d. How has the internet and social sites affected the lifestyle of the youths?<br>
+ <br>
+Ans:<br>
+The Internet has made the youths rely on nearly everything either big or little. With no exertion they'll plan undertaking work depending upon search engines and software hampering the extension of the skyline of pondering and innovativeness. Social locations have provided them possibilities to be related to varied people; nonetheless they're divided on the grounds that they know earth differently. They do not meet them in real life, Due to net and social locales the younger have missed the actual pleasure of the discovering of a real world.<br>
+ <br>
+ <br>
+ <br>
+e. What things about college life will Hayden really miss unlike his mother?<br>
+ <br>
+Ans:<br>
+Unlike his mother, Hayden will miss real life interactions, usage of thinking capability and imagination, exploration and discoveries of various things in life.<br>
+ <br>
+ <br>
+ <br>
+f. The writer says, &quot;I worry that students today are more connected and more fragmented&quot;. Isn't this paradoxical? How?<br>
+ <br>
+Ans:<br>
+The line &quot;I worry that student today are more connected and more fragmented &quot; is really conflicting and paradoxical. There is no such thing as a fracture in affiliation apart from the above line implies youth are related to each other mainly by pleasant locations. But, in real world there are far to at least one one other. They do not have particular person to particular person connection so they're divided. There is no such thing as a openness to at least one one other to accumulate life's vital minutes.<br>
+ <br>
+Critical thinking<br>
+a. Do you think that advancements of technology can hinder the exposure students receive in school, and block them from gaining some of life&rsquo;s most memorable moments? Give reasons in support of your answer.<br>
+ <br>
+Ans:<br>
+In this day, the web is probably the most influential source. It has become an important part of human life. Thinking about the existence of the life without web and technology is hard to imagine. Still it has small drops. One of them, it prevents students from opening school and deprives them of important moments of life. I totally agree with this assertion of the fact that firstly it prevents them from seeing the hardships and difficulties of labour, otherwise it makes them weak in using their brain power in investigation and action, thirdly it stops them from exploring this current reality just as you enjoy it.<br>
+ <br>
+Life without labour, hard work, dedication and pain is definitely not a perfect life. A life of illiteracy is a good opportunity to meet the learning phase. Students must make a concerted effort to pass the test and need to make a concerted effort to broaden their understanding of the concept because the fact that once it stops them prevents them from seeing difficulties and difficulties, it makes them weak to use their new brain staff in research and practice, and thirdly prevents them from doing. So, Explore this current reality as they have a wonderful time<br>
+ <br>
+b. Kline&rsquo;s essay focuses on the contrast between her son&rsquo;s freshman college experience and her own, but she also establishes what they have in common. Explain.<br>
+ <br>
+Answers:<br>
+ <br>
+An article titled &quot;Taking My son to College, Where Technology Has Taken Out Serendipity&quot; written by Christina Baker Kline is about the difference between her understanding of school and her child's knowledge. However, the text also includes the basics between her and her child. <br>
+ <br>
+Though technology has replaced the way they do everything. Still, the education system was all same. Feelings emotions were the same. There were much more difficulty on her time comparing to her son&rsquo;s age but still, friendships and team working has not changed. These things are all same in some way. Exploration about the new things ware limited to physical doings, but now at the time of his son, the exploration and research is still the same, but it is done via technology medium, via search engines, E-books rather than physical books. Relationship and friendship was the struggle for freshman at her time, still search for the companion was prominent. This thing still prevails in electronic form from facebook, instagram and social media.<br>
+ <br>
+ <br>
+c. Has the internet aided to broadening or narrowing the critical thinking capacity of youths or readers? How?<br>
+ <br>
+Answers:<br>
+Everything has two sides, if you use internet to gain and explore knowledge, it is broadening of knowledge, but if you started relying on interent answers with blunt creativity, it is narrowing of the tinking capacity.<br>
+ <br>
+Many people use the internet in Nepal. This means that many people who rely on web innovations hide their limitations of thinking. The vast majority of people are interested in it and expect it to make their lives easier. From casual work to extreme extremes like a clinic, web design use. <br>
+ <br>
+A few groups argue that it enhances speculation and that the fundamentals of youth and students. Obviously there are a few benefits to the web but we should see the number of people who rely on the web to take care of any specific problem. <br>
+ <br>
+In my view, it reduces the basic limit of consideration for young people or abusers. It limits the thinking skills of young children because they are at the bottom of the web in each issue.<br>
+ <br>
+ Instead of understanding books and irrational suspicions, when they find some difficulty they try to find provisions on the web. An example is when a teacher gives their students homework, pulls out their phone or jumps on their PC and tries to find a Google search setting and potential answers.<br>
+ <br>
+Hence, I opine internet is nothing but a shortcut for mind labour. <br>
+ <br>
+ <br>
+ <br>
+Grammar<br>
+ <br>
+A. Fill in the gaps with suitable articles where necessary.<br>
+ <br>
+a. Is he working as &#8230;&#8230; university professor? > a<br>
+ <br>
+b. My younger sister watches &#8230;&#8230; television a lot. > the<br>
+ <br>
+c. A: What did you get for your birthday? <br>
+ B: I got &#8230;&#8230; lot of good presents. > a<br>
+ <br>
+d. I'm going to &#8230;&#8230; Dominican Republic for my winter vacation. > the (Island country)<br>
+ <br>
+e. I have to go to &#8230;&#8230; bank today to deposit some money. > a<br>
+ <br>
+f. Durga was injured in the accident and was taken to &#8230;&#8230; nearest hospital. > the<br>
+ <br>
+g. Every parent should visit &#8230;&#8230; school to meet the teachers. > No Article<br>
+ <br>
+h. Who is &#8230;&#8230; woman in this photograph? > the<br>
+ <br>
+i. There is &#8230;&#8230; piano in the corner of the room. > a (we can&rsquo;t use &lsquo;the&rsquo; unless context suggests it is being played or learnt)<br>
+ <br>
+J.<br>
+ A: Do you think he is lying?<br>
+ <br>
+B: No, he's the kind of &#8230;&#8230; guy that always tells the truth.> a<br>
+ <br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

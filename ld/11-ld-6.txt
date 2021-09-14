@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit:6 Health and Exercise<br>
+ You May Scoff<br>
+ <br>
+&#8230;<br>
+Ways with words<br>
+A. Ten words in the bold face in the text correspond to the definitions below. Match the definitions with the corresponding words.<br>
+a. in spite of what has just been said or referred to<br>
+ <br>
+Answer:<br>
+nevertheless<br>
+ <br>
+b. a strong desire or impulse<br>
+ <br>
+Answer:<br>
+urge<br>
+ <br>
+c. the ability to continue trying to do something, although it is very difficult<br>
+ <br>
+Answer:<br>
+determination<br>
+ <br>
+d. to attract attention to or emphasize something important<br>
+ <br>
+Answer:<br>
+highlight<br>
+ <br>
+e. arguing about things that are not important<br>
+ <br>
+Answer:<br>
+bickering<br>
+ <br>
+f. not having things or conditions that are usually considered necessary<br>
+ <br>
+Answer:<br>
+deprivation<br>
+ <br>
+g. continue to exist<br>
+ <br>
+Answer:<br>
+persist<br>
+ <br>
+h. soft loose flesh on a person's body<br>
+ <br>
+Answer:<br>
+flab<br>
+ <br>
+i. to improve or increase something<br>
+ <br>
+Answer:<br>
+boost<br>
+ <br>
+j. a limiting condition on something<br>
+ <br>
+Answer:<br>
+restriction<br>
+ <br>
+Now, make sentences of your own using the same words in bold type.<br>
+ <br>
+My sister was exhausted. Nevertheless, she went on working.<br>
+She suppressed an urge to yawn.<br>
+The key to her success was her absolute determination.<br>
+The figures noticeably highlighted the difference in world living standards.<br>
+Their endless bickering may affect business.<br>
+The government declared a new policy to reduce social and economic deprivation.<br>
+Visit a doctor if symptoms persist for more than 3 days.<br>
+You have to do some physical exercise regularly to lose flab on your belly.<br>
+The new service boosts pre-tax profits by 5%.<br>
+My father doesn't put any restrictions on me.<br>
+ <br>
+ <br>
+B. The words &lsquo;restriction&rsquo; and &lsquo;awareness&rsquo; are nouns with the suffixes &lsquo;-ion&rsquo; and &lsquo;-ness&rsquo;. Make a list of as many words as you can which end in &lsquo;-ion&rsquo; and &lsquo;-ness&rsquo;. Make a list of as many words as you can which end in &lsquo;-ion&rsquo; and &lsquo;ness.<br>
+ <br>
+'-ion' and -&rsquo;ness&rsquo;<br>
+ <br>
+pollution<br>
+invention<br>
+invention<br>
+solution<br>
+politeness<br>
+substitution<br>
+goodness<br>
+partition<br>
+badness<br>
+evolution<br>
+usefulness<br>
+Kindness<br>
+ <br>
+Comprehension<br>
+A. Write whether the following statements are True, False or Not Given.<br>
+a. During the holidays people eat and drink more than usual.<br>
+ <br>
+Answer:<br>
+True<br>
+ <br>
+b. Getting too little exercise and eating too much is the reason why people put on weight.<br>
+ <br>
+Answer:<br>
+True<br>
+ <br>
+c. David Allison&rsquo;s research involved studying rats under laboratory conditions.<br>
+ <br>
+Answer:<br>
+False<br>
+ <br>
+d. You may need to go shopping for clothes if you come down with a cold.<br>
+ <br>
+Answer:<br>
+True<br>
+ <br>
+e. Adenovirus-36 (AD-36) decreases the percentage of fat in the fat cells.<br>
+ <br>
+Answer:<br>
+False<br>
+ <br>
+f. Vaccination against infections could be used in the future to prevent obesity.<br>
+ <br>
+Answer:<br>
+True<br>
+ <br>
+g. People under severe stress can experience breathing difficulties.<br>
+ <br>
+Answer:<br>
+Not Given<br>
+ <br>
+h. A study indicates that mice that have never been on a diet choose fatty food, when given a choice between high-calorie or low-calorie food products.<br>
+ <br>
+Answer:<br>
+False<br>
+ <br>
+i. Rajita Sinha has been studying the connection between brain activity and behaviour.<br>
+ <br>
+Answer:<br>
+False<br>
+ <br>
+j. Specific hormones regulate our appetite.<br>
+ <br>
+Answer:<br>
+True<br>
+ <br>
+B. Answer the following questions.<br>
+a. In what sense are the holidays a time of excess? When can a person gain weight?<br>
+ <br>
+Answer:<br>
+The holidays are a time of excess as people eat and drink more than usual.<br>
+A person can gain weight when he/she overeats and underexercises.<br>
+ <br>
+ <br>
+b. According to David Allison, which factor contributes to excess obesity?<br>
+ <br>
+Answer:<br>
+According to David Allison, the factors such as light ( changes in the amount of time spent in light or dark environments), viruses (infection with adenovirus-36) and epigenetics (genetic modifications brought about by any number of environmental cues) contribute to excess obesity. (This information hasn't been included in the text.)<br>
+ <br>
+c. What, according to Dhurandhar, can be the way of preventing fatness?<br>
+ <br>
+Answer:<br>
+According to Dhurandhar, vaccination against infections can be the way of preventing fatness.<br>
+ <br>
+d. What is the relationship between chill and obesity? How can saying &lsquo;om&rsquo; help reduce fatness?<br>
+ <br>
+Answer:<br>
+Chill (cold) helps burn calories,then decrease obesity.<br>
+Saying &lsquo;Om&rsquo; helps reduce fatness by taking control over the urges and stress-related eating of high-calorie food.<br>
+ <br>
+ <br>
+e. Why is it necessary to be careful while buying plastic packaged fatty foods?<br>
+ <br>
+Answer:<br>
+It is necessary to be careful while buying plastic packaged fatty foods because they contain endocrine disrupter chemicals that can leach into food and drinks, and cause the expansion of waistlines.<br>
+ <br>
+f. Why does Nelson suggest avoiding blue wavelengths of light at night?<br>
+ <br>
+Answer:<br>
+Nelson suggests avoiding blue wavelengths of light at night because these are known to be especially disruptive to the circadian system.<br>
+ <br>
+g. How does breathing polluted air affect one&rsquo;s fatness?<br>
+ <br>
+Answer:<br>
+Breathing polluted air affects one&rsquo;s fatness as polluted air activates (chronic) inflammation and disrupts the body&rsquo;s ability to burn energy.<br>
+ <br>
+h. What is the link between sleep and weight?<br>
+ <br>
+Answer:<br>
+Sleep deprivation boosts body weight.<br>
+ <br>
+Critical thinking<br>
+a. What do you do you to keep yourself fit? What food do you avoid and why?<br>
+ <br>
+Everybody wants to live a healthy lifestyle. However, owing to their hectic schedules, they rarely make any attempt to make it happen. For my part, I think that if there is a will, there will be a way. To be physically and mentally fit, I carefully adhere to good practises. My favourite things to do are go for a brisk stroll in the countryside every morning and play games. My regular meals provide my body with all of the nutrition it needs.<br>
+ <br>
+In addition, &lsquo;early to bed and early to rise' has been crucial to my good health.<br>
+Despite my hectic schedule, I make every effort to prevent<br>
+ <br>
+ <br>
+b. Healthy citizens are the greatest asset of a country. What can a state do to keep her citizen healthy?<br>
+ <br>
+Investing in the health of a nation's people is the most lucrative investment a country can make. Our country's capacity to develop is inextricably tied to our health. It is insufficient to have a well-educated and competent staff. Productivity requires both physical and mental well-being. When individuals become ill, the repercussions impact families and communities in addition to the nation's well-being.<br>
+ <br>
+A nation's greatest natural asset is its people, and its prosperity is determined by how well they are cared for. Our healthcare system has an impact on our capacity to participate in global markets. It also contributes significantly to economic development since healthy people live longer and are more productive.<br>
+ <br>
+Countries that place a low priority on their people' health have shown to have low growth rates. A nation's population must be absolutely fit and healthy in order for it to quickly climb the success ladder. A good healthcare system must be accessible and inexpensive to all people, not just the wealthy.<br>
+ <br>
+In maintaining a nation's health, both the state and people play an equal responsibility. A government, on the other hand, should be more accountable and capable of making significant measures to enhance public health. It should offer its people with high-quality, nutrient-dense food.<br>
+ <br>
+It is necessary to ensure that local public health infrastructures are sufficient. It is important to encourage healthy communities and healthy habits. It should be essential to prevent the spread of infectious diseases. Environmental health risks should be avoided at all costs.<br>
+ <br>
+There should be simple access to health services. In distant areas of the nation, health facilities and hospitals should be built.<br>
+ <br>
+ <br>
+ <br>
+Concord/Subject-Verb Agreement<br>
+ <br>
+B. Complete the sentences by choosing the correct verbs from the brackets.<br>
+a. Everyone &#8230;&#8230; (has/have) problems in their life. Countries also &#8230;&#8230; (has/have) problems, and so &#8230;&#8230; (do/does) the world. One of the greatest problems &#8230;&#8230; (is/are) the growing population. The population in some countries &#8230;&#8230; ( is/are) huge.<br>
+ <br>
+Answer:<br>
+Everyone has problems in their life. Countries also have problems, and so does the world. One of the greatest problems is the growing population. The population in some countries is huge.<br>
+ <br>
+b. A number of my friends &#8230;&#8230; (love/loves) riding bicycles, but neither my brother nor my sister &#8230;&#8230; (own/owns) a cycle. At 4 o&rsquo;clock, either my mother or father &#8230;&#8230; (is/are) coming to pick me up in a car.<br>
+ <br>
+Answer:<br>
+A number of my friends love riding bicycles, but neither my brother nor my sister owns a cycle. At 4 o&rsquo;clock, either my mother or father is coming to pick me up in a car.<br>
+ <br>
+c. The pair of shoes on the floor &#8230;&#8230; (is/are) mine. The shoes &#8230;&#8230; (was/ were) made in China. The three thousand rupees I spent on them &#8230;&#8230; (was/were) worth it.<br>
+ <br>
+Answer:<br>
+The pair of shoes on the floor is mine. The shoes were made in China. The three thousand rupees I spent on them was worth it.<br>
+ <br>
+C. Are the following sentences correct? If not, correct them.<br>
+a. Everyone of the workers receive the same benefits.<br>
+ <br>
+Answer:<br>
+Everyone of the workers receives the same benefits.<br>
+ <br>
+b. There is two gerbils in my bathroom.<br>
+ <br>
+Answer:<br>
+There are two gerbils in my bathroom.<br>
+ <br>
+c. Both of my friends live in Kathmandu.<br>
+ <br>
+Answer:<br>
+Both of my friends live in Kathmandu.<br>
+ <br>
+d. Scissors is used to have our hair cut.<br>
+ <br>
+Answer:<br>
+Scissors are used to have our hair cut.<br>
+ <br>
+e. You and your friends are welcome to join us.<br>
+ <br>
+Answer:<br>
+You and your friends are welcome to join us.<br>
+ <br>
+f. Are the news on at five or six?<br>
+ <br>
+Answer:<br>
+Is the news on at five or six?<br>
+ <br>
+g. The man with all his children live in the city.<br>
+ <br>
+Answer:<br>
+The man with all his children lives in the city.<br>
+ <br>
+h. Mathematics are Prem's favourite subject, while Economics is Alina's favourite subject.<br>
+ <br>
+Answer:<br>
+Mathematics is Prem's favourite subject, while Economics is Alina's favourite subject.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit:5 Life and Love<br>
+ The Looking Glass<br>
+ <br>
+ <br>
+Ways with words<br>
+A. Match the words with their meanings.<br>
+a. exhausted - vi. tired<br>
+b. apparent- vii. clear<br>
+c. vista - i. vision<br>
+d. undulating- ii. wavy<br>
+e. destined - iii. predetermined<br>
+f. stuffy - v suffocating, airless<br>
+g. restrain - iv. prevent, hinder<br>
+B. Write the meaning and word class of the following words. Then use them in sentences of your own.<br>
+implore<br>
+ <br>
+Answer:<br>
+meaning- to ask somebody to do in an anxious way because you want or need it very much<br>
+word class- verb<br>
+My uncle implored me to stay.<br>
+ <br>
+ <br>
+despair<br>
+ <br>
+Answer:<br>
+meaning- the feeling of having lost all hope<br>
+word class- noun<br>
+One harsh word would send my sister into the depth of despair.<br>
+ <br>
+ <br>
+beseech<br>
+ <br>
+Answer:<br>
+meaning- to ask somebody to do in an anxious way because you want or need it very much/ implore / beg<br>
+word class- verb<br>
+Let her go, I beseech you.<br>
+ <br>
+ <br>
+eloquent<br>
+ <br>
+Answer:<br>
+meaning- able to express a feeling<br>
+word class- adjective<br>
+Her silence was more eloquent than words.<br>
+ <br>
+ <br>
+whirl<br>
+ <br>
+Answer:<br>
+meaning- a movement of something turning round and round / a state of confusion<br>
+word class- noun<br>
+I didn&rsquo;t understand what he said. My head was in a whirl.<br>
+ <br>
+ <br>
+egoism<br>
+ <br>
+Answer:<br>
+meaning- the fact of thinking that you are better than / more important than anyone else<br>
+word class- noun<br>
+His egoism stopped him from loving anyone but himself.<br>
+ <br>
+ <br>
+agony<br>
+ <br>
+Answer:<br>
+meaning- extreme physical and mental pain<br>
+word class- noun<br>
+The soldier died in agony.<br>
+ <br>
+ <br>
+delirious<br>
+ <br>
+Answer:<br>
+meaning- unable to think or speak clearly because of high temperature (fever) or mental confusion<br>
+word class- adjective<br>
+Mr. Chhetri became delirious and couldn&rsquo;t recognize people.<br>
+ <br>
+ <br>
+delusive<br>
+ <br>
+Answer:<br>
+meaning- not real or true<br>
+word class- adjective<br>
+He harbored the delusive hope that she would return his love.<br>
+ <br>
+ <br>
+compensate<br>
+ <br>
+Answer:<br>
+meaning- to provide something good to balance / reduce the bad effect of loss<br>
+word class- verb<br>
+Her sister voice doesn't have much range but she compensates with clever lyrics.<br>
+ <br>
+ <br>
+mortgage<br>
+ <br>
+Answer:<br>
+meaning- an agreement that allows you to borrow money from a bank or similar organization<br>
+word class- noun<br>
+She didn&rsquo;t earn enough to support her family and pay the mortgage.<br>
+ <br>
+ <br>
+brood<br>
+ <br>
+Answer:<br>
+meaning- a large family of children<br>
+word class- noun<br>
+He grew up among a lively brood of brothers and sisters.<br>
+ <br>
+ <br>
+prelude<br>
+ <br>
+Answer:<br>
+meaning- an action or event that happens before another more important one and forms an introduction to it / any action, event, comment, etc. that precedes something else.<br>
+word class- noun<br>
+He considered the strikes of a prelude to the great socialist revolution.<br>
+ <br>
+ <br>
+Adjectives ending in &ndash;ing describe what someone or something is like, whereas adjectives ending in &ndash;ed describe how someone feels.<br>
+D. Choose the correct word.<br>
+a. Sarita was shocking/shocked to hear about earthquake.<br>
+ <br>
+Answer:<br>
+Sarita was shocked to hear about earthquake.<br>
+ <br>
+b. I think that rainy days in winter are depressing/depressed.<br>
+ <br>
+Answer:<br>
+I think that rainy days in winter are depressing.<br>
+ <br>
+c. The football match was very exciting/excited. I enjoyed it.<br>
+ <br>
+Answer:<br>
+The football match was very exciting. I enjoyed it.<br>
+ <br>
+d. The meals at Delight Caf&eacute; are satisfying/satisfied.<br>
+ <br>
+Answer:<br>
+The meals at Delight Caf&eacute; are satisfying.<br>
+ <br>
+e. I've got nothing to do. I'm boring/bored.<br>
+ <br>
+Answer:<br>
+I've got nothing to do. I'm bored.<br>
+ <br>
+f. Tanka is very good at telling funny stories. He can be very amusing/amused.<br>
+ <br>
+Answer:<br>
+Tanka is very good at telling funny stories. He can be very amusing.<br>
+ <br>
+g. The teacher's explanation was confusing/confused. Most of the students didn't understand it.<br>
+ <br>
+Answer:<br>
+The teacher's explanation was confusing. Most of the students didn't understand it.<br>
+ <br>
+h. He is such a boring/bored person. He never wants to go out.<br>
+ <br>
+Answer:<br>
+He is such a boring person. He never wants to go out.<br>
+ <br>
+i. I will be surprising/surprised if she does well in her test.<br>
+ <br>
+Answer:<br>
+I will be surprised if she does well in her test.<br>
+ <br>
+j. Are you interesting/interested in politics?<br>
+ <br>
+Answer:<br>
+Are you interested in politics?<br>
+ <br>
+E. Write the correct form of the adjective in the blanks as in the example.<br>
+Example - Grammar rules frustrate me. They're not logical. They are so frustrating.<br>
+a. They frustrate me but they don't bore me. I never get &#8230;&#8230; when I study grammar.<br>
+ <br>
+Answer:<br>
+They frustrate me but they don't bore me. I never get bored when I study grammar.<br>
+ <br>
+b. If teachers want to interest the students, they must use &#8230;&#8230; materials.<br>
+ <br>
+Answer:<br>
+If teachers want to interest the students, they must use interesting materials.<br>
+ <br>
+c. Certain stories interest almost everybody. For example, most students are &#8230;&#8230; in fairy tales.<br>
+ <br>
+Answer:<br>
+Certain stories interest almost everybody. For example, most students are interested in fairy tales.<br>
+ <br>
+d. Certain things frighten me, but I never get &#8230;&#8230; when I speak English.<br>
+ <br>
+Answer:<br>
+Certain things frighten me, but I never get frightened when I speak English.<br>
+ <br>
+e. If I get a good grade, that excites me. And if I get more than ninety percent, I am really &#8230;&#8230;<br>
+ <br>
+Answer:<br>
+If I get a good grade, that excites me. And if I get more than ninety percent, I am really excited.<br>
+ <br>
+ <br>
+Answer these questions.<br>
+a. Who was Nellie? What did she use to dream of?<br>
+ <br>
+Answer:<br>
+Nellie was the daughter of a landowner and general, a young and pretty girl. She used to dream of being married.<br>
+ <br>
+b. What was she doing with the looking glass?<br>
+ <br>
+Answer:<br>
+She was gazing into the looking glass with exhausted, half-closed eyes.<br>
+ <br>
+c. Why did she go to the doctor on one winter night?<br>
+ <br>
+Answer:<br>
+She went to the doctor one night because her husband was ill.<br>
+ <br>
+d. What was Stepan Lukitch doing when she reached his bedroom?<br>
+ <br>
+Answer:<br>
+Stepan Lukitch was lying on his bed when she reached his bedroom.<br>
+ <br>
+e. Why was the doctor not ready to go to see her husband?<br>
+ <br>
+Answer:<br>
+The doctor was not ready to go to see her husband because for the last three days he had been away, seeing typhus patients, and was exhausted and ill himself.<br>
+ <br>
+f. Why did Stepan Lukitch suggest Nellie to go to the Zemstvo doctor?<br>
+ <br>
+Answer:<br>
+Stepan Lukitch suggested Nellie to go to the Zemstvo doctor because he was in a fever and his head was in a whirl.<br>
+ <br>
+g. Nellie said, &ldquo;Come, perform that heroic deed! Have pity on us!&quot; What was that pity to be done?<br>
+ <br>
+Answer:<br>
+The doctor had to treat Nellie&rsquo;s husband.<br>
+ <br>
+h. When Nellie said, &quot;I must have fallen asleep.&quot; What does it mean?<br>
+ <br>
+Answer:<br>
+Nellie stopped dreaming and was ready for facing the realities of life. (Answer may vary.)<br>
+ <br>
+i. What is the main theme of the story?<br>
+ <br>
+Answer:<br>
+The story possesses the theme of devotion, loneliness, escape, fear, love, dedication, hope, defeat and independence.<br>
+or<br>
+Marriage is about love and happiness, but also has problems like a deadly sickness.<br>
+ <br>
+ <br>
+Critical thinking<br>
+a. &ldquo;The looking glass (mirror)&rdquo; is used as a symbol in the story. What does it symbolise?<br>
+Nellie's inventiveness and desire to marry are symbolised by the Looking Glass. The mirror plays an important role in the narrative since it acts as a doorway into her mind. The majority of the narrative focuses on Natalie's dream and how it continues to frighten her due to her inability to solve the issue.<br>
+ <br>
+The looking-glass provides Nellie with a way to escape her current situation. A life in which she is a single, unattached lady who yearns to meet a guy who will love her and who will love her back. She is, in reality, looking for happiness via marriage. The storyteller uses her dream to show her internal struggle and her difficulties in sharing her issues with others.<br>
+ <br>
+The looking glass or mirror stays significant in the narrative because it shows the future. This item is used by Chekhov to reveal Nellie's inner emotions, anxieties, and the way she continues to feel powerless. The story's success is due to the usage of the looking glass, which brings the story's aims and objectives to the attention of the readers.<br>
+ <br>
+ <br>
+b. Chekhov employs the magic trick in the story, using a very elegant transition from reality to imagination to reality sequence. Discuss its relevance to life of young people.<br>
+ <br>
+The author has utilised a magic trick in the tale, utilising a very beautiful transition from reality to fantasy to reality. From the beginning of the narrative through the main character's dream recounted until the character wakes up, it proceeds methodically through the explanations.<br>
+ <br>
+On New Year's Eve, this tale takes place. In the first section of the tale, the shift from reality to fantasy happens. The tale starts with a young lady called Nellie gazing into the mirror, constantly wanting to be married. She loses herself in her imagination and sees a terrible vision of the future in which she must rescue her spouse from typhus. The action gets increasingly detailed, and the readers may fairly conclude that they have entered the world of the imagination. And this is a brilliant move on Chekhov's side.<br>
+ <br>
+We find ourselves at the section of reality at the conclusion of the tale. One of Nellie's gazing glasses slips from her grip and lands on the floor. She snaps out of her reverie. This is the point at which the changeover becomes a reality.<br>
+ <br>
+The majority of young people want their lives to be like those in fairy tales, full of pleasure and perfection, and they fail to notice the tough aspects. They relate themselves to familiar figures from fantasy films. The protagonist in the tale had na&iuml;ve aspirations and great expectations at the start. What she sees through the glass dispels her delusion. Though she first sees love and the loving spouse of her dreams, she soon realises that this pleasure is fleeting. Nellie symbolises a group of privileged young women who are preoccupied with the possibility of romance and marriage. She considers romance to be the key to her happiness in life. She is unfamiliar with the harsh truths of life and death.<br>
+ <br>
+ <br>
+ <br>
+Grammar (Will and be going to)<br>
+ <br>
+B. Match the expressions with their functions.<br>
+A: What do you want to take?<br>
+B: I&rsquo;ll have tea, please. - Deciding<br>
+A: Are you free this evening?<br>
+B: No, I&rsquo;m going to meet my uncle. - Expressing a prior plan<br>
+The day will be lovely tomorrow. - Predicting a future action<br>
+There is no cloud in the sky.<br>
+It&rsquo;s going to be a lovely day. - Predicting with evidence<br>
+Don&rsquo;t worry. I won&rsquo;t tell anyone. - Promising<br>
+I'll take you to the movies if you like. - Offering<br>
+I&rsquo;ll tell your parents what you did. - Threatening<br>
+ <br>
+C. Choose the correct answer.<br>
+a.<br>
+A: Are you busy this evening?<br>
+B: Yes, I&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;the movies. (will go/am going to)<br>
+ <br>
+Answer:<br>
+I am going to the movies.<br>
+ <br>
+b.<br>
+A: Where are you going for holiday this summer?<br>
+B: Not sure yet. Maybe I&#8230;&#8230;&#8230;to Ilam. (will go/am going to)<br>
+ <br>
+Answer:<br>
+Maybe I will go to Ilam.<br>
+ <br>
+c. I think you&#8230;&#8230;like this movie. (will /are going to)<br>
+ <br>
+Answer:<br>
+I think you will like this movie.<br>
+ <br>
+d. I can&rsquo;t join you at the party, I&#8230;&#8230;&#8230;be away for two weeks. (will /am going to)<br>
+ <br>
+Answer:<br>
+I am going to be away for two weeks.<br>
+ <br>
+e. This exercise looks really hard. I&#8230;&#8230;&#8230;&#8230;&#8230;help you. (will/am going to)<br>
+ <br>
+Answer:<br>
+I will help you.<br>
+ <br>
+f.<br>
+A: Hello. Can I speak to Sima, please?<br>
+B: Just a minute. I&#8230;&#8230;&#8230;get her. (will/am going to)<br>
+ <br>
+Answer:<br>
+I will get her.<br>
+ <br>
+g. Perhaps she&#8230;&#8230;&#8230;pass the exam. (will/is going to)<br>
+ <br>
+Answer:<br>
+Perhaps she will pass the exam.<br>
+ <br>
+h. &lsquo;I haven&rsquo;t got my phone.&rsquo; &lsquo;That&rsquo;s OK. I&#8230;&#8230;&#8230;lend you mine.&rsquo; (will/am going to)<br>
+ <br>
+Answer:<br>
+I will lend you mine.<br>
+ <br>
+D. Complete the sentences using will or be going to with the verbs.<br>
+a.<br>
+Hari: Did you call Bina?<br>
+Prem: Oh, I forgot. I&#8230;&#8230;&#8230;&#8230;her now. (call)<br>
+ <br>
+Answer:<br>
+I will call her now.<br>
+ <br>
+b.<br>
+Sunita: Have you got a ticket for the play?<br>
+Hema: Yes, I&#8230;&#8230;&#8230;&#8230;it on Saturday. (watch)<br>
+ <br>
+Answer:<br>
+I am going to watch it on Saturday.<br>
+ <br>
+c. &lsquo;The alarm is ringing. It&rsquo;s making an awful noise.&rsquo; &lsquo;OK, I&#8230;&#8230;it off.&rsquo; (switch)<br>
+ <br>
+Answer:<br>
+I will switch it off.<br>
+ <br>
+d. Do you think they&#8230;&#8230;&#8230;the presents we got for them? (like)<br>
+ <br>
+Answer:<br>
+Do you think they will like the presents we got for them?<br>
+ <br>
+e. &lsquo;Lok is starting university tomorrow.&rsquo; &lsquo;What&#8230;&#8230;&#8230;study?&rsquo; (he/study)<br>
+ <br>
+Answer:<br>
+What is he going to study?<br>
+ <br>
+f. If I meet him, I&#8230;&#8230;&#8230;him the news. (tell)<br>
+ <br>
+Answer:<br>
+I will tell him the news.<br>
+ <br>
+g. The phone is ringing. I&#8230;&#8230;&#8230;it. (answer)<br>
+ <br>
+Answer:<br>
+I will answer it.<br>
+ <br>
+h. If you don&rsquo;t stop bullying her, I&#8230;&#8230;&#8230; the teacher. (tell)<br>
+ <br>
+Answer:<br>
+I will tell the teacher.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

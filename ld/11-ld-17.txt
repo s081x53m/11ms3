@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit - 17 What Lost Identity? <br>
+ The Diaspora and Globalisation<br>
+ <br>
+Ways with words<br>
+A. Choose the words for the following meanings.<br>
+[confront, refugee, ravage, assimilation, enclave, usurp]<br>
+a. the severely damaging or destructive effects of something<br>
+ <br>
+Answer:<br>
+ravage<br>
+ <br>
+b. someone forced to leave their country in order to escape war, persecution, or natural disaster<br>
+ <br>
+Answer:<br>
+refugee<br>
+ <br>
+c. to face a difficult situation<br>
+ <br>
+Answer:<br>
+confront<br>
+ <br>
+d. take a position of power or importance illegally or by force<br>
+ <br>
+Answer:<br>
+usurp<br>
+ <br>
+e. the process of becoming a part of a group, country, society, etc.<br>
+ <br>
+Answer:<br>
+assimilation<br>
+ <br>
+f. an area within a larger territory whose inhabitants are culturally or ethnically distinct<br>
+ <br>
+Answer:<br>
+enclave<br>
+ <br>
+C. Fill in the gaps with the correct word from the brackets.<br>
+a. I asked him if he was attending the ceremony and he &#8230;&#8230; his head 'no'. (shook/moved/ nodded)<br>
+ <br>
+Answer:<br>
+I asked him if he was attending the ceremony and he shook his head 'no'.<br>
+ <br>
+b. They made a horrible decision which caused &#8230;&#8230; damage to our company. (hopeless/ inflexible/irreparable)<br>
+ <br>
+Answer:<br>
+They made a horrible decision which caused irreparable damage to our company.<br>
+ <br>
+c. The leaders need to break down &#8230;&#8230; so as to create favorable environment in the nation. (barriers/obstacles/hindrances)<br>
+ <br>
+Answer:<br>
+The leaders need to break down barriers so as to create favorable environment in the nation.<br>
+ <br>
+d. You ought to talk to the manager to &#8230;&#8230;the dispute. (solve/settle/clear up)<br>
+ <br>
+Answer:<br>
+You ought to talk to the manager to settle the dispute.<br>
+ <br>
+e. Perhaps this issue will not get much media &#8230;&#8230; (security/examination/ coverage)<br>
+ <br>
+Answer:<br>
+Perhaps this issue will not get much media coverage.<br>
+ <br>
+f. This week is the first week of Joan as an in-charge. Everything is running &#8230;&#8230; (smoothly/calmly/easily)<br>
+ <br>
+Answer:<br>
+This week is the first week of Joan as an in-charge. Everything is running smoothly.<br>
+ <br>
+g. I haven't read the text thoroughly, but given a &#8230; glance. (fast/quick/rapid)<br>
+ <br>
+Answer:<br>
+I haven't read the text thoroughly, but given a quick glance.<br>
+ <br>
+ <br>
+Comprehension<br>
+Answer the following questions.<br>
+a. Why did millions of Palestinians leave their country?<br>
+ <br>
+Answer:<br>
+Millions of Palestinians left their country because in their country, they were denied basic human rights to find a better life and better economic opportunities.<br>
+ <br>
+b. How is the global culture formed? Is cultural identity possible even in the global culture? Justify.<br>
+ <br>
+Answer:<br>
+The global culture is formed by the youthful generations who have grown up in the midst of massive technological advancements. Even in a global society, cultural identity is conceivable. Social media, street journalism, and global transnational businesses all play a role in catalysing new global culture formation processes. Globalization fosters cultural identity by creating a feeling of belonging. People are becoming increasingly worried about the uniqueness and particularity of their own culture in the current age of globalisation. Cultural identity gives local knowledge worldwide importance as well as a feeling of self, community, and country.<br>
+ <br>
+c. Why can moving from one side of the world to the other be an economic challenge for newcomers?<br>
+ <br>
+Answer:<br>
+Moving from one side of the world to the other can be an economic challenge for newcomers because integration programme needs time; starting from learning the language, integrating culturally, integration into the labour market.<br>
+ <br>
+d. How can immigrants foster economy at different magnitudes of scale in their new homes?<br>
+ <br>
+Answer:<br>
+Immigrants ca foster economy at different magnitudes of scale in their new homes by starting their own businesses.<br>
+ <br>
+e. Can immigrants fully integrate in the new societies? Give reasons.<br>
+ <br>
+Answer:<br>
+No, immigrants can't fully integrate in the new societies because they are unwilling to be part of the new society and the society does not open its doors fully to allow them to integrate.<br>
+ <br>
+f. Mention any two benefits of integrating into a new society for the immigrants.<br>
+ <br>
+Answer:<br>
+- Migrants will have equal learning, engagement, and self-esteem possibilities. After that, they may serve as a strong bridge for mutual understanding between the two cultures or faiths.<br>
+- Wherever immigrants come from, the receiving nations will improve their economic prospects.<br>
+ <br>
+ <br>
+ <br>
+g. Why should the immigrants run in concordance with global culture?<br>
+ <br>
+Answer:<br>
+The immigrants should run in concordance with global culture because of the following reasons:<br>
+- The cost of isolation and non-convergence is higher and more damaging than integration.<br>
+- They can face the fear of losing identity.<br>
+ <br>
+ <br>
+Grammar<br>
+Infinitive and Gerund<br>
+B. Complete each sentence using what/how/where/whether + one of these verbs:<br>
+[apply get do ride use go]<br>
+a. Do you know &#8230;&#8230; to Rama&rsquo;s house?<br>
+ <br>
+Answer:<br>
+Do you know how to get to Rama&rsquo;s house?<br>
+ <br>
+b. I don&rsquo;t know &#8230;&#8230; for the job or not.<br>
+ <br>
+Answer:<br>
+I don&rsquo;t know whether to apply for the job or not.<br>
+ <br>
+c. Have you decided &#8230;&#8230; for your picnic?<br>
+ <br>
+Answer:<br>
+Have you decided where to go for your picnic?<br>
+ <br>
+d. Can you show me &#8230;&#8230; this camera?<br>
+ <br>
+Answer:<br>
+Can you show me how to use this camera?<br>
+ <br>
+e. Ask Hari. He&rsquo;ll tell you &#8230;&#8230; a bicycle.<br>
+ <br>
+Answer:<br>
+He&rsquo;ll tell you how to ride a bicycle.<br>
+ <br>
+f. I was really astonished. I didn&rsquo;t know &#8230;&#8230; on the horse.<br>
+ <br>
+Answer:<br>
+I didn&rsquo;t know how to ride on the horse.<br>
+ <br>
+C. Paraphrase the following sentences using the verb in brackets as in the example.<br>
+Example: She has lost weight. (seem)<br>
+She seems to have lost weight.<br>
+a. Mahesh forgets to close the windows. (tend)<br>
+ <br>
+Answer:<br>
+Mahesh tends to forget closing the windows<br>
+ <br>
+b. Your car has broken down. (appear)<br>
+ <br>
+Answer:<br>
+Your car appears to have broken down.<br>
+ <br>
+c. Ashika is worried about her exam. (seem)<br>
+ <br>
+Answer:<br>
+Ashika seems to be worried about her exam.<br>
+ <br>
+d. They have developed the theory. (claim)<br>
+ <br>
+Answer:<br>
+They claim to have developed the theory.<br>
+ <br>
+e. He&rsquo;s enjoying his new job. (pretend)<br>
+ <br>
+Answer:<br>
+He pretends to be enjoying his new job.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

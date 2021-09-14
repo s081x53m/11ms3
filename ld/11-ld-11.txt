@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit 11 Arts and creation<br>
+Why Is the Renaissance Important?<br>
+ <br>
+Ways with words<br>
+A. Circle the correct meanings of the underlined words.<br>
+ <br>
+a. Martin Luther started a revolt against the conventions of the Roman Catholic Church.<br>
+ <br>
+i. styles ii. creations iii. customs iv. writings<br>
+ <br>
+ <br>
+Answer:<br>
+iii. customs<br>
+ <br>
+b. It blended classical styles with new ideas.<br>
+ <br>
+i. separated ii. corrected iii. put side by side iv. mixed together<br>
+ <br>
+ <br>
+Answer:<br>
+iv. mixed together<br>
+ <br>
+c. The dome marks the beginning of Renaissance architecture.<br>
+ <br>
+i. indicates ii. tells iii. serves as a sign of iv. makes<br>
+ <br>
+ <br>
+Answer:<br>
+iii. serves as a sign of<br>
+ <br>
+d. The arts flourished during the Renaissance.<br>
+ <br>
+i. were almost forgotten ii. grew and improved iii. discovered iv. stayed about the same<br>
+ <br>
+ <br>
+Answer:<br>
+ii. grew and improved<br>
+ <br>
+e. The new passion for learning also led to amazing discoveries in science.<br>
+ <br>
+i.enthusiasm ii. emotion iii. logic iv. power<br>
+ <br>
+ <br>
+Answer:<br>
+i.enthusiasm<br>
+ <br>
+C. What do the following idioms mean? Use them in sensible sentences.<br>
+ <br>
+a. a hot potato<br>
+ <br>
+Answer:<br>
+a controversial situation- He never discusses about anyone's religion because it can be a hot potato.<br>
+ <br>
+b. once in a blue moon<br>
+ <br>
+Answer:<br>
+not very often or rarely- I see my uncle once in a blue moon because he lives in Europe.<br>
+ <br>
+c. a bed of roses<br>
+ <br>
+Answer:<br>
+easy or comfortable situation or activity- I tell him that his new job in construction isn't going to be a bed of roses.<br>
+ <br>
+d. when pigs fly<br>
+ <br>
+Answer:<br>
+used to say that something will never happen - I'll vote for the corrupted leader for the MP when pigs fly!<br>
+ <br>
+e. miss the boat<br>
+ <br>
+Answer:<br>
+miss an opportunity- I am 30 and still unmarried. My parents think that I have missed the boat.<br>
+ <br>
+f. zip your lip<br>
+ <br>
+Answer:<br>
+shut up- He said that everyone had to zip up their lips until the presentation was over.<br>
+ <br>
+g. fight tooth and nail<br>
+ <br>
+Answer:<br>
+to fight with great ferocity- Since the guards forced him to leave the building, he fought them tooth and nail.<br>
+ <br>
+h. when life gives you lemon, make lemonade<br>
+ <br>
+Answer:<br>
+change something negative into a positive - My father lost his job but started his own business. He said to me 'when life gives you lemon, make lemonade'.<br>
+ <br>
+i. goose egg<br>
+ <br>
+Answer:<br>
+a score of zero - She was crying because she had a goose egg in the project.<br>
+ <br>
+D. Match the following phrasal verbs with their meanings.<br>
+ <br>
+break down- xi. to stop functioning (vehicle, machine)<br>
+check out - ix. to leave a hotel<br>
+fed up- vii. tired of something or someone<br>
+fill out- xii. to complete a form<br>
+get away- x. to escape<br>
+give away- viii. to give something to someone for free<br>
+give up - iii. to quit a habit<br>
+look forward to - vi. to wait anxiously for something or an event<br>
+make up - ii. to invent a story or lie<br>
+pass away - v. to die<br>
+put out - i. to extinguish (fire)<br>
+take off - iv. to remove clothes or shoes from the body, to depart as in airplane<br>
+ <br>
+Comprehension<br>
+A. Answer these questions.<br>
+a. What does the word Renaissance mean? Which language is it derived from?<br>
+ <br>
+Answer:<br>
+The word Renaissance means &quot;rebirth&quot;. It is derived from French.<br>
+ <br>
+b. What did the Greek scholars do in their new locations after leaving the Greek city?<br>
+ <br>
+Answer:<br>
+In their new locations, they taught Greek and shared their precious books.<br>
+ <br>
+c. How did 'new learning' teach people to think in different ways?<br>
+ <br>
+Answer:<br>
+'New learning' taught people to think in different ways encouraging them to paint pictures, make statues and buildings, and write great literature.<br>
+ <br>
+d. Describe the artistic developments of Renaissance in brief.<br>
+ <br>
+Answer:<br>
+The Renaissance's creative advancements began in the Italian city of Florence, and subsequently expanded to other Italian towns. Cities like Florence, Venice, and Milan were very affluent as a consequence of commerce and banking, and its wealthy inhabitants had both the leisure and the money to appreciate music, art, and poetry. Michelangelo, Leonardo da Vinci, and Raphael were among the great painters and sculptors that emerged from these towns. These painters produced some of the greatest works of art in history.<br>
+ <br>
+e. Name the three Renaissance scientists who made great discoveries?<br>
+ <br>
+Answer:<br>
+Galileo, Kepler and Newton.<br>
+ <br>
+f. Who developed the printing press? Which country was he from?<br>
+ <br>
+Answer:<br>
+Johannes Gutenberg developed the printing press. He was from Germany.<br>
+ <br>
+g. Why is the development of the printing press considered as one of the gifts of Renaissance?<br>
+ <br>
+Answer:<br>
+The development of the printing press is considered as one of the gifts of Renaissance because it helped make the works of the best writers and all kinds of knowledge available to all.<br>
+ <br>
+h. Name the five famous explorers of the Renaissance?<br>
+ <br>
+Answer:<br>
+Columbus, Vasco de Gama, Cabot, Magellan, and Drake<br>
+ <br>
+i. Why do some people think of the Renaissance as the beginning of modern history?<br>
+ <br>
+Answer:<br>
+Some people think of the Renaissance as the beginning of modern history because the Renaissance formed the basis for many parts of our modern life and beliefs.<br>
+ <br>
+B. What do you infer from the reading? Tick (&#8730;) the best answer.<br>
+a. Before the Renaissance&#8230;<br>
+i. middle-class people did a lot of reading.<br>
+ii. education was limited to scholars and privileged people.<br>
+iii, people wanted to change their lives but couldn't.<br>
+iv. people were eager to learn new things.<br>
+ <br>
+Answer:<br>
+ii. education was limited to scholars and privileged people<br>
+ <br>
+b. Which statement is true?<br>
+i. The Greeks had a strong influence on Renaissance thinking.<br>
+ii. France was the birthplace of the Renaissance.<br>
+iii. Turkish scholars spread their knowledge throughout Europe.<br>
+iv. German philosophers were responsible for starting the Renaissance.<br>
+ <br>
+Answer:<br>
+i. The Greeks had a strong influence on Renaissance thinking.<br>
+ <br>
+c. What did the Renaissance do?<br>
+i. It helped leaders maintain control over the middle class.<br>
+ii. It discouraged people to go against traditional beliefs.<br>
+iii. It caused people to make changes in their lives.<br>
+ <br>
+Answer:<br>
+iii. It caused people to make changes in their lives.<br>
+ <br>
+d. What were the major causes of the Renaissance?<br>
+i. changes in government<br>
+ii. explorations of new lands<br>
+iii. new artists and writers who created great works<br>
+iv. printing, reading and learning<br>
+ <br>
+Answer:<br>
+iv. printing, reading and learning<br>
+Critical thinking<br>
+a. Do you agree with Machiavelli's view that a good leader can do bad and dishonest things in order to preserve his power and protect his government? Explain.<br>
+A decent leader may occasionally lose his path and become unethical and wicked, according to many facts. He amasss political power and riches in an erroneous manner. Political power and status have been shown to be addictive. A person is rarely uninterested in leaving his or her current job. When a leader engages in unethical behaviour, he disobeys and violates established norms in order to preserve his authority and position. He commits a succession of errors in order to show himself honourable and honest, maintain his authority, and defend his country.<br>
+ <br>
+Leaders who want power, unlimited riches, or the celebrity that comes with achievement often seem self-centered. This urge is so powerful that it causes leaders to disregard the moral norms that previously guided their actions. Many leaders rise to power by forcing their will on others, sometimes even eliminating those who stand in their way. They may suspect that others are attempting to knock them off their base once they reach the top.<br>
+ <br>
+Before taking on a leadership position, everyone should consider what their leadership's purpose is. If the genuine response is power, status, and money, leaders risk becoming addicted to external pleasure.<br>
+ <br>
+b. Do you think that art and literature are important assets of a country? Give reasons.<br>
+ <br>
+Art and literature are valuable in terms of social, cultural, and economic considerations. They are our identity because they represent the entire country. These entities are on par with other national items in terms of quality. A work of art or literature has cultural and social significance. They enable people from many cultures and eras to communicate with one another through sights and sounds.<br>
+ <br>
+Art or literature is often used as a tool for social change. It has the potential to offer those who are politically or socially disadvantaged a voice. Their popularity aids the society in gaining international recognition. Art and literature have practical applications in society. They are essential commercially as well as fulfilling the human desire for self-expression. Many people are employed in their production, administration, and distribution. Art and literary works have the potential to contribute to national revenue.<br>
+ <br>
+ <br>
+Comprehension<br>
+B. Complete the following sentences with correct relative pronouns and write whether the clauses are defining or non-defining.<br>
+a.<br>
+ <br>
+Answer:<br>
+That&rsquo;s the house where I was born.- defining<br>
+ <br>
+b.<br>
+ <br>
+Answer:<br>
+My aunt Nita, who is a journalist, is coming to visit next week.-non-defining<br>
+ <br>
+c.<br>
+ <br>
+Answer:<br>
+People who like outdoor activities will love our holidays.- defining<br>
+ <br>
+d.<br>
+ <br>
+Answer:<br>
+The early 1960s, when the Beatles first started, was a very exciting time in pop culture.- non-defining<br>
+ <br>
+e.<br>
+ <br>
+Answer:<br>
+My essay on Shakespeare, which I found quite difficult, got a really good mark in the end. - non-defining<br>
+ <br>
+f.<br>
+ <br>
+Answer:<br>
+The Mayans, who lived in Central America, built many stunning temples.- non-defining<br>
+ <br>
+g.<br>
+ <br>
+Answer:<br>
+That's the girl whose brother is in your class. - defining<br>
+ <br>
+h.<br>
+ <br>
+Answer:<br>
+The snake that was in the garden last week belongs to our next-door neighbor. - defining<br>
+ <br>
+C. Join the following pairs of sentences.<br>
+a.<br>
+ <br>
+Answer:<br>
+He is a musician whose albums have been sold millions.<br>
+ <br>
+b.<br>
+ <br>
+Answer:<br>
+Amelia who speaks English and Chinese fluently is from Shanghai.<br>
+ <br>
+c.<br>
+ <br>
+Answer:<br>
+That&rsquo;s the stadium where Real Madrid plays.<br>
+ <br>
+d.<br>
+ <br>
+Answer:<br>
+Dublin is my favourite city which is the capital of Ireland.<br>
+ <br>
+e.<br>
+ <br>
+Answer:<br>
+The person to whom they spoke was really helpful.<br>
+ <br>
+f.<br>
+ <br>
+Answer:<br>
+This smartphone which I bought last week takes great photos.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+<br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

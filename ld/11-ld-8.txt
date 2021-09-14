@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit 8 Humour and Satire<br>
+ <br>
+By Shriram Lamichhane <br>
+A Few Kind Words for Superstition<br>
+Ways with words<br>
+A. Match the following.<br>
+transcendental - iv. spiritual, nonphysical or mystical<br>
+deplore - i. to feel or express strong disapproval of (something)<br>
+absolve- vi. set free from blame, guilt, or responsibility; release<br>
+juju- ii. a charm or fetish used by some West African people<br>
+crude- iii. natural state<br>
+chronicle- v. a written record of historical events<br>
+B. Find the contextual meanings of the following words from the text and then use them in sentences of your own.<br>
+a. condemn<br>
+ <br>
+Answer:<br>
+to express disapproval &ndash; He has publicly condemned the deal.<br>
+ <br>
+b. terror<br>
+ <br>
+Answer:<br>
+a feeling of extreme fear &ndash; People fled from the explosion in terror.<br>
+ <br>
+c. unbidden<br>
+ <br>
+Answer:<br>
+without being asked, invited or expected- She walked into the room unbidden.<br>
+ <br>
+d. persist<br>
+ <br>
+Answer:<br>
+to continue to exist- Consult your doctor if the symptoms persist.<br>
+ <br>
+e. devout<br>
+ <br>
+Answer:<br>
+having or showing strong religious feeling/ religious- One of my friends is a devout Muslim.<br>
+ <br>
+f. banish<br>
+ <br>
+Answer:<br>
+to make somebody/something go away &ndash; The sight of food banished all other thoughts from my mind.<br>
+ <br>
+g. creed<br>
+ <br>
+Answer:<br>
+a system of principles or religious beliefs- We welcome people of all races, colors and creeds.<br>
+ <br>
+h. hasten<br>
+ <br>
+Answer:<br>
+to make something happen more quickly - The treatment she received may have hastened her death.<br>
+ <br>
+i. sober<br>
+ <br>
+Answer:<br>
+serious and sensible- We need to make a calm, sober assessment of the situation.<br>
+ <br>
+j. scorn<br>
+ <br>
+Answer:<br>
+to feel or show that you think somebody/something is stupid and you do not respect them or it- My sister scorned my view as old-fashioned.<br>
+ <br>
+k. yearning<br>
+ <br>
+Answer:<br>
+a strong and emotional desire- They had a deep yearning for their homeland.<br>
+ <br>
+l. aloof<br>
+ <br>
+Answer:<br>
+not friendly/ disinterested in other people- She stayed aloof while the argument went on around her.<br>
+ <br>
+m. swarthy<br>
+ <br>
+Answer:<br>
+having dark skin- My friend is skinny, with a swarthy complexion.<br>
+ <br>
+n. humbler<br>
+ <br>
+Answer:<br>
+He served at the pleasure of a humbler master.<br>
+ <br>
+Comprehension<br>
+Answer these questions.<br>
+a. According to the author, what are the four types of superstition?<br>
+ <br>
+Answer:<br>
+According to the author, the four types of superstition are Vain Observances, Divination, Idolatry and Improper Worship of the True God.<br>
+ <br>
+b. Which language is the word 'superstition' derived from? What does it mean?<br>
+ <br>
+Answer:<br>
+The word 'superstition' is derived from the Latin supersisto. It means to stand in terror of the Deity.<br>
+ <br>
+c. How do psychologists understand superstition?<br>
+ <br>
+Answer:<br>
+Psychologists understand superstition as a compulsion that neurosis does not banish.<br>
+ <br>
+d. How does superstition differ from religion?<br>
+ <br>
+Answer:<br>
+Superstition is a belief in the magical and supernatural powers that are mostly based on myths or pseudo confusing expectations, whereas religion is an integrated system of beliefs in a god or gods and the activities that are connected with this belief. (Answer may vary.)<br>
+ <br>
+e. What is the belief of some people in Middle Europe about sneezing?<br>
+ <br>
+Answer:<br>
+Some people of Middle Europe believe that when a man sneezes, his soul, for that moment, is absent from his body, and they hasten to bless him, lest the soul will be seized by the Devil.<br>
+ <br>
+f. In the author&rsquo;s view, why are people so fascinated about superstition?<br>
+ <br>
+Answer:<br>
+In the author&rsquo;s view, people are so fascinated about superstition because it in general is linked to people&rsquo;s desire to know their fate, and to have some hand in deciding it.<br>
+ <br>
+ <br>
+A Few Kind Words for Superstition<br>
+Critical Thinking<br>
+a. What is the key takeaway of this essay? Do you think that this essay is satirical? Why?<br>
+The purpose of this article is to challenge the commonly held belief that superstition is solely held by the ignorant and irrational, and to provide a new viewpoint on superstition. Every person, no matter how logical or reasonable, has superstitions, which is a normal and natural characteristic, despite the fact that it is not stated explicitly. Except for the fact that the essay will be about superstition, the writer makes no specific or apparent statements about what the article will be about.<br>
+ <br>
+Many superstitions, according to the writer, are so pervasive and ancient that they must have sprung from a depth of human thought that is unconcerned with race or religion. For him, superstition is linked to a human need to know his destiny and have a part in determining it.<br>
+ <br>
+The essay is sarcastic in nature. It mocks intelligent and educated individuals who believe in superstition while having no connection to it. The writer utilises a variety of instances from his personal life at the University where he resides, his surroundings, and his religious studies to discuss superstition. These nonsensical events in the essay make a mockery of science and contemporary human civilization. <br>
+ <br>
+Some superstitious activities rational people believe in include throwing salt over one's left shoulder after spilling it, avoiding walking under a ladder, consulting the I Ching to resolve a matter concerning university affairs, placing jujus, lucky coins, and other bringers of luck on the desks of candidates in an examination hall, and so on.The writer mocks his own superstitious habits, admitting that he paid four shillings to touch a Lucky Baby before completing college examinations as a joke.<br>
+ <br>
+b. Can education bring change in the belief of superstition? Present your arguments to support your answer.<br>
+Education has the potential to alter superstitious beliefs. It enhances thinking abilities and intellect. People who are educated are less prone to be superstitious, and they may educate others about the harmful behaviour. At the very least, educated people take ill people to the hospital rather than hiring witch doctors to cast out demons to heal them. Education helps people understand illnesses, their causes, and how to treat them.<br>
+ <br>
+When someone is afraid of the unknown, they develop superstitions. There is no longer any superstition when the unfamiliar becomes familiar. A person's dread of the mind will be eliminated if they learn the real truth behind different useless things.<br>
+True, paranormal experiences are deeply embedded in people's brains. The reason for this is the influence of the society in which they grow up and the cultural activities in which they participate. It is difficult, but not impossible, to eliminate them. It can only be done by educated individuals.<br>
+ <br>
+ <br>
+ <br>
+Present Simple or Present Continuous/Progressive (Grammar)<br>
+ <br>
+B. Put the verb into the correct form, present simple or present continuous.<br>
+a. Nisha &#8230;&#8230; (speak) English very well.<br>
+ <br>
+Answer:<br>
+Nisha speaks English very well.<br>
+ <br>
+b. Hurry up! We &#8230;&#8230; (wait) for you.<br>
+ <br>
+Answer:<br>
+Hurry up! We are waiting for you.<br>
+ <br>
+c. Excuse me! &#8230;&#8230; (you/speak) English?<br>
+ <br>
+Answer:<br>
+Excuse me! Do you speak English?<br>
+ <br>
+d. She &#8230;&#8230; (have) a shower in bathroom.<br>
+ <br>
+Answer:<br>
+She is having a shower in bathroom.<br>
+ <br>
+e. How often &#8230;&#8230; (you/read) a newspaper?<br>
+ <br>
+Answer:<br>
+How often do you read a newspaper?<br>
+ <br>
+f. I'm sorry, I &#8230;&#8230; (not/understand). Can you speak more slowly?<br>
+ <br>
+Answer:<br>
+I'm sorry, I don't understand. Can you speak more slowly?<br>
+ <br>
+g. You can turn off the radio. I &#8230;&#8230; (not/listen) to it.<br>
+ <br>
+Answer:<br>
+You can turn off the radio. I am not listening to it.<br>
+ <br>
+h. I usually &#8230;&#8230; (get up) at 5 o'clock every morning.<br>
+ <br>
+Answer:<br>
+I usually get up at 5 o'clock every morning.<br>
+ <br>
+i. Look! The river &#8230;&#8230; (flow) very fast.<br>
+ <br>
+Answer:<br>
+Look! The river is flowing very fast.<br>
+ <br>
+j. Amrita &#8230;&#8230; (not/seem) very happy at the moment.<br>
+ <br>
+Answer:<br>
+Amrita does not seem very happy at the moment.<br>
+ <br>
+C. Are the underlined verbs in the correct form? Correct them where necessary.<br>
+a. Water boils at 100&deg; C.<br>
+ <br>
+Answer:<br>
+Water boils at 100&deg; C.<br>
+ <br>
+b. The water boils. Can you turn it off?<br>
+ <br>
+Answer:<br>
+The water is boiling. Can you turn it off?<br>
+ <br>
+c. I must go now. It gets late.<br>
+ <br>
+Answer:<br>
+I must go now. It is geting late.<br>
+ <br>
+d. This sauce's tasting really good.<br>
+ <br>
+Answer:<br>
+This sauce tastes really good.<br>
+ <br>
+e. I&rsquo;m thinking this is your key.<br>
+ <br>
+Answer:<br>
+I think this is your key.<br>
+ <br>
+f. Are you believing in God?<br>
+ <br>
+Answer:<br>
+Do you believe in God?<br>
+ <br>
+g. I usually go to school on foot.<br>
+ <br>
+Answer:<br>
+I usually go to school on foot.<br>
+ <br>
+h. Look! That man tries to open the door of her car.<br>
+ <br>
+Answer:<br>
+Look! That man is trying to open the door of her car.<br>
+ <br>
+i. The moon is going round the earth.<br>
+ <br>
+Answer:<br>
+The moon goes round the earth.<br>
+ <br>
+j. I'm getting hungry. Let's go and eat.<br>
+ <br>
+Answer:<br>
+I'm getting hungry. Let's go and eat.<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

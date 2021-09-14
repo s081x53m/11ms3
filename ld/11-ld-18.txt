@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Unit -18 Identity Crisis in Immigrants<br>
+ <br>
+Ways with words<br>
+A. Words from the text to solve the crossword puzzle<br>
+Across<br>
+2. as is certain to happen- inevitably<br>
+4. famous and respected- eminent<br>
+6. a temporary stay- sojourn<br>
+7. knowing everything- omniscient<br>
+Down<br>
+1. the state of being preoccupied- preoccupation<br>
+3. anxious or fearful that something bad will happen- apprehensive<br>
+5. a person of mixed white and black ancestry- mulatto<br>
+B. Meanings of the words in a dictionary<br>
+a. melancholy- a deep feeling of sadness that lasts for a long time and often cannot be explained<br>
+b. elusive- difficult to find, define or achieve<br>
+c. motif- a subject, an idea that is developed in a work of literature<br>
+d. disdain- the feeling that somebody is not good enough to deserve your respect or attention<br>
+e. fabricate- to produce something false to decieve someone<br>
+f. intoxicate- to cause somebody to lose control of their behaviour or their physical and mental abilities<br>
+g. resentment- a feeling of anger or unhappiness about something that you think is unfair<br>
+Homophones<br>
+Exercise<br>
+a. Can you &#8230;&#8230; the box in the back garden? (bury/berry)<br>
+ <br>
+Answer:<br>
+Can you bury the box in the back garden?<br>
+ <br>
+b. Alex could not &#8230;&#8230; the branch off the tree. (break/brake)<br>
+ <br>
+Answer:<br>
+Alex could not break the branch off the tree.<br>
+ <br>
+c. &#8230;&#8230; pencil is on the floor? (Who's/Whose)<br>
+ <br>
+Answer:<br>
+Whose pencil is on the floor?<br>
+ <br>
+d. We have got very &#8230;&#8230; (phew/few) tasks left.<br>
+ <br>
+Answer:<br>
+We have got very few tasks left.<br>
+ <br>
+e. Some tribes worship their gods before they &#8230;&#8230; (prey/pray)<br>
+ <br>
+Answer:<br>
+Some tribes worship their gods before they prey.<br>
+ <br>
+f. &#8230;&#8230; it. Everything is messed up.(Dam /Damn)<br>
+ <br>
+Answer:<br>
+Damn it. Everything is messed up.<br>
+ <br>
+g. What a wonderful &#8230;&#8230; the professor presented. (lesson/lessen)<br>
+ <br>
+Answer:<br>
+What a wonderful lesson the professor presented.<br>
+ <br>
+Comprehension<br>
+Answer these questions.<br>
+a. How is Willie Chandran different from the rest of his family?<br>
+ <br>
+Answer:<br>
+Willie Chandran is different from the rest of his family as he is insecure about himself and his own identity.<br>
+ <br>
+b. Who is the main character of Half A Life? How is he described?<br>
+ <br>
+Answer:<br>
+Willie Chandran is the main character of Half A Life. He was born in India 40-some years ago. His father is a Brahmin and mother a Dalit. His middle name comes from the name of an English writer called Somerest Maugham.<br>
+ <br>
+c. Why does Willie leave India?<br>
+ <br>
+Answer:<br>
+Willie leaves India because he manages to get a scholarship to a college in London.<br>
+ <br>
+d. What is the revelation that Willie begin to feel in college and in London?<br>
+ <br>
+Answer:<br>
+Willie began to understand that he was free to present himself as he wished. He could write his own revolution. He could remake himself, his past and his ancestry.<br>
+ <br>
+e. Why does Willie accompany Ana?<br>
+ <br>
+Answer:<br>
+Willie accompanies Ana because she has a kind of high status in her colonial world and he can also find a complete acceptance there.<br>
+ <br>
+f. What is the central issue Naipal has raised in the novel?<br>
+ <br>
+Answer:<br>
+In the novel Naipal has raised the issue of cultural and racial identity.<br>
+ <br>
+Grammar<br>
+Change the following into indirect speech.<br>
+a. She said, &quot;While I was having dinner, the phone rang.&quot;<br>
+ <br>
+Answer:<br>
+She said that while she was having dinner, the phone rang.<br>
+(Simple Past and Past Progressive in time clauses do not normally change.)<br>
+ <br>
+ <br>
+b. My friend said, &quot;Where are they staying?&quot;<br>
+ <br>
+Answer:<br>
+My friend asked where they were staying.<br>
+ <br>
+c. Jamila said, &quot;I travel a lot in my job.&quot;<br>
+ <br>
+Answer:<br>
+Jamila said that she travelled a lot in her job.<br>
+ <br>
+d. She said to me, &quot;We lived in China for five years.&quot;<br>
+ <br>
+Answer:<br>
+She told me that they had lived in China for five years.<br>
+ <br>
+e. He said to me, &quot;Do you like ice-cream?&quot;<br>
+ <br>
+Answer:<br>
+He told me if I had liked ice-cream.<br>
+ <br>
+f. They said, &quot;Hurray! We've won the match.&quot;<br>
+ <br>
+Answer:<br>
+They exclaimed with delight that they had won the match.<br>
+ <br>
+g. He said, &quot;I'd tried everything without success, but this new medicine is great.&quot;<br>
+ <br>
+Answer:<br>
+He said that he'd tried everything without success, but this new medicine was great.<br>
+ <br>
+h. Sony said, &quot;I go to the gym next to your house.&quot;<br>
+ <br>
+Answer:<br>
+Sony said that she went to the gym next to my house.<br>
+ <br>
+i. He said, &quot;Be quiet after 10 o'clock.&quot;<br>
+ <br>
+Answer:<br>
+He told me to be quiet after 10 o'clock.<br>
+ <br>
+j. He said, &quot;I don't want to go to the party unless he invites me.&quot;<br>
+ <br>
+Answer:<br>
+He said that he didn't want to go to the party unless he invited him.<br>
+ <br>
+k. He said to me, &quot;I will see you tomorrow if you meet me.&quot;<br>
+ <br>
+Answer:<br>
+He told me that he would see me the following day if I met him.<br>
+ <br>
+l. She said, &quot;If I were you, I would give up the work.&quot;<br>
+ <br>
+Answer:<br>
+She said that if she were me, she would give up the work.<br>
+Simple Past and Past Continuous do not normally change in sentences with if (imaginary condition).<br>
+Done by Shriram Lamichhane<br>
+Visit: www.tsz.com.np for more notes<br>
+Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
+ <br>
+ <br>
+ <br>
+ <br>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
