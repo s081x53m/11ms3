@@ -41,403 +41,250 @@
 
         body {
             background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
         }
 
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
+        .title {
+            text-align: center;
+            font: normal small-caps bold 16px/1.5 cursive;
         }
 
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
+        .head1 {
+            font: normal normal bold 14px/2 sans-serif;
+            padding-top: 25px;
         }
 
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
-        /* styling text content */
-        #content {
-            padding-top: 4px;
-            padding-left: 50px;
-            padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+        p {
+            padding-bottom: 12px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-                Unit: 1 Education and Humanity<br>
-                Education First<br>
-                <br>
-                <br>
-                Ways with words<br>
-                A. Find the words from the text which mean the following.<br>
-                a. a messenger or representative, especially one on a diplomatic mission<br>
-                <br>
-                Answer:<br>
-                envoy<br>
-                <br>
-                b. the state or quality of being worthy of honor or respect<br>
-                <br>
-                Answer:<br>
-                dignity<br>
-                <br>
-                c. harm done to someone in response to harm<br>
-                <br>
-                Answer:<br>
-                revenge<br>
-                <br>
-                d. a person who holds extreme views in political or religious matters<br>
-                <br>
-                Answer:<br>
-                extremist<br>
-                <br>
-                e. sympathetic pity and concern for the sufferings or misfortunes of others<br>
-                <br>
-                Answer:<br>
-                compassion<br>
-                <br>
-                f. a person who is believed to speak for God<br>
-                <br>
-                Answer:<br>
-                prophet<br>
-                <br>
-                g. the study of the nature of knowledge, reality and existence<br>
-                <br>
-                Answer:<br>
-                philosophy<br>
-                <br>
-                h. the use of physical force so as to injure, abuse, damage or destroy<br>
-                <br>
-                Answer:<br>
-                violence<br>
-                <br>
-                i. an unreasonable dislike of a particular group of people or things<br>
-                <br>
-                Answer:<br>
-                prejudice<br>
-                <br>
-                B. Match the words on the left with their opposite meanings on the right.<br>
-                honour - disgrace<br>
-                <br>
-                innocent- guilty<br>
-                <br>
-                brutality- kindness<br>
-                <br>
-                forgiveness - punishment<br>
-                <br>
-                illiteracy - literacy<br>
-                <br>
-                C. Using dictionary<br>
-                a. Study the dictionary entry above and answer these questions.<br>
-                i. What is the headword in the first entry?<br>
-                <br>
-                Answer:<br>
-                Humanity<br>
-                <br>
-                ii. How many meanings of the word &lsquo;humanity&rsquo; are given?<br>
-                <br>
-                Answer:<br>
-                Four<br>
-                people in general<br>
-                the state of being a person rather than a god, an animal or a machine<br>
-                the quality of being kind to people and animals by making sure that they do not suffer more than is
-                necessary<br>
-                the subjects of study that are about the way people think and behave, for example literature, language,
-                history and philosophy<br>
-                <br>
-                <br>
-                iii. What do the abbreviations U, OPP, pl, and sth stand for?<br>
-                <br>
-                Answer:<br>
-                U- uncountable<br>
-                OPP- opposite<br>
-                pl- plural<br>
-                sth- something<br>
-                <br>
-                <br>
-                iv. What is the British English spelling of &lsquo;humanize&rsquo;?<br>
-                <br>
-                Answer:<br>
-                humanise<br>
-                <br>
-                v. How is the word &lsquo;humanize&rsquo; pronounced?<br>
-                <br>
-                Answer:<br>
-                /&#712;hju&#720;m&#601;na&#618;z /<br>
-                <br>
-                vi. If we say Every person should have the sense of humanity, which meaning of &lsquo;humanity&rsquo; is
-                applied?<br>
-                <br>
-                Answer:<br>
-                The quality of being kind to people and animals by making sure that they do not suffer more than is
-                necessary / the quality of being humane<br>
-                <br>
-                b. Arrange the following words in alphabetical order.<br>
-                i. advance analysis amuse assure allergy attain aid anxiety acute agreement<br>
-                <br>
-                Answer:<br>
-                acute, advance, agreement, aid, allergy, amuse, analysis, anxiety, assure, attain<br>
-                <br>
-                ii. smoke small smart speaking smelling smoothly smuggler smashed smearing smallpox<br>
-                <br>
-                Answer:<br>
-                small, smallpox, smart, smashed,speaking, smearing, smelling, smoke, smoothly, smuggler,<br>
-                <br>
-                iii. terminal terminate terminology termite terms terrace terrible terribly<br>
-                <br>
-                Answer:<br>
-                terminal, terminate, terminology, terms, terrace, terrible, territory, terror<br>
-                <br>
-                Comprehension<br>
-                Answer the following questions.<br>
-                a. Why did the speaker receive thousands of good-wishes cards and gifts from all over the world?<br>
-                <br>
-                Answer:<br>
-                Thousands of well-wishes cards and presents were sent to the speaker from all around the globe in
-                recognition of her quick recovery and new life.<br>
-                <br>
-                b. According to the speaker, what are hundreds of human rights activists and social workers struggling
-                for?<br>
-                <br>
-                Answer:<br>
-                Hundreds of human rights activists and social workers, according to the speaker, are fighting for
-                education fairness and ease of access, as well as peace and equality.<br>
-                <br>
-                c. What has she learnt from Gandhi?<br>
-                <br>
-                Answer:<br>
-                Gandhi taught her the value of nonviolence.<br>
-                <br>
-                d. In what sense is peace necessary for education?<br>
-                <br>
-                Answer:<br>
-                Wars and conflicts stop children to go to their schools. So, peace is necessary for education.<br>
-                <br>
-                e. According to the speaker, what are the main problems faced by both men and women?<br>
-                <br>
-                Answer:<br>
-                Poverty, ignorance, unfairness, racism, and denial of fundamental rights, according to the speaker, are
-                the major issues that both men and women confront.<br>
-                <br>
-                f. What is Malala calling upon all governments?<br>
-                <br>
-                Answer:<br>
-                Malala calls on all governments to guarantee that every kid in the world receives a free, compulsory
-                education, to combat terrorism and violence, and to protect children from cruelty and damage.<br>
-                <br>
-                g. What is the main message of this speech?<br>
-                <br>
-                Answer:<br>
-                Education is the only answer to the worldwide battle against illiteracy, poverty, and terrorism. This is
-                the main message of this speech.<br>
-                <br>
-                Critical thinking<br>
-                a. &lsquo;All children have the right to quality education. How can we ensure this right to every child?
-                Discuss the role of the government and the parents to make sure that every child can attend
-                school.&rsquo;<br>
-                The nation cannot develop unless childrens are educated. Our constitution guarantees every child's right
-                to education, including free education up to secondary level. Many youngsters in our nation still lack
-                this basic right. The government and parents should work together to guarantee that children attend
-                school, obtain a decent education, and acquire skills for the 21st century.<br>
-                <br>
-                Quality learning needs a safe, pleasant atmosphere and trained and motivated instructors. However, most
-                rural schools lack enough physical facilities, teaching and non-teaching personnel, and financial
-                resources. The government should enable school leaders and instructors to take professional
-                responsibility, establish standards, and fully support them in providing excellent learning
-                opportunities for students.Parents must provide their children's fundamental requirements. <br>
-                <br>
-                They don't send their kids to school and blame it on poverty, even though education is free. Instead,
-                they are willing to waste their money. They can offer basic learning resources and a fun learning
-                environment at home. Everyday learning should be promoted for the kids. Parents are expected to
-                participate in school activities as well as at home.<br>
-                <br>
-                <br>
-                b.&rsquo;Do you think that there is still discrimination between sons and daughters in terms of
-                providing education in our country? What strategies do you suggest to overcome such discrimination
-                against girls?&rsquo;<br>
-                <br>
-                In our country, schooling still discriminates between sons and girls. In rural Nepal, gender is the
-                greatest predictor of school attendance. Girls are less likely than males to complete high school
-                because their parents see their training for adult marital responsibilities differently. After marriage,
-                girls are expected to leave their family. Our cultural norms demand females to perform more household
-                labour than guys. Boys' education is given precedence since females have less time to conduct schoolwork
-                due to domestic duties. Girls drop out of school due to child marriage and poverty. So young females
-                don't obtain formal schooling.<br>
-                Diverse methods may be used to combat prejudice. Homework for females should be reduced. Girls should
-                have special privileges in the library, canteen, and playground. Prioritize secondary education for
-                girls. Schools should be more girl-friendly and closer to families. The government should create public
-                awareness raising organisations for girls' education. Teachers must be gender conscious.<br>
-                &lsquo;<br>
-                <br>
-                c. &lsquo;A Chinese philosopher Confucius said, &ldquo;If your plan is for one year, plant rice; if your
-                plan is for ten years, plant trees; if your plan is for one hundred years, educate children.&rdquo; What
-                is the meaning of this saying? Elaborate this with examples.&rsquo;<br>
-                <br>
-                The only meaning here is that our objectives determine our behaviour. Short term objectives need short
-                term efforts. Long range objectives take longer to achieve, but they are different. If we know where we
-                want to go and how long it will take us to get there, we can plan our route, our conveyance, and our
-                companions.<br>
-                The declaration also stresses the value of education for societal growth. Education is vital in
-                developing skills, values, and awareness. It moulds a person. Long-term, education brings higher
-                benefits. Tomorrow's civilised and moral society will be educated youngsters today. The greatest
-                possible education for children is an investment in the future of the whole society.<br>
-                <br>
-                Word Classes (Parts of Speech) are the categories of words having grammatical or lexical functions.
-                These categories can be 8, 9 or more in accordance with their function.<br>
-                <br>
-                <br>
-                Word Class: <br>
-                Exercise<br>
-                Classify the underlined words into different word classes.<br>
-                a. The man who is wearing glasses is my uncle&rsquo;s friend.<br>
-                <br>
-                Answer:<br>
-                who- pronoun<br>
-                wearing- verb<br>
-                my- determiner<br>
-                <br>
-                <br>
-                b. I bought a round table in the supermarket.<br>
-                <br>
-                Answer:<br>
-                round- adjective<br>
-                the- determiner<br>
-                <br>
-                <br>
-                c. Alas, she is dead.<br>
-                <br>
-                Answer:<br>
-                Alas- interjection<br>
-                <br>
-                d. Hari works very hard all the time but his wife is very lazy.<br>
-                <br>
-                Answer:<br>
-                hard- adverb<br>
-                wife- noun<br>
-                very- adverb<br>
-                <br>
-                <br>
-                e. I have never been to Japan.<br>
-                <br>
-                Answer:<br>
-                never- adverb<br>
-                <br>
-                f. Ann drove a car safely.<br>
-                .<br>
-                Answer<br>
-                Ann : Noun<br>
-                Safely : Adverb<br>
-                <br>
-                g. Nobody has claimed it.<br>
-                <br>
-                Answer:<br>
-                nobody- pronoun<br>
-                it- pronoun<br>
-                <br>
-                <br>
-                h. She cut her hand with a knife.<br>
-                <br>
-                Answer:<br>
-                her- determiner<br>
-                with- preposition<br>
-                <br>
-                <br>
-                i. They have postponed the program because of rain.<br>
-                <br>
-                Answer:<br>
-                have- verb<br>
-                because of &ndash; preposition<br>
-                rain- noun<br>
-                <br>
-                <br>
-                j. Everybody comes to the party.<br>
-                <br>
-                Answer:<br>
-                everybody- pronoun<br>
-                <br>
-                k. All such people ought to be avoided.<br>
-                <br>
-                Answer:<br>
-                all- determiner<br>
-                such- determiner<br>
-                <br>
-                <br>
-                l. All of the food has gone.<br>
-                <br>
-                Answer:<br>
-                all- pronoun<br>
-                <br>
-                m. What was that noise?<br>
-                <br>
-                Answer:<br>
-                what- pronoun<br>
-                <br>
-                n. One must not boast of one's own success.<br>
-                <br>
-                Answer:<br>
-                one- pronoun<br>
-                <br>
-                o. Nobody was there to rescue the child.<br>
-                <br>
-                Answer:<br>
-                nobody- pronoun<br>
-                <br>
-                p. Neither of the accusations is true.<br>
-                <br>
-                Answer:<br>
-                neither- pronoun<br>
-                <br>
-                q. Neither answer is correct.<br>
-                <br>
-                Answer:<br>
-                neither- determiner<br>
-                <br>
-                r. Here is the book that you lent me.<br>
-                <br>
-                Answer:<br>
-                here- adverb<br>
-                that- pronoun<br>
-                <br>
-                <br>
-                s. Without health there is no happiness.<br>
-                <br>
-                Answer:<br>
-                without- proposition<br>
-                health- noun<br>
-                happiness- noun<br>
-            </div>
-        </div>
+    <div class="title">
+        Unit: 1<br>
+        Education and Humanity<br>
     </div>
-</body>
+    <br>
 
+    <p class="head1">Summary</p>
+
+    <p>The story starts with the children playing in the garden of the Giant every afternoon after coming from school.
+        The
+        garden was lovely, large, with soft grass, and fruit trees. The trees bore rich fruits and birds sang sweetly
+        sitting on them.</p>
+
+
+    <p>One day after seven years the giant came back. He was staying with his friend, the Cornish Ogre. The children
+        were
+        scared to see him. He saw the children playing and said that he would not allow anyone to play here as it was
+        his
+        own garden. He built a wall around it and also put a notice board. The notice board displayed a warning on it,
+        &lsquo;Trespassers will be prosecuted&rsquo;.</p>
+
+    <p>The children became sad as they had no other place to play. They would wander around the high walls of the garden
+        and
+        remember the beautiful garden inside them.</p>
+
+    <p>The spring season came and there were blossoms and little birds all around. But it was winter in the
+        giant&rsquo;s
+        garden and there were frost and snow. In the absence of children birds also did not sing. Once a flower bloomed
+        out
+        of the grass but after seeing the notice board, it also went back to sleep. Then came the North Wind and the
+        hailstorm. Due to the giant&rsquo;s selfishness, autumn&rsquo;s golden fruits also did not come to his garden.
+    </p>
+
+    <p>Then one morning, the giant heard sweet and lovely music. It was a linnet singing outside his window. The hail
+        and
+        the North Wind stopped and he could feel the spring. He saw that the children came into his garden through a
+        little
+        hole. The children were sitting on the branches of trees and the trees were blossoming. He also saw the birds
+        flying
+        and hear them chirping. The flowers had also come up.</p>
+
+    <p>But, to his surprise, in one corner there was still winter. He saw that there a young boy was standing and he was
+        not
+        able to reach the branches of trees. The tree lowered its branches but still, he could not climb.</p>
+
+    <p>At this scene, his heart melted. He realized that he was really very selfish. He decided to put that boy on the
+        top
+        of the tree, pull down the walls, and allow children to play here forever. But when the children saw him, they
+        ran
+        away and the garden became winter again. However, that little boy did not run as he was weeping. The giant put
+        him
+        on the top of the tree and the tree blossomed at once. He kissed the giant.</p>
+
+    <p>The other children realizing that the giant is not wicked came back. The spring came back with them. The giant
+        used
+        to play with the children ever afternoon but that little boy was nowhere to be seen. As the years went by, he
+        grew
+        very weak. One winter morning, he saw a lovely tree with white blossoms in a corner. The branches of the tree
+        were
+        golden and the little boy stood under it.</p>
+
+    <p>The boy was wounded which made the giant very angry. He told the boy that he will slay the man who has harmed
+        him.
+        The boy told him that these were the wounds of love. The boy smiled and asked the giant to come to his garden.
+        Later, the children found the giant dead under the tree covered with white blossoms.</p>
+
+
+    <p class="head1">Understanding the text</p>
+
+    <p>a. Where did the children use to play? <br>
+        &#10140; They used to play in the Giant's garden.</p>
+
+    <p>b. What did the Snow and the Frost do to the garden?<br>
+        &#10140; The snow covered the grass with its large white
+        coat
+        and Frost painted all the silver trees. Afterwards, they invited North Wind to stay with them.</p>
+
+    <p>c. What did the giant hear when he was lying awake in bed?<br>
+        &#10140; The giant heard beautiful music.</p>
+
+    <p>d. Why do you think spring season never came to the giant's garden? <br>
+        &#10140; I think the spring season never came
+        to
+        the giant's garden because he didn't let the kids play there.</p>
+
+    <p>e. How did the giant realise his mistake?<br>
+        &#10140; He saw his mistake as the children stopped visiting the garden
+        and
+        the garden never faced the spring season.</p>
+
+    <p class="head1">Reference to the context</p>
+
+    <p>A. Read the extracts given below and Ans the questions that follow.<br><br>
+        a. &ldquo;How happy we were there!&rdquo;
+        they
+        said to each other.</p>
+
+    <p>i. Where does &lsquo;there&rsquo; refer to?<br> &#10140; 'There' refers to the giant's garden where children used
+        to
+        play
+        after school.</p>
+
+    <p>ii. What does &lsquo;they&rsquo; refer to?<br>
+        &#10140; 'They' refers to the children who used to come and play in
+        Giant's garden after school.</p>
+
+    <p>iii. Why are they saying so?<br>
+        &#10140; They are saying so because they aren't allowed to play in the giant's
+        garden
+        anymore. The giant has chased them out of his garden, furious.</p>
+    <br><br>
+    <p>b. &ldquo;I have many beautiful flowers,&rdquo; he said; &ldquo;but the children are the most beautiful flowers
+        of
+        all.&rdquo;</p>
+
+    <p>i. Who is the speaker?<br>
+        &#10140; The speaker is an old and feeble giant who keeps on watching the children at
+        their
+        play sitting on his armchair.</p>
+
+    <p>ii. Who is he speaking to?<br>
+        &#10140; He is speaking to himself admiring his garden.</p>
+
+    <p>iii. Who are &lsquo;the children&rsquo; that the speaker is referring to? <br>
+        &#10140; 'The Children' that the
+        speaker is
+        referring to are the small and innocent school children who enjoy a lot in the giant's garden.</p>
+
+    <p>iv. Why is the speaker saying that &lsquo;the children are the &#8230;&#8230;&rsquo; ?<br>
+        &#10140; The speaker says
+        'children are the most........' because like the flowers, children also bring joy and happiness in the garden.
+    </p>
+    <br><br>
+    <p>c. When the little child smiled at the Giant, and said to him, &quot;You let me play once in your garden, today
+        you
+        shall come with me to my garden, which is Paradise,&quot; shortly afterwards, the happy giant dies. What is the
+        coincidence of this event? Describe it in relation to this fairy story. <br>
+        &#10140; When the Giant was very old and
+        weak, he couldn&rsquo;t play with the children any more. He sat in his armchair and watched the children
+        playing.
+        One winter morning, the little child whom he once helped to climb the tree appeared and offered him never ending
+        and
+        peaceful life in his garden i.e. heaven. At the same time, the Giant died. Thus, the occurrence of the
+        child&rsquo;s
+        offer of eternal life in heaven and the death of the Giant is the coincidence. However, from the religious point
+        of
+        view, reappearance of the child, with prints of nails on the palms of the hands and feet, and the biological
+        death
+        of the Giant have a close association.</p>
+    <br><br>
+    <p>B. The story makes use of personification as one of the main figures of speech. Cite three examples of
+        personification from the story. What is the significance of the seasons personified in the story? <br>
+        &#10140; The
+        story
+        &lsquo;The Selfish Giant&rsquo; makes the use of personification as one of the main figures of speech which
+        gives
+        human qualities to the non-human objects. In the story, the technique of personification has made non- human
+        entities more vivid or helped the readers understand and sympathize with or react emotionally to them. The
+        effect of
+        this is to make flowers, seasons, frost, snow, wind, hail and one of the trees, reinforce the story
+        writer&rsquo;s
+        moral vision.</p>
+
+    <p>The flowers are personified when one of them begins to bloom, then sees there are no children in the garden, and
+        goes
+        back to sleep. This variety of personification continues with the happiness of snow and frost as the garden
+        lacks
+        the spring season and they invite the north wind to the garden. The wind is personified when it says with
+        delight
+        that they must ask the hail to visit the garden.</p>
+
+    <p>The story has the significance of the seasons personified. At the beginning of the story, the seasons bless the
+        garden with pleasant weather until the Giant sends the children away from his garden. Repulsed by the Giant's
+        unkindness the spring season leaves the garden. The seasons' disfavor indicates that the Giant's selfishness
+        goes
+        against the natural order and thus deserves punishment.</p>
+    <br><br>
+    <p>C. This story can be read as a fairy story, where the children, the seasons, the tree, the corner of the garden,
+        the
+        snow, the wind and the frost are all used as symbolism. Interpret those symbols. <br>
+        &#10140; The story &lsquo;The
+        Selfish Giant&rsquo; is a fairy tale. The story writer has adopted the approach of symbolism to teach the
+        readers a
+        moral lesson. The children symbolize innocence and love. Likewise, seasons represent hope, life and death. The
+        tree
+        is the symbol of patience whereas the corner of the garden stands for heaven. The snow, the wind, and the frost
+        signify grief, sorrow and discomfort.</p>
+    <br><br>
+    <p>D. Which figure of speech is used for &lsquo;winter, frost, snow, north wind, hail and little child&rsquo;? Who
+        is
+        the little child compared to? <br>
+        &#10140; As a fairy tale, the story is full of figures of speech. Both the methods
+        of
+        personification and symbolism are used for winter, frost, snow, north wind and hail. The little child is
+        presented
+        as the Christian symbol. He is compared to Jesus Christ.</p>
+    <p class="head1">Reference beyond text</p>
+
+    <p>a. What is the main theme of the story? <br>
+        &#10140; Oscar Wilde has covered the themes of unselfishness and love. At
+        the
+        beginning of the story the giant is very selfish and cold towards the children, and builds a high wall around
+        the
+        garden and puts a notice&ndash;board to stop them. But later he realizes his mistake when the children stop
+        coming
+        to the garden and the garden never experiences the spring season until he allows them to play in his garden. As
+        he
+        knows the meaning of love and sharing, the spring weather comes. Not only the Giant brings happiness to the
+        children
+        but he also ensures that he will get into Heaven with his act of kindness. The Giant&rsquo;s nature is
+        associated
+        with that of human beings. We rarely share our belongings to any one even if someone is needed. We are selfish
+        too.
+        The story teaches us to share love to get love in return.</p>
+    <br><br>
+    <p>
+        b. Does God punish those who are cruel to children and very selfish?<br>
+        &#10140;Yes, God punishes those who are
+        cruel to
+        childs and very selfish. As we saw in this story, Giant has really been so cruel to the childs and selfish
+        because
+        of which Spring never came in his garden. Snow and frost always remained in his garden, which symbolizes that
+        negative atmosphere surrounding his garden when there were not any children. Therefore god punishes to those who
+        are
+        cruel to children and very selfish.
+    </p>
+</body>
 </html>
