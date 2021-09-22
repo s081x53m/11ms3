@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,248 +35,231 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
+    <br>
+    <center>Trifles</center>
+    <br><br>
+    <h3>Understanding the text</h3>
+    <br><br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. Do you believe that Mrs. Wright killed her husband? Explain.</span>
+    <br>
+    &#10140; Yes, I believe Mrs. Wright murdered her husband. After reading the entire play, I believe she
+    is a murderer. Mrs. Peters and Mrs. Hale discover a number of clues which point to Mr. Wright's cruelty.
+    They examine her untidy kitchen, take note of Minnie's irregular stitching, discover a broken birdcage,
+    and find a dead canary in Minnie's sewing box. They come to the conclusion that Mr. Wright killed her
+    beloved pet, in her rage, she killed him in his sleep.
+    <br><br><br>
+    <span>b. Do you think Mr. Wright&rsquo;s death would have been uncovered if Mr. Hale hadn&rsquo;t stopped by
+        the Wrights&rsquo; home?</span>
+    <br>
+    &#10140; No, I don't think Mr. Wright's death would have been uncovered if Mr. Hale hadn't stopped by
+    the Wright's home. If Mr. Hale hadn't stopped by the Wrights' home, nobody would ever know about Mr.
+    Wright's death. The location of the house was quite far from the road. Nobody had visited this lonesome
+    house for a long time. If Mr. Hale hadn't stopped there to ask for a telephone line, Mr. Wright's dead
+    body would have been decayed in that gloomy house.
+    <br><br><br>
+    <span>
+        c. Why does Mrs. spanHale think that Mrs. Wright&rsquo;s worries about her preserves indicate her
+        innocence?
+    </span>
+    <br>
+    &#10140; Mrs. Hale thinks that Mrs. Wright's worries about her preserves indicate her innocence because
+    Mrs. Wright does not strike her as a murderer who is obsessed with her housekeeping abilities. According
+    to her, a person who is overly concerned with her preserves cannot possibly commit murder. Her attention
+    to detail in her housekeeping skills demonstrates her innocence.
+    <br><br><br>
+    <span>d. How does Mrs. Peters&rsquo; homesteading experience connect her to Mrs. Wright?</span>
+    <br>
+    &#10140; Mrs. Peters' homesteading experience connects her to Mrs. Wright in the following ways:
+    <br>
+    1. She lost her kitten while she was a girl. A boy killed it with a hatchet in front of her eyes. She
+    became quite angry with the boy. A sense of revenge was seen within her against the boy. This experience
+    connects her to Mrs. Wright's revenge against the killer of her canary.
+    <br><br>
+    2. She lost her first baby of two years old. She had spent her tough time without her lovable baby. This
+    experience connects her to Mrs. Wright's tough time which she spent without her lovable canary.
+    <br><br><br>
+    <span>e. How do the women&rsquo;s perspectives on men differ?</span>
+    <br>
+    &#10140; The women believe that each of them has suffered a similar circumstance in a male dominated
+    society. It lets them understand the plight of Mrs. Wright easily. They consider that Mrs. Wright is
+    worthy of their protection. While men are looking for evidence, women worry about the trifles. They find
+    the motive behind the murder. They become sympathetic to Mrs. Wright and hide the evidence. They unify
+    with Mrs. Wright against the law.
+    <br><br><br><br><br>
+    <h3>Reference to the context</h3>
+    <br>
+    <span>Read the extract from the play given below and answer the questions that follow:</span>
+    <br><br>
+    <i>
+        a. &ldquo;MRS. PETERS:(glancing around). Seems funny to think of a bird here. But she must have had one,
+        or why would she have a cage? I wonder what happened to it?
+        <br>
+        MRS. HALE: I s&rsquo;pose maybe the cat got it.&rdquo;
+    </i>
+    <br><br>
+    <span>i. Who does &lsquo;she&rsquo; refer to?</span>
+    <br>
+    &#10140; 'She' refers to Mrs. Wright.
+    <br><br>
+    <span>ii. What does the word &lsquo;one&rsquo; stand for?</span>
+    <br>
+    &#10140; The word 'one' stands for a bird.
+    <br><br>
+    <span>iii. What is the full form of &ldquo;s&rsquo;pose&rdquo;</span>
+    <br>
+    &#10140; The full form of &quot;s'pose&quot; is &quot;suppose.&quot;
+    <br><br>
+    <span>iv. What do you mean when Mrs. Hale says, &ldquo;the cat got it&rdquo;?</span>
+    <br>
+    &#10140; When Mrs. Hale says, &quot;the cat got it&quot;, I mean &quot;the cat must have caught the
+    bird.&quot;
+    <br><br><br>
+    <i>
+        b. &ldquo;MRS. HALE: Wright was close. &#8230;&#8230; she used to wear pretty clothes and be lively,
+        when she was Minnie Foster, one of the town girls singing in the choir But that&mdash; oh, that was
+        thirty years ago.&rdquo;
+    </i>
+    <br><br>
+    <span>i. Why does Mrs. Hale refer to Mrs. Wright as &ldquo;Minnie Foster&rdquo;?</span>
+    <br>
+    &#10140; Mrs. Hale refers to Mrs. Wright as &quot;Minnie Foster&quot; because, before her marriage, Mrs.
+    Wright was a very beautiful singer. She was known as Minnie Foster, and she used to dress pretty and
+    sing in the choir.
+    <br><br>
+    <span>ii. What does her description tell you about Mrs. Wright?</span>
+    <br>
+    &#10140; Mrs. Wright was a beautiful singer before her marriage, according to her description. Her name
+    was Minnie Foster, who used to sing beautifully and wear pretty clothes thirty years ago.
+    <br><br>
+    <span>iii. What does Mrs. Hale mean by &ldquo;that was thirty years ago&rdquo;?</span>
+    <br>
+    &#10140; By &quot;that was thirty years ago&quot;, Mrs. Hale refers to the period in Mrs. Wright's life
+    when she was an unmarried and well-known singer known as Minnie Foster.
+    <br><br><br>
+    <span>c. What is the main theme of the play?</span>
+    <br>
+    &#10140; The main themes in Trifles are gender, isolation, and justice. Gender: the male characters only
+    want to gather evidence of Minnie's crime, whereas the women come to understand the emotional pain that
+    drove Minnie to murder her husband.
+    <br><br><br>
+    <span>d. Discuss the symbolism used in the play.</span>
+    <br>
+    &#10140; Symbolism is a literary device that refers to the representation of a concept through symbols
+    or underlying meanings of objects or qualities. Here in this play, we find various things that symbolize
+    varieties of hidden meanings. The symbolism used in the play are as follows:
+    <br><br>
+    <b>1. The preservative jars:</b> The preservative jars in the kitchen are broken due to the cold. These jars
+    symbolize the cold and broken marriage relationship between Mrs. Wright and her husband. Due to their
+    weak relationship, nothing is in a good state.
+    <br><br>
+    <b>2. Singing Canary bird:</b> The singing Canary bird symbolizes the freedom of Mrs. Wright before her
+    marriage. She was just like a canary bird known as Minnie Foster, a popular singer thirty years
+    back.
+    <br><br>
+    <b>3. The birdcage:</b> The birdcage here in this play symbolizes the trapped life of Mrs. Wright after her
+    marriage. Her life remained within the boundaries of her house. Its broken state symbolizes the poor
+    condition of the gloomy house.
+    <br><br>
+    <b>4. Wrung neck of canary:</b> Here, wrun neck of canary symbolizes the concept of revenge in a tit for tat
+    manner. Mr. Wright has also been murdered with a rope around his neck instead of a gun.
+    <br><br>
+    <b>5. Knot in a quilt:</b> Mrs. Hale's dialogue as the knot in a quit symbolizes the murder with a rope. The
+    stitches in the particular quilt even symbolize the nervousness of Mrs. Wright.
+    <br><br><br>
+    <span>e. Discuss the setting of the play. Does it have an impact on the theme of the play?</span>
+    <br>
+    &#10140; This play is set in Mr. John Wright's abandoned farmhouse. The house is a lonesome, gloomy
+    place down in the hollow where the road cannot be seen. The setting of the play contributes to our
+    understanding of Mr. Wright's position because it implies that she was depressed or unhappy just by
+    judging from the way her house looks. The setting of Trifles also helps us understand the characters and
+    also moves the plot.
+    <br><br><br><br><br>
+    <h3>Reference beyond the text</h3>
+    <br>
+    <span>
+        a. The credibility of a character is determined not only by the character&rsquo;s thoughts and actions
+        but also by what other characters say and think about him or her. Discuss in relation to the characters
+        of Trifles.
+    </span>
+    <br><br>
+    &#10140; Here in this play, we all readers are directed towards off-stage main character Mrs. Wright
+    through on stage characters like Mrs. Hale and Mrs. Peters. Here, these two on-stage characters keep on
+    discussing and informing us about various aspects of Mrs. Wright's life. Their discussion related to
+    Mrs. Wright while investigating has provided us with various hidden aspects of Mrs. Wright's life.
+    Through women's information, we are able to know about Mrs. Wright's life and sufferings. The readers
+    get emotionally attached to find out about her life's story. Both women and their efforts in describing
+    Mrs. Wright are incredible. Their efforts in the play have helped all the readers to feel good about
+    Mrs. Wright. With the help of these two characters, Mrs. Wright has been presented positively in front
+    of all the readers. Mrs. Wright has got the sympathy of all the readers.
+    <br><br><br>
+    <span>
+        b. Dramatic irony occurs when the reader or audience has information that is unknown to the characters
+        in a play; it creates tension and suspense. Analyse the play discussing the author&rsquo;s use of
+        dramatic irony based on these questions:
+    </span>
+    <br><br>
+    <span>&#9899; What information is crucial to the play Trifles?</span>
+    <br>
+    &#10140; Dramatic irony is a literary device that has been created when the audience or reader comes to
+    know the things at first that are hidden. Here in the play, the leading characters are unaware of the
+    facts but the readers or audiences get the idea about the facts. Here, in this play, the crucial
+    information related to dramatic irony is that Mrs. Wright has murdered her husband. Here, the readers
+    come to know about the facts behind the murder through Mrs. Hale and Mrs. Peters but the men characters
+    who seem quite busy in finding the clues are unaware of these facts.
+    <br><br>
+    <span>&#9899; How does the playwright use this information to create dramatic irony?</span>
+    <br>
+    &#10140; To create dramatic irony, the playwright uses this information very tactfully creating various
+    twists, suspense, readers' interest and revelation in a very interesting way. The playwright keeps on
+    presenting information related to murder through predictions and proofs which the characters make and
+    get during the time of investigation to find the actual murderer.
+    <br><br>
+    <span>&#9899; What effect does the dramatic irony have on the audience and on the play?</span>
+    <br>
+    &#10140; Dramatic irony is very well managed and presented by the playwright. It has put the audience
+    and readers above the leading male characters of the play. It has managed all the readers' attention,
+    anticipation, hope, fear, curiosity and suspense. Here, the readers have got the actual information
+    before all male characters of the play. Dramatic irony has made this play very interesting and full of
+    twists where facts are disclosed creating curiosity among the readers.
+    <br>
 
-                <center>One Act Plays</center>
-                <center>Unit 1 - Trifles</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
 
-
-                Understanding the text<br>
-                <br>
-                Answer the following questions.<br>
-                a. Do you believe that Mrs. Wright killed her husband? Explain.<br>
-                &#10140; Yes, I believe Mrs. Wright murdered her husband. After reading the entire play, I believe she
-                is a murderer. Mrs. Peters and Mrs. Hale discover a number of clues which point to Mr. Wright's cruelty.
-                They examine her untidy kitchen, take note of Minnie's irregular stitching, discover a broken birdcage,
-                and find a dead canary in Minnie's sewing box. They come to the conclusion that Mr. Wright killed her
-                beloved pet, in her rage, she killed him in his sleep.<br>
-                <br>
-                <br>
-                b. Do you think Mr. Wright&rsquo;s death would have been uncovered if Mr. Hale hadn&rsquo;t stopped by
-                the Wrights&rsquo; home?<br>
-                &#10140; No, I don't think Mr. Wright's death would have been uncovered if Mr. Hale hadn't stopped by
-                the Wright's home. If Mr. Hale hadn't stopped by the Wrights' home, nobody would ever know about Mr.
-                Wright's death. The location of the house was quite far from the road. Nobody had visited this lonesome
-                house for a long time. If Mr. Hale hadn't stopped there to ask for a telephone line, Mr. Wright's dead
-                body would have been decayed in that gloomy house.<br>
-                <br>
-                <br>
-                c. Why does Mrs. Hale think that Mrs. Wright&rsquo;s worries about her preserves indicate her
-                innocence?<br>
-                &#10140; Mrs. Hale thinks that Mrs. Wright's worries about her preserves indicate her innocence because
-                Mrs. Wright does not strike her as a murderer who is obsessed with her housekeeping abilities. According
-                to her, a person who is overly concerned with her preserves cannot possibly commit murder. Her attention
-                to detail in her housekeeping skills demonstrates her innocence.<br>
-                <br>
-                <br>
-                d. How does Mrs. Peters&rsquo; homesteading experience connect her to Mrs. Wright?<br>
-                &#10140; Mrs. Peters' homesteading experience connects her to Mrs. Wright in the following ways:<br>
-                1. She lost her kitten while she was a girl. A boy killed it with a hatchet in front of her eyes. She
-                became quite angry with the boy. A sense of revenge was seen within her against the boy. This experience
-                connects her to Mrs. Wright's revenge against the killer of her canary.<br>
-                <br>
-                2. She lost her first baby of two years old. She had spent her tough time without her lovable baby. This
-                experience connects her to Mrs. Wright's tough time which she spent without her lovable canary.<br>
-                <br>
-                <br>
-                e. How do the women&rsquo;s perspectives on men differ?<br>
-                &#10140; The women believe that each of them has suffered a similar circumstance in a male dominated
-                society. It lets them understand the plight of Mrs. Wright easily. They consider that Mrs. Wright is
-                worthy of their protection. While men are looking for evidence, women worry about the trifles. They find
-                the motive behind the murder. They become sympathetic to Mrs. Wright and hide the evidence. They unify
-                with Mrs. Wright against the law.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context<br>
-                Read the extract from the play given below and answer the questions that follow:<br>  <br>
-                a. &ldquo;MRS. PETERS:(glancing around). Seems funny to think of a bird here. But she must have had one,
-                or why would she have a cage? I wonder what happened to it?<br>
-                MRS. HALE: I s&rsquo;pose maybe the cat got it.&rdquo;<br>
-                <br>
-                i. Who does &lsquo;she&rsquo; refer to?<br>
-                &#10140; 'She' refers to Mrs. Wright.<br>
-                <br>
-                ii. What does the word &lsquo;one&rsquo; stand for?<br>
-                &#10140; The word 'one' stands for a bird.<br>
-                <br>
-                iii. What is the full form of &ldquo;s&rsquo;pose&rdquo;<br>
-                &#10140; The full form of &quot;s'pose&quot; is &quot;suppose.&quot;<br>
-                <br>
-                iv. What do you mean when Mrs. Hale says, &ldquo;the cat got it&rdquo;?<br>
-                &#10140; When Mrs. Hale says, &quot;the cat got it&quot;, I mean &quot;the cat must have caught the
-                bird.&quot;<br>
-                <br>
-                <br>
-                b. &ldquo;MRS. HALE: Wright was close. &#8230;&#8230; she used to wear pretty clothes and be lively,
-                when she was Minnie Foster, one of the town girls singing in the choir But that&mdash; oh, that was
-                thirty years ago.&rdquo;<br>
-                <br>
-                i. Why does Mrs. Hale refer to Mrs. Wright as &ldquo;Minnie Foster&rdquo;?<br>
-                &#10140; Mrs. Hale refers to Mrs. Wright as &quot;Minnie Foster&quot; because, before her marriage, Mrs.
-                Wright was a very beautiful singer. She was known as Minnie Foster, and she used to dress pretty and
-                sing in the choir.<br>
-                <br>
-                ii. What does her description tell you about Mrs. Wright?<br>
-                &#10140; Mrs. Wright was a beautiful singer before her marriage, according to her description. Her name
-                was Minnie Foster, who used to sing beautifully and wear pretty clothes thirty years ago.<br>
-                <br>
-                iii. What does Mrs. Hale mean by &ldquo;that was thirty years ago&rdquo;?<br>
-                &#10140; By &quot;that was thirty years ago&quot;, Mrs. Hale refers to the period in Mrs. Wright's life
-                when she was an unmarried and well-known singer known as Minnie Foster.<br>
-                <br>
-                <br>
-                c. What is the main theme of the play?<br>
-                &#10140; The main themes in Trifles are gender, isolation, and justice. Gender: the male characters only
-                want to gather evidence of Minnie's crime, whereas the women come to understand the emotional pain that
-                drove Minnie to murder her husband.<br>
-                <br>
-                <br>
-                d. Discuss the symbolism used in the play.<br>
-                &#10140; Symbolism is a literary device that refers to the representation of a concept through symbols
-                or underlying meanings of objects or qualities. Here in this play, we find various things that symbolize
-                varieties of hidden meanings. The symbolism used in the play are as follows: <br>
-                <br>
-                1. The preservative jars: The preservative jars in the kitchen are broken due to the cold. These jars
-                symbolize the cold and broken marriage relationship between Mrs. Wright and her husband. Due to their
-                weak relationship, nothing is in a good state.<br>
-                <br>
-                2. Singing Canary bird: The singing Canary bird symbolizes the freedom of Mrs. Wright before her
-                marriage. She was just like a canary bird known as Minnie Foster, a popular singer thirty years
-                back.<br>
-                <br>
-                3. The birdcage: The birdcage here in this play symbolizes the trapped life of Mrs. Wright after her
-                marriage. Her life remained within the boundaries of her house. Its broken state symbolizes the poor
-                condition of the gloomy house.<br>
-                <br>
-                4. Wrung neck of canary: Here, wrun neck of canary symbolizes the concept of revenge in a tit for tat
-                manner. Mr. Wright has also been murdered with a rope around his neck instead of a gun.<br>
-                <br>
-                5. Knot in a quilt: Mrs. Hale's dialogue as the knot in a quit symbolizes the murder with a rope. The
-                stitches in the particular quilt even symbolize the nervousness of Mrs. Wright.<br>
-                <br>
-                <br>
-                e. Discuss the setting of the play. Does it have an impact on the theme of the play?<br>
-                &#10140; This play is set in Mr. John Wright's abandoned farmhouse. The house is a lonesome, gloomy
-                place down in the hollow where the road cannot be seen. The setting of the play contributes to our
-                understanding of Mr. Wright's position because it implies that she was depressed or unhappy just by
-                judging from the way her house looks. The setting of Trifles also helps us understand the characters and
-                also moves the plot.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                a. The credibility of a character is determined not only by the character&rsquo;s thoughts and actions
-                but also by what other characters say and think about him or her. Discuss in relation to the characters
-                of Trifles.<br>
-                <br>
-                &#10140; Here in this play, we all readers are directed towards off-stage main character Mrs. Wright
-                through on stage characters like Mrs. Hale and Mrs. Peters. Here, these two on-stage characters keep on
-                discussing and informing us about various aspects of Mrs. Wright's life. Their discussion related to
-                Mrs. Wright while investigating has provided us with various hidden aspects of Mrs. Wright's life.
-                Through women's information, we are able to know about Mrs. Wright's life and sufferings. The readers
-                get emotionally attached to find out about her life's story. Both women and their efforts in describing
-                Mrs. Wright are incredible. Their efforts in the play have helped all the readers to feel good about
-                Mrs. Wright. With the help of these two characters, Mrs. Wright has been presented positively in front
-                of all the readers. Mrs. Wright has got the sympathy of all the readers.<br>
-                <br>
-                <br>
-                b. Dramatic irony occurs when the reader or audience has information that is unknown to the characters
-                in a play; it creates tension and suspense. Analyse the play discussing the author&rsquo;s use of
-                dramatic irony based on these questions:<br>
-                <br>
-                &#9899; What information is crucial to the play Trifles?<br>
-                &#10140; Dramatic irony is a literary device that has been created when the audience or reader comes to
-                know the things at first that are hidden. Here in the play, the leading characters are unaware of the
-                facts but the readers or audiences get the idea about the facts. Here, in this play, the crucial
-                information related to dramatic irony is that Mrs. Wright has murdered her husband. Here, the readers
-                come to know about the facts behind the murder through Mrs. Hale and Mrs. Peters but the men characters
-                who seem quite busy in finding the clues are unaware of these facts.<br>
-                <br>
-                &#9899; How does the playwright use this information to create dramatic irony?<br>
-                &#10140; To create dramatic irony, the playwright uses this information very tactfully creating various
-                twists, suspense, readers' interest and revelation in a very interesting way. The playwright keeps on
-                presenting information related to murder through predictions and proofs which the characters make and
-                get during the time of investigation to find the actual murderer.<br>
-                <br>
-                &#9899; What effect does the dramatic irony have on the audience and on the play?<br>
-                &#10140; Dramatic irony is very well managed and presented by the playwright. It has put the audience
-                and readers above the leading male characters of the play. It has managed all the readers' attention,
-                anticipation, hope, fear, curiosity and suspense. Here, the readers have got the actual information
-                before all male characters of the play. Dramatic irony has made this play very interesting and full of
-                twists where facts are disclosed creating curiosity among the readers.<br>
-
-
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br><br><br><br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br><br>
 </body>
 
 </html>

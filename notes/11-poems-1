@@ -39,202 +39,200 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
 
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
+    
+<br>
+    <center>Corona Says</center>
+    
+<br>
+    
 
-                <center>Poems</center>
-                <center>Unit 1- Corona Says</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
+    <h3>Summary</h3>
+<br>
+    Since the title of the poem is clear, here we find Corona saying something to humans. The main speaker
+    here in this poem is Corona. Here, this pandemic Corona has been personified as masculine gender. As a
+    speaker, he is speaking to the human. He is continuously claiming, blaming, warning and even making
+    humans realize about their misdeeds against this beautiful planet, its nature and other creatures.
+<br><br>
+    There are altogether six different stanzas here in this poem. In the very beginning, we find the speaker
+    speaking to a man. The speaker asks the man to stop cursing him. He denies coming to this planet of his
+    own free will and even taking thousands of lives and destroying the world's economy. He claims that he
+    was invited without having his choice by humans' bad conduct and attitudes towards nature. Here, the
+    speaker calculates dead people and even blames humans for their destructive wars and their bad
+    impacts.
+<br><br>
+    Later on, the speaker blames humans for their useless arrogance. He states that the people on this earth
+    think of themselves as 'the crown of creation' (king/ superior of this nature). Due to this arrogance,
+    they are treating other creatures as their slaves. The speaker raises the value of all the creatures as
+    birds in the sky, creatures in the sea, creeping insects on land, sources of life etc. on this planet.
+    
+<br><br>
+    Due to all these bad activities of humans, the mother (earth) itself is feeling the burden. The speaker
+    makes all the humans realize the clean blue sky without dust and smoke after his arrival. He has shown
+    the mirror of reality to all the humans saying about the feeling of caged animals in a zoo. This is
+    similar to the trapped life of humans during the period of lockdown. He claims that he had come to
+    provide little rest to the mother (earth). 
+<br><br>
+    The speaker adds that the mother (earth) belongs to everyone not only the humans. Finally, he warns the
+    humans to get rid of their egos otherwise many others like speaker will come here on this planet and
+    humans have to return to the cave as before. 
+<br><br><br><br>
+    <h3>Understanding the text</h3> 
+<br>
+    <span>Answer the following questions:</span>
+<br>
+    <span>a. Who is the speaker in the poem?</span>
+<br>
+    &#10140; The speaker in the poem is Corona who has created devastating impacts on human life in this
+    modern world.
+<br><br>
+    <span>b. Who claims that they are superior to all?</span>
+<br>
+    &#10140; The humans of this modern world claim that they are superior to all. Their egos have played a
+    vital role in their thoughts as well as acts.
+<br><br>
+    <span>c. Why has the speaker come to the Earth?</span>
+<br>
+    &#10140; Actually, the speaker hasn't come to the Earth by his own free will. He has been invited
+    instead. He has been here to provide a little rest to the mother (Earth) and make humans realize that
+    the earth isn't only their property.
+<br><br>
+    <span>d. What positive changes have occurred on Earth after the speaker's visit?</span>
+<br>
+    &#10140; During the pandemic the sky has been clean without dust and smoke. People have felt like caged
+    animals do in a zoo. The disease has allowed the earth to have a little rest. 
+<br><br><br><br>
+    <h3>Reference to the context</h3>
+<br>
+    <span>a. What does the speaker mean when he says: </span>
+<br>
+    <i>
+        But have you ever counted 
+        <br>
+        How many have died so far 
+        <br>
+        Because of you and your wars?
+    </i>
+<br><br>
+    &#10140; In the given lines, the speaker claims that human beings themselves are responsible for wars
+    and loss of their lives. The devastation caused by wars is more terrible than the pandemic has done.
+<br><br>
+    Wars are the result of disputes over resources and land, or of a government's desire to increase its
+    influence and power. The governments and any groups involving in wars never think of the consequences
+    people have to face. Millions of people have lost their lives and properties because of wars.
+    Aftereffects of wars cause them to suffer physically and psychologically.
+<br><br><br>
+    <span>b. Explain the following:</span>
+<br>
+    <i>
+        I will depart one day.
+        <br>
+        But remember
+        <br>
+        There&rsquo;re many others like me.
+        <br>
+        They&rsquo;ll come too.
+        <br>
+        If you don&rsquo;t get rid of your inflated ego,
+        <br>
+        You&rsquo;ll be back to your cave time
+        <br>
+        That you endured
+        <br>
+        Long, long, long ago &#8230;
+    </i>
+<br><br>
+    &#10140; In the given extract, the speaker warns mankind that the pandemic can be controlled but they
+    may suffer from other fatal diseases due to their own behaviours, and finally they can be the cause of
+    the extinction of human civilization.
+<br><br>
+    No country has remained untouched by the pandemic. However, no pandemic can be beyond human control.
+    This happens because of human wisdom and the same wisdom is the origin of fatal diseases. The way humans
+    treat the nature is gradually leading human civilization to its decline. When we go beyond the bearing
+    capacity of nature, we will go to our primitive age.
+<br><br><br>
+    <span>c. What does the speaker mean in the following lines? Explain.</span>
+<br>
+    <i>
+        The earth is not your property alone -
+        <br>
+        It&rsquo;s as much ours as yours.
+    </i>
+<br><br>
+    &#10140; In the given lines, the speaker argues that the earth is the common habitat of all the living
+    creatures. They have an equal right to use the resources available on earth, to sustain their lives, but
+    human beings deprive them of using resources.
+<br><br>
+    The speaker is worried about growing human pressure on natural world. Human beings are thought to be
+    superior to all the living creatures. They have controlled all the natural resources for their own
+    benefits though the earth is the common home for all the living organisms. In the name of development
+    and progress, humans are destroying the sources of food and habitats of other creatures. To fulfill the
+    demands of growing population, human beings are disturbing the entire ecosystem. The loss of ecosystem
+    causes the extinction of other living creatures.
+<br><br><br><br>
+    <h3>Reference beyond the text</h3> 
+<br>
+    <span>a. What human behaviours are responsible for suffering in people's lives?</span>
+<br>
+    &#10140; The human behaviours are the sole cause behind all these sufferings of the people. Due to human
+    egos and bad deeds, the present world is facing a crisis. Many people have lost their lives during this
+    critical period. Due to their selfish nature, the earth and its people have faced numerous problems of
+    diseases. Their so-called egos and wars have snatched the lives of many people.
+<br><br><br>
+    <span>
+        b. How does an epidemic differ from a pandemic? Briefly explain the impact of Corona Virus on human
+        life and environment.
+    </span>
+<br>
+    &#10140; An epidemic is a widespread disease that affects many people in a population whereas pandemic
+    is a disease that affects a wide geographical area and a large proportion of the population.
+<br><br>
+    Coronavirus is considered as one of the unforgettable threats of the twenty-first century. This disease
+    has snatched the lives of people at a very high level. People in the world are panic-stricken and living
+    their life in mental fear. Covid-19 has created devastating results in humans' history. Due to this
+    pandemic. People are seen sanitizing the environment every time.
+<br>
 
-                Summary<br>
-                Since the title of the poem is clear, here we find Corona saying something to humans. The main speaker
-                here in this poem is Corona. Here, this pandemic Corona has been personified as masculine gender. As a
-                speaker, he is speaking to the human. He is continuously claiming, blaming, warning and even making
-                humans realize about their misdeeds against this beautiful planet, its nature and other creatures.<br>
-                <br>
-                There are altogether six different stanzas here in this poem. In the very beginning, we find the speaker
-                speaking to a man. The speaker asks the man to stop cursing him. He denies coming to this planet of his
-                own free will and even taking thousands of lives and destroying the world's economy. He claims that he
-                was invited without having his choice by humans' bad conduct and attitudes towards nature. Here, the
-                speaker calculates dead people and even blames humans for their destructive wars and their bad
-                impacts.<br>
-                <br>
-                Later on, the speaker blames humans for their useless arrogance. He states that the people on this earth
-                think of themselves as 'the crown of creation' (king/ superior of this nature). Due to this arrogance,
-                they are treating other creatures as their slaves. The speaker raises the value of all the creatures as
-                birds in the sky, creatures in the sea, creeping insects on land, sources of life etc. on this planet.
-                <br>
-                <br>
-                Due to all these bad activities of humans, the mother (earth) itself is feeling the burden. The speaker
-                makes all the humans realize the clean blue sky without dust and smoke after his arrival. He has shown
-                the mirror of reality to all the humans saying about the feeling of caged animals in a zoo. This is
-                similar to the trapped life of humans during the period of lockdown. He claims that he had come to
-                provide little rest to the mother (earth). <br>
-                <br>
-                The speaker adds that the mother (earth) belongs to everyone not only the humans. Finally, he warns the
-                humans to get rid of their egos otherwise many others like speaker will come here on this planet and
-                humans have to return to the cave as before. <br>
-                <br>
-                <br>
-                <br>
-                Understanding the text <br>
-                Answer the following questions:<br>
-                a. Who is the speaker in the poem?<br>
-                &#10140; The speaker in the poem is Corona who has created devastating impacts on human life in this
-                modern world.<br>
-                <br>
-                b. Who claims that they are superior to all?<br>
-                &#10140; The humans of this modern world claim that they are superior to all. Their egos have played a
-                vital role in their thoughts as well as acts.<br>
-                <br>
-                c. Why has the speaker come to the Earth?<br>
-                &#10140; Actually, the speaker hasn't come to the Earth by his own free will. He has been invited
-                instead. He has been here to provide a little rest to the mother (Earth) and make humans realize that
-                the earth isn't only their property.<br>
-                <br>
-                d. What positive changes have occurred on Earth after the speaker's visit?<br>
-                &#10140; During the pandemic the sky has been clean without dust and smoke. People have felt like caged
-                animals do in a zoo. The disease has allowed the earth to have a little rest. <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context<br>
-                a. What does the speaker mean when he says: <br>
-                But have you ever counted <br>
-                How many have died so far <br>
-                Because of you and your wars?<br>
-                <br>
-                &#10140; In the given lines, the speaker claims that human beings themselves are responsible for wars
-                and loss of their lives. The devastation caused by wars is more terrible than the pandemic has done.<br>
-                <br>
-                Wars are the result of disputes over resources and land, or of a government's desire to increase its
-                influence and power. The governments and any groups involving in wars never think of the consequences
-                people have to face. Millions of people have lost their lives and properties because of wars.
-                Aftereffects of wars cause them to suffer physically and psychologically.<br>
-                <br>
-                <br>
-                b. Explain the following:<br>
-                I will depart one day.<br>
-                But remember<br>
-                There&rsquo;re many others like me.<br>
-                They&rsquo;ll come too.<br>
-                If you don&rsquo;t get rid of your inflated ego,<br>
-                You&rsquo;ll be back to your cave time<br>
-                That you endured<br>
-                Long, long, long ago &#8230;<br>
-                <br>
-                &#10140; In the given extract, the speaker warns mankind that the pandemic can be controlled but they
-                may suffer from other fatal diseases due to their own behaviours, and finally they can be the cause of
-                the extinction of human civilization.<br>
-                <br>
-                No country has remained untouched by the pandemic. However, no pandemic can be beyond human control.
-                This happens because of human wisdom and the same wisdom is the origin of fatal diseases. The way humans
-                treat the nature is gradually leading human civilization to its decline. When we go beyond the bearing
-                capacity of nature, we will go to our primitive age.<br>
-                <br>
-                <br>
-                c. What does the speaker mean in the following lines? Explain.<br>
-                The earth is not your property alone -<br>
-                It&rsquo;s as much ours as yours.<br>
-                <br>
-                &#10140; In the given lines, the speaker argues that the earth is the common habitat of all the living
-                creatures. They have an equal right to use the resources available on earth, to sustain their lives, but
-                human beings deprive them of using resources.<br>
-                <br>
-                The speaker is worried about growing human pressure on natural world. Human beings are thought to be
-                superior to all the living creatures. They have controlled all the natural resources for their own
-                benefits though the earth is the common home for all the living organisms. In the name of development
-                and progress, humans are destroying the sources of food and habitats of other creatures. To fulfill the
-                demands of growing population, human beings are disturbing the entire ecosystem. The loss of ecosystem
-                causes the extinction of other living creatures.<br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                a. What human behaviours are responsible for suffering in people's lives?<br>
-                &#10140; The human behaviours are the sole cause behind all these sufferings of the people. Due to human
-                egos and bad deeds, the present world is facing a crisis. Many people have lost their lives during this
-                critical period. Due to their selfish nature, the earth and its people have faced numerous problems of
-                diseases. Their so-called egos and wars have snatched the lives of many people.<br>
-                <br>
-                <br>
-                b. How does an epidemic differ from a pandemic? Briefly explain the impact of Corona Virus on human
-                life and environment.<br>
-                &#10140; An epidemic is a widespread disease that affects many people in a population whereas pandemic
-                is a disease that affects a wide geographical area and a large proportion of the population.<br>
-                <br>
-                Coronavirus is considered as one of the unforgettable threats of the twenty-first century. This disease
-                has snatched the lives of people at a very high level. People in the world are panic-stricken and living
-                their life in mental fear. Covid-19 has created devastating results in humans' history. Due to this
-                pandemic. People are seen sanitizing the environment every time.<br>
 
 
+    
+<br><br><br><br>
+    
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    
+<br><br>
 
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>

@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,238 +35,261 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-                <center>Short Stories</center>
-                <center>Unit 3 - God Sees the Truth but Waits</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-                Summary <br>
-                Once there lived a young merchant named Ivan Dmitri Aksenov with his family in the land of Vladimir, who
-                in his younger days lived life to the fullest by experiencing all the material things world has to offer
-                until he got married.<br>
-                <br>
-                One summer, he planned to go to Nizhny fair but his wife warned him that she had a bad dream of her
-                husband-- she dreamt about Ivan that he returned from the town with hair of grey. Ivan laughed as if he
-                doesn't care and went on the fair.<br>
-                <br>
-                He travelled half way and met a merchant, whom he spent the night drinking tea with and shared an
-                adjoining room in the inn. Since Aksenov is not used of sleeping for long hours he decided to wake up
-                and continued his journey.<br>
-                <br>
-                Along the way of his journey, two soldiers in a troika stopped him, and began asking questions, for the
-                merchant he met halfway on his travel was found dead. Since all evidences of the crime are pointing
-                Aksenov guilty he was imprisoned.<br>
-                <br>
-                Learning the sad fate of Aksenov, his wife remembered her dream about Aksenov and was worried and even
-                considered the thought of her husband being guilty. The thought made Aksenov even sadder.<br>
-                <br>
-                26 years in prison made Aksenov a well grounded and God-fearing man. In spite the fact that his family
-                has completely forgotten him, he still serves as a &ldquo;Grandpa&rdquo; to the other prisoners. Then
-                came a new prisoner named Makar Semyonich.<br>
-                <br>
-                After months of knowing each other, Aksenov discovered that Makar is the one who killed the merchant
-                whom he was told he murdered. He was furious with what he found out but didn't speak or uttered a word
-                about it.<br>
-                <br>
-                Until one night, Aksenov heard some earth rolling under where the prisoners were sleeping. He went out
-                and saw Makar. Makar told him not to tell a word about what he had witnessed or else he will kill
-                him.<br>
-                <br>
-                When they were led out to work, a soldier noticed a prisoner took of some earth off his boots. The
-                soldier searched for escaping plans and found the tunnel. Then, they asked each of them who knew about
-                this but they denied for they knew they will be killed before the one who did it as Makar warned them.
-                Finally, the governor asked Ivan for he knew he was a just man. But then Ivan said it wasn't his right
-                or his will but God's to tell such name.<br>
-                <br>
-                Night fell and Makar went to Ivan. He thanked him and felt sorry for what he had done to him a long time
-                ago that made Ivan suffer for all this years. He sobbed as well as Ivan and said that the Lord will
-                forgive you. Makar said that he will confess to the governor so that Ivan would be sent free--back to
-                his home.<br>
-                <br>
-                Ivan did not want to go out of prison for he has no family neither home to back to; rather, he waited
-                for his last hour to come.<br>
-                <br>
-                In spite of what they've talked about, Makar Semyonich confessed his guilt. But when the order for Ivan
-                Dmitri Aksenov's release came, he was already dead.<br>
-                <br>
-                <br>
-                <br>
-                Understanding the text<br>
-                a. What bad habits did Aksionov have before his marriage?<br>
-                &#10140; He used to drink before his marriage and was riotous when he drank too much.<br>
-                <br>
-                b. What can be the meaning of his wife's dream? <br>
-                &#10140; Her dream is a foreshadowing of Aksionov's tragic destiny.<br>
-                <br>
-                c. Why did Aksionov think of killing himself? <br>
-                &#10140; Aksionov thought of killing himself because he remembered all those harsh situations which he
-                had faced in his life without committing any crime. He remembered his torture, the people around him
-                while he was in chains, the convicts, twenty-six years of imprisonment, his premature old age etc. All
-                these painful thoughts made him so wretched that he was ready to kill himself.<br>
-                <br>
-                d. Why did Makar disclose that he had killed the merchant? <br>
-                &#10140; Makar disclosed that he had killed the merchant because he felt ashamed of himself. He felt
-                pity over Aksionov. Aksionov saved Makar from the governor though he was a victim of Makar's crime. The
-                act of Aksionov made Makar feel ashamed and disclose his crime. <br>
-                <br>
-                e. Why doesn't Aksionov wish to return to his family at the end of the story? <br>
-                &#10140; Aksionov doesn't wish to return his family at the end of the story because he has become quite
-                Old. He has spent his entire life in prison without committing any crime. He is feeble too at this age.
-                He desires to die in the prison instead of going to his family.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context<br>
-                a. &quot;Well, old man,&quot; repeated the Governor, &quot;tell me the truth: who has been digging under
-                the wall?&quot;<br>
-                i. Who is that old man?<br>
-                &#10140; That old man is Aksionov who has spent his twenty-six years in prison. <br>
-                <br>
-                ii. Which truth is the speaker asking about? <br>
-                &#10140; The speaker is asking about the truth of digging an escape hole.<br>
-                <br>
-                iii. Which wall does the speaker mean? <br>
-                &#10140; The speaker means the prison's wall.<br>
-                <br>
-                <br>
-                b. Describe Aksionov's character. <br>
-                &#10140; Aksionov is the protagonist of the story &quot;god sees the truth but waits&quot; written by
-                Leo Tolstoy. He is a young merchant. He is a handsome, fair-haired, curly-headed fellow, full of fun and
-                very fond of singing. He used to drink much before marriage but later on, he changed himself and became
-                a good man. He had virtuous qualities such as faith, forgiveness, freedom, and acceptance. His
-                comfortable life is disrupted when he is framed for a murder he didn't commit and was sent to a Siberian
-                prison camp. He earns a reputation as a good person among the prison officials and fellow prisoners.
-                After finding himself imprisoned with the man who framed him, Aksionov is ready to kill himself.
-                However, at the end of the story, he is able to forgive Semyonich. He dies shortly before the
-                authorities order him to be released.<br>
-                <br><br>
-                c. What is the theme of the story? <br>
-                &#10140; The subject of this story is injustice, acceptance, faith and forgiveness. The Aksionov case is
-                not compelling. The government officials declared him guilty without setting any reason or retrieving a
-                bloodied knife and 20,000 roubles taken from the merchant. <br>
-                <br>
-                If the plea of his wife to the Czar is denied, Aksionov realises that he cannot rectify his wrong. He
-                commits himself to God to offer him that righteousness which a man cannot give him. <br>
-                <br>
-                Aksionov becomes a modest and pious person in jail. Officials and inmates appreciate him in settling
-                disputes for his neutrality. Aksionov's trust in God is so great that he thinks that he must be wicked
-                to deserve God's tortured life. <br>
-                <br>
-                After Aksionov is reluctant to report the drilling of Semyonich's tunnel, Semyonich is disturbed by the
-                compassion of Aksionov. Aksionov eventually gives forgiveness to Semyonich.<br>
-                <br><br>
-                d. Which symbols are used in the story and what do they indicate? <br>
-                &#10140; The story has many symbols for its aesthetic expression, which replaces flat text. The home and
-                two businesses of Aksionov symbolise his family and material possessions. The jail itself symbolises the
-                agony of Aksionov and the ultimate spiritual change. His grey hair appears as a vivid sign of his
-                misery, emphasising not just his age but his punishment-related bodily degradation. <br>
-                <br>
-                His grey hair shows how he matures prematurely with the stress of his unjust incarceration. The blood
-                stained knife discovered unexpectedly among the works of Aksionov is the key evidence needed to condemn
-                him. <br>
-                <br>
-                This knife represents the loss of control over Aksionov's destiny. Aksionov's nickname 'The Lives of the
-                Saints' is his religious devotion.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text<br>
-                a. What role does religion play in Aksionov's life? How does he undergo a spiritual transformation in
-                the story?<br>
-                &#10140; In Aksionov's life, religion plays a significant part. He spends all his life in a Siberian jail
-                waiting for God's just judgement. The suspicion of his wife's culpability leads him to believe that he
-                can depend only on God to know the truth and provide compassion. <br>
-                <br>
-                He has been in jail for 26 years and loses his young joy and becomes profoundly religious. His life is
-                dedicated to God. Aksionov learns how to manufacture boots and makes a little money in jail, buys and
-                reads the book 'The Lives of the Saints.' On Sundays he reads the lectures and sings in the choir at the
-                prison church. <br>
-                <br>
-                The jail officials like him even because of his humility. His confreres revere him calling him 'The
-                Saint' and 'Grandfather.' When the actual murderer of the merchant comes to jail, Askionov may forgive
-                him. He has no desire to return home at the conclusion of the story, but to remain with God.<br>
-                <br>
-                The spiritual change of Aksionov is unique in history. He is carefree and loves materialistic life
-                before incarceration. Although Aksionov rejects the legitimacy of the state that has taken him prisoner,
-                he understands that in Siberia the purpose for his suffering is to pay for his crimes. Aksionov believes
-                his misery is a test of faith that offers him the opportunity to attain salvation by changing his
-                character and dedicating his life to God.<br>
-                <br>
-                <br>
-                <br>
-                b. What does the story tell us about the existence of an unfair system of justice?<br>
-                &#10140; The story informs us about the presence of an unjust judicial system via the major life event of
-                the protagonist. This story shows a decent and innocent guy unjustly incarcerated on a murder
-                accusation, punished for twenty-six years and forced to lose all and his life for no fault or crime of
-                his own, but based solely on facts. He suffers a lot during his life, but he realises himself and dies
-                quietly.<br>
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+
+    <br>
+    <center>God Sees the Truth but Waits</center>
+    <br>
+    <h3>Summary</h3>
+    <br>
+    Once there lived a young merchant named Ivan Dmitri Aksenov with his family in the land of Vladimir, who
+    in his younger days lived life to the fullest by experiencing all the material things world has to offer
+    until he got married.
+    <br>
+    <br>
+    One summer, he planned to go to Nizhny fair but his wife warned him that she had a bad dream of her
+    husband-- she dreamt about Ivan that he returned from the town with hair of grey. Ivan laughed as if he
+    doesn't care and went on the fair.
+    <br>
+    <br>
+    He travelled half way and met a merchant, whom he spent the night drinking tea with and shared an
+    adjoining room in the inn. Since Aksenov is not used of sleeping for long hours he decided to wake up
+    and continued his journey.
+    <br>
+    <br>
+    Along the way of his journey, two soldiers in a troika stopped him, and began asking questions, for the
+    merchant he met halfway on his travel was found dead. Since all evidences of the crime are pointing
+    Aksenov guilty he was imprisoned.
+    <br>
+    <br>
+    Learning the sad fate of Aksenov, his wife remembered her dream about Aksenov and was worried and even
+    considered the thought of her husband being guilty. The thought made Aksenov even sadder.
+    <br>
+    <br>
+    26 years in prison made Aksenov a well grounded and God-fearing man. In spite the fact that his family
+    has completely forgotten him, he still serves as a &ldquo;Grandpa&rdquo; to the other prisoners. Then
+    came a new prisoner named Makar Semyonich.
+    <br>
+    <br>
+    After months of knowing each other, Aksenov discovered that Makar is the one who killed the merchant
+    whom he was told he murdered. He was furious with what he found out but didn't speak or uttered a word
+    about it.
+    <br>
+    <br>
+    Until one night, Aksenov heard some earth rolling under where the prisoners were sleeping. He went out
+    and saw Makar. Makar told him not to tell a word about what he had witnessed or else he will kill
+    him.
+    <br>
+    <br>
+    When they were led out to work, a soldier noticed a prisoner took of some earth off his boots. The
+    soldier searched for escaping plans and found the tunnel. Then, they asked each of them who knew about
+    this but they denied for they knew they will be killed before the one who did it as Makar warned them.
+    Finally, the governor asked Ivan for he knew he was a just man. But then Ivan said it wasn't his right
+    or his will but God's to tell such name.
+    <br>
+    <br>
+    Night fell and Makar went to Ivan. He thanked him and felt sorry for what he had done to him a long time
+    ago that made Ivan suffer for all this years. He sobbed as well as Ivan and said that the Lord will
+    forgive you. Makar said that he will confess to the governor so that Ivan would be sent free--back to
+    his home.
+    <br>
+    <br>
+    Ivan did not want to go out of prison for he has no family neither home to back to; rather, he waited
+    for his last hour to come.
+    <br>
+    <br>
+    In spite of what they've talked about, Makar Semyonich confessed his guilt. But when the order for Ivan
+    Dmitri Aksenov's release came, he was already dead.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Understanding the text</h3>
+    <br>
+    <span>a. What bad habits did Aksionov have before his marriage?</span>
+    <br>
+    &#10140; He used to drink before his marriage and was riotous when he drank too much.
+    <br>
+    <br>
+    <span>b. What can be the meaning of his wife's dream?</span>
+    <br>
+    &#10140; Her dream is a foreshadowing of Aksionov's tragic destiny.
+    <br>
+    <br>
+    <span>c. Why did Aksionov think of killing himself?</span>
+    <br>
+    &#10140; Aksionov thought of killing himself because he remembered all those harsh situations which he
+    had faced in his life without committing any crime. He remembered his torture, the people around him
+    while he was in chains, the convicts, twenty-six years of imprisonment, his premature old age etc. All
+    these painful thoughts made him so wretched that he was ready to kill himself.
+    <br>
+    <br>
+    <span>d. Why did Makar disclose that he had killed the merchant?</span>
+    <br>
+    &#10140; Makar disclosed that he had killed the merchant because he felt ashamed of himself. He felt
+    pity over Aksionov. Aksionov saved Makar from the governor though he was a victim of Makar's crime. The
+    act of Aksionov made Makar feel ashamed and disclose his crime.
+    <br>
+    <br>
+    <span>e. Why doesn't Aksionov wish to return to his family at the end of the story?</span>
+    <br>
+    &#10140; Aksionov doesn't wish to return his family at the end of the story because he has become quite
+    Old. He has spent his entire life in prison without committing any crime. He is feeble too at this age.
+    He desires to die in the prison instead of going to his family.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference to the context</h3>
+    <br>
+    <span>
+        a. &quot;Well, old man,&quot; repeated the Governor, &quot;tell me the truth: who has been digging under
+        the wall?&quot;
+    </span>
+    <br>
+    <span>i. Who is that old man?</span>
+    <br>
+    &#10140; That old man is Aksionov who has spent his twenty-six years in prison.
+    <br>
+    <br>
+    <span>ii. Which truth is the speaker asking about?</span>
+    <br>
+    &#10140; The speaker is asking about the truth of digging an escape hole.
+    <br>
+    <br>
+    <span>iii. Which wall does the speaker mean?</span>
+    <br>
+    &#10140; The speaker means the prison's wall.
+    <br>
+    <br>
+    <br>
+    <span>b. Describe Aksionov's character.</span>
+    <br>
+    &#10140; Aksionov is the protagonist of the story &quot;god sees the truth but waits&quot; written by
+    Leo Tolstoy. He is a young merchant. He is a handsome, fair-haired, curly-headed fellow, full of fun and
+    very fond of singing. He used to drink much before marriage but later on, he changed himself and became
+    a good man. He had virtuous qualities such as faith, forgiveness, freedom, and acceptance. His
+    comfortable life is disrupted when he is framed for a murder he didn't commit and was sent to a Siberian
+    prison camp. He earns a reputation as a good person among the prison officials and fellow prisoners.
+    After finding himself imprisoned with the man who framed him, Aksionov is ready to kill himself.
+    However, at the end of the story, he is able to forgive Semyonich. He dies shortly before the
+    authorities order him to be released.
+    <br>
+    <br><br>
+    <span>c. What is the theme of the story?</span>
+    <br>
+    &#10140; The subject of this story is injustice, acceptance, faith and forgiveness. The Aksionov case is
+    not compelling. The government officials declared him guilty without setting any reason or retrieving a
+    bloodied knife and 20,000 roubles taken from the merchant.
+    <br>
+    <br>
+    If the plea of his wife to the Czar is denied, Aksionov realises that he cannot rectify his wrong. He
+    commits himself to God to offer him that righteousness which a man cannot give him.
+    <br>
+    <br>
+    Aksionov becomes a modest and pious person in jail. Officials and inmates appreciate him in settling
+    disputes for his neutrality. Aksionov's trust in God is so great that he thinks that he must be wicked
+    to deserve God's tortured life.
+    <br>
+    <br>
+    After Aksionov is reluctant to report the drilling of Semyonich's tunnel, Semyonich is disturbed by the
+    compassion of Aksionov. Aksionov eventually gives forgiveness to Semyonich.
+    <br>
+    <br><br>
+    <span>d. Which symbols are used in the story and what do they indicate?</span>
+    <br>
+    &#10140; The story has many symbols for its aesthetic expression, which replaces flat text. The home and
+    two businesses of Aksionov symbolise his family and material possessions. The jail itself symbolises the
+    agony of Aksionov and the ultimate spiritual change. His grey hair appears as a vivid sign of his
+    misery, emphasising not just his age but his punishment-related bodily degradation.
+    <br>
+    <br>
+    His grey hair shows how he matures prematurely with the stress of his unjust incarceration. The blood
+    stained knife discovered unexpectedly among the works of Aksionov is the key evidence needed to condemn
+    him.
+    <br>
+    <br>
+    This knife represents the loss of control over Aksionov's destiny. Aksionov's nickname 'The Lives of the
+    Saints' is his religious devotion.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference beyond the text</h3>
+    <br>
+    <span>
+        a. What role does religion play in Aksionov's life? How does he undergo a spiritual transformation in
+        the story?
+    </span>
+    <br>
+    &#10140; In Aksionov's life, religion plays a significant part. He spends all his life in a Siberian jail
+    waiting for God's just judgement. The suspicion of his wife's culpability leads him to believe that he
+    can depend only on God to know the truth and provide compassion.
+    <br>
+    <br>
+    He has been in jail for 26 years and loses his young joy and becomes profoundly religious. His life is
+    dedicated to God. Aksionov learns how to manufacture boots and makes a little money in jail, buys and
+    reads the book 'The Lives of the Saints.' On Sundays he reads the lectures and sings in the choir at the
+    prison church.
+    <br>
+    <br>
+    The jail officials like him even because of his humility. His confreres revere him calling him 'The
+    Saint' and 'Grandfather.' When the actual murderer of the merchant comes to jail, Askionov may forgive
+    him. He has no desire to return home at the conclusion of the story, but to remain with God.
+    <br>
+    <br>
+    The spiritual change of Aksionov is unique in history. He is carefree and loves materialistic life
+    before incarceration. Although Aksionov rejects the legitimacy of the state that has taken him prisoner,
+    he understands that in Siberia the purpose for his suffering is to pay for his crimes. Aksionov believes
+    his misery is a test of faith that offers him the opportunity to attain salvation by changing his
+    character and dedicating his life to God.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>b. What does the story tell us about the existence of an unfair system of justice?</span>
+    <br>
+    &#10140; The story informs us about the presence of an unjust judicial system via the major life event of
+    the protagonist. This story shows a decent and innocent guy unjustly incarcerated on a murder
+    accusation, punished for twenty-six years and forced to lose all and his life for no fault or crime of
+    his own, but based solely on facts. He suffers a lot during his life, but he realises himself and dies
+    quietly.
+    <br>
+    <br><br><br><br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br><br>
 </body>
 
 </html>

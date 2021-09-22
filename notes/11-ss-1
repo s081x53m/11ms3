@@ -39,291 +39,575 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
 
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-                <center>Short Stories</center>
-                <center>Unit 1 - The Selfish Giant</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-                Summary<br>
-                <br>
-                The story starts with the children playing in the garden of the Giant every afternoon after coming from
-                school. The
-                garden was lovely, large, with soft grass, and fruit trees. The trees bore rich fruits and birds sang
-                sweetly sitting on
-                them.<br>
-                <br>
-                One day after seven years the giant came back. He was staying with his friend, the Cornish Ogre. The
-                children were
-                scared to see him. He saw the children playing and said that he would not allow anyone to play here as
-                it was his own
-                garden. He built a wall around it and also put a notice board. The notice board displayed a warning on
-                it,
-                &lsquo;Trespassers will be prosecuted&rsquo;.<br>
-                <br>
-                The children became sad as they had no other place to play. They would wander around the high walls of
-                the garden and
-                remember the beautiful garden inside them.<br>
-                <br>
-                The spring season came and there were blossoms and little birds all around. But it was winter in the
-                giant&rsquo;s
-                garden and there were frost and snow. In the absence of children birds also did not sing. Once a flower
-                bloomed out of
-                the grass but after seeing the notice board, it also went back to sleep. Then came the North Wind and
-                the hailstorm. Due
-                to the giant&rsquo;s selfishness, autumn&rsquo;s golden fruits also did not come to his garden.<br>
-                <br>
-                Then one morning, the giant heard sweet and lovely music. It was a linnet singing outside his window.
-                The hail and the
-                North Wind stopped and he could feel the spring. He saw that the children came into his garden through a
-                little hole.
-                The children were sitting on the branches of trees and the trees were blossoming. He also saw the birds
-                flying and hear
-                them chirping. The flowers had also come up.<br>
-                <br>
-                But, to his surprise, in one corner there was still winter. He saw that there a young boy was standing
-                and he was not
-                able to reach the branches of trees. The tree lowered its branches but still, he could not climb.<br>
-                <br>
-                At this scene, his heart melted. He realized that he was really very selfish. He decided to put that boy
-                on the top of
-                the tree, pull down the walls, and allow children to play here forever. But when the children saw him,
-                they ran away and
-                the garden became winter again. However, that little boy did not run as he was weeping. The giant put
-                him on the top of
-                the tree and the tree blossomed at once. He kissed the giant.<br>
-                <br>
-                The other children realizing that the giant is not wicked came back. The spring came back with them. The
-                giant used to
-                play with the children ever afternoon but that little boy was nowhere to be seen. As the years went by,
-                he grew very
-                weak. One winter morning, he saw a lovely tree with white blossoms in a corner. The branches of the tree
-                were golden and
-                the little boy stood under it.<br>
-                <br>
-                The boy was wounded which made the giant very angry. He told the boy that he will slay the man who has
-                harmed him. The
-                boy told him that these were the wounds of love. The boy smiled and asked the giant to come to his
-                garden. Later, the
-                children found the giant dead under the tree covered with white blossoms<br>
-                <br><br><br>
-                Understanding the text<br>
-                <br>
-                a. Where did the children use to play?<br>
-                &#10140; They used to play in the Giant's garden.<br>
-                <br>
-                b. What did the Snow and the Frost do to the garden?<br>
-                &#10140; The snow covered the grass with its large white coat and Frost painted all the silver trees.
-                Afterwards, they
-                invited North Wind to stay with them.<br>
-                <br>
-                c. What did the giant hear when he was lying awake in bed?<br>
-                &#10140; The giant heard beautiful music.<br>
-                <br>
-                d. Why do you think spring season never came to the giant's garden?<br>
-                &#10140; I think the spring season never came to the giant's garden because he didn't let the kids play
-                there.<br>
-                <br>
-                e. How did the giant realise his mistake?<br>
-                &#10140; He saw his mistake as the children stopped visiting the garden and the garden never faced the
-                spring
-                season.<br>
-                <br><br><br>
-                Reference to the context<br>
-                <br>
-                A. Read the extracts given below and Ans the questions that follow.<br><br>
-                a. &ldquo;How happy we were there!&rdquo; they said to each other.<br>
-                <br>
-                i. Where does &lsquo;there&rsquo; refer to?<br>
-                &#10140; 'There' refers to the giant's garden where children used to play after school.<br>
-                <br>
-                ii. What does &lsquo;they&rsquo; refer to?<br>
-                &#10140; 'They' refers to the children who used to come and play in Giant's garden after school.<br>
-                <br>
-                iii. Why are they saying so?<br>
-                &#10140; They are saying so because they aren't allowed to play in the giant's garden anymore. The giant
-                has chased them
-                out of his garden, furious.<br>
-                <br><br>
-                b. &ldquo;I have many beautiful flowers,&rdquo; he said; &ldquo;but the children are the most beautiful
-                flowers of
-                all.&rdquo;<br>
-                <br>
-                i. Who is the speaker?<br>
-                &#10140; The speaker is an old and feeble giant who keeps on watching the children at their play sitting
-                on his
-                armchair.<br>
-                <br>
-                ii. Who is he speaking to?<br>
-                &#10140; He is speaking to himself admiring his garden.<br>
-                <br>
-                iii. Who are &lsquo;the children&rsquo; that the speaker is referring to?<br>
-                &#10140; 'The Children' that the speaker is referring to are the small and innocent school children who
-                enjoy a lot in
-                the giant's garden.<br>
-                <br>
-                iv. Why is the speaker saying that &lsquo;the children are the &#8230;&#8230;&rsquo; ?<br>
-                &#10140; The speaker says 'children are the most........' because like the flowers, children also bring
-                joy and
-                happiness in the garden.<br>
-                <br><br>
-                c. When the little child smiled at the Giant, and said to him, &quot;You let me play once in your
-                garden, today you
-                shall come with me to my garden, which is Paradise,&quot; shortly afterwards, the happy giant dies. What
-                is the
-                coincidence of this event? Describe it in relation to this fairy story.<br>
-                &#10140; When the Giant was very old and weak, he couldn&rsquo;t play with the children any more. He sat
-                in his armchair
-                and watched the children playing. One winter morning, the little child whom he once helped to climb the
-                tree appeared
-                and offered him never ending and peaceful life in his garden i.e. heaven. At the same time, the Giant
-                died. Thus, the
-                occurrence of the child&rsquo;s offer of eternal life in heaven and the death of the Giant is the
-                coincidence. However,
-                from the religious point of view, reappearance of the child, with prints of nails on the palms of the
-                hands and feet,
-                and the biological death of the Giant have a close association.<br>
-                <br><br>
-                B. The story makes use of personification as one of the main figures of speech. Cite three examples of
-                personification
-                from the story. What is the significance of the seasons personified in the story?<br>
-                &#10140; The story &lsquo;The Selfish Giant&rsquo; makes the use of personification as one of the main
-                figures of speech
-                which gives human qualities to the non-human objects. In the story, the technique of personification has
-                made non- human
-                entities more vivid or helped the readers understand and sympathize with or react emotionally to them.
-                The effect of
-                this is to make flowers, seasons, frost, snow, wind, hail and one of the trees, reinforce the story
-                writer&rsquo;s moral
-                vision.<br>
-                <br>
-                The flowers are personified when one of them begins to bloom, then sees there are no children in the
-                garden, and goes
-                back to sleep. This variety of personification continues with the happiness of snow and frost as the
-                garden lacks the
-                spring season and they invite the north wind to the garden. The wind is personified when it says with
-                delight that they
-                must ask the hail to visit the garden.<br>
-                <br>
-                The story has the significance of the seasons personified. At the beginning of the story, the seasons
-                bless the garden
-                with pleasant weather until the Giant sends the children away from his garden. Repulsed by the Giant's
-                unkindness the
-                spring season leaves the garden. The seasons' disfavor indicates that the Giant's selfishness goes
-                against the natural
-                order and thus deserves punishment.<br>
-                <br><br>
-                C. This story can be read as a fairy story, where the children, the seasons, the tree, the corner of the
-                garden, the
-                snow, the wind and the frost are all used as symbolism. Interpret those symbols.<br>
-                &#10140; The story &lsquo;The Selfish Giant&rsquo; is a fairy tale. The story writer has adopted the
-                approach of
-                symbolism to teach the readers a moral lesson. The children symbolize innocence and love. Likewise,
-                seasons represent
-                hope, life and death. The tree is the symbol of patience whereas the corner of the garden stands for
-                heaven. The snow,
-                the wind, and the frost signify grief, sorrow and discomfort.<br>
-                <br><br>
-                D. Which figure of speech is used for &lsquo;winter, frost, snow, north wind, hail and little
-                child&rsquo;? Who is the
-                little child compared to?<br>
-                &#10140; As a fairy tale, the story is full of figures of speech. Both the methods of personification
-                and symbolism are
-                used for winter, frost, snow, north wind and hail. The little child is presented as the Christian
-                symbol. He is compared
-                to Jesus Christ.<br>
-                <br><br><br>
-                Reference beyond text<br>
-                <br>
-                a. What is the main theme of the story?<br>
-                &#10140; Oscar Wilde has covered the themes of unselfishness and love. At the beginning of the story the
-                giant is very
-                selfish and cold towards the children, and builds a high wall around the garden and puts a
-                notice&ndash;board to stop
-                them. But later he realizes his mistake when the children stop coming to the garden and the garden never
-                experiences the
-                spring season until he allows them to play in his garden. As he knows the meaning of love and sharing,
-                the spring
-                weather comes. Not only the Giant brings happiness to the children but he also ensures that he will get
-                into Heaven with
-                his act of kindness. The Giant&rsquo;s nature is associated with that of human beings. We rarely share
-                our belongings to
-                any one even if someone is needed. We are selfish too. The story teaches us to share love to get love in
-                return.<br>
-                <br><br>
-                b. Does God punish those who are cruel to children and very selfish?<br>
-                &#10140;Yes, God punishes those who are cruel to childs and very selfish. As we saw in this story, Giant
-                has really been
-                so cruel to the childs and selfish because of which Spring never came in his garden. Snow and frost
-                always remained in
-                his garden, which symbolizes that negative atmosphere surrounding his garden when there were not any
-                children. Therefore
-                god punishes to those who are cruel to children and very selfish.<br>
 
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+
+    <br>
+
+    <center>The Selfish Giant</center>
+
+
+    <br>
+
+
+
+    <h3>Summary</h3>
+    <br>
+
+
+    <br>
+
+    The story starts with the children playing in the garden of the Giant every afternoon after coming from
+
+    school. The
+
+    garden was lovely, large, with soft grass, and fruit trees. The trees bore rich fruits and birds sang
+
+    sweetly sitting on
+
+    them.
+    <br>
+
+
+    <br>
+
+    One day after seven years the giant came back. He was staying with his friend, the Cornish Ogre. The
+
+    children were
+
+    scared to see him. He saw the children playing and said that he would not allow anyone to play here as
+
+    it was his own
+
+    garden. He built a wall around it and also put a notice board. The notice board displayed a warning on
+
+    it,
+
+    &lsquo;Trespassers will be prosecuted&rsquo;.
+    <br>
+
+
+    <br>
+
+    The children became sad as they had no other place to play. They would wander around the high walls of
+
+    the garden and
+
+    remember the beautiful garden inside them.
+    <br>
+
+
+    <br>
+
+    The spring season came and there were blossoms and little birds all around. But it was winter in the
+
+    giant&rsquo;s
+
+    garden and there were frost and snow. In the absence of children birds also did not sing. Once a flower
+
+    bloomed out of
+
+    the grass but after seeing the notice board, it also went back to sleep. Then came the North Wind and
+
+    the hailstorm. Due
+
+    to the giant&rsquo;s selfishness, autumn&rsquo;s golden fruits also did not come to his garden.
+    <br>
+
+
+    <br>
+
+    Then one morning, the giant heard sweet and lovely music. It was a linnet singing outside his window.
+
+    The hail and the
+
+    North Wind stopped and he could feel the spring. He saw that the children came into his garden through a
+
+    little hole.
+
+    The children were sitting on the branches of trees and the trees were blossoming. He also saw the birds
+
+    flying and hear
+
+    them chirping. The flowers had also come up.
+    <br>
+
+
+    <br>
+
+    But, to his surprise, in one corner there was still winter. He saw that there a young boy was standing
+
+    and he was not
+
+    able to reach the branches of trees. The tree lowered its branches but still, he could not climb.
+    <br>
+
+
+    <br>
+
+    At this scene, his heart melted. He realized that he was really very selfish. He decided to put that boy
+
+    on the top of
+
+    the tree, pull down the walls, and allow children to play here forever. But when the children saw him,
+
+    they ran away and
+
+    the garden became winter again. However, that little boy did not run as he was weeping. The giant put
+
+    him on the top of
+
+    the tree and the tree blossomed at once. He kissed the giant.
+    <br>
+
+
+    <br>
+
+    The other children realizing that the giant is not wicked came back. The spring came back with them. The
+
+    giant used to
+
+    play with the children ever afternoon but that little boy was nowhere to be seen. As the years went by,
+
+    he grew very
+
+    weak. One winter morning, he saw a lovely tree with white blossoms in a corner. The branches of the tree
+
+    were golden and
+
+    the little boy stood under it.
+    <br>
+
+
+    <br>
+
+    The boy was wounded which made the giant very angry. He told the boy that he will slay the man who has
+
+    harmed him. The
+
+    boy told him that these were the wounds of love. The boy smiled and asked the giant to come to his
+
+    garden. Later, the
+
+    children found the giant dead under the tree covered with white blossoms
+    <br>
+
+
+    <br><br>
+    <br>
+
+    <h3>Understanding the text</h3>
+    <br>
+
+
+    <br>
+
+    <span>a. Where did the children use to play?</span>
+    <br>
+
+    &#10140; They used to play in the Giant's garden.
+    <br>
+
+
+    <br>
+
+    <span>b. What did the Snow and the Frost do to the garden?</span>
+    <br>
+
+    &#10140; The snow covered the grass with its large white coat and Frost painted all the silver trees.
+
+    Afterwards, they
+
+    invited North Wind to stay with them.
+    <br>
+
+
+    <br>
+
+    <span>c. What did the giant hear when he was lying awake in bed?</span>
+    <br>
+
+    &#10140; The giant heard beautiful music.
+    <br>
+
+
+    <br>
+
+    <span>d. Why do you think spring season never came to the giant's garden?</span>
+    <br>
+
+    &#10140; I think the spring season never came to the giant's garden because he didn't let the kids play
+
+    there.
+    <br>
+
+
+    <br>
+
+    <span>e. How did the giant realise his mistake?</span>
+    <br>
+
+    &#10140; He saw his mistake as the children stopped visiting the garden and the garden never faced the
+
+    spring
+
+    season.
+    <br>
+
+
+    <br><br>
+    <br>
+
+    <h3>Reference to the context</h3>
+    <br>
+
+
+    <br>
+
+    <span>A. Read the extracts given below and Ans the questions that follow.</span>
+    <br><br>
+
+    <span>a. &ldquo;How happy we were there!&rdquo; they said to each other.</span>
+    <br>
+
+
+    <br>
+
+    <span>i. Where does &lsquo;there&rsquo; refer to?</span>
+    <br>
+
+    &#10140; 'There' refers to the giant's garden where children used to play after school.
+    <br>
+
+
+    <br>
+
+    <span>ii. What does &lsquo;they&rsquo; refer to?</span>
+    <br>
+
+    &#10140; 'They' refers to the children who used to come and play in Giant's garden after school.
+    <br>
+
+
+    <br>
+
+    <span>iii. Why are they saying so?</span>
+    <br>
+
+    &#10140; They are saying so because they aren't allowed to play in the giant's garden anymore. The giant
+
+    has chased them
+
+    out of his garden, furious.
+    <br>
+
+
+    <br><br>
+
+    <span>b. &ldquo;I have many beautiful flowers,&rdquo; he said; &ldquo;but the children are the most beautiful
+
+    flowers of
+
+    all.&rdquo;</span>
+    <br>
+
+
+    <br>
+
+    <span>i. Who is the speaker?</span>
+    <br>
+
+    &#10140; The speaker is an old and feeble giant who keeps on watching the children at their play sitting
+
+    on his
+
+    armchair.
+    <br>
+
+
+    <br>
+
+    <span>ii. Who is he speaking to?</span>
+    <br>
+
+    &#10140; He is speaking to himself admiring his garden.
+    <br>
+
+
+    <br>
+
+    <span>iii. Who are &lsquo;the children&rsquo; that the speaker is referring to?</span>
+    <br>
+
+    &#10140; 'The Children' that the speaker is referring to are the small and innocent school children who
+
+    enjoy a lot in
+
+    the giant's garden.
+    <br>
+
+
+    <br>
+
+    <span>iv. Why is the speaker saying that &lsquo;the children are the &#8230;&#8230;&rsquo; ?</span>
+    <br>
+
+    &#10140; The speaker says 'children are the most........' because like the flowers, children also bring
+
+    joy and
+
+    happiness in the garden.
+    <br>
+
+
+    <br><br>
+<span>
+        c. When the little child smiled at the Giant, and said to him, &quot;You let me play once in your
+        garden, today you
+        shall come with me to my garden, which is Paradise,&quot; shortly afterwards, the happy giant dies. What
+        is the
+        coincidence of this event? Describe it in relation to this fairy story.
+</span>
+    <br>
+
+    &#10140; When the Giant was very old and weak, he couldn&rsquo;t play with the children any more. He sat
+
+    in his armchair
+
+    and watched the children playing. One winter morning, the little child whom he once helped to climb the
+
+    tree appeared
+
+    and offered him never ending and peaceful life in his garden i.e. heaven. At the same time, the Giant
+
+    died. Thus, the
+
+    occurrence of the child&rsquo;s offer of eternal life in heaven and the death of the Giant is the
+
+    coincidence. However,
+
+    from the religious point of view, reappearance of the child, with prints of nails on the palms of the
+
+    hands and feet,
+
+    and the biological death of the Giant have a close association.
+    <br>
+
+
+    <br><br>
+
+    <span>
+        B. The story makes use of personification as one of the main figures of speech. Cite three examples of
+        personification
+        from the story. What is the significance of the seasons personified in the story?
+    </span>
+    <br>
+
+    &#10140; The story &lsquo;The Selfish Giant&rsquo; makes the use of personification as one of the main
+
+    figures of speech
+
+    which gives human qualities to the non-human objects. In the story, the technique of personification has
+
+    made non- human
+
+    entities more vivid or helped the readers understand and sympathize with or react emotionally to them.
+
+    The effect of
+
+    this is to make flowers, seasons, frost, snow, wind, hail and one of the trees, reinforce the story
+
+    writer&rsquo;s moral
+
+    vision.
+    <br>
+
+
+    <br>
+
+    The flowers are personified when one of them begins to bloom, then sees there are no children in the
+
+    garden, and goes
+
+    back to sleep. This variety of personification continues with the happiness of snow and frost as the
+
+    garden lacks the
+
+    spring season and they invite the north wind to the garden. The wind is personified when it says with
+
+    delight that they
+
+    must ask the hail to visit the garden.
+    <br>
+
+
+    <br>
+
+    The story has the significance of the seasons personified. At the beginning of the story, the seasons
+
+    bless the garden
+
+    with pleasant weather until the Giant sends the children away from his garden. Repulsed by the Giant's
+
+    unkindness the
+
+    spring season leaves the garden. The seasons' disfavor indicates that the Giant's selfishness goes
+
+    against the natural
+
+    order and thus deserves punishment.
+    <br>
+
+
+    <br><br>
+
+    <span>
+        C. This story can be read as a fairy story, where the children, the seasons, the tree, the corner of the
+        garden, the
+        snow, the wind and the frost are all used as symbolism. Interpret those symbols.
+    </span>
+    <br>
+
+    &#10140; The story &lsquo;The Selfish Giant&rsquo; is a fairy tale. The story writer has adopted the
+
+    approach of
+
+    symbolism to teach the readers a moral lesson. The children symbolize innocence and love. Likewise,
+
+    seasons represent
+
+    hope, life and death. The tree is the symbol of patience whereas the corner of the garden stands for
+
+    heaven. The snow,
+
+    the wind, and the frost signify grief, sorrow and discomfort.
+    <br>
+
+
+    <br><br>
+
+    <span>
+        D. Which figure of speech is used for &lsquo;winter, frost, snow, north wind, hail and little
+        child&rsquo;? Who is the
+        little child compared to?
+    </span>
+    <br>
+
+    &#10140; As a fairy tale, the story is full of figures of speech. Both the methods of personification
+
+    and symbolism are
+
+    used for winter, frost, snow, north wind and hail. The little child is presented as the Christian
+
+    symbol. He is compared
+
+    to Jesus Christ.
+    <br>
+
+
+    <br><br>
+    <br>
+
+    <h3>Reference beyond text</h3>
+    <br>
+
+
+    <br>
+
+    <span>a. What is the main theme of the story?</span>
+    <br>
+
+    &#10140; Oscar Wilde has covered the themes of unselfishness and love. At the beginning of the story the
+
+    giant is very
+
+    selfish and cold towards the children, and builds a high wall around the garden and puts a
+
+    notice&ndash;board to stop
+
+    them. But later he realizes his mistake when the children stop coming to the garden and the garden never
+
+    experiences the
+
+    spring season until he allows them to play in his garden. As he knows the meaning of love and sharing,
+
+    the spring
+
+    weather comes. Not only the Giant brings happiness to the children but he also ensures that he will get
+
+    into Heaven with
+
+    his act of kindness. The Giant&rsquo;s nature is associated with that of human beings. We rarely share
+
+    our belongings to
+
+    any one even if someone is needed. We are selfish too. The story teaches us to share love to get love in
+
+    return.
+    <br>
+
+
+    <br><br>
+
+    <span>b. Does God punish those who are cruel to children and very selfish?</span>
+    <br>
+
+    &#10140;Yes, God punishes those who are cruel to childs and very selfish. As we saw in this story, Giant
+
+    has really been
+
+    so cruel to the childs and selfish because of which Spring never came in his garden. Snow and frost
+
+    always remained in
+
+    his garden, which symbolizes that negative atmosphere surrounding his garden when there were not any
+
+    children. Therefore
+
+    god punishes to those who are cruel to children and very selfish.
+    <br>
+
+
+
+    <br><br><br><br>
+
+
+
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+
+    <br><br>
 </body>
 
 </html>
