@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+The Gift in Wartime<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+The first verse begins with the speaker presenting a rose and a wedding gown at her husband's grave. In the second stage, he gives the speaker a medal, a silver star and a badge. These elements seem less meaningful and personal than the objects the speaker offers.<br>
+<br>
+Except for the last stanza, it continues throughout the verse that &lsquo;the speaker offers much more than her husband&rsquo;. In the third stanza, the speaker presents him with her youth. The fourth verse reveals that her husband gives her the smell of blood. Her husband's submissions to the speaker were too small for her.<br>
+<br>
+In the fifth verse the speaker gives him summer clouds. She sacrifices her winters and springs of water. In the sixth verse she states that her husband was not affected by these offerings. In return he gives the speaker lips without a smile, hands without tenderness and eyes without eyes as if dead.<br>
+<br>
+In the last verse, the speaker apologizes to her husband for complaining about her offerings. The speaker promised to meet him in his next life. She keeps the sharpness as a token, which helps them to know and recognize each other in later life.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+<br>
+A. Who is the speaker addressing and why can that person not hear or understand what she is saying?<br>
+Ans: She's talking to her spouse. Because he's dead, he cannot hear or comprehend what she's saying.<br>
+<br>
+B. What can you infer about the speaker&rsquo;s feelings for the person addressed as &ldquo;you&rdquo;?<br>
+Ans: The emotions of the speaker for the individual &quot;you&quot; are full of love and devotion.<br>
+<br>
+C. What is the speaker&rsquo;s attitude toward war?<br>
+Ans: The speaker has a nasty war-like mentality.<br>
+<br>
+D. In what ways do you think this person&rsquo;s fate has affected the speaker?<br>
+Ans: The speaker was widowed. She lost her youth. She lost her. She's in this world alone now.<br>
+<br>
+E. What does the speaker promise at the end of the poem? Why do you think the speaker does this?<br>
+Ans: The speaker vows to see her lover at the conclusion of the poem in her future life. The shrapnel will be kept as a symbol to identify one another. I believe that the speaker is doing this to show her genuine affection for him.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+a. What is the theme of the poem?<br>
+Ans. The poem is about the sorrow for the loss and insignificance of life lost un battle. In battle, the speaker lost her spouse. In exchange, she receives medals, silver stars and a badge, which is useless since he is not living. She was widowed, and now she's all alone.<br>
+<br>
+B. What imagery from the poem made the greatest impression on you? Why?<br>
+Ans. I was most impressed by the picture of the unmoving corpse. There are no smile on the body, no affection on the arms, no sight on the eyes. The dead body is the loss inflicted by battle. Her spouse was lost by the speaker. Although he is honoured after his death, it is useless.<br>
+<br>
+C. Which figurative language is used in the poem? Explain with examples.<br>
+Ans. The poem has sarcasm, imagery, anaphora and apostrophe.<br>
+Irony occurs when the poet speaks about the present that is not a genuine gift, but of sorrow and loss. A tomb and a shrapnel are not the kinds of presents people really desire.<br>
+<br>
+In fact, the speaker claims that the &quot;gift&quot; of death of her lover has robbed her of her youth. The poet utilises the picture of flowers in her beloved tomb. The crimson flowers represent love historically. Other pictures include the photo of the lover as a corpse with no grin and no eyes.<br>
+<br>
+The poem also utilises the apostrophe literary technique that is addressed directly to a non-present person or an inanimate object. In this poetry, the speaker confronts the dead corpse of her spouse. The poet uses metaphor to connect her tranquilly with the clouds in her eyes on the sunny day.<br>
+<br>
+<br>
+d. What does the speaker &ldquo;offer&rdquo; in this poem? What does the person addressed as &ldquo;you&rdquo; give in return?<br>
+Ans. The speaker gives her favourite flowers, wedding robes, young people, wolves, harsh winters and spring time. In exchange, he offers her his medals, stars, badges, blood soiled clothing, his lifeless body with lips, without a smile, his arms without compassion and his eyes sightless, and shrapnel.<br>
+<br>
+E. An apostrophe is a literary device in which a writer or speaker addresses an absent person or an abstract idea in such a way as if it were present and can understand. Discuss the poem in relation to apostrophe.<br>
+Ans. The spouse of the speaker was killed in battle. She speaks to the dead corpse as if he could comprehend it. She offers him many things, but he provides them things that are irrelevant. She vows to meet him since she really genuinely loves him.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A. One way to get relief from grief is to write or talk about it. In your opinion, how might the speaker in this poem have benefitted from saying what she did? Explain.<br>
+Ans : War constantly draws everyone to a gloomy future. The victim in the fighting area is not only the one who suffers, but all those who are directly related to him/her. The speaker of this poem was also the casualty of the war with the loss of his lovely person.<br>
+<br>
+The speaker here in this poem has succeeded in sending a serious message to all of its readers about the inhumanity of war. This is where the speaker's statement linked to her actions and sacrifices in her solitary existence might have helped her to pass on her experience of war to all her readers as a sufferer.<br>
+<br>
+The readers have thoughts about the harmful consequences of war and its long-term repercussions on people via their terrible emotions.<br>
+<br>
+<br>
+b. Write an essay on the effects of war.<br>
+Ans : A time of struggle between nations or people's groupings is called war. War is usually about the employment of weapons, military organisations and soldiers. War is a scenario in which a country uses force to assert its rights.<br>
+<br>
+War is the harsh truth that creates human collapse. For nothing, it's excellent. War and its human consequences are evident in both physical and psychological dimensions. War causes long-term human impacts. War invites everyone to a gloomy future. War never gives people happiness but snakes others' enjoyment.<br>
+<br>
+The victims of conflict are constantly afraid. It kills thousands of people. Death, injury, sexual assault, starvation, sickness and incapacity, etc, are some of the physical repercussions of war. War is overall a destructive and devastating thing for human lives.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

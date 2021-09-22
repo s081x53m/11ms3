@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+All the world&rsquo;s a stage<br>
+<br>
+By shriram lamichhane<br>
+<br>
+Summary<br>
+The words &ldquo;All the world&rsquo;s a stage&rdquo; are actually taken from William Shakespeare&rsquo;s play &ldquo;As You Like It&rdquo;. With these words begins the monologue (a loud speech to oneself) by a character in Act II of the play. Shakespeare has been a great playwright and poet of his era. He views life realistically.<br>
+<br>
+Shakespeare is known for the realism of his writings and is amongst the most quotable authors in world. The poem&rsquo;s theme is that man is the ultimate loser in the game of life.<br>
+<br>
+He says &ldquo;all the world&rsquo;s a stage and &ldquo;all the men and women merely its players&rdquo;. Every player plays seven roles during his life. The first stage is that of an infant when he is helpless in his mother&rsquo;s arms. He merely pukes in the nurse&rsquo;s arms.<br>
+<br>
+In the second role, he is a child who goes &ldquo;creeping like a snail unwillingly to school&rdquo;. He is innocent. He is not willing to learn. He wants freedom. For learning, he must lose his childish liberty. We may notice that man keeps on losing one quality and blessing while qualifying for another one.<br>
+<br>
+The third stage brings before us the lover who sings woeful ballads for his beloved. In the youthful age when man is full of energy and might, he does everything to please his beloved. Even this shift of life, filled with merrymaking and joyous songs, passes so quickly as well.<br>
+<br>
+Soldier, the fourth stage arrives swiftly; here man seeks fame though it is temporary and short lived. He endangers his life for it. It alludes how man goes every extreme for temporary success. Because success is always temporary.<br>
+<br>
+Fifth role is of a middle aged man. He has round belly. He cites modern instances. In sixth age, man becomes very weak. He keeps pouch with him. He wears warm hoses. Man&rsquo;s shank(ankle) has shrunk. &ldquo;His big manly voice is turning again towards childish treble&rdquo;. His voice is not clear due to loss of teeth. In the last stage, the condition of man becomes very miserable. Now he has grown very old and weak.<br>
+<br>
+He has no relations. He has lost all. Here the poem is a direct comparison with &ldquo;One Art&rdquo; by Elizabeth Sewell. He is:<br>
+&ldquo;sans teeth, sans eyes, sans taste and sans everything.<br>
+He has lost all his relations. At this stage, man feels that life is nothing except sheer loss for man though he may boast of the success and achievements he has got in his past life.<br>
+<br>
+Shakespeare wishes to make us realise that the short life we spend in this world is not worth it if we have a close observation of it. Life is nothing more than a shadow.<br>
+<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+a. Why does the poet compare the world with a stage?<br>
+Ans: The poet compares the world to the theatre, because he believes all men and women are performers.<br>
+<br>
+b. What is the first stage in a human's life? In what sense can it be a troubling stage?<br>
+Ans: Childhood is the initial stage of human existence. It may be a distressing period when a kid screams and vomits in the arms of the nurse.<br>
+<br>
+c. Describe the poem-based second stage of existence.<br>
+Ans: School go guy is the second stage of life. He's always complaining. His face is like a bright dawn. He's carrying his luggage and slowly walks to school like a snail.<br>
+<br>
+d. Why is second childhood considered the final stage?<br>
+<br>
+Ans: The second childhood is considered the final stage, since it loses its senses and acts like a kid.<br>
+<br>
+e. In what sense are we the players in the world stage?<br>
+Ans: We are the global stage players, since when we are born we emerge on the world stage and leave it when we die like performers in a theatre on the stage.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+a. Explain the following lines:<br>
+The poet claims in the provided words that life is like a theatre. Everyone is thought to be actors who perform in life . Each actor takes the stage and plays his role in a drama. Each individual plays various parts in the same manner, as the performers on the stage.<br>
+<br>
+<br>
+b. Explain briefly the following sentences about the context.<br>
+The words provided are derived from William Shakespeare's sonnet &quot;All the world's a stage&quot;. These lines are comparable to the parts played by performers on the stage and people in their life.<br>
+<br>
+Every performer takes the stage in a play, performs his or her part and then leaves. Similarly, when we are born, we join the global stage and depart it at the moment of death. Like the players in a play, we have different parts to play. There are seven phases in a person's life with distinct characteristics. When we finish our roles, we leave the stage of our lives.<br>
+<br>
+The poet wants us to understand that human existence is like a theatre stage. A guy is destined to play a number of roles throughout his life.<br>
+<br>
+<br>
+b. Read the lines and answer the following questions.<br>
+<br>
+i. Which stage of life is being referred to here by the poet?<br>
+Ans: The poet refers to the second stage of existence.<br>
+<br>
+ii.Which figure of speech has been employed in the second line?<br>
+Ans: Simile<br>
+<br>
+iii.Who is compared to the snail?<br>
+Ans: School Boy<br>
+<br>
+iv.Does the boy go to the school willingly?<br>
+Ans: No, he doesn't.<br>
+<br>
+<br>
+d. Simile and metaphor are the two major poetic devices used in this poem. Explain citing examples of each.<br>
+Ans: Shakespeare uses the first two metaphors in the lines 'Everyone's a stage,' 'all men and women playing simply.' He compares the world to a theatrical stage and all the men and women to performers on it.<br>
+<br>
+When 'reputation' is likened to a bubble, the third metaphor is used to illustrate that reputation is transitory. Another metaphor has been developed to match masculine voice with infantile triple.<br>
+<br>
+The last metaphor is contained in the phrase 'this weird exciting history finishes.' Human life compares with the unusual history of occurrences, as human existence is full of events, incidents and early recollections.<br>
+<br>
+The first simile is used when comparing a schoolboy to a snail. He went to school reluctantly as slowly as a snail. This image compares the lover who signs to the fire. The heat of the furnace is comparable to the lover's desire. A soldier is compared to a leopard by utilising analogy. This shows that the soldier is swift, quick like the leopard.<br>
+<br>
+<br>
+e. Which style does the poet use to express his emotions about how he thinks that the world is a stage and all the people living in it are mere players?<br>
+Ans: The poem is composed with metrical but unrhymed lines in a blank verse. The poem's style is narrative. The storyteller tells the life narrative. He compares life with a theatre and all the people with performers. One guy plays many roles throughout his time. Every actor takes the stage and plays his part in a drama and then leaves. Similarly, entries and exits relate to births and deaths in real life. When they are born, people come on stage, perform their particular parts and depart when they die. A person must fulfil seven phases during his life.<br>
+<br>
+F. What is the theme of this poem?<br>
+Ans. The subject of the poem is the human life cycle. A person is destined throughout his life to perform seven distinct roles. Birth is entry and death is exit for everyone. Each job has its own characteristics and characteristics. The poem shows how a person starts his or her life as a child and finishes in the same manner without realising what happens to him or her. He's the last loser in life's game.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A.Describe the various stages of human life picturised in the poem &quot;All the world's a stage.<br>
+Ans : The world is a theatre and everyone is a player, Shakespeare says. He believes that when a person comes to this earth-like stage, throughout his life he has seven phases. He plays seven various parts throughout his life and eventually leaves this earthly stage.<br>
+<br>
+A man's initial stage is childhood. He plays in his mother's arms. In this period, he frequently vomits and screams. In his second stage the guy is a student who is not willing to attend school.<br>
+<br>
+In his third stage, he becomes a lover. He is extremely busy writing his favourite songs and longs for her attention. He is forceful and ambitious in the fourth stage. He's looking for notoriety in whatever he does. He is eager to defend and become a soldier in his nation. He becomes a fair judge with maturity and knowledge in his fifth stage.<br>
+<br>
+On the sixth stage, it is visible with loose trousers and shows. His masculine voice is transformed into a childlike one. His second childhood is the final stage of everything. Slowly, he loses his ability to see, hear, smell, and taste and leaves his life responsibilities. In his poem 'All the World's a Stage,' Shakespeare thus offered images of the seven phases of the life of a man.<br>
+<br>
+<br>
+<br>
+b. Is Shakespeare's comparison of human's life with a drama stage apt? How?<br>
+Ans : Shakespeare compares the whole world to a theatre where men and women are performers alone.<br>
+<br>
+In a drama, every actor takes the stage, does his role and leaves. Likewise, through birth, we join this planet. We conduct our lives in various personalities. At the moment of our death, we leave this planet. Shakespeare argues that each man's lifespan has seven phases. His perspective on life is very correct.<br>
+<br>
+Players or individuals enter this global stage and play their seven various parts and ultimately leave this stage. Our existence is split into seven distinct phases and throughout these phases, we continue to play different parts in our lives, pursuing different things as actors. We play the part of a child, a young man, a lover, a soldier, a judge, an elderly man and an exceedingly old man here on this earthly stage.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

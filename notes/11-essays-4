@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+What is Poverty?<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+Jo Win Parker describes poverty as a lack of hope, better food, medicine, cleanliness, and education. It eats away your dignity, honour, health, and future. Parker wants to demonstrate how ugly, humiliating, and repulsive poverty is. She wants to bring readers' attention to the plight of the impoverished.<br>
+<br>
+Poor individuals must constantly worry about their children's future. Poverty destroys bonds. Parker has three. She divorced her spouse because he lost his job and they couldn't afford contraception. She worked.<br>
+<br>
+She then left the kids with their grandma. When she came home, she discovered her kids in terrible shape. Her son's diaper had not been changed since morning and he was covered with flies. Her other kid was smashed glass and her oldest was alone at a lake's edge. She couldn't afford to send them to nursery school. She earned $20 a week and a nursery school for three kids was $20. So she quit.<br>
+<br>
+She says that poverty is a terrible and pathetic situation of existence when one becomes powerless and mute, controlled which is experienced by the people.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+A. What is poverty according to Parker?<br>
+Ans. Poverty is filthy, disgusting, and without appropriate undergarments on and with decaying teeth's odour, Parker says.<br>
+<br>
+<br>
+B. How is poverty difficult for Parker&rsquo;s children? List some specific examples.<br>
+Ans. She used to leave her kids at home and when she returned from her low paying work, she discovered her kids in terrible condition. Her children are given oleo-free grits or cornbreads. The writer had to save 2 months to purchase a container of Vaseline for a baby's diaper rash.<br>
+<br>
+Children are at risk of being burned in winter since newspapers on the wall are likely to be ignited by a spark and covered in summer when they scream. Children usually have runny noses.<br>
+<br>
+There are no additional books, no periodicals, no extra pencils, crayons or paper, and most importantly, they're not healthy.<br>
+<br>
+<br>
+C. How does Parker try to obtain help, and what problems does she encounter?<br>
+Ans. She asks relatives for a loan. She visits the workplace. Everyone's busy. Finally, someone walks out and asks if she needs assistance. That's not the person to see. She's visiting another individual. After giving him the entire story of her poverty, she finds the incorrect office. She must then redo the entire procedure.<br>
+<br>
+<br>
+D. Why are people&rsquo;s opinions and prejudices her greatest obstacles?<br>
+Ans. Poverty hurts her deeply. She can't raise her family well. She divorced spouse. She's ill-treated begging for assistance. This causes her lose her dignity and respect, eventually breaking her goal.<br>
+<br>
+<br>
+E. How does Parker defend her inability to get help? How does she discount the usual solutions society has for poverty (e.g., welfare, education, and health clinics)?<br>
+Ans. According to Parker, society's typical remedies to poverty are far beyond her reach. A surplus commodity programme costs too much. A school meal programme cannot help her children as her children, whose health will deteriorate as they go to school. Health clinics in towns. She lives eight miles from town. Everything's costly.<br>
+<br>
+<br>
+Reference to the text<br>
+<br>
+A. Explain the following:<br>
+<br>
+Ans: Writer Jo Goodwin Parker stated this phrase &quot;Poverty is looking into a dark future.&quot; in her article. She put forth this line for her readers to convey poverty-related experiences.<br>
+<br>
+In this sentence, the writer advises all readers on an unpleasant, harsh side of poverty. Poverty pushes people into the dark future. Poor individuals must endure a terrible everyday existence. They have difficulty managing appropriate daily meals. There's no chance for them in the future. They spend their lives in inequality gazing towards a black future. Poverty destroys aspirations and future ambitions.<br>
+<br>
+<br>
+<br>
+B. What does Parker mean by &ldquo;The poor are always silent&rdquo;?<br>
+Ans: By &quot;Poor are always quiet,&quot; Parker implies poor people's impotence. In poverty, money plays a crucial role. Money is the perfect Ans for all issues. Because of lack of money, impoverished people feel weaker. They constantly stay quiet before others. They must listen to other words because of their pitiful condition.<br>
+<br>
+<br>
+C. What writing strategy does the author use at the beginning of most of the paragraphs? Do you notice a recurring pattern? What is it?<br>
+Ans: The author employs her repetition technique here at the beginning of most paragraphs. Yes, I see a repeating trend. It's the &quot;poverty&quot; structure. The article is well-organized and the &quot;Poverty is&quot; framework is repeated at the beginning of each paragraph.<br>
+<br>
+Here, using her repeating technique, she attempts to create a connection between the lady and the readers. The informal manner of the author makes writing seem as part of a casual narrator-reader dialogue. Goodwin Parker's writing is very powerful and fulfils its goal.<br>
+<br>
+<br>
+D. How does Parker develop each paragraph? What details make each paragraph memorable?<br>
+Ans: Parker builds each paragraph from its repetition technique. She begins with a repetition such as &quot;Poverty is.&quot; She later gives her own experiences regarding her theme phrases.<br>
+<br>
+The author emphasises to her audience that her goal is to help people realise what poverty is. Her second goal is to persuade all her readers to assist the needy. Details of her own hard experiences and harsh realities of poverty make every paragraph unforgettable.<br>
+<br>
+<br>
+E. In the final paragraph, how does the author use questions to involve the reader in the issue of poverty?<br>
+Ans: The author utilises questions in her casual style of direct conversation to engage readers in the problem of poverty.<br>
+<br>
+Parker succeeded in engaging her readers via her compelling way. She wants them to gaze angrily at the impoverished, but not with the pitiful heart. This question has grabbed the passion and attention of readers. Here, she has succeeded in attracting the attention of her readers to her predicament and the difficulties of others in her position.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A. Define a social problem (homelessness, unemployment, racism) imitating Parker&rsquo;s style.<br>
+Ans: Homelessness makes you sleep on pavements. Living on footpaths makes you weaker in many ways. Your pride and status disappears. Similarly, Unemployment is a shameful existence. Unemployment diminishes society's worth. Because you lack a job, you always experience shame and embarrassment. People mock you for being jobless. Also, Racism is humiliating. The racists make you feel weaker. In skin colour, they keep embarrassing you. Because of your skin colour, you'll suffer disgrace in your culture. Living life under racism is a curse.<br>
+<br>
+<br>
+B. Using adjectives to highlight the futility of the situation, write a short definition essay on Growing up in Poverty.<br>
+Ans: A pitiful condition when individuals feel that their lives lack many important elements is defined as poverty. Besides other views, I believe growing up in poverty is unpleasant. Poverty never makes you joyful. Living in poverty mostly bothers you. Growing in poverty makes life dull. You never attempt to live anything fascinating inside the poverty limits. You feel confused and disappointed growing up in poverty. You're always puzzled about your life. Disparity and inequality never allow you to be free and achieve well in life. Growing up in poverty is a scary experience you encounter many difficulties and problems. It gives you a tiresome and worrisome encounter, where aches are constantly waiting to greet you.<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

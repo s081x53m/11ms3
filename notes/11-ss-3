@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+God sees the truth but waits<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary <br>
+Think about a time when you have suffered because of the actions of another person. How did you respond? While many would seek vengeance or feel sorry for themselves, in Leo N. Tolstoy's 'God Sees the Truth, But Waits,' Ivan Dmitrich Aksionov, the protagonist, puts his trust in God to see him through his trials. Let's take a closer look at this story.<br><br>
+Aksionov's troubles begin when he travels to the Nizhny Fair despite his wife's warning that she had a bad dream and didn't think he should go. Along the way, he encountered an acquaintance. The two of them spent the evening together and then booked adjoining rooms in an inn. The next morning, Aksionov woke up early to complete his travels.<br><br>
+About 25 miles down the road, Aksionov is apprehended by soldiers who accuse him of murdering his acquaintance based on having been seen with the man the night before his murder and because they found his early morning departure suspicious. When the soldiers search Aksionov's belongings, they find a bloody knife. Character witnesses from his home town claim that Aksionov is a good man but that he used to drink. Even his wife begins to doubt Aksionov's innocence. He is sentenced to be ''flogged with a knot'' and then imprisoned in Siberia for 26 years.<br><br>
+A man from Aksionov's hometown is also sent to Siberia, and Aksionov begins to suspect that Makar Semyonich is the one who killed his acquaintance and is filled with anger. Later, Aksionov stumbles upon Semyonich as he attempts to dig a hole to escape. Semyonich threatens to kill Aksionov if he tells anyone. When a guard discovers the dig, Aksionov is questioned but responds that it is not his place to tell. Aksionov's integrity convicts Semyonich who begs for forgiveness and confesses. By the time Aksionov is released, he no longer wishes to go home to his family, but is ready to be with the Lord. Aksionov dies in prison.<br><br>
+<br>
+Understanding the text<br>
+<br>
+a. What bad habits did Aksionov have before his marriage?<br>
+Ans: He used to drink before his marriage and was raucous when he drank too much.<br>
+<br>
+b. What can be the meaning of his wife's dream? <br>
+Ans: Her dream is a foreshadowing of Aksionov's tragic destiny.<br>
+<br>
+c. Why did Aksionov think of killing himself? <br>
+Ans: He saw, in his mind, where the executioner was flogged, and people surrounding him; the shackles, the prisoners, all the twenty-six years of his existence as a prisoner, and his early ages. This idea made him feel so terrible that he was willing to murder himself.<br>
+<br>
+ d. Why did Makar disclose that he had killed the merchant? <br>
+Ans: Makar did so because he wanted to free Aksionov from jail.<br>
+ <br>
+e. Why doesn't Aksionov wish to return to his family at the end of the story? <br>
+Ans: At the conclusion of the story, Aksionov doesn't want to return to his family because he feels his wife has been deceased and his children forget him.<br>
+<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+a. &quot;Well, old man,&quot; repeated the Governor, &quot;tell me the truth: who has been digging under the wall?&quot;<br>
+Ans: <br>
+<br>
+i. Who is that old man?<br>
+Aksionov<br>
+<br>
+ii. Which truth is the speaker asking about? <br>
+the reality of the escape tunnel digging<br>
+<br>
+iii. Which wall does the speaker mean? <br>
+The jail wall<br>
+<br>
+<br>
+b. Describe Aksionov's character. <br>
+<br>
+Ans: Aksionov is the story's protagonist. He is a young successful businessman whose pleasant life is disturbed by the murder and prison camps in Siberia.<br>
+ <br>
+The suspicion of his wife to him leads him to believe that he alone can depend upon God to know the truth. He has a reputation among prison authorities and other inmates as a nice guy. Aksionov is ready to murder himself after having been imprisoned alongside the guy who framed him. <br>
+<br>
+At the conclusion of the story, though, he can forgive Semyonich. Shortly before the authorities ordered his release, he died.<br>
+<br>
+<br>
+c. What is the theme of the story? <br>
+Ans : The subject of this story is injustice, acceptance, faith and forgiveness. The Aksionov case is not compelling. The government officials declared him guilty without setting any reason or retrieving a bloodied knife and 20,000 roubles taken from the merchant. <br>
+<br>
+If the plea of his wife to the Czar is denied, Aksionov realises that he cannot rectify his wrong. He commits himself to God to offer him that righteousness which a man cannot give him. <br>
+<br>
+Aksionov becomes a modest and pious person in jail. Officials and inmates appreciate him in settling disputes for his neutrality. Aksionov's trust in God is so great that he thinks that he must be wicked to deserve God's tortured life. <br>
+<br>
+After Aksionov is reluctant to report the drilling of Semyonich's tunnel, Semyonich is disturbed by the compassion of Aksionov. Aksionov eventually gives forgiveness to Semyonich.<br>
+<br>
+<br>
+d. Which symbols are used in the story and what do they indicate? <br>
+Ans : The story has many symbols for its aesthetic expression, which replaces flat text. The home and two businesses of Aksionov symbolise his family and material possessions. The jail itself symbolises the agony of Aksionov and the ultimate spiritual change. His grey hair appears as a vivid sign of his misery, emphasising not just his age but his punishment-related bodily degradation. <br>
+<br>
+His grey hair shows how he matures prematurely with the stress of his unjust incarceration. The blood stained knife discovered unexpectedly among the works of Aksionov is the key evidence needed to condemn him. <br>
+<br>
+This knife represents the loss of control over Aksionov's destiny. Aksionov's nickname 'The Lives of the Saints' is his religious devotion.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+a. What role does religion play in Aksionov's life? How does he undergo a spiritual transformation in the story?<br>
+Ans : In Aksionov's life, religion plays a significant part. He spends all his life in a Siberian jail waiting for God's just judgement. The suspicion of his wife's culpability leads him to believe that he can depend only on God to know the truth and provide compassion. <br>
+<br>
+He has been in jail for 26 years and loses his young joy and becomes profoundly religious. His life is dedicated to God. Aksionov learns how to manufacture boots and makes a little money in jail, buys and reads the book 'The Lives of the Saints.' On Sundays he reads the lectures and sings in the choir at the prison church. <br>
+<br>
+The jail officials like him even because of his humility. His confreres revere him calling him 'The Saint' and 'Grandfather.' When the actual murderer of the merchant comes to jail, Askionov may forgive him. He has no desire to return home at the conclusion of the story, but to remain with God.<br>
+<br>
+The spiritual change of Aksionov is unique in history. He is carefree and loves materialistic life before incarceration. Although Aksionov rejects the legitimacy of the state that has taken him prisoner, he understands that in Siberia the purpose for his suffering is to pay for his crimes. Aksionov believes his misery is a test of faith that offers him the opportunity to attain salvation by changing his character and dedicating his life to God.<br>
+<br>
+<br>
+b. What does the story tell us about the existence of an unfair system of justice?<br>
+Ans : The story informs us about the presence of an unjust judicial system via the major life event of the protagonist. This story shows a decent and innocent guy unjustly incarcerated on a murder accusation, punished for twenty-six years and forced to lose all and his life for no fault or crime of his own, but based solely on facts. He suffers a lot during his life, but he realises himself and dies quietly.<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Refund<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+Fritz Karinthy is a well known short story writer who wrote the one act play &ldquo;Refund&rdquo; in the year 1938. This is the story of a former student Wasserkopf, who demands that his tuition should be refunded because he feels his education was worthless. But he loses his fight when he is tricked by the mathematics master. The play &ldquo;Refund&rdquo; is full of humour which deals with an extraordinarily absurd situation.<br>
+<br>
+Wasserkopf is forty years old. He could not get any job and wherever he goes people tell him that he is fit for nothing. One day he meets Leaderer and asks him about his business. When Leaderer tells him about foreign exchange and Hungarian money, he is not able to understand anything and starts asking questions about foreign exchange. Leaderer says when Wasserkopf does not know the silly thing then what had he studied? He better go to the school and get his tuition fees back. Wasserkopf, who is jobless and does not have any finance, thought of this idea as something beneficial. So he went to the school where he studied once.<br>
+<br>
+Wasserkopf wanted the refund of his tuition fees which were paid eighteen years ago because he was taught badly. When he asks for it, the principal is shocked. The principal is in a peculiar situation now and he calls for an urgent meeting with all other staff members. The masters realized that Wasserkopf&rsquo;s real intention was to fail in the exam and claim the refund. Therefore, they decided to outsmart the old student by proving all his answers right. The Mathematics Master said that they had to be united and ought to help each other in implementing their plan. The exam was an oral one as of Wasserkopf's refusal to write. They decide that whatever answers he gives whether it is right or wrong they will prove him right.<br>
+<br>
+The first question was from the History Master. The Master asked him how many years the &lsquo;Thirty Years&rsquo; war lasted. The answer was in the question itself. But Wasserkopf, who was keen on giving wrong answers, said that the &lsquo;Thirty Years war&rsquo;, lasted seven metres. The History Master did not know how to prove this answer right. Fortunately for him, the Mathematics master aided him by proving that the answer was right on the basis of Einstein&rsquo;s Theory of Relativity. The Master argued that time and space are relative terms and therefore years can be represented in terms of meter. The war took place during half of each day, three hours a day to eat, hours given up to noon, so a total of seven years. The actual time spent in fighting was seven years and it has been by Einstein&rsquo;s equivalent of seven meters. Wasserkopf called the History Master a numskull.<br>
+<br>
+The Physics Master asked Wasserkopf whether clocks in church become smaller if one walks away from it or is it because of optical illusion. He called The Physics master an ass. The master says that the answer is correct because ass does not have any illusion of vision. Therefore, Wasserkopf has given a metaphorical explanation. Wasserkopf called him a cannibal.<br>
+<br>
+The Geography Master asks Wasserkopf for the name of a city which has the same name as the capital of German Province of Brunswick. He replied as &lsquo;Same&rsquo;. Master said it as the correct answer. There was a legend that once as the emperor Barbarossa was riding in the city, he met a young peasant (farmer) girl, who was munching a bun mouthful. He called out to her God Bless you and asked her the name of the city, she answered the same to you sir for his wishes, and the Emperor mistook the city name as &lsquo;Same&rsquo;.<br>
+<br>
+One by one each teacher justified his wrong answer to be the correct one and they marked him excellent. Though Wasserkopf gives wrong answers and uses abusive words to each teacher, they don't show their anger because they have to prove him as an excellent student.<br>
+<br>
+At last the mathematics master asks him a difficult question and an easy question. For the easy question he gives the wrong answer and the master gets angry and says that he has failed in his examination so he should be given his tuition fees back. The master says that they have decided to give him his tuition fees back and asks for the exact amount which he has to get. Wasserkopf, without knowing that he is going to fall into their trap, gives them the list of exact amounts. The mathematics master says that was his difficult question and he gave the right answer. Now he has proved excellent in the entire subject and they throw him out without allowing him to say anything further. It shows the ability of the teachers to manage the situation and how they tackle Wasserkopf without spoiling the reputation of their school.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+<br>
+a. Why does Wasserkopf demand a refund of his tuition fees from the school? <br>
+Ans. Wasserkopf asks the school to reimburse his tuition payments since he thinks that the education he got at the school did not equip him with any capacity.<br>
+<br>
+b. Why does Wasserkopf consider himself good for nothing? <br>
+Ans. He sees himself as excellent for nothing since his school can't learn anything helpful.<br>
+<br>
+c. What did the teachers decide to do when Wasserkopf asked for a refund? <br>
+Ans. When Wasserkopf requested a refund, they decided to re-examine Wasserkoph and pass the test.<br>
+<br>
+d. Why did Wasserkopf give ridiculous answers? Why did the teachers accept these answers?<br>
+Ans. He provided stupid replies since his goal was to fail. Teachers accept his Answer to ensure he passes the test.<br>
+<br>
+e. How does the Mathematics Master describe Wasserkopf&rsquo;s character?<br>
+Ans. The Mathematics Master portrays him as a sneaky, clever person who will attempt to get their money back by trick or crook.<br>
+<br>
+f. How did the teachers outwit Wasserkopf?<br>
+Ans. Wasserkopf's instructors asked extremely simple questions. His explanations were absurd yet justified them. Finally, after asking Wasserkopf the simple question, the math instructor stated he failed the test and asked him to calculate the amount the school had to reimburse. He did extremely well. Mathematics professors claimed he Ansed the tough question since he was a mathematical genius. The instructors declared passing the test. They outwitted Wasserkopf.<br>
+<br>
+g. What is the final judgment on Waserkopf&rsquo;s demand of refund? <br>
+Ans. The principal delivers the exam's final result. He passed with excellence in each subject and showed again that he is entitled to the diploma that the school gave him on graduation. No money is reimbursed, but the servant seizes and dispatches him.<br>
+<br>
+<br>
+<br>
+Reference to the context <br>
+a. Read the extract from the play given below and answer the questions that follow: &ldquo;It&rsquo;s possible I&rsquo;ve changed. What the hell&#8230;! Your class records will show I&rsquo;ve got a right to come here.&rdquo;<br>
+<br>
+i. Who is the speaker? Who is he speaking to?<br>
+Ans : Wasserkopf is the speaker. He's speaking to the principal of his former school.<br>
+<br>
+ii. Why does the speaker say these words?<br>
+Ans : The speaker says these words because he is dissatisfied with his educational records from his previous school, which he obtained eighteen years ago.<br>
+<br>
+iii. Where is the speaker at this moment?<br>
+Ans : The speaker is in the Principal's office at this moment.<br>
+<br>
+<br>
+b. Read the extract dialogue given below and Ans the questions that follow:<br>
+<br>
+i. What is the answer to &lsquo;How do you do?&rsquo;<br>
+Ans : 'I am fine' is to be the answer to 'How do you do'.<br>
+<br>
+ii. Is Wasserkopf&rsquo;s answer polite enough to the staff?<br>
+Ans : No, Wasserkopf's answer to the staff isn't polite enough. He uses derogatory language against them.<br>
+<br>
+iii. How does Wasserkopf rebuke the staff?<br>
+Ans : Wasserkopf rebukes the staff, calling them &quot;loafers&quot; and asking, &quot;Who the hell are you?&quot;<br>
+<br>
+iv. What does the principal mean by &lsquo;How dare you -&rsquo;?<br>
+Ans : The Principal is referring to Wasserkopf's dare to make abusive remarks about masters when he says, 'How dare you?'<br>
+<br>
+<br>
+c. Explain the following line of the play: &ldquo;Because I didn&rsquo;t get my money&rsquo;s worth, that&rsquo;s why!&rdquo;<br>
+Ans. Wasserkoph returns to his study school. He approaches the Principal and demands on reimbursing his tuition money. The Principal is amazed and wonders why this is an odd assertion. <br>
+<br>
+He says he'd learned nothing in school. He's dismissed from work and in financial trouble. This is the outcome of the school's education.<br>
+<br>
+Therefore, Wasserkoph is right in demanding reimbursement. He says a re-examination will show his demand is legitimate.<br>
+<br>
+<br>
+d. What is the theme of the play?<br>
+ <br>
+Ans. The play &quot;Refund&quot; combines humour and sarcasm. The playwright attacks the current school system, which does not equip pupils for profession. The drama addresses an uncommon scenario. It also demonstrates instructors' abilities to handle the issue without damaging their school's reputation.<br>
+<br>
+<br>
+e. Sketch the character of Wasserkopf.<br>
+Ans. Wasserkopf is the play's primary character. He's 40 years old. He's an excentrician. He's dismissed from work and stays jobless. Wherever he goes, people say that he's suited for nothing. He thinks he has learned nothing at his school, therefore the institution must reimburse tuition money.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+a. The play is a satire on the present day education system. Do you think that our education system does not prepare students for life? Discuss.<br>
+Ans : Our school system doesn't properly prepare kids for life. Current educational system is divorced from real life. It's not about a practical way of living. It has distracted people's focus from innovation, making them impractical. In today's society, many educated individuals with high credential values do not know anything. They're not even able to guide others. Consequently, in a number of sectors, the present educational system produces inefficient employees.<br>
+<br>
+b. Our education system focuses on memorisation rather than creative thinking. Do you think the knowledge imparted by education may not have practical relevance in one&rsquo;s day-to-day life? Who do you blame for this?<br>
+Ans : Our education system is blamed that school knowledge can't be helpful in daily life. In today's school system, we find education and related knowledge far from creative thinking. The courses are designed so that in daily life they are not connected to practical relevance. These teaching materials have no real world relevance. <br>
+<br>
+People struggling in academics are likewise looking for a simpler way to remember than creative thinking. Most students take the wrong route, focusing on passing exams and earning certificates. Creativity has no place in their lives. They aim to obtain excellent credentials via various ways. This is due to the current education system, which destroyed thousands of minds.<br>
+<br>
+c. Most of the students want to learn just for examination rather than knowledge. Do you think that certificate will help them in their future career? <br>
+Ans : Students who only prepare for exams won&rsquo;t enjoy credentials throughout their future careers. Most youngsters are on the wrong track today. Their test preparation has a deadline. They are observed considerably more frequently before two or three months of assessment. They're far from the concept of knowledge, but they trust quick solutions to pass your exams. The method they have chosen doesn't benefit their future. Since certificates never demonstrate genuine knowledge or skills, true knowledge will certainly be lacking in the future. Today, most students obtain certificates using dubious means.<br>
+<br>
+Get more notes from : www.tsz.com.np <br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

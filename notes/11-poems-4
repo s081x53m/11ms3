@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+In this short poem, the speaker is standing by the window one evening watching the sunset outside. Suddenly he goes back to his past, his childhood days. He remembers how he enjoyed such beautiful landscapes in his childhood days.<br>
+<br>
+It&rsquo;s been a long time since then. Now all such maturity and pleasures are suppressed by the anxieties of his maturity and puberty. But he appreciated that it would not be bad if the days of life went on like this. Here he gradually marks the approaching end of the way of life.<br>
+<br>
+Summary / Analysis:<br>
+The speaker stands at a window and looks out of it as the poem opens at the end of the day. As he contemplates the sunset, he goes into a nostalgic mood that reminds him of his childhood.<br>
+(Speaker looking out the window at the end of the day)<br>
+<br>
+He remembers how he enjoyed such beauty when he was a little boy of five or six years old. Surprisingly he still looks young. This scene can detect the beauty of the evening.<br>
+<br>
+Maybe in his inner heart he wants to come out, but his maturity and puberty will not allow him to do so.<br>
+<br>
+&quot;It shows that we can never let go of childhood magic. We have it under the responsibilities and pressures of adolescence.&quot; Here he puts aside such adult worries and takes some time to enjoy the beautiful evening (increasing darkness).<br>
+<br>
+Based on the meaning, we can divide this poem into two parts: the first part from the first line to the fifth line, and the second part from the sixth to the last line.<br>
+<br>
+In the first part, the speaker shows us the mind that remembers the happy moments of his childhood. He is in a sad mood here.<br>
+<br>
+In the second part, there is a transition between the two of them in their mood theme. Now he is in a sad (sad / sad) state of mind. This part describes his liberation from the state of mind.<br>
+<br>
+When he starts talking about &ldquo;feeling&rdquo;, eventually he talks about death. The important thing here is that the speaker welcomed the arrival of death for better relief from the sufferings of life.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+A.Who can be the speaker of this poem?<br>
+Ans: The person who remembers his youth intimately related to nature may talk about this poetry.<br>
+<br>
+B.What is &ldquo;little i&rdquo; doing?<br>
+Ans: Little I look through the window at sunset.<br>
+<br>
+c.What can be the relationship between &ldquo;little i&rdquo; and the speaker of the poem?<br>
+Ans: &quot;Little I is the inner child of the speaker.<br>
+<br>
+D. What is the speaker remembering from his childhood days in the poem?<br>
+Ans: The speaker remembers the beautiful sunset of Nevember in the poem.<br>
+<br>
+E. What attitude does the speaker seem to have toward the child in the poem?<br>
+Ans: The speaker seems to be positive about the kid. When he remembers his childhood, he gets nostalgic.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+a. Why do you think Cummings has placed a semicolon between the words window and at?<br>
+Ans: The semicolon between the words &quot;window&quot; and &quot;at&quot; brings the two major sections of the poem together. The poet asks his query in the first section. He then describes the feeling of amazement he has had in the second section.<br>
+<br>
+b. If the speaker is the child grown up, why does he ask, &ldquo;who are you&rdquo;?<br>
+Ans: The speaker is speaking to his own inner kid. In him still remains the youthful curiosity. Feelings that remind him of the beautiful sunset he enjoyed when he was a kid in November.<br>
+<br>
+c. In this poem, an adult reflects on the childhood experience. Based on that, what might be the theme of the lines: &ldquo;(and feeling: that if day / has to become night / this is a beautiful way)&rdquo;?<br>
+Ans : Death is the subject of the line. The day becomes the night as life gradually changes into death. The speaker is willing to embrace death instead than to remain alive. This shows how death may be a remedy for a difficult existence.<br>
+<br>
+D. What is the rhyme scheme used in the poem?<br>
+Ans: Rhyme of the poem is ABAB.<br>
+<br>
+E. Explain the pun in &ldquo;little i&rdquo; that is related to what he is doing.<br>
+Usage of a term which has more than one meaning or a word with various meanings but which sounds the same in an intelligent way is called pun. The word 'little I' refers to one particular element of the personality of the poet, and the childish sense of wonder and viewing the world through a child's vision.<br>
+<br>
+f. How does Cummings&rsquo;s use of lowercase letters affect your understanding of the poem? Explain.<br>
+Ans: Cumming utilises minuscule characters to highlight his emotions in relation to his experience. In his childhood, he used to appreciate nature full of pleasure. His maturity has repressed his delights and joys.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A. How does nature inspire the speaker in &ldquo;who are you, little i&rdquo;? Explain.<br>
+Ans : Speaker in &quot;who you are, little i.&quot; is mesmerized by the luring beauty of nature. The splendour of nature made him remember his lovely childhood experience. In his youth he sees himself as a young kid, five or six years old. He continues to look at the lovely golden sunset and feels like the wonderful manner of day-to-night transition.<br>
+<br>
+B. Recall a childhood moment when you felt closely connected with nature. Describe the time and place as well as your feelings and thoughts about it.<br>
+Ans : First visit to a fountain in our locality always fascinates me a lot. I used to go there and enjoy the cool air mixed with water droplets. Calm nature, and beautiful hilly scenarios were enough to make me fascinated. Now, I am sad because that fountain has no existence because of the road that was built through that way. I want to enjoy that moment again.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

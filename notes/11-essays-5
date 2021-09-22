@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Scientific research is the token for mankind&rsquo;s survival<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+As a scientist, Vladimir Keilis-Borok believes that science is humanity's gatekeeper and protector.<br>
+<br>
+Even while some people want to become researchers, their salary is not greater than that of financial managers, lawyers, and experts. He views science as a venture where costs are revealed. An chance to grow as a researcher is worth more than money.<br>
+<br>
+During the cold war, the three atomic powers came to an agreement banning atomic bomb tests. Back then, everyone on Earth was in risk of being wiped out by atomic bombs. Experts from the USSR, UK, and US gathered in Geneva to address the issue.<br>
+<br>
+They couldn't find a solution. This led to the primary option. He claims this problem was directly related to his study on seismic waves. His hypothetical data had an immediate applicability in the human endurance area.<br>
+<br>
+The writer found that all scholars from different nations and cultures had similar thoughts. He also found that science is a desire for all of us to live long and thrive. According to him, all fresh inventions and business brands come from fundamental logical analysis.<br>
+<br>
+The author reveals how natural and man-made disasters frequently impede human development. Seismic earthquakes, self-delivered megacity destruction, ecological disasters, financial and social crises He admits that fighting dangers requires academic assets. He argues that only fundamental logical investigation can build a new crisis preparedness business.<br>
+<br>
+Writing is an exciting journey into the badge of mankind's perseverance. He assures us that the researchers with their equipments can examine any dangers and ensure our overall security. If science is used for good, it is our invaluable watchman and overseer.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+A. What does a scientist get instead of big money?<br>
+Ans: A scientist receives freedom, companionship, independence, not huge money. Honors and promotions rely more on oneself than on other professions.<br>
+<br>
+b. What was the problem that the nuclear powers had faced?<br>
+Ans: The nuclear powers had signed an agreement to halt the testing of the new nuclear weapons, and one of the parties had broken this agreement and covertly created an underground nuclear explosion. The issue was both agreement breach and detection.<br>
+<br>
+C. In which area did Keilis Borok's theoretical knowledge have a direct application?<br>
+Ans: His theoretical understanding was directly applied to human survival.<br>
+<br>
+<br>
+D. What was the important decision that the politicians took before Geneva Summit?<br>
+Ans: The key choice the politicians made before the Geneva Summit was to get an agreement to prohibit the nuclear weapon test.<br>
+<br>
+f. What are the natural and man-made disasters as mentioned by the author?<br>
+Ans: Natural and man-made disasters include earthquakes, self-inflicted devastation of megacities, environmental catastrophes, economic and social problems.<br>
+<br>
+<br>
+<br>
+Reference to the Context<br>
+<br>
+A. The professional addressed as &lsquo;you&rsquo; in the sentence &ldquo;If you are clever, why are you so poor?&rdquo; refers to a&#8230;<br>
+<br>
+i. lawyer ii. doctor iii. scientist iv. businessman.<br>
+<br>
+Justify your choice.<br>
+<br>
+Ans- Scientist<br>
+<br>
+The author wants to know why some individuals desire to be scientists in the provided field, while other professions like attorneys, physicians and businesspeople make considerably more.<br>
+<br>
+B. The writer says, &ldquo;I found myself in Geneva.&rdquo; What does it express?<br>
+Ans. It expresses the amazement of the author. He was unexpectedly summoned to Geneva's nuclear weapons meeting. Speaking with Moscow specialists, American scientist Frank Press highlighted his study.<br>
+<br>
+<br>
+<br>
+C.Are the following statements true? Why or why not? Discuss with your partner.<br>
+<br>
+i. Money is more powerful than intellectual resources.<br>
+<br>
+Ans. This statement is untrue. Money is temporary, whereas intellectual resources give good outcomes. No financial assurance exists. Money generates problems. Intellectual resources, on the other hand, may drive achievement and excellence.<br>
+<br>
+<br>
+<br>
+ii. Intellectual resources help survival of the mankind.<br>
+Ans. That sentence is accurate. Intellectual resources are only aspirations for humanity's future. Humanity has benefitted from intellectual resources such as illness alleviation, protection of terrorism, healthy living, and entertainment.<br>
+<br>
+<br>
+<br>
+iii. Basic research is a way of stalling disasters.<br>
+Ans. That sentence is accurate. People across the globe live their lives with confidence, believing in scientific research. Scientists continue to research and warn the public about possible catastrophes. People are protected from research-based knowledge.<br>
+<br>
+<br>
+D. How does the essayist justify that scientific research is the humankind&rsquo;s survival?<br>
+Ans. The essayist's theoretical understanding of seismic waves was directly used in nuclear weapons. This resulted in mankind's whole survival. Scientists can also guarantee human safety from any natural or man-made hazards. Basic scientific research supports our earthly life by providing us with fresh energy and minerals, terrorist protection, and cancer treatment.<br>
+<br>
+<br>
+E. What can be the purpose of the essayist of using quotations in the essay?<br>
+Ans. Using quotes aims to reinforce the arguments and concepts presented in the article. He introduced the quote and explained. Using them the reader's attention to particular quote parts that are most directly related to arguments and ideas.<br>
+<br>
+<br>
+F. Discuss and illustrate the writer&rsquo;s stand that scientists are the most practical people in the world<br>
+Ans. All new technologies and brands from military to entertainment are the product of scientific study. Antibiotics, electronics, biotechnology, synthetic textiles, green revolution, genetic forensic diagnostics, etc. are some of scientists' contributions to society. Only scientific research can supply us with new energy and minerals, effective terrorist protection, cancer treatment, and new kinds of transportation. Financial firms headhunt those educated in theoretical physics, while those trained in biological research frontiers become founders and directors in the pharmaceutical sector.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A. Everyone lives under the fear of annihilation by nuclear weapons. Explain this statement.<br>
+<br>
+Ans : In this sentence, the writer informs all his readers of the hazardous condition of the 1960 cold war. It's been frightening.<br>
+<br>
+Superpowers like the Soviet Union, the United States, and the United Kingdom possessed more than enough nuclear weapons in one attack to destroy the other nations. Every man, woman, and child in the world lived under the fear of nuclear destruction. These superpowers were ready to cooperate to tackle this danger.<br>
+<br>
+<br>
+<br>
+B. The essayist says &lsquo;While there is science, there is hope of survival and wellbeing for all of us.&rsquo; Explain it.<br>
+Ans : According to the writer, science is our inevitable protector and caregiver since it is the only science capable of securely moving with time. Countries have signed a pact to abstain from covertly testing nuclear weapons for human existence. Countries have signed a pact to abstain from covertly testing nuclear weapons for human existence.<br>
+<br>
+However, science and scientists guaranteed humanity's survival. It is the only science capable of differentiating between nuclear-explosion tremors and normal earthquakes. It is the science that can provide us new energy sources, mineral resources and powerful anti-terrorism defences. Science's optimism for humanity's survival also has wider importance.<br>
+<br>
+In the present situation, both natural and man-made catastrophes threaten human safety. Whether a tsunami or terrorism, money alone won't fix the issue. Scientific remedies are the only chance. Thus, the author has many grounds to believe that science is the only chance for survival.<br>
+<br>
+<br>
+<br>
+C. Is science a blessing or a curse? Write an essay on it<br>
+Ans : Science is the methodical search of natural and social world knowledge and understanding using evidence-based methods. Scientists experience a range of new world- and life-related phenomena. Science is both a gift and a burden.<br>
+<br>
+Science's application is its most essential element. Science has done many jobs to help society, but in this world it has also had a lot of bad impacts on humankind. Antibiotics, electronics, biotechnology, synthetic fibres, green revolution, genetic forensic diagnostics are all scientific discoveries. All these innovations enhanced people's lives.<br>
+<br>
+A rudimentary knowledge of science always helps people's life. Most people die today from science and its creations. Science produces many kinds of weaponry. Science should not hurt mankind. Use it to help mankind. Science should be utilised for good purposes.<br>
+<br><br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

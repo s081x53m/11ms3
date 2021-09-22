@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+<br>
+An astrologer&rsquo;s day<br>
+<br>
+Summary<br>
+The short story &lsquo;An Astrologer&rsquo;s Day&rsquo; by R. K. Narayan is a thriller and suspense short story which deals with a single day in the life of an ordinary astrologer who shrewdly tries to dupe people and escape from his guilt. The story not only exposes the fake astrologer but also highlights the gullible and superstitious people who approach him. <br>
+<br>
+His day begins like any other day but the day ends with unexpected events. When he is about to wind up his business, he meets a rogue character, Guru Nayak who is a part of the past life of the astrologer. Towards the end, as readers, we receive a shock that Guru Nayak and the astrologer belong to the same native towns. They were once upon a time good friends and had a quarrel one day. The result was that both were into bad company and had a fight. The astrologer tried to kill Guru Nayak by attacking him with a knife and when Guru Nayak fainted, he threw him into a nearby well.<br>
+<br>
+Fortunately, a passerby saved Guru Nayak. The astrologer left his native village forever and became an astrologer. Thus suddenly he confronts his past unexpectedly but smartly tackles the situation.<br>
+<br>
+The surrounding darkness seems to offer a refuge to the astrologer. There is an unexpected twist in the tale with the arrival of Guru Nayak on the scene. Gradually the mystery that is hidden in the darkness is unveiled by his questions. Guru Nayak challenges the astrologer&rsquo;s knowledge. He refuses to go away without getting a satisfactory answer to his questions.<br>
+However, the astrologer who is at his wit&rsquo;s end now decides to face the situation. He displays accurate knowledge about Guru Nayak&rsquo;s past and is successful in convincing him. In answering the question of Guru Nayak, the astrologer has not only deceived him but also saved himself from his own fate. The author superbly evokes the atmosphere of suspense and irony in the story. The story reveals how appearances are often deceptive. It shows the witty astrologer&rsquo;s encounter and escape from his former enemy.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+a. How does the astrologer&rsquo;s appearance help him attract customers? How does he help the customers satisfy their needs?<br>
+Ans: His brow is luminous with holy ash and vermilion. His eyes are thought by his clients to have a prophetic glow. He wears a turban saffron. He is so well presented that he is a draw for everyone. He helps clients meet their requirements by analysing their problems such as marriage, money, etc.<br>
+<br>
+b. How do you characterise the astrologer&rsquo;s attitude toward the stranger? <br>
+Ans: The astrologer sees the alien in front of him and views him as his potential client.<br>
+<br>
+c. What details does the astrologer give the stranger about his past? <br>
+Ans: The astrologer informs the astrologer he had been stuck with a knife and thrust to death, and some passersby spotted him and rescued him from death. <br>
+<br>
+d. Why does he advise the stranger to go home immediately? <br>
+Ans: He urges the stranger to quickly leave home in his life to get rid of danger.<br>
+<br>
+e. What is your reaction to the conversation between the astrologer and his wife? <br>
+Ans: I'm glad the Astrologer got rid of his shame and anxiety and made some additional money that day. The entire collection of coins of the astrologer is just sufficient for the following day to keep them alive.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+a. Suspense is the feeling of anticipation you may have as you read. In this story, what details contributed to your feelings of suspense and surprise? Explain.<br>
+Ans: The sensation of suspense is generated regarding the astrologer's personal and previous life. It is said that the reader was not meant to be an astrologer. Without any prior plan, he left his village. Astrology is also informed to the reader that it is not his family business. <br>
+<br>
+This gives the reader interest on why he violated the ancestral cycle and drove him suddenly to leave his home. The suspense continues with the stranger's meeting with the astrologer. The astrologer sees the face of the alien in the flash of light produced by a match and he refuses instantly to accept the challenge of the alien. <br>
+<br>
+At the conclusion of the story, the reader is shocked to learn that the astrologer was the one who stabbed the stranger and went to death while he was drunk in his day as a young man.<br>
+<br>
+b. Analyze the conflicts in &ldquo;An Astrologer&rsquo;s Day.&rdquo; Explain how the conflicts are resolved and what they reveal about the characters involved in the story<br>
+Ans: In the story, there is tension when a stranger, as the customer of the astrologer, comes on the scene. The astrologer packages his things up and is ready to summon them one day. The stranger challenges the astrologer to answer his questions specifically. <br>
+<br>
+As the stranger lights up his cheroot, he glimpses his face through the light and the astrologer feels uneasy and refuses the challenge for certain unexplained reasons. <br>
+<br>
+However, he is compelled to say something to the stranger to appease him. The visitor is startled by the astrologer's report of his previous life and decides to stop seeking an adversary who has proclaimed himself crushed by a truck. The astrologer guarantees himself a safe and secure existence in the future.<br>
+<br>
+c. &ldquo;All right. I will speak. But will you give me a rupee if what I say is convincing? Otherwise I will not open my mouth, and you may do what you like.&rdquo; <br>
+i. Who's that speaker?<br>
+<br>
+ii. Who does he talk to?<br>
+<br>
+iii. What does &quot;open my mouth&quot; mean?<br>
+<br>
+<br>
+Ans: <br>
+i. The speaker is the astrologer.<br>
+<br>
+ii. He's talking to Nayak Guru.<br>
+<br>
+iii. Open my lips implies to provide some persuasive facts about the stranger.<br>
+<br>
+<br>
+d. Description helps readers visualize what is happening in a story. What details and techniques does the author use to describe the astrologer?<br>
+Ans: The astrologer is an amazing person. He is able to create a new identity and live via his intellect in a highly crowded metropolitan environment. <br>
+<br>
+The astrologer lives via his wisdom. Although he has no mystical understanding, he understands how to display and captivate others. It is evident that he has to sit for long hours to gather enough to keep himself and his family alive every day. <br>
+<br>
+He is brave and motivated, notwithstanding his intellect. When Guru Nayak is at risk and his life is at risk, he still demands that he negotiate for money. He brings home his wife every year so that she may purchase food for the family. He's a dedicated husband and dad.<br>
+<br>
+The narrative features the style of omniscience for a third person. The usage of conversation throughout the whole narrative is designed to provide different views without altering the narrator's overall authority. The story is set late in the evening in the Town Hall Park. The reader learns that the astrologer typically stays around midday underneath the tamarind tree.<br>
+<br>
+<br>
+e. Irony is a contrast between appearances and reality. What is ironic about Guru Nayak&rsquo;s meeting with the astrologer?<br>
+Ans: The irony of the scenario is in the meeting with the astrologer of Guru Nayak. He comes to the astrologer to assist locate the culprit. Guru Nayak is the astrologer himself. <br>
+<br>
+When the astrologer knows the guy, he feels extremely uneasy. However, the astrologer misinforms him cleverly. He makes Guru Nayak wait for money and negotiate. <br>
+<br>
+Finally, when he addresses the almighty by name and informs him about the events in the hamlet, he has Guru Nayak in his hand.<br>
+<br>
+<br>
+f. How does the astrologer&rsquo;s manner of dress suit his character?<br>
+Ans: The story's protagonist is the astrologer. The first section of the story explains how the astrologer conducts his duties and how he looks. He's usually dressed like an astrologer. His front is luminous with holy ash and vermilion. <br>
+<br>
+He wraps around his head a saffron-colored turban. His clothing and look suits his persona and becomes a focus of attention. The astrologer is easily misled by his cleverness. He is smart and has his own methods of doing his job. He has a working analysis of the problems of humanity.<br>
+<br>
+<br>
+Reference beyond the text <br>
+<br>
+a. The astrologer attracts many customers in the street who are pleased and astonished by what he tells them. What does this tell you about the people of the town walking in the street?. <br>
+Ans : Astrologer is the primary character in this story. His business relies on his astrological instruments, his clothing and his guesses. The way he wears it is suitable for his personality. <br>
+<br>
+He's very clever in his profession in astrology. His saffron hat and clothing assist him in enticing his clients. He dresses wonderfully like an astrologer. He has been presented so carefully that his clients think that he is a knowledgeable astrologer in his attire.<br>
+<br>
+<br>
+b. Why do most people want to know their future? Do you think astrologers can really help them know their future?<br>
+Ans : Most individuals would want to know their future since their happiness, their difficulties ahead and their safety are extremely inquisitive. True astrologers with genuine understanding of astrology can assist people to glimpse the future.<br>
+<br>
+c. Is astrology a good practice of fortune telling or is it just a blind faith? Give reasons.<br>
+Ans : Astrology is an excellent technique of divination. Most individuals practise and believe in divination in Eastern cultures. The greatest portion of human existence is considered to be astrology. <br>
+<br>
+Astrology is practised in different life events. People believe a lot in astrology in Eastern cultures. Through astrology people discover the appropriate Answers to their issues. In many instances, astrological predictions are also shown to be accurate.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np <br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

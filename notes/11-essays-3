@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+What I Require from life<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+Initial impressions are that &quot;What I Require from Life&quot; is a personal essay. A normal human being's basic needs are revealed in the essay's second section.<br>
+<br>
+Haldane starts his essay by accepting the cosmos as it is. He can't ask for impossible. He next lists his own desires: fascinating job, excellent health, companionship, and independence. In the second half of the essay, he connects his own needs to his aspirations for mankind, presuming himself to be a reasonably typical example. For example, he believes others desire to work and opposes capitalism since it always leads to unemployment.<br>
+<br>
+Haldane's style is direct and vivacious. As a scientific popularizer, he is used to writing about difficult topics in simple terms. In nontechnical writing, he keeps things simple with short, powerful phrases and straightforward explanations. His topic seems personal, and his writing style detailed. However, in the second half of his essay, he clearly makes a political point. Freedom, for example, is a universal need, not just a personal choice. That is, society should be organised to maximise everyone's freedom. His is a social critic's perspective, outlining a broad programme of ideals for a civilised society.<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+A. How does the writer distinguish between a peaceful age and a heroic age?<br>
+Ans: He was born in a tranquil era, but lived in a heroic age. The period preceding the First World War was a tranquil era.<br>
+<br>
+<br>
+b. Why does the writer want more freedom of speech than most people?<br>
+Ans: The writer wants greater freedom to speak and publish what he thinks about Lord Blank's publications, the medicines of Mr Dash, and beer of Sir John Asterisk, all deadly.<br>
+<br>
+<br>
+C. According to the writer, what are the four general human needs?<br>
+Ans: Good income/work salary, independence, sound health and friendship, as stated in the text, are four common human requirements.<br>
+<br>
+<br>
+d. What is the difference between desire and demand according to the writer?<br>
+Ans: Desire is anything we desire or want, but it is not affordable and demand is everything we want or want.<br>
+<br>
+E. Why does the writer demand security?<br>
+Ans: The writer wants safety since he's his age kid.<br>
+<br>
+<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+Explain the following sentences about the context:<br>
+<br>
+A. &ldquo;The satisfaction of adventure is something much more solid than a thrill.&rdquo;<br>
+Ans. The line indicates Haldane's adventurous preference. It requires adventure. He believes it adds substantial experience to individuals. Adventure love doesn't imply thrill love. He contrasts excitement with fun by reading Rimbaud's poems. This is when he spent six weeks in Madrid during the siege.<br>
+<br>
+<br>
+B. &ldquo;I want the workers to see the fruit of their own work not in profits for others, but in their own and their friends&rsquo; well-being.&rdquo;<br>
+Ans. The line shows that the writer passionately favours socialism. He affirms that the hard effort should be greatly rewarded. He wants democracy in the workplace. He is a socialist who wants workers to run enterprises. They should be free to labour and share earnings. The nature of industrial labour is like hunting and gardening.<br>
+<br>
+<br>
+C. Why do you think the essayist has taken reference from the ancient philosophers?<br>
+Ans. The writer referred to his thesis from the ancient thinkers. For his efforts, he seeks employment and a fair pay. When they are accomplished it will be a pleasant condition similar to the pleasure described as unhindered activity by Aristotle.<br>
+<br>
+Death is the complement to his existence for the writer. He thought the death of Socrates was the most desirable one of the recorded deaths since he died for his beliefs.<br>
+<br>
+<br>
+d. Discuss the essay in terms of its language, purpose, subject, point of view and mode of writing.<br>
+Ans. The text is in plain and clear English. It's simple in style. The topic is presented in a manner that every reader may comprehend. The essayist maintains simplicity in first person, with straightforward phrases and simple explanations.<br>
+<br>
+At first, his topic seems intimate and his style is introspective. He puts forth a political argument in the second part of the article. He emphasises freedom as his personal and universal desire. Society should be organised according to him to promote freedom for everyone.<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+<br>
+A. What do you require from your life to be happy and satisfied?<br>
+Ans. I need excellent health, work, companionship, freedom &amp; security from my life to be happy and content.<br>
+<br>
+<br>
+b. What is socialism? How is it different from capitalism?<br>
+Ans. A social and economic equality system in which private property and ownership are not valued is termed as socialism. It contrasts from capitalism because capitalism provides no economic equality. Unlike socialism, capitalism overlooks people's needs and does not encourage equitable opportunities.<br>
+<br>
+c. Write an essay about your dream house.<br>
+<br>
+My dream house&mdash;an essay<br>
+<br>
+I constantly dreamt my future home. A home is a location surrounded by loved people. A home is not made attractive by its furnishings or d&eacute;cor, but by the people within. My ideal home should be a place I share with my family when I grow old. <br>
+<br>
+I always dream of a mountainous wooden home. My ideal home should be facing a river. Through the windows, I could watch the mountains sunset and vanish. My ideal home would include a little garden with my own veggies and fruits.<br>
+<br>
+The home I like would be large, with four rooms and a wide common space. My ideal home should make my parents, grandparents and siblings comfortable. <br>
+The home should include all contemporary facilities. It should feature a large TV with a home theatre system and a Playstation. The home walls will have light colours that make it bright. <br>
+<br>
+Every room will have enough bulbs and lights. I also dream of a guest room chandelier and a large couch where everyone would sit and enjoy watching TV. My grandparents like reading. I want my ideal house's read area with plenty of books.<br>
+<br>
+I have Tiger named 3-year-old pet dog. I also want a modest but cosy area in Tiger's home where he may sleep and rest when he gets old. The home will feature magnificent interiors and amenities such as a contemporary kitchen, three bathrooms, a stairway leading to the terrace, ACs, etc. My ideal house should be to live happily and comfortably.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

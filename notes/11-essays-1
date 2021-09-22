@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Sharing tradition<br>
+<br>
+<br>
+Summary <br>
+The essay &lsquo;Sharing Tradition' is about oral tradition and passing on culture and values. We must hear our elders' tales.<br>
+<br>
+LePena, the renowned writer, speaks about oral tradition. In this article, he shares his views and experiences regarding oral tradition. To LaPena, oral tradition is a type of human communication where information, ideas and cultural material are passed verbally from one generation to the next.<br>
+<br>
+Oral tradition is the oral transmission of cultures and values. Oral transmission occurs via speech, music, folktales, chants, prose, and poetry. Oral tradition helps us preserve cultural values.<br>
+<br>
+Tradition sharing is not an easy job. Elders and youth should work together to protect and preserve cultural values. Speakers (elders) and listeners (young people or followers) are vital in sharing on tradition. It is important for young people to learn from respected elders about their cultures, customs, faiths, and values. After the death of an elder, young people must step forward and attempt to continue the process.<br>
+<br>
+They must continue elders' oral tradition sharing to keep cultures and values alive in their community. So the oral tradition may pass on cultures and values from generation to generation. We (young) should keep seniors alive by preserving their greatest experiences and knowledge of communal life. Elders must remain eternal from generation to generation.<br>
+<br>
+For the next generation, we must consider our inspiration's source. Elders inspire us. We need them to teach us the correct way to survive and live. If it is tradition, we should respect the elders and the confidence they placed in us by sharing on the traditions. It is the right method to preserve people's cultures and values.<br>
+<br>
+<br>
+Understanding the text<br>
+<br>
+Answer the following Questions<br>
+A. According to LaPena, what is the importance of the oral tradition? To what extent do you agree with his opinions and why?<br>
+Ans: Oral tradition helps to preserve cultural values. It enables a culture to transmit information without writing across generations.<br>
+<br>
+b. Who preserve and pass on the oral tradition?<br>
+Ans: Elders maintain and transmit oral tradition. The current generation may preserve the oral tradition by paying attention to the elders' knowledge and experience.<br>
+<br>
+<br>
+C. What is the danger of not passing on information from generation to generation?<br>
+Ans: If knowledge is not transmitted from generation to generation, our cultural and traditional values erode.<br>
+<br>
+<br>
+d. What is the difference between oral tradition and literary tradition?<br>
+Ans: Oral tradition may be rectified, but written tradition cannot be altered.<br>
+<br>
+<br>
+E. How does LaPena establish a relationship between art and the oral tradition?<br>
+Ans: Oral tradition influences the artist's visualisation of the stories, characteristics, design and colour in his production of art, the atmosphere and other information.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+A.LaPena states that the oral tradition helps maintain the values of a culture. If you believe that the oral tradition is important, how would you maintain it?<br>
+Ans. Oral tradition helps preserve a culture's ideals. Each person in a culture may play an important part in maintaining the oral tradition. More should be heard from our elders. Interviews may be done with them. Audio copies may be produced for public use for stories, folk stories, epics, etc. The significance of the oral tradition may be conveyed to young people.<br>
+<br>
+<br>
+B. &ldquo;Not everyone is capable of fulfilling the roles of the elders.&rdquo; Explain this statement with reference to the essay.<br>
+Ans. The elderly have improved their lives by establishing a unique place. Their position in a community typically requires specific expertise and experience. They are extremely successful in fulfilling their duties. The young people should pay more attention but do not pay attention to their understanding of culture and responsibility. Once the elders die, it is difficult to replace their position.<br>
+<br>
+<br>
+c. What is the controlling idea or thesis of this essay?<br>
+Ans. The concept or thesis under control of the essay is that oral tradition is extremely essential for helping to preserve cultural values. The oral tradition is the message that is spoken from generation to generation. It enables individuals to make the world meaningful and is used to educate children and adults essential elements of their culture. The greatest method to preserve the oral tradition is to listen to the stories of the elderly.<br>
+<br>
+<br>
+d. How do topic sentences guide the reader through the essay? What would be lost without them?<br>
+Ans. Topic phrases connect to the essay's primary topic. They assist the readers by indicating the meaning of the paragraph. All phrases in the remaining paragraphs should connect to the subject phrases. The essay lacks consistency without subject sentences, and the writer cannot transmit his primary concept or message to the reader.<br>
+<br>
+<br>
+e. What are the four major problems developed by LaPena with regard to maintaining the oral tradition. How are they used to structure the essay?<br>
+Ans. LaPena's four primary difficulties with preserving the oral tradition are: - inability to fulfil the duties of the elders, generational divide caused by technology, lacks of verification of oral traditions and lack of interest of modern cultures on how old traditions work.<br>
+<br>
+These issues are utilised to organise the essay since the thesis statement and the subject phrases are supported.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+A. Write a paragraph or two explaining your attitude toward the oral tradition of passing along information.<br>
+Ans : Oral tradition is one of the efficient ways in which all the people of this planet maintain and preserve the culture and values of tradition. I consider oral tradition as a kind of art, where both older and young people have a crucial role to play to preserve and uphold traditional values and culture by transmitting genuine knowledge from generation to generation. The practise of oral tradition is extremely essential for everyone. Through oral tradition we may preserve and maintain our cultural and traditional values. Through oral tradition we may preserve our cultural and traditional identity.<br>
+<br>
+<br>
+<br>
+B. Our culture is our identity. Write a few paragraphs explaining how you intend to preserve your culture, values and norms.<br>
+Ans : Our culture is our identity. Our culture, values and conventions play a very important part in our lives. Our whole existence depends on our culture. We are connected culturally to our civilisation. Because of our culture, norms and values, we can accomplish good in our life. These components help us to select the correct routes, ideas and choices in our life.<br>
+<br>
+I want to preserve my culture, values and norms through celebrating every ceremony connected with my culture, making people aware of the significance of our culture, our values and our standards, promoting or advertising cultural and traditional events in my company, creating a cultural heritage organisation, sharing information related to culture and my traditional values.<br>
+<br>
+<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

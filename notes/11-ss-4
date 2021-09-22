@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+The wish<br>
+<br>
+Done by Shriram Lamichhane<br>
+<br>
+Summary <br>
+The story opens with a small boy picking a scab off his knee. As he sits on the stairs, he becomes aware of the large red, black, and yellow carpet that stretches to the front door. He decides that the red patches are red hot lumps of coal that will burn him up completely, and the black parts are poisonous snakes that will bite him and kill him. If he can make it all the way across without getting burnt or bitten, he will get a puppy for his birthday tomorrow.<br>
+<br>The boy begins his quest. The first part is easy going, but he reaches some difficult parts and has to take long strides. He wobbles but stretches out his arms to steady himself. He reaches a turning point and goes left, because although it seems more difficult, there&rsquo;s less black. (He&rsquo;s very afraid of snakes.) He reaches the halfway point and knows he can&rsquo;t turn back or jump off. He begins to feel panic rising in his chest. <br>
+<br>Then, He takes another step to the only close yellow piece, and his foot is only a centimeter from a black patch. A snake stirs and raises its head to watch him. &ldquo;I&rsquo;m not touching you! You mustn&rsquo;t bite me!&rdquo; he thinks. Another snake rises as well, and the child is frozen with terror for several minutes. <br>
+<br>The next step is a very long one, too long to jump. The child manages to get one foot across and transfers his weight. He tries to then bring up his back foot but can&rsquo;t. He was doing the splits and he was stuck. He looked down at the oily bodies of the snakes writhing beneath him. He began to wobble, but this time waving his arms only made it worse. <br>
+<br>The boy was starting to go over. &ldquo;The next thing he saw was this bare hand of his going right into the middle of a great glistening mass of black and he gave one piercing cry as it touched. Out in the sunshine, far away behind the house, the mother was looking for her son.<br>
+<br><br>
+Understanding the text<br>
+<br>
+Answer the following questions.<br>
+<br>
+a. What did the child do to the scab on his knee? <br>
+Ans: The kid picked scabs from his knee.<br>
+<br>
+b. What kind of effect did the carpet have on the child? . <br>
+Ans: The carpet made the kid join the fancy world of the carpet.<br>
+<br>
+c. What was he afraid of while walking across the carpet? <br>
+Ans: He was frightened of carpet snakes.<br>
+<br>
+d. What motivated and encouraged the child to start and continue on his journey? <br>
+Ans: The next day, a dog he would be given for his birthday motivated him to start and continue his adventure.<br>
+<br>
+e. What did the child see as he looked down on the black patterns of the carpet? <br>
+Ans: The kid observed the oily bodies of the snakes tumbling as the black patterns of the carpet.<br>
+<br>
+<br>
+Reference to the context<br>
+a. The writer creates two voices in the story. Who are they? <br>
+Ans : In the story, the writer constructs two voices. They are the voice of the author and the voice of the character. The author leads the readers via the third person's narrative into the imaginary realm. He utilises the figure of a wonderfully creative little kid to make readers think on the delicacy of their innocence in infancy. On the other hand, the kid as a key character in the narrative enables readers to feel the magical world realistically.<br>
+<br>
+<br>
+b. Read the extracts given below and answer the questions that follow. <br>
+Ans: <br>
+i. What does &lsquo;the black part&rsquo; mean? <br>
+'The black section' indicates toxic snakes.<br>
+<br>
+ii. Who is the speaker? <br>
+The speaker is a small kid.<br>
+<br>
+iii. Why doesn&rsquo;t the speaker want to be burnt? <br>
+ The speaker wouldn't want a dog to be burned on the next day for his birthday.<br>
+<br>
+<br>
+ c. Which images and metaphors are used in the story? <br>
+Ans : The images are based on metaphors in the narrative. The first picture he shows is the scab. Due to the enormous interest of the child, the scab is an unique obstacle he can never face. <br>
+<br>
+The carpet comes alive with its picture in his thoughts. The carpet thus becomes a metaphor for the difficulties facing the child in achieving his objective. The red dots seem to be hot coals that may burn him. <br>
+<br>
+The black portions are venomous snakes that are evil, deceit and tentation. The child's fear of crossing the carpet compares to the anxiety he feels as he grows up in the face of actual barriers in his maturity road.<br>
+<br>
+<br>
+d. Summarise the short story &ldquo;The Wish&rdquo; in about 200 words. <br>
+Ans : The story starts with a little kid picking his knee from a scab. When he is sitting on the steps, he knows the big red, black and yellow carpet which runs to the front door. He creatively says that each colour symbolises something else. <br>
+<br>
+The red portions of the carpet depict red-hot coal bumps that may burn him. The black portions are toxic snakes that may bite him and put him to death. The only safe zone for him is the yellow portion. If he goes over the carpet, on his birthday he will be given a dog.<br>
+<br>
+The kid begins his search. The first portion is easy. He reaches some challenging areas and must take lengthy steps. He wobbles yet extends his arms to remain constant. He's at a turning point and he's going left. Even though it appears harder, it's less dark. He gets halfway and realises that he can't turn back or jump off.<br>
+<br>
+The kid continues to the next yellow patch and his foot is a centimetre from the black one. A snake lifts his head and looks at him. Another snake is also rising. The kid is immobilised for many minutes with terror. Too long to leap is the next stage. All his weight is transferred to his front foot. He then tries to raise his rear foot, but he can't. He's trapped while he's dividing.<br>
+<br>
+The child attempts to retreat, but he can't. He's stuck properly. He stares at the greasy bodies of the underneath snakes. He begins shaking and attempts to maintain his equilibrium by flailing his arms. It does not work.<br>
+<br>
+He begins to descend to the darkness. When he touches it, he makes a loud scream. His mother looks for him, far beyond the house, in the sunlight.<br>
+<br>
+<br>
+e. The story shows the events through the eyes of the narrator and the child. Comparing the two styles, who presents more interesting or effective view for the readers? Why? <br>
+Ans : The kid offers the reader with his inquisitive and strong imagination with a more intriguing perspective. The sight in front of him as a witness is clear and exciting. We believe that his visions are genuine and he is in actual danger. He thinks of the multicoloured carpet as an exciting voyage. Through his awareness we meet red hot coal bumps and snakes as before us.<br>
+<br>
+<br>
+f. Is &ldquo;The Wish&rdquo; a story about self-confidence overcoming fear or about greed? Give your arguments.<br>
+Ans : This is a story of self-confidence that overcomes fear. The first accomplishment with respect to the scab confers confidence on the kid and provides him the self-image of a hero. <br>
+<br>
+He is nervous in the beginning. He will next face the task of securely crossing the carpet. It might be said that the kid is driven by the covetousness of getting a dog but that seems secondary to the desire to confront the issue and conquer it. The kid is not convinced he will be rewarded with a dog.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+a. Do you think our wish can be fulfilled? Why or why not? <br>
+Ans: We desire many things, Not all desires are satisfied. We require difficult and complex practise to fulfil our goal, desire, interest. We should remain cool and decide every time. The correct choice leads to the appropriate route that can only meet our wants and desires.<br>
+<br>
+If we want something called wish. Hard effort is required to be accomplished. But not all of our wishes can be realised. All are not glad because their wishes and desires are not realised and they are not angry when the want is not met. All-powerful helps in all conditions.<br>
+<br>
+Therefore, we need to practise a lot to fulfil our wishes, requirements, desires and satisfaction only then we may be happy.<br>
+<br>
+<br>
+b. Why do you think some people might have a frightening nature? What would you suggest to them to overcome it?<br>
+Ans: Some people may have a habit of being afraid of small things since they don't have self-confidence.<br>
+<br>
+To overcome this, I would propose that they learn more about their phobia. This may be the toughest first step but it is also essential. I will also suggest to them to make good use of their creativity, use their intellect in a manner that is different from normal, focus on breathing, practice mindfulness and last but not least to use nature as a therapy.<br>
+<br>
+<br>
+c. Write a folktale that you have heard or read. <br>
+Ans : A story originating in popular culture, typically passed on by word of mouth is called Folk Story (Nepali: Dantya Katha) . Students are requested to write a local story that is famous in your locality.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np <br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

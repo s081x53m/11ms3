@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Corona says<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+Vishnu S. Rai's poem &quot;Corona Says&quot; portrays the world's coronavirus crisis. It shows us that coronavirus was produced by industrialization, modernization, organisation, pollution, and other human activities.<br>
+<br>
+Corona virus is a speaker in the poem. It told humans not to weep to crush the infection. It claims it comes to Earth not of its own free choice, but of human actions. It's believed to be attracted owing to human activity and pollution. It complains to humans that they only count coronavirus deaths. But never count the individuals who died in their battles. It implies humans only blame the corona virus but not themselves.<br>
+<br>
+The world's inhabitants believe they created everything. They don't appreciate birds, fish, insects, or trees. They believe all other animals are their slaves to slaughter or sell. In fact, humans are unaware of the value of other living things. So they have a new epidemic.<br>
+<br>
+The corona advises not to blame it for the global crisis. It claims it came to earth to show humans how pure the blue sky is without human pollution. It also wants people to understand how cage animals feel at a zoo by locking them in their own homes. It also claims it comes to Earth to relax from various human activities.<br>
+<br>
+Finally, Corona cautions against thinking of the planet as solely human property. They must understand that all life exists on Earth. It states that if humans keep polluting the planet, it will die but new diseases would arise. And they must escape the old cage.<br>
+<br>
+Understanding the text<br>
+Answer the following Questions<br>
+<br>
+A. Who is the speaker in the poem?<br>
+Ans: Corona is the poet's speaker.<br>
+<br>
+b. Who claim to be superior to all?<br>
+Ans: People believe they are superior to everyone.<br>
+<br>
+c. Why has speaker come to earth?<br>
+Ans: The speaker has come to Earth as a result of the abuse of nature by people.<br>
+<br>
+D. What positive changes have occurred on Earth after the speaker's visit?<br>
+Ans: The sky was clear without dust and smoke throughout the epidemic. People felt like animals in a confined zoo. The illness gave the planet a little respite.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+A.What does the speaker mean when he says:<br>
+<br>
+Ans: In the words provided, the speaker says that people themselves are responsible for conflict and loss of life. The war-related destruction is more horrific than the epidemic.<br>
+<br>
+Wars are the consequence of resource and land conflicts or the will of a government to expand its influence and authority. Governments and any warring parties never think about the repercussions that individuals have to endure.<br>
+<br>
+Because of conflict, millions of people have lost their lives and property. The consequences of conflicts inflict physical and psychological suffering.<br>
+<br>
+<br>
+b.Explain the following:<br>
+<br>
+Ans : In this excerpt, the speaker tells humanity that the pandemic can be managed, but that additional deadly illnesses may be affected by its own behaviours and ultimately causing human civilisation to extinguish.<br>
+<br>
+The epidemic has not left any nation unaffected. However, there can be no epidemic outside human control. This is due to human knowledge and the same wisdom is the source of deadly illnesses. The manner in which nature is treated eventually leads to its deterioration. When we go beyond the ability of nature to tolerate, we reach our primordial age.<br>
+<br>
+<br>
+<br>
+c. What does the speaker mean in the following lines? Explain.<br>
+Ans: The speaker argues in these words that earth is the common home of all living beings. They have an equal right to utilise existing resources on earth to maintain their existence, while human people are deprived of resources.<br>
+<br>
+The speaker is concerned that human strain on the natural environment is increasing. Human beings are considered superior to all living organisms. All natural resources have been managed to profit themselves, yet the Earth is the common home for all living creatures.<br>
+<br>
+Human beings damage the food supplies and habitats of other animals, in the name of growth and progress. In order to meet the needs of the increasing population, people disrupt the whole environment. The destruction of the environment leads to the disappearance of other animals.<br>
+<br>
+<br>
+<br>
+<br>
+Reference beyond the text<br>
+A.What human behaviours are responsible for suffering in people's lives?<br>
+Ans: Human behaviour is the only cause of all of these people's misfortunes. The current world is experiencing a crisis because of human egos and evil actions. During this crucial time, many individuals lost their lives. Because of their egotistical character, the planet and its inhabitants suffered many illness issues. Their so-called egos and battles stole countless people's lives.<br>
+<br>
+<br>
+B. How does an epidemic differ from a pandemic? Briefly explain the impact of Corona Virus on human life and environment.<br>
+<br>
+Ans : An illness affecting many individuals is epidemic, whereas a pandemic impacts a broad geographical region and a significant part of the population.<br>
+<br>
+Coronavirus is one of the memorable dangers of the 21st century. This illness has snapped people's lives to a very high standard. People across the globe are panicked and mentally afraid to live their lives. Covid 19 has brought terrible consequences to the history of mankind. Because of the epidemic, every time people are observed cleaning the environment.<br>
+<br>
+<br>
+Get more notes from : www.tsz.com.np<br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

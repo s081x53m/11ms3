@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Two little soldiers<br>
+By Shriram Lamichhane,<br>
+<br>
+Summary<br>
+The story &quot;The Two Little Soldiers&quot; was written by Guy de Maupassant (1850-1893). He was a French writer, who has written some 300 short stories, six novels, three travel books, and one volume of verse. Maupassant wrote short stories like The Necklace and Bel Amim, but he also wrote poetry and novels. He was an author of the naturalistic school. <br>
+<br>
+Two Little Soldiers&quot; takes place in Courbevoie, a town in the countryside of France. Although there is no fighting in the story, there is a war going on. Two French Soldiers, Luc Le Ganidec and Jean Kerderen are two soldiers who habitually spend their free time on Sundays away from the barracks, out in the countryside. Their day off has taken on the character of a ritual. Every Sunday, they bring food for breakfast to the same spot in the woods and lie back to enjoy the food, wine, and sights of an area that reminds them of home.<br>
+<br>
+Eventually, their ritual comes to include a bit of innocent ogling of a young village girl who brings her cow out to pasture every week at the same time. Unfortunately, both the soldiers fall in love with the milkmaid. But Luc starts to see her more in private and Jean ends up killing himself from being heart broken, because his friend went behind his back. <br>
+<br>
+Guy de Maupassant is known for his very realistic style of writing. In most of his stories there is a war going on because of the time de Maupassant spent in the army. There is also a character in love because of de Maupassant's love for women. Homesickness; when soldiers are away from home for so long, they are going to feel home sick. They will miss the feeling of a woman, which is why both soldiers fall in love with the milkmaid. <br>
+<br>
+There are two themes: Love and Romance Betrayal Setting Conflict Person vs Person The milkmaid causes the conflict between Luc and Jean, leading Jean to committing suicide. The countryside and the milkmaid brought Luc and Jean together, but eventually they ended up leading to Jean's death.<br>
+<br><br>
+Understanding the text<br>
+<br>
+Answer the following questions:<br>
+<br>
+a. Why do the two soldiers spend their free time on Sundays away from the barracks out in the countryside?<br>
+Ans: On Sundays, the two soldiers spend their leisure time in the countryside out of the barracks since they have discovered a place that reminds them that they are home, and no other place is pleasant.<br>
+<br>
+b. Why does the girl become the topic of conversation for these soldiers? <br>
+Ans: The girl becomes the subject for two soldiers since they both fall in love with her.<br>
+<br>
+c. Why does deception enter into their friendship? <br>
+Ans: Luc aggressively begins to pursue the girl which was unknown to Jean. This caused their friendship to be deceiving.<br>
+ <br>
+d. Do you think that Luc is a betrayer of friendship? <br>
+Ans: Yes, I do. Luc begins to see more of the girl in private. He takes money from a friend of his and tries to leave, but he does not say anything to Jean.<br>
+<br>
+e. What is the cause of suicide of Jean? Do you think that it was the only release of his love?<br>
+Ans : The betrayal from his friend Luc, and his jealousy of the secret love affair between Luc and the dairymaid was the cause of the Jean&rsquo;s suicide. So, I don't think the cause of suicide was only the release of his love.<br>
+<br>
+<br>
+Reference to the context<br>
+<br>
+a. What is the central theme of the story? <br>
+Ans: The subject of the story is that friendship and passionate love are incompatible. Two best buddies, Jean and Luc, love the same girl. One female will surely violate the tie of friendship. You cannot become a girl's lover and keep the same connection with your pal that existed before the girl's arrival into your life.<br>
+<br>
+b. &quot;What are you doing here? Are you watching the grass grow?&quot;<br>
+i. Who's that speaker?<br>
+The speaker is the dairy maid.<br>
+<br>
+ii. What does the term 'here' mean?<br>
+ &quot;Here&quot; indicates the spot where each weekend the two soldiers visit.<br>
+<br>
+iii. Who is the reference to &quot;you?&quot;<br>
+Two soldiers are referred to as &quot;You.&quot;<br>
+<br>
+c. &quot;He leaned--he--he was leaning--so far over--that his head carried him away-- and--he--fell--he fell----&quot;<br>
+i. Who's that speaker?<br>
+The speaker is Luc.<br>
+<br>
+ii. Why is the speaker interrupted?<br>
+The speaker speaks with interruption, as he's in agony and frightened of Jean's death.<br>
+<br>
+iii. What does he mean when &quot;he&mdash;he&mdash;he fell&mdash;-&quot; he says?<br>
+It implies Jean came down into the river.<br>
+<br>
+d. Two Little Soldiers can be viewed as a series of dramatic scenes. Describe the story as a tragedy.<br>
+Ans : Luc and Jean are two soldiers who spend their leisure time in the countryside on Sundays away from the barracks. They observe a young village girl bringing her cow to the pasture and milking it at the same time every week. <br>
+<br>
+They're near to one another. They spend time together every weekend. It is obvious that Jean has the same feeling that Luc does for the girl. In a tight friendship, Luc emphasises romantic prospects. This leads Jean to choose to put an end to his own life. <br>
+<br>
+His choice to kill himself was a natural result of his understanding that he would have no companion or girlfriend. This tragedy relies on the character defect of Luc.<br>
+<br>
+e. What is the setting and style of the story? <br>
+Ans : In the French countryside, two little soldiers reside. The setting is tranquil. Luc and Jean, soldiers stationed in neighbouring barracks, come there for dinner on Sundays and to appreciate the landscape that reminds them of their own homeland. Maupassant makes sure that he does not portray too much barrack life. <br>
+<br>
+The beauty of the environment is enhanced by a dairy maid. Maupassant's most important tactic in the story is his manipulation of the point of view. Although the events of the story seem constant, the views vary as the settings change. <br>
+<br>
+Maupassant assumes an all-knowing narrator's voice. He informs the reader what both soldiers think and do, pays equal attention to each other and gives basic and easy information on what the young lady felt or thought about during the first meeting. He depends on one character, Jean, when Luc chooses to depart, and for the final time the two soldiers are in the countryside. <br>
+<br>
+When the two soldiers return to the barracks, Luc looks at the situation. The reader is denied information of Jean's emotions, and thus his motive to kill himself is not explained.<br>
+<br>
+f. How would you describe the conflict between the friends? <br>
+Ans: The story is about tension when the girl passionately embraces Luc, without paying attention to Jean, without even realising that he is there. <br>
+<br>
+Jean is sad and unhappy. Jean learns at that moment why Luc wants to depart and borrow Jean's money but does not explain his conduct. Luc and the girl walk to the cow and for a long time vanish into the woods. <br>
+<br>
+When they go back, the lovers kiss again, and that day the girl gives him no milk. The struggle between friendship and love eventually leads to Jean's death. As his close buddy dies, Luc stays anxious.<br>
+<br>
+<br>
+<br>
+Reference beyond the text <br>
+<br>
+a. Is it good to have conflict between friendship and love? Is it morally good that a person and his best friend can love the same person?<br>
+Ans : A conflict between friendship and love is not desirable since these are connections that are extremely important for a person. True friends and loved ones are constantly concerned about one another. They highlight good and negative traits and enhance self-esteem. Friends assist to alleviate stress and suffering through laughing and good times. They're going to assist progress.<br>
+<br>
+As long as love and intensity towards the individual is genuine, it is not ethically wrong for two people who have the same emotions for the third person. Such a situation may develop intentionally or unknowingly in a person's life. While not terrible, there are plenty of opportunities for issues to develop in the near future. The only way is to speak to one another and address the issue via emotional control.<br>
+<br>
+b. How would you describe the triangular love?<br>
+Ans : A triangular love is usually a loving connection between three people. Although it may refer to two people romantically associated separately with a third person, it usually implies that each of the three people has some kind of connection with the other two. It may be friendships, sexual connections or familial ties.<br>
+<br>
+Two little soldiers addressed the subject of friendship, romantic love, dissatisfaction, treachery, and envy in this short story. This short story is about a triangle relationship where a friend's disappointment causes a disaster for the next friend.<br>
+<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

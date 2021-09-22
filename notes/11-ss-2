@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+The Oval portrait<br>
+<br>
+By Shriram Lamichhane<br>
+<br>
+Summary<br>
+&lsquo;The Oval Portrait&rsquo; (1842) is one of the shortest tales Edgar Allan Poe ever wrote. In just a few pages, he offers a powerful story about the relationship between art and life, through the narrator&rsquo;s encounter with the oval portrait of a young woman in a chateau in the Apennines. The story repays close analysis because of the way Poe offers his story as a subtle commentary on the link between life and art.<br>
+<br>
+First, a brief summary of this briefest of stories. The narrator, wounded and delirious, has sought shelter in an old mansion with his valet or manservant, Pedro. He holes up in one of the rooms, and contemplates the strange paintings adorning the walls of the room, and reads a small book he had found on the pillow of the bed, which contains information about the paintings. At around midnight, he adjusts the candelabrum in the room and his eye catches a portrait he hadn&rsquo;t previously noticed, in an oval-shaped frame, depicting a young girl on the threshold of womanhood. The narrator is captivated by this portrait, which seems so life-like; but he soon becomes appalled by it. He turns to the book and reads the entry detailing the history behind the oval portrait. The woman depicted in it was the young bride of the painter, and was a perfect wife in every respect &ndash; except that she was jealous of her husband&rsquo;s art that distracted him from her. <br>
+<br>
+The artist paints a portrait of his wife, and becomes more and more obsessed with capturing her likeness, until he ends up spending all of his time gazing at the portrait of his wife, and hardly any time looking at her. She becomes weaker and weaker, dispirited from losing her husband&rsquo;s love as he stops paying her attention and becomes more and more preoccupied with the painting. When he has just about finished the portrait and turns to regard his wife, it is to find that she has died.<br>
+<br>
+<br>
+Understanding the text <br>
+<br>
+Answer these questions. <br>
+<br>
+a. Where did the narrator and his servant make forcible entrance?<br>
+Ans: They entered the chateau forcibly. <br>
+<br>
+b. Which special picture did the narrator notice in the room?<br>
+<br>
+Ans: He saw a young girl's photo.<br>
+<br>
+ <br>
+c. Describe the portrait that the narrator saw in the room.<br>
+<br>
+Ans: The picture was in an oval frame. It showed the young woman's head and shoulders. In the indistinct but deep shade which constituted the backdrop of the entire, the arms, bosom, and even the ends of the brilliant hair disappeared unabated.<br>
+<br>
+<br>
+d. What is the relationship between the portrait painter and its subject?<br>
+Ans: They were Husband and wife. <br>
+Reference to the context<br>
+<br>
+ a. What is the central theme of the story? Who is the woman depicted in the oval portrait?<br>
+<br>
+Ans: The narrative of The Oval Portrait focuses on the subject of art-life connection. Art and fascination with it are shown to be murderers and responsible for the death of the young bride. Art is comparable to death in this sense. The relationship between art and life is seen as competition. In the story, art exposes the wrongdoing or malice of the creator and also clarifies that art can even kill life.<br>
+<br>
+The painter's wife and the victim of the painter's love for portraiture is the lady shown in the oval portrait.<br>
+<br>
+<br>
+B. &quot;The Oval Portrait&quot; is a short horror story by Edgar Allan Poe involving the disturbing circumstances surrounding a portrait in a chateau. Elaborate.<br>
+<br>
+The story of &quot;The Oval Portrait,&quot; with its gloomy surroundings and atmosphere, is a short horror story. It is placed in a dull, deserted manor. The house is abandoned, yet includes items such as an oval picture with a dark and enigmatic history. A sense of mystery and dream is in the picture of the far abandoned castle. The interior with its walls covered in tapestries and multifaceted and multifaceted armorial trophies is torn and ancient in many lively, contemporary paintings. The gloomy circumstances and the shadow of the previous occurrences give the sense of a curious twist in history. The expectation of the mystery of the reader is based on the emergence in one of the deeper corners of a strange chamber of a living picture of the lady.<br>
+<br>
+<br>
+<br>
+C. &quot;The Oval Portrait&quot; suggests that the woman's beauty condemns her to death. Discuss<br>
+<br>
+The art sources say that the young woman is extremely lovely in the picture. She's dead because she's forced by her husband to sit for several weeks trying to paint her most lovely picture. <br>
+<br>
+Although the lady sits by her husband, he's plunged into a lovely picture of his woman in his painting. But he doesn't slowly comprehend the life of his wife leaving her body. It shows that the husband has not seen his wife's attractiveness. <br>
+<br>
+Since he was an artist, in the form of a portrait he wishes to preserve it. Her beauty therefore condemns her to death.<br>
+<br>
+<br>
+D. Discuss the story as a frame narrative (a story within a story).<br>
+<br>
+The Oval Portrait is a narrative frame, or a story with a different plot. In the first section of the story we find a narrator who, for unexplained reasons, gets hurt and struck at night. He takes refuge in an abandoned manor with his friend and servant, Pedro. While his servant sleeps, the storyteller remains alert. He is enthralled by the artwork on the wall of the bedroom and examines a book with its narrative. He learns about a young lady in the book after seeing a realistic picture.<br>
+<br>
+<br>
+The narrator says in the second part that a lovely lady marries a painter who is totally engrossed in her piece. Even if she doesn't like it, she's willing to pose for a picture, which takes many weeks. As the picture comes to a close, the woman becomes weaker and weaker. She suddenly understands that she is dead as he puts her last touches on the canvas.<br>
+<br>
+<br>
+<br>
+E. The story is told in a descriptive style, with plenty of imagery and symbolism. Which images and symbols do you find in the story?<br>
+<br>
+The mansion is deserted. The chamber of the tower is in a secluded area of the mansion. The room is rich in d&eacute;cor, yet everything is ancient and worn. The walls are filled with wallpaper, trophies and contemporary passionate art. The gothic picture is given in this detailed description of the house. Also, the portrait descriptions show the true and lovely nature of the picture. While she's deceased, she's portrayed in the picture so vividly.<br>
+<br>
+<br>
+A Gothic history is backed by the gloomy dreary of the abandoned home. The painter is the fanaticism emblem. The female is the victim of the art love shown by the painter in an oval portrait. The oval image represents art's immortality. As a physically beautiful lady, the frame represents the overall objection that she faced.<br>
+<br>
+F. What does the expression &ldquo;She was dead!&rdquo; mean?<br>
+<br>
+The phrase &quot;She's dead!&quot; is a realisation of the painter's commitment to his picture, the death of his loved one. For several weeks, his wife stays submissive. As the job goes on, her health is deteriorating. The painter nonetheless does not realise his wife's deteriorating health, but continues to paint frantically without taking his eyes off the canvas. The final brush stroke makes a painter happy with the vividness of his making, but he knows that she's dead as he turns to his wife.<br>
+<br>
+<br>
+Reference beyond the text<br>
+<br>
+a. Do you think there is life in art? <br>
+<br>
+Ans: &quot;The Oval Portrait&quot; is a life-art frame story. The external narrative is followed by an anonymous narrator who spends a night in an Apennines castle. He admired the magnificent paintings while he got there, but was more fascinated with the picture of a lovely, young lady contained in an oval frame. <br>
+<br>
+Then he examines the underlying narrative of a lovely girl whose husband had a lot of obsession with his work. He became detached from reality. His canvas became more real for him than reality itself, which is great for his work but catastrophic for his actual existence. <br>
+<br>
+In a literary sense, however, the artist makes art life and attempts to discover life in it, but in a broad perspective, art is just a production which is designed to show and has significance that is linked to various things.<br>
+<br>
+<br>
+<br>
+b. As a thing of art nothing could be more admirable than the painting itself. Explain. <br>
+<br>
+Ans: Painting is completely correct in this remark. Painting is really a wonderful art form. The artists work hard to produce excellent, meaningful artworks. The artwork itself speaks literally. Painting gives us life-related information. Here in this story, the oval picture is one of the narrators' best examples. He is very confused and surprised at seeing this artwork. <br>
+<br>
+<br>
+c. A more intense look at the painting reveals the illusion. Have you noticed any such painting?<br>
+<br>
+Ans: I am not fond of watching pictures and finding the meaning or mystery behind it. However, I like to use my mind to find illusionary images that look like something else. <br>
+<br>
+Get more notes from : www.tsz.com.np <br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+Civil peace<br>
+<br>
+Done by Shriram Lamichhane<br>
+<br>
+Summary<br>
+Jonathan Iwegbu has survived the Nigerian Civil War along with his wife and three of his four children, and thus considers himself &ldquo;extraordinarily lucky&rdquo;. He also treasures his still-working bicycle, which he buried during the war to ensure it would not be stolen. Another apparent miracle is his still-standing home, which he repairs and reoccupies after returning home to the capital city of Enugu. To explain both his good and bad fortune to himself and others, he often repeats a phrase: &ldquo;Nothing puzzles God.&rdquo;<br>
+<br>Jonathan works hard in the aftermath of the war, using his bicycle to start a taxi service and opening a bar for soldiers. His family mirrors his example, cooking food and picking fruit for sale. Since the coal mine where Jonathan worked before the war has not reopened, this resilience is crucial towards securing even their minor comfort.<br>
+<br>One day, after turning over rebel currency, Jonathan is given an award of 20 pounds. He takes care not to be robbed, remembering a theft he observed several days earlier, in which a man broke down in public over indignity.<br>
+<br>That night, a group of thieves knocks on his door demanding money. Frightened, the family calls for the neighbors and police, but the heavy silence when they finish reminds them that nobody looks out for anyone but himself. The thieves then mock them, crying out even louder to indicate how helpless the family is.<br>
+<br>The thief leader demands 100 pounds, promising not to hurt Jonathan or his family if he cooperates. Eventually, Jonathan realizes their lack of options, and gives the thieves the 20 pounds of reward money so they will leave the family unharmed. Some thieves insist they should search the house for more, but the thief leader believes this is all Jonathan has, and accepts it.<br>
+<br>The next morning, Jonathan and the family are back at work as the neighbors arrive. Sensing their confusion over his ability to toss off the situation of the night before, Jonathan explains to his neighbors that the reward money cannot compare to what he lost in the war. He chooses to focus on his work in the present rather than regret what has happened, since &ldquo;Nothing puzzles God.&rdquo;<br>
+<br><br>
+Understanding the text<br>
+<br>
+Answer the following questions<br>
+<br>
+a. Why did Jonathan think of himself as 'extraordinarily lucky'?<br>
+Ans: Jonathan felt of himself as &quot;extraordinarily fortunate&quot; since he and his wife and children escaped the civil war.<br>
+<br>
+b. What are the &lsquo;five blessings&rsquo; for which Jonathan is grateful? <br>
+Ans: The 'five blessings' Jonathan is thankful for are his head, Maria's head, and three of their four children's heads.<br>
+<br>
+c. Why did Jonathan mistrust the officer who wanted to take his bicycle? What does this tell you about the situation in Nigeria?<br>
+Ans: The cop, who wanted to seize his bicycle because of his definite lack of grip and hardness, was mistrusted by Jonathan. <br>
+<br>
+He rescued his bicycle, handing the police two pounds. It shows that in Nigerian society, corruption and dishonesty flourished as the consequence of civil war.<br>
+<br>
+d. What visitors might be at the door? Are Jonathan and his wife completely surprised? Explain.<br>
+Ans: People at the door are thieves. <br>
+He and his family are yelling for assistance, but no one accepts. The thief asks for 100 pounds. Jonathan doesn't have so much money, he claims. All he has at the treasury is 20 pounds. The leader chooses to accept the price. He's given it by Jonathan and the thieves go away.<br>
+<br>
+e. Why does no one in the neighbourhood respond when the thieves pound on Jonathan&rsquo;s door? Why do the thieves call for the police? <br>
+Ans: When robbers pound at Jonathan's door, nobody in the neighbourhood responds because they're afraid of the thieves. They are calling on the cops to enjoy and mock Jonathan and his family.<br>
+<br>
+<br>
+<br>
+Reference to the context<br>
+ <br>
+a. What does Jonathan mean by his expression &ldquo;Nothing puzzles God&rdquo;? What does this expression reveal about his character? Explain by citing details from the story.<br>
+Ans : The phrase 'Nothing Puzzles God' by Jonathan speaks to his profound religious trust in God and to his pessimistic temperament. <br>
+<br>
+Jonathan frequently uttered good results - such as the survival of his house and family - as blessings or wonders and in terrible circumstances as the closure and robbery of coal mines. <br>
+<br>
+He is ready to accept that he can't control the forces of destiny, but instead concentrates on the future. He handles the turmoil of the battle and its aftermath effectively by embracing good and terrible occurrences as God's plan. <br>
+<br>
+By assigning events to God, he acknowledges his incapacity to alter things already happening. This helps him concentrate on working for the future rather than wallowing in self-pity.<br>
+<br>
+b. How does Jonathan change as he experiences the conflicts in his life? Explain.<br>
+Ans : Jonathan is free from suffering over the events and consequences of the Civil War. He has a cheerful tone in the midst of difficult circumstances. He gets increasingly ready to get rid of material and money stuff in order to protect what he and his family care about most. This readiness enables him to build his energy in the present rather than have a negative feeling for the past. His optimism is unwavering throughout the story.<br>
+<br>
+c. Read the extract and answer the questions below.<br>
+<br>
+i. Who's that speaker?<br>
+The speaker is Jonathan.<br>
+<br>
+ii. Who speaks to the speaker?<br>
+The speaker speaks to himself.<br>
+<br>
+iii. Who refers to &quot;they?&quot;<br>
+&quot;They&quot; refers to treasury officials.<br>
+<br>
+<br>
+d. Nigerian English has words like soja 'soldier' and katakata 'confusion', 'trouble' derived apparently from English words but transformed by native languages' phonologies. What does the author&rsquo;s use of dialect here add to the story?<br>
+Ans : Achebe has used both local and mainstream languages to make the story believable. He utilises these languages to distinguish the protagonist outside his door from the thefts. Their conversation, however, highlights this discrepancy. The usage of dialect produced genuine Nigerian characters. He created a new kind of English, a Nigerian dialect of English to reflect his nation's bicultural history.<br>
+<br>
+<br>
+e. Why do you think the thieves who come to rob Jonathan speak English with a heavier African accent than Jonathan does?<br>
+Ans : The linguistic interaction compares the English spoken by the Thefts with the English spoken by Jonathan with a heavy African emphasis. <br>
+<br>
+The manner in which criminals enjoy the families' need for assistance further strengthens these disparities. For example, the family shouts, &quot;We lost!&quot; but with a stronger English accent, this appeal turns out to be &quot;We lost!&quot; For three reasons, Achebe uses English with an African accent. <br>
+<br>
+The distinctions among the remarks indicate Jonathan is more educated than the thefts. The usage of English also portrays the east Nigerian society properly. Finally, the poor English is utilised for the comedy impact.<br>
+<br>
+<br>
+f. The title of the story &quot;Civil Peace&quot; itself is ironical as there is little to differentiate &lsquo;civil peace&rsquo; from &lsquo;civil war&rsquo;. Do you think that the title of this story is appropriate, or would &ldquo;Civil War&rdquo; have been a better title? Explain.<br>
+Ans : Achebe ironically uses the term to emphasise the brutality still prevalent in Nigeria after the war. Although the battle is over, the region remains chaotic and full of disputes. <br>
+<br>
+The conflict is causing enormous damage. Jonathan collects everything he can to restore his life. Still, when they steal Iwegbu and his family, a gang of criminals use the phrase &quot;civil peace.&quot; The violence which was prevalent throughout the conflict, however, was not gone and for ordinary people such as Jonathan Iwegbu circumstances were not much better.<br>
+<br>
+The story follows Jonathan Iwegbu, who gathers the pieces of his life after the civil war in Nigeria. It commends the power of optimistic thinking through the success of Jonathan. This indicates that following the conclusion of the civil war people had optimism for a better future. The author therefore emphasises civic peace more than civil war.<br>
+<br>
+<br>
+<br>
+<br>
+Reference Beyond Text<br>
+<br>
+a. How would you describe the civil peace in Nigeria? <br>
+Ans: Civil peace following Nigeria's civil war was just so-called. The atmosphere was extremely frightening during that time. People haven't been safe. People have to live a frightening existence with numerous difficulties.<br>
+<br>
+<br>
+b. What kind of attitude towards life do you think you would have if your situation was similar to that of Jonathan&rsquo;s?<br>
+Ans: I would have comparable optimism about my life and family if my circumstances were similar to that of Jonathan's. I would attempt to work hard to maintain trust in God for my family's well being. I'd strive to be far from violence.<br>
+<br>
+<br>
+c. Draw the character sketch of Jonathan Iwegbu.<br>
+Ans: Jonathan is a very positive guy with a strong belief in God. He constantly says in the name of God, &quot;Nothing puzzles, God.&quot; He is quite happy to discover miracles in his life. <br>
+<br>
+He never lives in a discrepancy. He's a dedicated worker who thinks for everyone favourably. He loves his family a lot. In times of difficulty, he strives first to rescue his family. He was working so hard to rebuild the treasury during the period of Civil Peace, and they offered him a genuine money of 20 pounds in return. He doesn't even mourn at last over his loss.<br>
+<br>
+Get more notes from : www.tsz.com.np <br>
+Subscribe &ldquo;The SR Zone&rdquo; on YouTube<br>
+@Shriram Lamichhane<br>
+
+                </div>
+        </div>
+    </div>
+</body>
+</html>
