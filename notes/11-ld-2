@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,247 +35,374 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
 
-                <center>Unit 2 - Communication</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-                Ways with words<br>
-                A. The words in the crossword puzzle are from the text. Find them in the text to solve the puzzle based
-                on the clues given below.<br><br>
-                Down:<br>
-                1. to be preoccupied with a single topic or emotion - obsessed<br>
-                3. to move slowly and quietly in a particular direction - creep<br>
-                4. orderly, logical and Consistent - coherent<br>
-                <br>
-                Across:<br>
-                2. to utter rapidly or unintelligibly - babble<br>
-                5. to insert something between other things - interpose<br>
-                6. an unreadable handwriting - squiggle<br>
-                <br>
-                <br>
-                B. Use the following words in sentences of your own.<br><br>
-                Massive: A massive earthquake hit last night.<br>
-                Consciousness: We have to follow the social consciousness. <br>
-                Catch-as-catch-can: They will win the match catch-as-catch-can.<br>
-                Give up: I never want to give up my good habits.<br>
-                Abandon: The boys abandon me in the middle of the forest.<br>
-                Lousy: He has got lousy remarks from his boss.<br>
-                Editing: I keep on editing my script.<br>
-                <br>
-                <br>
-                C. Word formation: Adjectives and Adverbs<br>
-                <br>
-                b. Write the following words in the right columns. Change the adjectives into adverbs and nouns into
-                adjectives.<br>
-                [rain, careful, bush, spice, perfect, automatic, snow, blood, certain, cloud, fair, general, heavy, bag,
-                proud, rapid, mood, noise, proper, air, final, common, beautiful, frequent, hungry, cream, dust, ease,
-                ice, oil, fun, hand, greed, health, hill]<br>
-                <br>
-                Adjectives &nbsp; Adverbs<br><br>
-                Careful &#10140; Carefully<br>
-                Perfect &#10140; Perfectly<br>
-                Automatic &#10140; Automatically<br>
-                Certain &#10140; Certainly<br>
-                Fair &#10140; Fairly<br>
-                General &#10140; Generally<br>
-                Proud &#10140; Proudly<br>
-                Rapid &#10140; Rapidly<br>
-                Proper &#10140; Properly<br>
-                Final &#10140; Finally<br>
-                Common &#10140; Commonly<br>
-                Beautiful &#10140; Beautifully<br>
-                Frequent &#10140; Frequently<br>
-                Heavy &#10140; Heavily<br>
-                Hungry &#10140; Hungrily<br>
-                <br>
-                <br>
-                Nouns Adjectives<br><br>
-                Rain &#10140; Rainy<br>
-                Bush &#10140; Bushy<br>
-                Spice &#10140; Spicy<br>
-                Snow &#10140; Snowy<br>
-                Blood &#10140; Bloody<br>
-                Cloud &#10140; Cloudy<br>
-                Bag &#10140; Baggy<br>
-                Mood &#10140; Moody<br>
-                Air &#10140; Airy<br>
-                Cream &#10140; Creamy<br>
-                Dust &#10140; Dusty<br>
-                Ice &#10140; Icy<br>
-                Fun &#10140; Funny<br>
-                Ease &#10140; Easy<br>
-                Hand &#10140; Handy<br>
-                Oil &#10140; Oily<br>
-                Greed &#10140; Greedy<br>
-                Health &#10140; Healthy<br>
-                Hill &#10140; Hilly<br>
-                <br>
-                <br>
-                c. Fill in the gaps with the appropriate adjective or adverb.<br>
-                i. Pramila is playing &#8230;&#8230; (quiet/quietly).<br>
-                &#10140; quietly<br>
-                <br>
-                ii. Hari speaks very &#8230;&#8230; (loud/loudly).<br>
-                &#10140; loudly<br>
-                <br>
-                iii. Mukesh is a &#8230;&#8230; (careful/carefully) driver.<br>
-                &#10140; careful<br>
-                <br>
-                iv. The test was &#8230;&#8230; (easy/easily) and we finished in time.<br>
-                &#10140; easy<br>
-                <br>
-                v. He is fitting the &#8230;&#8230; (automatic/automatically) door in my house.<br>
-                &#10140; automatic<br>
-                <br>
-                vi. My uncle speaks &#8230;&#8230; (perfect/perfectly) Chinese.<br>
-                &#10140; perfect<br>
-                <br>
-                vii. It was raining very &#8230;&#8230; (heavy/heavily).<br>
-                &#10140; heavily<br>
-                <br>
-                viii. She looked very &#8230;&#8230; (calm/calmly), but I am sure she was feeling very nervous.<br>
-                &#10140; calm<br>
-                <br>
-                <br>
-                <br>
-                Comprehension<br>
-                Answer the following questions.<br>
-                a. Why is freewriting also called &lsquo;automatic writing&rsquo;?<br>
-                &#10140; Freewriting is also called 'automatic writing&rsquo; because it is performed without any
-                conscious control to achieve a spontaneous expression.<br>
-                <br>
-                b. How do you differentiate writing from speaking?<br>
-                &#10140; Writing has the advantage of permitting more editing but speaking doesn&rsquo;t have.<br>
-                <br>
-                c. What is the biggest obstacle in the writing process, according to Elbow? Do you agree with him? Why?
-                Why not?<br>
-                &#10140; According to Elbow, editing is the biggest obstacle in the writing process. This is because a
-                series of editing can diminish the natural creativity the mind discharges.<br>
-                <br>
-                d. How can freewriting overcome &lsquo;writer&rsquo;s block&rsquo;?<br>
-                &#10140; Freewriting can overcome &lsquo;writer&rsquo;s block&rsquo; as it is non - editing.<br>
-                <br>
-                e. What do you mean by &lsquo;voice&rsquo; in writing?<br>
-                &#10140; Voice is the combination of a sound, texture, and rhythm and the main source of power in
-                writing.<br>
-                <br>
-                f. Elbow uses a simile to explain that freewriting &ldquo;is like writing something and putting it in a
-                bottle in the sea.&rdquo; What does this mean? Explain.<br>
-                &#10140; The given expression means freewriting helps somebody by providing no feedback.<br>
-                <br>
-                <br>
-                <br>
-                Critical thinking<br>
-                a. How does the author persuade readers in this essay? What is he trying to communicate to the
-                readers?<br>
-                &#10140; Here in this essay &quot;Freewriting&quot;, the author persuades his readers using his various
-                ideas, examples as well as supportive opinions. Here, the author has put forward his opinions related to
-                writing skills and their improvements through the process of freewriting.<br>
-                <br>
-                The author here in this essay has suggested his tips to improve writing skills for all his readers.
-                According to him, the best way to improve writing skill is freewriting. Freewriting should be done
-                repeatedly to enhance writing skills. He calls it automatic writing where a writer can put forward
-                his/her feelings in a spontaneous way. Freewriting never accepts feedback. He further adds the most
-                important part of free writing is 'non-editing'. For him, editing is the greatest obstacle in the
-                writing process. The habit of compulsive and premature editing prevents the creativity of the writer.
-                The process of writing becomes hard as well as dead through the process of editing. For the author,
-                freewriting should be kept away from the editing process which hampers the authentic feelings and
-                natural way of the writer. According to him, the main source of power in our writing is 'a voice' which
-                includes a sound, a rhythm and a texture. It is the force that makes readers listen to the writers. It
-                is the energy that drives the meanings into the thick skull.<br>
-                <br>
-                <br>
-                b. Elbow said, freewriting &ldquo;is an exercise in bringing together the process of producing words and
-                putting them down on the page.&rdquo; Do you agree with his statement? Why? Why not?<br>
-                &#10140; Yes, I agree with his statement. Freewriting can be done quickly, regardless of how logical or
-                nonsensical it is. In freewriting, one does not need to focus on spelling, grammar, etc. In freewriting,
-                we express whatever comes to mind on a given subject. Regular freewriting breaks the habit of editing
-                while writing. It will free up your writing. What we write is just for us to read until we share our
-                effort with others. It will help us edit. Constant freewriting practice improves our writing skills.<br>
-                <br>
-                <br>
-                c. How did you learn to write? What was particularly difficult in writing? What inspired you to write?
-                What are some of the challenges that you still face while writing?<br>
-                &#10140; I learnt writing after learning English grammar and sentence structure. Before high school
-                level, writing in English was one of the complicated tasks for me. When I was in 9th grade, I could
-                hardly manage half of the paragraph on the assigned topic. My work would lose proper grammatical
-                structures, suitable vocabularies and coherence. The most problematic part was generation of
-                vocabularies. When I sat for any piece of writing, words couldn&rsquo;t come easily. Some of my friends
-                would go through any writing assignment comfortably. Their writings were greatly admired in the
-                classroom. I wished I could write like them. I talked to my teacher about my difficulty. He suggested me
-                not to panic and practice freewriting exercises regularly and encouraged me to read as many English
-                texts as I could. Then, I followed the advice very strictly. I enriched my vocabulary and learnt the
-                sentence structures with correct grammatical rules. Now, I can allow myself to complete any sort of
-                writing easily but I still get troubled with accumulation of appropriate words.<br>
+    <br>
+    <center>Unit 2
 
+        <br> Communication</center>
 
+    <br>
+    <h3>Ways with words
+        <br></h3>
+    <span>
+        A. The words in the crossword puzzle are from the text. Find them in the text to solve the puzzle based
+        on the clues given below.
+    </span>
 
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br>
+    <br>
+    <span>Down:</span>
+
+    <br>
+    1. to be preoccupied with a single topic or emotion - <b>obsessed</b>
+    <br>
+    3. to move slowly and quietly in a particular direction - <b>creep</b>
+    <br>
+    4. orderly, logical and Consistent - <b>coherent</b>
+    <br>
+
+    <br>
+    <span>Across</span>:
+    <br>
+    2. to utter rapidly or unintelligibly - <b>babble</b>
+    <br>
+    5. to insert something between other things - <b>interpose</b>
+    <br>
+    6. an unreadable handwriting - <b>squiggle</b>
+    <br>
+
+    <br>
+
+    <br>
+    <span>B. Use the following words in sentences of your own.</span>
+    <br>
+    <br>
+    <b>Massive</b>: A massive earthquake hit last night.
+    <br>
+    <b>Consciousness</b>: We have to follow the social consciousness.
+    <br>
+    <b>Catch-as-catch-can</b>: They will win the match catch-as-catch-can.
+    <br>
+    <b>Give up</b>: I never want to give up my good habits.
+    <br>
+    <b>Abandon</b>: The boys abandon me in the middle of the forest.
+    <br>
+    <b>Lousy</b>: He has got lousy remarks from his boss.
+    <br>
+    <bv>Editing</bv>: I keep on editing my script.
+    <br>
+
+    <br>
+
+    <br>
+    <span>C. Word formation: Adjectives and Adverbs</span>
+    <br>
+
+    <br>
+    <span>
+        b. Write the following words in the right columns. Change the adjectives into adverbs and nouns into
+        adjectives.
+    </span>
+    <br>
+    <i>
+        [rain, careful, bush, spice, perfect, automatic, snow, blood, certain, cloud, fair, general, heavy, bag,
+        proud, rapid, mood, noise, proper, air, final, common, beautiful, frequent, hungry, cream, dust, ease,
+        ice, oil, fun, hand, greed, health, hill]
+    </i>
+    <br>
+
+    <br>
+
+    <b>Adjectives &nbsp; Adverbs</b>
+    <br>
+    <br>
+    Careful &#10140; Carefully
+    <br>
+    Perfect &#10140; Perfectly
+    <br>
+    Automatic &#10140; Automatically
+    <br>
+    Certain &#10140; Certainly
+    <br>
+    Fair &#10140; Fairly
+    <br>
+    General &#10140; Generally
+    <br>
+    Proud &#10140; Proudly
+    <br>
+    Rapid &#10140; Rapidly
+    <br>
+    Proper &#10140; Properly
+    <br>
+    Final &#10140; Finally
+    <br>
+    Common &#10140; Commonly
+    <br>
+    Beautiful &#10140; Beautifully
+    <br>
+    Frequent &#10140; Frequently
+    <br>
+    Heavy &#10140; Heavily
+    <br>
+    Hungry &#10140; Hungrily
+    <br>
+
+    <br>
+
+    <br>
+    <b>Nouns &nbsp; Adjectives</b>
+    <br>
+    <br>
+    Rain &#10140; Rainy
+    <br>
+    Bush &#10140; Bushy
+    <br>
+    Spice &#10140; Spicy
+    <br>
+    Snow &#10140; Snowy
+    <br>
+    Blood &#10140; Bloody
+    <br>
+    Cloud &#10140; Cloudy
+    <br>
+    Bag &#10140; Baggy
+    <br>
+    Mood &#10140; Moody
+    <br>
+    Air &#10140; Airy
+    <br>
+    Cream &#10140; Creamy
+    <br>
+    Dust &#10140; Dusty
+    <br>
+    Ice &#10140; Icy
+    <br>
+    Fun &#10140; Funny
+    <br>
+    Ease &#10140; Easy
+    <br>
+    Hand &#10140; Handy
+    <br>
+    Oil &#10140; Oily
+    <br>
+    Greed &#10140; Greedy
+    <br>
+    Health &#10140; Healthy
+    <br>
+    Hill &#10140; Hilly
+    <br>
+
+    <br>
+
+    <br>
+    <span>c. Fill in the gaps with the appropriate adjective or adverb.</span>
+    <br>
+    <span>i. Pramila is playing &#8230;&#8230; (quiet/quietly).</span>
+    <br>
+    &#10140; quietly
+    <br>
+
+    <br>
+    <span>ii. Hari speaks very &#8230;&#8230; (loud/loudly).</span>
+    <br>
+    &#10140; loudly
+    <br>
+
+    <br>
+    <span>iii. Mukesh is a &#8230;&#8230; (careful/carefully) driver.</span>
+    <br>
+    &#10140; careful
+    <br>
+
+    <br>
+    <span>iv. The test was &#8230;&#8230; (easy/easily) and we finished in time.</span>
+    <br>
+    &#10140; easy
+    <br>
+
+    <br>
+    <span>v. He is fitting the &#8230;&#8230; (automatic/automatically) door in my house.</span>
+    <br>
+    &#10140; automatic
+    <br>
+
+    <br>
+    <span>vi. My uncle speaks &#8230;&#8230; (perfect/perfectly) Chinese.</span>
+    <br>
+    &#10140; perfect
+    <br>
+
+    <br>
+    <span>vii. It was raining very &#8230;&#8230; (heavy/heavily).</span>
+    <br>
+    &#10140; heavily
+    <br>
+
+    <br>
+    <span>viii. She looked very &#8230;&#8230; (calm/calmly), but I am sure she was feeling very nervous.</span>
+    <br>
+    &#10140; calm
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. Why is freewriting also called &lsquo;automatic writing&rsquo;?</span>
+    <br>
+    &#10140; Freewriting is also called 'automatic writing&rsquo; because it is performed without any
+    conscious control to achieve a spontaneous expression.
+    <br>
+
+    <br>
+    <span>b. How do you differentiate writing from speaking?</span>
+    <br>
+    &#10140; Writing has the advantage of permitting more editing but speaking doesn&rsquo;t have.
+    <br>
+
+    <br>
+    <span>
+        c. What is the biggest obstacle in the writing process, according to Elbow? Do you agree with him? Why?
+        Why not?
+    </span>
+    <br>
+    &#10140; According to Elbow, editing is the biggest obstacle in the writing process. This is because a
+    series of editing can diminish the natural creativity the mind discharges.
+    <br>
+
+    <br>
+    <span>d. How can freewriting overcome &lsquo;writer&rsquo;s block&rsquo;?</span>
+    <br>
+    &#10140; Freewriting can overcome &lsquo;writer&rsquo;s block&rsquo; as it is non - editing.
+    <br>
+
+    <br>
+    <span>e. What do you mean by &lsquo;voice&rsquo; in writing?</span>
+    <br>
+    &#10140; Voice is the combination of a sound, texture, and rhythm and the main source of power in
+    writing.
+    <br>
+
+    <br>
+    <span>
+        f. Elbow uses a simile to explain that freewriting &ldquo;is like writing something and putting it in a
+        bottle in the sea.&rdquo; What does this mean? Explain.
+    </span>
+    <br>
+    &#10140; The given expression means freewriting helps somebody by providing no feedback.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>
+        a. How does the author persuade readers in this essay? What is he trying to communicate to the
+        readers?
+    </span>
+    <br>
+    &#10140; Here in this essay &quot;Freewriting&quot;, the author persuades his readers using his various
+    ideas, examples as well as supportive opinions. Here, the author has put forward his opinions related to
+    writing skills and their improvements through the process of freewriting.
+    <br>
+
+    <br>
+    The author here in this essay has suggested his tips to improve writing skills for all his readers.
+    According to him, the best way to improve writing skill is freewriting. Freewriting should be done
+    repeatedly to enhance writing skills. He calls it automatic writing where a writer can put forward
+    his/her feelings in a spontaneous way. Freewriting never accepts feedback. He further adds the most
+    important part of free writing is 'non-editing'. For him, editing is the greatest obstacle in the
+    writing process. The habit of compulsive and premature editing prevents the creativity of the writer.
+    The process of writing becomes hard as well as dead through the process of editing. For the author,
+    freewriting should be kept away from the editing process which hampers the authentic feelings and
+    natural way of the writer. According to him, the main source of power in our writing is 'a voice' which
+    includes a sound, a rhythm and a texture. It is the force that makes readers listen to the writers. It
+    is the energy that drives the meanings into the thick skull.
+    <br>
+
+    <br>
+
+    <br>
+    <span>
+        b. Elbow said, freewriting &ldquo;is an exercise in bringing together the process of producing words and
+        putting them down on the page.&rdquo; Do you agree with his statement? Why? Why not?
+    </span>
+    <br>
+    &#10140; Yes, I agree with his statement. Freewriting can be done quickly, regardless of how logical or
+    nonsensical it is. In freewriting, one does not need to focus on spelling, grammar, etc. In freewriting,
+    we express whatever comes to mind on a given subject. Regular freewriting breaks the habit of editing
+    while writing. It will free up your writing. What we write is just for us to read until we share our
+    effort with others. It will help us edit. Constant freewriting practice improves our writing skills.
+    <br>
+
+    <br>
+
+    <br>
+    <span>
+        c. How did you learn to write? What was particularly difficult in writing? What inspired you to write?
+        What are some of the challenges that you still face while writing?
+    </span>
+    <br>
+    &#10140; I learnt writing after learning English grammar and sentence structure. Before high school
+    level, writing in English was one of the complicated tasks for me. When I was in 9th grade, I could
+    hardly manage half of the paragraph on the assigned topic. My work would lose proper grammatical
+    structures, suitable vocabularies and coherence. The most problematic part was generation of
+    vocabularies. When I sat for any piece of writing, words couldn&rsquo;t come easily. Some of my friends
+    would go through any writing assignment comfortably. Their writings were greatly admired in the
+    classroom. I wished I could write like them. I talked to my teacher about my difficulty. He suggested me
+    not to panic and practice freewriting exercises regularly and encouraged me to read as many English
+    texts as I could. Then, I followed the advice very strictly. I enriched my vocabulary and learnt the
+    sentence structures with correct grammatical rules. Now, I can allow myself to complete any sort of
+    writing easily but I still get troubled with accumulation of appropriate words.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
 </body>
 
 </html>

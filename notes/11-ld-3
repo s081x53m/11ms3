@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,262 +35,445 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-
-                <center>Unit 3 - Media and Society</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-
-                Ways with words<br>
-                A. Find the words from the text that have the following meanings.<br>
-                a. a personal or corporate website - blog<br>
-                b. a job requiring expertise in a particular field - profession<br>
-                c. a feeling of sadness - disappointment<br>
-                d. put under custody - detained<br>
-                e. found guilty - convicted<br>
-                f. breaking or disregarding rules or system - violating<br>
-                g. advantages and disadvantages - pros and cons<br>
-                h. a non-statutory monetary penalty - amercement<br>
-                <br>
-                <br>
-                <br>
-                B. Use the following prepositional verbs in sentences.<br>
-                apologize to &#10140; The supervisor apologized to his workers for his misbehavior .<br><br>
-                adapt to &#10140; We are supposed to adapt to the new system of the company.<br><br>
-                devote to &#10140; Maya seems to have devoted herself to a non-profit organization.<br><br>
-                refer to &#10140; The term 'accent' refers to pronunciation.<br><br>
-                reply to&#10140; She didn&rsquo;t reply to my letter.<br><br>
-                admire for&#10140; They admire him for his determination.<br><br>
-                apply for &#10140; She applied for the post of accountant.<br><br>
-                pray for &#10140; My friends are praying for good weather on Sunday.<br><br>
-                scold for &#10140; The principal scolded me for arriving late.<br><br>
-                vote for &#10140; In parliament, all members voted for the new tax.<br><br>
-                aim at &#10140; My brother aimed at the tree but hit the car by mistake.<br><br>
-                arrive at &#10140; Peter arrived at the station 25 minutes late.<br><br>
-                glance at &#10140; My father barely had time to glance at the newspapers.<br><br>
-                look at &#10140; The girl living next door always looks at me and smiles.<br><br>
-                bring up &#10140; His aunt brought up her.<br><br>
-                agree on &#10140; The two companies couldn&rsquo;t agree on a common strategy.<br><br>
-                comment on &#10140; She refused to comment on their decision.<br><br>
-                concentrate on&#10140; Our teacher asked us to concentrate on a black dot in the middle of the
-                screen.<br><br>
-                rely on &#10140; She still relies on her parents for her pocket money.<br><br>
-                count on &#10140; She counts on me to help her.<br><br>
-                grow up &#10140; Her brother grew up in Kathmandu.<br><br>
-                escape from &#10140; We managed to escape from the burning train.<br><br>
-                recover from &#10140; Shyam hasn&rsquo;t recovered from the death of his mother.<br><br>
-                resign from &#10140; He was forced to resign from the board in protest.<br><br>
-                suffer from&#10140; Premature babies may suffer from breathing difficulties in childhood.<br><br>
-                separate from &#10140; South America separated from Africa 200 million years ago.<br><br>
-                worry about &#10140; He always worries about his weight.<br><br>
-                argue about &#10140; My two elder brothers always argue each other about politics.<br>
-                boast about &#10140; She is boasting about how wonderful her car is.<br><br>
-                dream about&#10140; I told her that I had dreamed about her the previous night.<br><br>
-                acquaint with &#10140; He should acquaint himself with the filing system.<br><br>
-                agree with &#10140; I can&rsquo;t agree with her analysis of the situation.<br><br>
-                charge with &#10140; His brother has not yet been formally charged with the crime.<br><br>
-                trust with &#10140; My parents trust me with their life.<br><br>
-                confuse with &#10140; People often confuse me and my twin brother.<br><br>
-                believe in &#10140; I don&rsquo;t believe in capital punishment.<br><br>
-                involve in &#10140; His boss has involved in him in a great deal of extra work.<br><br>
-                succeed in &#10140; They nearly succeeded in blowing up the building.<br><br>
-                specialize in &#10140; His shop specializes in hand made cake.<br><br>
-                absorb in &#10140; Rajani absorbs herself in household works every day after school.<br><br>
-                <br>
-                <br>
-                <br>
-                Comprehension<br>
-                A. Fill in the gaps with appropriate words/phrases from the text.<br>
-                a. People are using social media for individual as well as _________ purposes.<br>
-                &#10140; Marketing<br>
-                <br>
-                b. Social media is not only a platform of sharing views, but also a platform of _________ .<br>
-                &#10140; Marketing Strategy<br>
-                <br>
-                c. The hospital wanted Prita to pay Rp. 100 million for_________ .<br>
-                &#10140; Immaterial losses<br>
-                <br>
-                d. Some singers organized _________ to help Prita.<br>
-                &#10140; Clarified<br>
-                <br>
-                e. The campaign to help Prita was able to collect Rp. _________.<br>
-                &#10140; 825 million<br>
-                <br>
-                <br>
-
-                B. Answer these questions.<br>
-                a. How do you define social media?<br>
-                &#10140; Social media can be defined as a collective term for websites and applications that enable
-                users to create and share content or to participate in the building of virtual networks and
-                communities.<br>
-                <br>
-                b. Social media has been an integral part of modern life. How?<br>
-                &#10140; Social media has been an integral part of modern life as it helps us to communicate with people
-                around the world, gives us the chance to send and receive information, and get many updates from people
-                following and being a part of a new marketing strategy.<br>
-                <br>
-                c. Why do people use Facebook and YouTube?<br>
-                &#10140; Facebook permits one to keep in touch with faraway family and friends, share photos and
-                information, and get the news updated. On YouTube, people can watch and share videos.<br>
-                <br>
-                d. What is a blog? How can it be beneficial to us?<br>
-                &#10140; A blog is an informational website where a person writes regularly about recent events or
-                topics that interest him/her. It can be beneficial to us as it allows us to share &ldquo;what we
-                think&rdquo; about articles, pictures, videos and so on.<br>
-                <br>
-                e. Was Prita&rsquo;s intention bad when she sent a message to her friends?<br>
-                &#10140; No, it wasn&rsquo;t. She just tried to remind her friends to be more selective in choosing the
-                hospital and to be more careful in accepting many kinds of services.<br>
-                <br>
-                f. How did Prita's message become a big problem?<br>
-                &#10140; Prita's message became a big problem after her friend shared it to a website (The
-                People&rsquo;s Forum) which so many read and commented about the issue.<br>
-                <br>
-                g. Why was she convicted by the court?<br>
-                &#10140; She was convicted by the court for violating the law about using the ICT.<br>
-                <br>
-                h. What was the purpose of the campaign, &ldquo;Bantu Bebaskan Prita&rdquo;?<br>
-                &#10140; The purpose of the campaign &ldquo;Bantu Bebaskan Prita&quot; was for collecting the money to
-                help Prita so that she could pay the amercement.<br>
-                <br>
-                i. How are people stronger than social media?<br>
-                &#10140; People are stronger than social media as they can easily think before they act and think before
-                they speak.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Critical thinking<br>
-                a. Does social media have positive impact in the society? Discuss.<br>
-                &#10140; In today's era, social media has create a positive impact in the society. Platforms such as
-                Facebook, Twitter, and Instagram have made it possible for us to stay in touch with family, friends, and
-                relatives who live in different parts of the world. People can use these social networking sites to
-                share photos and videos, as well as communicate with their friends and family. This strengthens our
-                bonds and brings families closer together in ways that were previously impossible.<br>
-                <br>
-                Professional websites and official organization web pages provide numerous opportunities to learn new
-                facts, explore the world, and read the most recent survey results, reports, and other information. There
-                has been a significant increase in online learning, and a strong profession has grown up around it. It's
-                worth noting that people who work in businesses can also benefit from social media. Online promotions
-                are less expensive than running ads on TV and in newspapers on a regular basis. They do, however,
-                provide an opportunity to reach a larger audience and find active customers all over the world.
-                Businesspeople can understand the state of the market and adopt new strategies to meet the tastes and
-                demands of customers by interacting with them and receiving feedback from them. E-commerce and digital
-                marketing are popular nowadays.<br>
-                <br>
-                Social media allows the users to share their thoughts and views, create their own content and receive
-                the latest information and news. Also, finding a job and hiring the employees required, using social
-                networking are in easy reach. In fact everything looks easier to do with social media.<br>
-                <br>
-                <br>
-                b. How do you compare virtual communication and face-to-face communication?<br>
-                &#10140; The communication process consists of a sender, message and a recipient. Communication process
-                will be completed when the recipient comprehends the sender&rsquo;s message. To make conversations more
-                comfortable and convenient people use either of the methods: virtual and face-to-face.<br>
-                <br>
-                Virtual communication does not necessitate the presence of the recipient. It allows us to communicate
-                with people regardless of their location. Nonverbal communication is more likely. We can keep in touch
-                with people via virtual communication even if they are busy and unable to meet in person. Virtual
-                communication is commonly conducted through a variety of social networking sites and apps. When we
-                communicate virtually, it's easier to organize and share all of the information we need.<br>
-                <br>
-                Face-to-face communication necessitates the presence of both the sender and the recipient, as well as a
-                prompt response. We can actively notice someone's level of attention in our conversation when we talk to
-                them face to face. It allows us to socialize and form personal relationships. It keeps our communication
-                skills from rusting. We can express what we want to say very precisely with our body language and tone.
-                Because both verbal and nonverbal communication methods are used in face-to-face communication, the
-                message can be easily understood by the parties involved. It is preferable for illiterate people because
-                they cannot comprehend written messages. Conversations on the phone or on a cell phone, as well as
-                chatting on the internet, are examples of oral communication, but they are not the same as face-to-face
-                communication.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Writing<br>
-                b. What is cyber bullying? What are its effects? How can it be stopped?<br>
-                &#10140; The use of electronic communication to bully a person, typically by sending messages of an
-                intimidating or threatening nature is known as cyber bullying. Cyber bullying is a common occurrence in
-                which children, teenagers, and even adults are targeted, humiliated, tortured, or threatened online.
-                Rumors, threats, posting sexual comments, sharing the victim's personal information, and hate speech are
-                all examples of harmful bullying behavior. Bullying is commonly found on social networking sites, SMS,
-                email, and online gaming.<br>
-                <br>
-                Cyberbullying is a multi-faced issue. Victims of cyberbullying feel unsafe even when they are at home.
-                It is extremely difficult to avoid. It causes mental, emotional, and physical harm to the person because
-                its effects can last for a long time. Low self-esteem, even suicidal tendencies, and a variety of
-                negative emotional reactions may be experienced by the victim.<br>
-                <br>
-                Cyberbullying prevention is the need of the hour. It needs to be monitored and put an end to. There are
-                various ways to tackle cyberbullying. Awareness is the key to prevent online harassment. We should make
-                the children aware from an early age so they are always cautious. Moreover, parents must monitor their
-                children&rsquo;s online activities and limit their usage. Most importantly, cyberbullying must be
-                reported instantly without delay. This can prevent further incidents from taking place.<br>
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
+    <br>
+    <center>Unit 3
+        <br> Media and Society</center>
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Find the words from the text that have the following meanings.</span>
+    <br>
+    a. a personal or corporate website - <b>blog</b>
+    <br>
+    b. a job requiring expertise in a particular field - <b>profession</b>
+    <br>
+    c. a feeling of sadness - <b>disappointment</b>
+    <br>
+    d. put under custody - <b>detained</b>
+    <br>
+    e. found guilty - <b>convicted</b>
+    <br>
+    f. breaking or disregarding rules or system - <b>violating</b>
+    <br>
+    g. advantages and disadvantages - <b>pros and cons</b>
+    <br>
+    h. a non-statutory monetary penalty - <b>amercement</b>
+    <br>
+    <br>
+    <br>
+    <span>B. Use the following prepositional verbs in sentences.</span>
+    <br>
+    <b>apologize to</b>
+    <br>
+    The supervisor apologized to his workers for his misbehavior.
+    <br>
+    <br>
+    <b>adapt to</b>
+    <br>
+    We are supposed to adapt to the new system of the company.
+    <br>
+    <br>
+    <b>devote to </b>
+    <br>
+    Maya seems to have devoted herself to a non-profit organization.
+    <br>
+    <br>
+    <b>refer to</b>
+    <br>
+    The term 'accent' refers to pronunciation.
+    <br>
+    <br>
+    <b>reply to</b>
+    <br>
+    She didn&rsquo;t reply to my letter.
+    <br>
+    <br>
+    <b>admire for</b>
+    <br>
+    They admire him for his determination.
+    <br>
+    <br>
+    <b>apply for</b>
+    <br>
+    She applied for the post of accountant.
+    <br>
+    <br>
+    <b>pray for</b>
+    <br>
+    My friends are praying for good weather on Sunday.
+    <br>
+    <br>
+    <b>scold for</b>
+    <br>
+    The principal scolded me for arriving late.
+    <br>
+    <br>
+    <b>vote for</b>
+    <br>
+    In parliament, all members voted for the new tax.
+    <br>
+    <br>
+    <b>aim at</b>
+    <br>
+    My brother aimed at the tree but hit the car by mistake.
+    <br>
+    <br>
+    <b>arrive at</b>
+    <br>
+    Peter arrived at the station 25 minutes late.
+    <br>
+    <br>
+    <b>glance at</b>
+    <br>
+    My father barely had time to glance at the newspapers.
+    <br>
+    <br>
+    <b>look at</b>
+    <br>
+    The girl living next door always looks at me and smiles.
+    <br>
+    <br>
+    <b>bring up</b>
+    <br>
+    His aunt brought up her.
+    <br>
+    <br>
+    <b>agree on</b>
+    <br>
+    The two companies couldn&rsquo;t agree on a common strategy.
+    <br>
+    <br>
+    <b>comment on</b>
+    <br>
+    She refused to comment on their decision.
+    <br>
+    <br>
+    <b>concentrate on</b>
+    <br>
+    Our teacher asked us to concentrate on a black dot in the middle of the
+    screen.
+    <br>
+    <br>
+    <b>rely on</b>
+    <br>
+    She still relies on her parents for her pocket money.
+    <br>
+    <br>
+    <b>count on</b>
+    <br>
+    She counts on me to help her.
+    <br>
+    <br>
+    <b>grow up</b>
+    <br>
+    Her brother grew up in Kathmandu.
+    <br>
+    <br>
+    <b>escape from</b>
+    <br>
+    We managed to escape from the burning train.
+    <br>
+    <br>
+    <b>recover from</b>
+    <br>
+    Shyam hasn&rsquo;t recovered from the death of his mother.
+    <br>
+    <br>
+    <b>resign from</b>
+    <br>
+    He was forced to resign from the board in protest.
+    <br>
+    <br>
+    <b>suffer from</b>
+    <br>
+    Premature babies may suffer from breathing difficulties in childhood.
+    <br>
+    <br>
+    <b>separate from</b>
+    <br>
+    South America separated from Africa 200 million years ago.
+    <br>
+    <br>
+    <b>worry about</b>
+    <br>
+    He always worries about his weight.
+    <br>
+    <br>
+    <b>argue about</b>
+    <br>
+    My two elder brothers always argue each other about politics.
+    <br>
+    <br>
+    <b>boast about</b>
+    <br>
+    She is boasting about how wonderful her car is.
+    <br>
+    <br>
+    <b>dream about</b>
+    <br>
+    I told her that I had dreamed about her the previous night.
+    <br>
+    <br>
+    <b>acquaint with</b>
+    <br>
+    He should acquaint himself with the filing system.
+    <br>
+    <br>
+    <b>agree with</b>
+    <br>
+    I can&rsquo;t agree with her analysis of the situation.
+    <br>
+    <br>
+    <b>charge with</b>
+    <br>
+    His brother has not yet been formally charged with the crime.
+    <br>
+    <br>
+    <b>trust with</b>
+    <br>
+    My parents trust me with their life.
+    <br>
+    <br>
+    <b>confuse with</b>
+    <br>
+    People often confuse me and my twin brother.
+    <br>
+    <br>
+    <b>believe in</b>
+    <br>
+    I don&rsquo;t believe in capital punishment.
+    <br>
+    <br>
+    <b>involve in</b>
+    <br>
+    His boss has involved in him in a great deal of extra work.
+    <br>
+    <br>
+    <b>succeed in</b>
+    <br>
+    They nearly succeeded in blowing up the building.
+    <br>
+    <br>
+    <b>specialize in</b>
+    <br>
+    His shop specializes in hand made cake.
+    <br>
+    <br>
+    <b>absorb in</b>
+    <br>
+    Rajani absorbs herself in household works every day after school.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>A. Fill in the gaps with appropriate words/phrases from the text.</span>
+    <br>
+    <span>a. People are using social media for individual as well as _________ purposes.</span>
+    <br>
+    &#10140; Marketing
+    <br>
+    <br>
+    <span>b. Social media is not only a platform of sharing views, but also a platform of _________ .</span>
+    <br>
+    &#10140; Marketing Strategy
+    <br>
+    <br>
+    <span>c. The hospital wanted Prita to pay Rp. 100 million for_________ .</span>
+    <br>
+    &#10140; Immaterial losses
+    <br>
+    <br>
+    <span>d. Some singers organized _________ to help Prita.</span>
+    <br>
+    &#10140; Clarified
+    <br>
+    <br>
+    <span>e. The campaign to help Prita was able to collect Rp. _________.</span>
+    <br>
+    &#10140; 825 million
+    <br>
+    <br>
+    <br>
+    <span>B. Answer these questions.</span>
+    <br>
+    <span>a. How do you define social media?</span>
+    <br>
+    &#10140; Social media can be defined as a collective term for websites and applications that enable
+    users to create and share content or to participate in the building of virtual networks and
+    communities.
+    <br>
+    <br>
+    <span>b. Social media has been an integral part of modern life. How?</span>
+    <br>
+    &#10140; Social media has been an integral part of modern life as it helps us to communicate with people
+    around the world, gives us the chance to send and receive information, and get many updates from people
+    following and being a part of a new marketing strategy.
+    <br>
+    <br>
+    <span>c. Why do people use Facebook and YouTube?</span>
+    <br>
+    &#10140; Facebook permits one to keep in touch with faraway family and friends, share photos and
+    information, and get the news updated. On YouTube, people can watch and share videos.
+    <br>
+    <br>
+    <span>d. What is a blog? How can it be beneficial to us?</span>
+    <br>
+    &#10140; A blog is an informational website where a person writes regularly about recent events or
+    topics that interest him/her. It can be beneficial to us as it allows us to share &ldquo;what we
+    think&rdquo; about articles, pictures, videos and so on.
+    <br>
+    <br>
+    <span>e. Was Prita&rsquo;s intention bad when she sent a message to her friends?</span>
+    <br>
+    &#10140; No, it wasn&rsquo;t. She just tried to remind her friends to be more selective in choosing the
+    hospital and to be more careful in accepting many kinds of services.
+    <br>
+    <br>
+    <span>f. How did Prita's message become a big problem?</span>
+    <br>
+    &#10140; Prita's message became a big problem after her friend shared it to a website (The
+    People&rsquo;s Forum) which so many read and commented about the issue.
+    <br>
+    <br>
+    <span>g. Why was she convicted by the court?</span>
+    <br>
+    &#10140; She was convicted by the court for violating the law about using the ICT.
+    <br>
+    <br>
+    <span>h. What was the purpose of the campaign, &ldquo;Bantu Bebaskan Prita&rdquo;?</span>
+    <br>
+    &#10140; The purpose of the campaign &ldquo;Bantu Bebaskan Prita&quot; was for collecting the money to
+    help Prita so that she could pay the amercement.
+    <br>
+    <br>
+    <span>i. How are people stronger than social media?</span>
+    <br>
+    &#10140; People are stronger than social media as they can easily think before they act and think before
+    they speak.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. Does social media have positive impact in the society? Discuss.</span>
+    <br>
+    &#10140; In today's era, social media has create a positive impact in the society. Platforms such as
+    Facebook, Twitter, and Instagram have made it possible for us to stay in touch with family, friends, and
+    relatives who live in different parts of the world. People can use these social networking sites to
+    share photos and videos, as well as communicate with their friends and family. This strengthens our
+    bonds and brings families closer together in ways that were previously impossible.
+    <br>
+    <br>
+    Professional websites and official organization web pages provide numerous opportunities to learn new
+    facts, explore the world, and read the most recent survey results, reports, and other information. There
+    has been a significant increase in online learning, and a strong profession has grown up around it. It's
+    worth noting that people who work in businesses can also benefit from social media. Online promotions
+    are less expensive than running ads on TV and in newspapers on a regular basis. They do, however,
+    provide an opportunity to reach a larger audience and find active customers all over the world.
+    Businesspeople can understand the state of the market and adopt new strategies to meet the tastes and
+    demands of customers by interacting with them and receiving feedback from them. E-commerce and digital
+    marketing are popular nowadays.
+    <br>
+    <br>
+    Social media allows the users to share their thoughts and views, create their own content and receive
+    the latest information and news. Also, finding a job and hiring the employees required, using social
+    networking are in easy reach. In fact everything looks easier to do with social media.
+    <br>
+    <br>
+    <br>
+    <span>b. How do you compare virtual communication and face-to-face communication?</span>
+    <br>
+    &#10140; The communication process consists of a sender, message and a recipient. Communication process
+    will be completed when the recipient comprehends the sender&rsquo;s message. To make conversations more
+    comfortable and convenient people use either of the methods: virtual and face-to-face.
+    <br>
+    <br>
+    Virtual communication does not necessitate the presence of the recipient. It allows us to communicate
+    with people regardless of their location. Nonverbal communication is more likely. We can keep in touch
+    with people via virtual communication even if they are busy and unable to meet in person. Virtual
+    communication is commonly conducted through a variety of social networking sites and apps. When we
+    communicate virtually, it's easier to organize and share all of the information we need.
+    <br>
+    <br>
+    Face-to-face communication necessitates the presence of both the sender and the recipient, as well as a
+    prompt response. We can actively notice someone's level of attention in our conversation when we talk to
+    them face to face. It allows us to socialize and form personal relationships. It keeps our communication
+    skills from rusting. We can express what we want to say very precisely with our body language and tone.
+    Because both verbal and nonverbal communication methods are used in face-to-face communication, the
+    message can be easily understood by the parties involved. It is preferable for illiterate people because
+    they cannot comprehend written messages. Conversations on the phone or on a cell phone, as well as
+    chatting on the internet, are examples of oral communication, but they are not the same as face-to-face
+    communication.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>b. What is cyber bullying? What are its effects? How can it be stopped?</span>
+    <br>
+    &#10140; The use of electronic communication to bully a person, typically by sending messages of an
+    intimidating or threatening nature is known as cyber bullying. Cyber bullying is a common occurrence in
+    which children, teenagers, and even adults are targeted, humiliated, tortured, or threatened online.
+    Rumors, threats, posting sexual comments, sharing the victim's personal information, and hate speech are
+    all examples of harmful bullying behavior. Bullying is commonly found on social networking sites, SMS,
+    email, and online gaming.
+    <br>
+    <br>
+    Cyberbullying is a multi-faced issue. Victims of cyberbullying feel unsafe even when they are at home.
+    It is extremely difficult to avoid. It causes mental, emotional, and physical harm to the person because
+    its effects can last for a long time. Low self-esteem, even suicidal tendencies, and a variety of
+    negative emotional reactions may be experienced by the victim.
+    <br>
+    <br>
+    Cyberbullying prevention is the need of the hour. It needs to be monitored and put an end to. There are
+    various ways to tackle cyberbullying. Awareness is the key to prevent online harassment. We should make
+    the children aware from an early age so they are always cautious. Moreover, parents must monitor their
+    children&rsquo;s online activities and limit their usage. Most importantly, cyberbullying must be
+    reported instantly without delay. This can prevent further incidents from taking place.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br>
+    </div>
+    </div>
     </div>
 </body>
 
