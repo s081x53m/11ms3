@@ -1,241 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
         /* NO SELECT + HIGHLIGHT COLOR */
         * {
             user-select: none;
             margin: 0;
             padding: 0;
         }
-
         *::selection {
             background: none;
         }
-
         *::-moz-selection {
             background: none;
         }
-
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
-
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-
-                <center>Poems</center>
-                <center>Unit 4 - Who are you, little i?</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-
-                Summary<br>
-                Cummings&rsquo; poem &ldquo;who are you, little i&rdquo; describes a child looking out a window at the
-                end of the day. It is about nature and the effect it has on the speaker. The speaker of the poem is the
-                person &ldquo;voicing&rdquo; the words, recalling a childhood moment closely connected with nature.
-                Perhaps the speaker is Cummings. <br>
-                <br>
-                This poem is related to nature and its effect on the speaker. This poem is quite short which contains
-                only eight lines. The main theme of this poem is freshness of beautiful nature and its positive effect
-                on the humans. This poem opens with the speaker standing near a window and looking out of it, at the end
-                of a day. He goes to a nostalgic mood, recalling his childhood, when he used to watch a sunset
-                thoughtfully. He remembers how he used to enjoy such a beauty when he used to be a little boy of five or
-                six years. It is a wonder that he still has youthful presence in himself. This presence can recognize
-                the beauty of the evening. Perhaps in his inner heart he wants to come out, but his maturity and
-                adulthood doesn&rsquo;t allow him, to do so.<br>
-                <br>
-                The poet has beautifully described a little boy, his location and his acts of peering (looking) and
-                feeling about beautiful and wonderful nature. He has presented his experiences of childhood closely
-                connected with nature. He has presented himself as a little i or a boy of five or six years old who
-                keeps on peering beautiful golden sunset of November through some high window and pondering about the
-                wonderful transformation of the day into night in a very beautiful way.<br>
-                <br>
-                <br>
-                <br>
-                Understanding the text <br>
-                Answer the following questions.<br>
-                a. Who can be the speaker of this poem?<br>
-                &#10140; The speaker of this poem can be the poet (E. E. Cummings) himself. He has presented himself as
-                a little boy here in this poem by recalling his childhood experience connected with nature.<br>
-                <br>
-                b. What is &ldquo;little i&rdquo; doing?<br>
-                &#10140; 'Little i' is peering the beautiful and golden sunset of November from some high window and
-                feeling about the beautiful way of transforming the day into the night.<br>
-                <br>
-                c. What can be the relationship between &ldquo;little i&rdquo; and the speaker of the poem?<br>
-                &#10140; The relationship between ''little i&quot; and the speaker of the poem can be the relationship
-                of natural attachment. The little boy or 'i' is an outcome of the speaker's memory of childhood
-                experience. Here, the speaker is voicing the words in favour of this beautiful nature and recalling his
-                childhood experience closely connected with nature. We find the speaker's deep devotion and respect
-                towards this beautiful and vast nature.<br>
-                <br>
-                d. What is the speaker remembering from his childhood days in the poem? <br>
-                &#10140; The speaker is remembering an extremely beautiful scene of nature from his childhood days in
-                the poem. He is remembering himself as a little boy of five or six years in some high window who is
-                peering and enjoying the beautiful golden sunset and its transformation in November.<br>
-                <br>
-                e. What attitude does the speaker seem to have toward the child in the poem? <br>
-                &#10140; The speaker seems to have a positive and lovable attitude towards the child in the poem. The
-                speaker seems quite desirous about his childhood days. He feels extremely happy in connection with this
-                beautiful nature being little 'i'. He enjoys the scenic beauty of the golden sunset through his
-                childhood's eyes. He seems longing for his childhood days much.<br>
-                <br>
-                <br>
-                <br>
-                Reference to the context <br>
-                a. Why do you think Cummings has placed a semicolon between the words window and at?<br>
-                &#10140; I think Cummings has placed a semicolon between the words window and to break the two different
-                locations. Here, he has used a semicolon to distinguish the locations inside and outside the window.
-                Here, the little boy is sitting inside the window and peering at the beauty of November's sunset outside
-                the window. The placement of semicolon has created the description of two different locations in
-                relation to boy's acts.<br>
-                <br>
-                <br>
-                b. If the speaker is the child grown up, why does he ask, &ldquo;who are you&rdquo;?<br>
-                &#10140; He asks, &quot;who are you&quot; because he is feeling good in his memory to find his childhood
-                days of a completely carefree life. He feels free from sufferings and burden of obligations. He asks so
-                to express the pleasures of his carefree childhood days that are closely connected with nature.<br>
-                <br>
-                <br>
-                c. In this poem, an adult reflects on the childhood experience. Based on that, what might be the theme
-                of the lines: &ldquo;(and feeling: that if day / has to become night / this is a beautiful
-                way)&rdquo;?<br>
-                &#10140; Here, in these lines, we find the boy's feeling about the beautiful scene of November's golden
-                sunset. The boy finds a quite beautiful way of transformation of golden colours of the sun of day time
-                into black colours of the night. He feels about this wonderful transition of the beautiful nature. Thus,
-                the theme of these lines might be the wonderful changes in this beautiful nature which are beyond
-                humans' thoughts, feelings, emotions, ideas etc. These changes have deep effects on humans. Here, the
-                theme in its deeper meaning also refers to the end of this life which is full of burdens of obligations
-                and pains. The light of the day time refers the life whereas the darkness of night refers to death. The
-                beautiful way of transformation of the day into the night also shows the concept of life and death. The
-                speaker wants to be a child again leaving this life of sufferings.<br>
-                <br>
-                <br>
-                d. What is the rhyme scheme used in the poem?<br>
-                &#10140; A rhyme scheme is the pattern of sounds that repeats at the end of a line or stanza. The rhyme
-                scheme used in the poem is ABAB and CDCD.<br>
-                <br>
-                <br>
-                e. Explain the pun in &ldquo;little i&rdquo; that is related to what he is doing.<br>
-                &#10140; A pun is a joke that reveals different possible meanings of a word. It also refers to the words
-                that sound alike but have different meanings along with humour. Here, in the act of the 'little i', we
-                find beautiful use of the pun. The 'little i' is peering golden sunset of November. The 'little i' or
-                the boy has been presented here in some high window. Here, 'little i' and 'high' sound alike in rhyme
-                scheme but create laughter for the readers to find out the meaning. The speaker has presented 'little i'
-                in some high window's location. Here, the mismatched height of 'little i' and 'window' has been
-                presented for the act of peering beautiful golden sunset of November which has created laughter. <br>
-                <br>
-                <br>
-                f. How does Cummings&rsquo;s use of lowercase letters affect your understanding of the poem?
-                Explain.<br>
-                &#10140; Cummings's use of lowercase letters affect my understanding of the poem. The use of lowercase
-                letters in his poem have different literal meanings beyond their forms. The style of using lowercase
-                letters is considered to be incorrect in writing English grammatical form. His use of lowercase letters
-                here in this poem has created a lot of difficulties for me to grasp the actual meaning of the poem.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                a. How does nature inspire the speaker in &ldquo;who are you, little i&rdquo;? Explain.<br>
-                &#10140; Nature inspires the speaker a lot in &quot;who are you, little i&quot;. The beauty of nature
-                has made him recall his beautiful childhood experience. He finds himself as a little boy of five or six
-                years old in his childhood. He keeps on peering at the beautiful golden sunset and feels for the
-                beautiful way of the transition of the day into the night.<br>
-                <br>
-                <br>
-                b. Recall a childhood moment when you felt closely connected with nature. Describe the time and place as
-                well as your feelings and thoughts about it.<br>
-                &#10140; The most interesting moment in my life was the day when I experienced a fine rainbow in the
-                sky. During that time, I was in fifth grade. It was the time of my monsoon vacation. One Sunday, after
-                the rainfall, I got amazed to find the most beautiful rainbow in the sky in the morning time. I kept on
-                watching it through my window for a long time. I felt lucky to get the chance to see it. The beautiful
-                scene of the rainbow is still fresh in my life. I want to see it time and again in my life.<br>
-
-
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    
+<br>
+    <center> Who are you, little i?</center>
+<br>
+<h3>Summary</h3>
+<br>
+Cummings&rsquo; poem &ldquo;who are you, little i&rdquo; describes a child looking out a window at the
+end of the day. It is about nature and the effect it has on the speaker. The speaker of the poem is the
+person &ldquo;voicing&rdquo; the words, recalling a childhood moment closely connected with nature.
+Perhaps the speaker is Cummings. 
+<br>
+<br>
+This poem is related to nature and its effect on the speaker. This poem is quite short which contains
+only eight lines. The main theme of this poem is freshness of beautiful nature and its positive effect
+on the humans. This poem opens with the speaker standing near a window and looking out of it, at the end
+of a day. He goes to a nostalgic mood, recalling his childhood, when he used to watch a sunset
+thoughtfully. He remembers how he used to enjoy such a beauty when he used to be a little boy of five or
+six years. It is a wonder that he still has youthful presence in himself. This presence can recognize
+the beauty of the evening. Perhaps in his inner heart he wants to come out, but his maturity and
+adulthood doesn&rsquo;t allow him, to do so.
+<br>
+<br>
+The poet has beautifully described a little boy, his location and his acts of peering (looking) and
+feeling about beautiful and wonderful nature. He has presented his experiences of childhood closely
+connected with nature. He has presented himself as a little i or a boy of five or six years old who
+keeps on peering beautiful golden sunset of November through some high window and pondering about the
+wonderful transformation of the day into night in a very beautiful way.
+<br>
+<br>
+<br>
+<br>
+<h3>Understanding the text</h3> 
+<br>
+<span>Answer the following questions.</span>
+<br>
+<span>a. Who can be the speaker of this poem?</span>
+<br>
+&#10140; The speaker of this poem can be the poet (E. E. Cummings) himself. He has presented himself as
+a little boy here in this poem by recalling his childhood experience connected with nature.
+<br>
+<br>
+<span>b. What is &ldquo;little i&rdquo; doing?</span>
+<br>
+&#10140; 'Little i' is peering the beautiful and golden sunset of November from some high window and
+feeling about the beautiful way of transforming the day into the night.
+<br>
+<br>
+<span>c. What can be the relationship between &ldquo;little i&rdquo; and the speaker of the poem?</span>
+<br>
+&#10140; The relationship between ''little i&quot; and the speaker of the poem can be the relationship
+of natural attachment. The little boy or 'i' is an outcome of the speaker's memory of childhood
+experience. Here, the speaker is voicing the words in favour of this beautiful nature and recalling his
+childhood experience closely connected with nature. We find the speaker's deep devotion and respect
+towards this beautiful and vast nature.
+<br>
+<br>
+<span>d. What is the speaker remembering from his childhood days in the poem? </span>
+<br>
+&#10140; The speaker is remembering an extremely beautiful scene of nature from his childhood days in
+the poem. He is remembering himself as a little boy of five or six years in some high window who is
+peering and enjoying the beautiful golden sunset and its transformation in November.
+<br>
+<br>
+<span>e. What attitude does the speaker seem to have toward the child in the poem? </span>
+<br>
+&#10140; The speaker seems to have a positive and lovable attitude towards the child in the poem. The
+speaker seems quite desirous about his childhood days. He feels extremely happy in connection with this
+beautiful nature being little 'i'. He enjoys the scenic beauty of the golden sunset through his
+childhood's eyes. He seems longing for his childhood days much.
+<br>
+<br>
+<br>
+<br>
+<h3>Reference to the context</h3> 
+<br>
+<span>a. Why do you think Cummings has placed a semicolon between the words window and at?</span>
+<br>
+&#10140; I think Cummings has placed a semicolon between the words window and to break the two different
+locations. Here, he has used a semicolon to distinguish the locations inside and outside the window.
+Here, the little boy is sitting inside the window and peering at the beauty of November's sunset outside
+the window. The placement of semicolon has created the description of two different locations in
+relation to boy's acts.
+<br>
+<br>
+<br>
+<span>b. If the speaker is the child grown up, why does he ask, &ldquo;who are you&rdquo;?</span>
+<br>
+&#10140; He asks, &quot;who are you&quot; because he is feeling good in his memory to find his childhood
+days of a completely carefree life. He feels free from sufferings and burden of obligations. He asks so
+to express the pleasures of his carefree childhood days that are closely connected with nature.
+<br>
+<br>
+<br>
+<span>
+    c. In this poem, an adult reflects on the childhood experience. Based on that, what might be the theme
+    of the lines:
+</span> <i>
+    &ldquo;(and feeling: that if day / has to become night / this is a beautiful
+    way)&rdquo;?
+</i>
+<br>
+&#10140; Here, in these lines, we find the boy's feeling about the beautiful scene of November's golden
+sunset. The boy finds a quite beautiful way of transformation of golden colours of the sun of day time
+into black colours of the night. He feels about this wonderful transition of the beautiful nature. Thus,
+the theme of these lines might be the wonderful changes in this beautiful nature which are beyond
+humans' thoughts, feelings, emotions, ideas etc. These changes have deep effects on humans. Here, the
+theme in its deeper meaning also refers to the end of this life which is full of burdens of obligations
+and pains. The light of the day time refers the life whereas the darkness of night refers to death. The
+beautiful way of transformation of the day into the night also shows the concept of life and death. The
+speaker wants to be a child again leaving this life of sufferings.
+<br>
+<br>
+<br>
+<span>d. What is the rhyme scheme used in the poem?</span>
+<br>
+&#10140; A rhyme scheme is the pattern of sounds that repeats at the end of a line or stanza. The rhyme
+scheme used in the poem is ABAB and CDCD.
+<br>
+<br>
+<br>
+<span>e. Explain the pun in &ldquo;little i&rdquo; that is related to what he is doing.</span>
+<br>
+&#10140; A pun is a joke that reveals different possible meanings of a word. It also refers to the words
+that sound alike but have different meanings along with humour. Here, in the act of the 'little i', we
+find beautiful use of the pun. The 'little i' is peering golden sunset of November. The 'little i' or
+the boy has been presented here in some high window. Here, 'little i' and 'high' sound alike in rhyme
+scheme but create laughter for the readers to find out the meaning. The speaker has presented 'little i'
+in some high window's location. Here, the mismatched height of 'little i' and 'window' has been
+presented for the act of peering beautiful golden sunset of November which has created laughter. 
+<br>
+<br>
+<br>
+<span>
+    f. How does Cummings&rsquo;s use of lowercase letters affect your understanding of the poem?
+    Explain.
+</span>
+<br>
+&#10140; Cummings's use of lowercase letters affect my understanding of the poem. The use of lowercase
+letters in his poem have different literal meanings beyond their forms. The style of using lowercase
+letters is considered to be incorrect in writing English grammatical form. His use of lowercase letters
+here in this poem has created a lot of difficulties for me to grasp the actual meaning of the poem.
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>Reference beyond the text</h3> 
+<br>
+<span>a. How does nature inspire the speaker in &ldquo;who are you, little i&rdquo;? Explain.</span>
+<br>
+&#10140; Nature inspires the speaker a lot in &quot;who are you, little i&quot;. The beauty of nature
+has made him recall his beautiful childhood experience. He finds himself as a little boy of five or six
+years old in his childhood. He keeps on peering at the beautiful golden sunset and feels for the
+beautiful way of the transition of the day into the night.
+<br>
+<br>
+<br>
+<span>
+    b. Recall a childhood moment when you felt closely connected with nature. Describe the time and place as
+    well as your feelings and thoughts about it.
+</span>
+<br>
+&#10140; The most interesting moment in my life was the day when I experienced a fine rainbow in the
+sky. During that time, I was in fifth grade. It was the time of my monsoon vacation. One Sunday, after
+the rainfall, I got amazed to find the most beautiful rainbow in the sky in the morning time. I kept on
+watching it through my window for a long time. I felt lucky to get the chance to see it. The beautiful
+scene of the rainbow is still fresh in my life. I want to see it time and again in my life.
+<br>
+<br><br><br><br>
+<span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+<br><br>
 </body>
-
 </html>

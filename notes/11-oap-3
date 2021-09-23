@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
-            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
-            // Prevent the default copy action
+            evt.clipboardData.setData("text/plain",
+            "Copying is not allowed on this webpage"); // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,237 +35,220 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
 
-                <center>One Act Plays</center>
-                <center>Unit 3 - Refund</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
+    <br>
+    <center>Refund</center>
 
+    <br>
 
-                Understanding the text <br>
-                <br>
-                Answer the following questions.<br>
-                a. Why does Wasserkopf demand a refund of his tuition fees from the school?<br>
-                &#10140; Wasserkopf demands a refund of his tuition fees from the school because he finds himself good
-                for nothing in his life. He becomes failure many times in getting a proper job for him. He thinks
-                himself a loser at the age of forty only because of his education. He is not able to get any employment.
-                Even if he succeeds in getting a job, he cannot keep it for a long period. Wherever he goes to ask for
-                the job, people tell him that he is fit for nothing and he hasn&rsquo;t learned anything worth in his
-                school. His old classmate Leadrer even says the same and advises him to demand tuition fees from his old
-                school.<br>
-                <br>
-                <br>
-                b. Why does Wasserkopf consider himself good for nothing?<br>
-                &#10140; Wasserkopf considers himself good for nothing because he becomes failure many times in his life
-                in the matter of getting a job. He faces rejections many times in his life. He is completely broke. He
-                thinks himself worthless and good for nothing.<br>
-                <br>
-                <br>
-                c. What did the teachers decide to do when Wasserkopf asked for a refund?<br>
-                &#10140; The teachers decided to honor Wasserkopf's request for a re-examination and pass him in all
-                subjects, even if his answers were incorrect. They decided to band together and assist one another
-                during his examination. They agreed to prove Wasserkopf's answers to their questions correct.<br>
-                <br>
-                <br>
-                d. Why did Wasserkopf give ridiculous answers? Why did the teachers accept these answers?<br>
-                &#10140; Wasserkopf gave ridiculous answers in order to fail the exam by any means necessary and receive
-                a refund. Teachers accepted his answers because they wanted him to pass the exam for the sake of their
-                school's reputation.<br>
-                <br>
-                <br>
-                e. How does the Mathematics Master describe Wasserkopf&rsquo;s character?<br>
-                &#10140; Wasserkopf is described by the Mathematics Master as a sly and crafty individual who intends to
-                deliberately fail his exam in order to recoup his tuition fee. Wasserkopf, in his opinion, is a
-                bad-tempered man with a bad speaking style. He is a unique individual who irritates all of the teachers
-                with his abusive language.<br>
-                <br>
-                <br>
-                f. How did the teachers outwit Wasserkopf?<br>
-                &#10140; Teachers outwitted Wasserkopf by using their brains properly. Wasserkopf did everything he
-                could to fail his oral exam by giving absurd answers. However, the teachers proved his incorrect answers
-                for various reasons. Wasserkopf was surprised to find his answers correct. He received a pass in every
-                subject. His request for a refund was denied. Finally, he was expelled from school.<br>
-                <br>
-                <br>
-                g. What is the final judgment on Waserkopf&rsquo;s demand of refund?<br>
-                &#10140; The final judgement on Waserkopf's refund demand is a rejection of the refund. The outcome is
-                favourable to all teachers. Except for one, all of the teachers agree that Wasserkopf's answers are
-                correct. The school's principal declares Wasserkopf distinction in all subjects. He has received
-                certification and has been congratulated on his graduation.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context <br>
-                <br>
-                a. Read the extract from the play given below and answer the questions that follow:<br>
-                &ldquo;It&rsquo;s possible I&rsquo;ve changed. What the hell&#8230;! Your class records will show
-                I&rsquo;ve got a right to come here.&rdquo;<br>
-                <br>
-                i. Who is the speaker? Who is he speaking to?<br>
-                &#10140; Wasserkopf is the speaker. He's speaking to the principal of his former school.<br>
-                <br>
-                ii. Why is the speaker say these words?<br>
-                &#10140; The speaker says these words because he is dissatisfied with his educational records from his
-                previous school, which he obtained eighteen years ago.<br>
-                <br>
-                iii. Where is the speaker at this moment?<br>
-                &#10140; The speaker is in the Principal's office at this moment.<br>
-                <br>
-                <br>
-                b. Read the extract dialogue given below and answer the questions that follow:<br>
-                &ldquo;THE STAFF: (bowing, heartily) How do you do?<br>
-                WASSERKOPF: Who the hell are you? Sit down, you loafers! (He grins, waiting to be thrown out)<br>
-                THE PRINCIPAL: How dare you &ndash;&rdquo;<br>
-                <br>
-                i. What is to be the response to &lsquo;How do you do?&rsquo;<br>
-                &#10140; 'I am fine' is to be the response to 'How do you do'.<br>
-                <br>
-                ii. Is Wasserkopf&rsquo;s response polite enough to the staff?<br>
-                &#10140; No, Wasserkopf's response to the staff isn't polite enough. He uses derogatory language against
-                them.<br>
-                <br>
-                iii. How does Wasserkopf rebuke the staff?<br>
-                &#10140; Wasserkopf rebukes the staff, calling them &quot;loafers&quot; and asking, &quot;Who the hell
-                are you?&quot;<br>
-                <br>
-                iv. What does the principal mean by &lsquo;How dare you -&rsquo;?<br>
-                &#10140; The Principal is referring to Wasserkopf's dare to make abusive remarks about masters when he
-                says, 'How dare you?'<br>
-                <br>
-                <br>
-                c. Explain the following line of the play:<br>
-                &ldquo;Because I didn&rsquo;t get my money&rsquo;s worth, that&rsquo;s why!&rdquo;<br>
-                &#10140; This line was spoken by the play's main character, Wasserkopf. In this line, Wasserkopf
-                explains his reason for his arrival and demand to the school's principal. According to him, his
-                education from school did not provide him with his money's worth in his life. He has been rejected
-                numerous times in his life. He considers himself to be worthless. <br>
-                <br>
-                <br>
-                d. What is the theme of the play?<br>
-                &#10140; The play's theme is wit and cooperation. This play showcases teachers' wit and unity in the
-                face of an ill-natured old pupil Wasserkopf who returns to his old school with an absurd demand. This
-                play is a satire on today's educational system, which has failed to prepare students for life.<br>
-                <br>
-                <br>
-                e. Sketch the character of Wasserkopf.<br>
-                &#10140; Wasserkopf is a forty-year-old poor and greedy man. He was born in Hungary. He is a
-                bad-tempered man who has been fired several times for his bad manners and rude behaviour. He has no
-                knowledge of any subject. In his life, there is no such thing as shame or respect. He thinks he's good
-                for nothing. He walks into his school and demands his tuition fee without hesitation. He is immoral in
-                his interactions with the Principal and other teachers. He refers to the teachers as 'loafers.' He
-                refers to the History Master as a 'numskull,' the Physics Master as a 'cannibal' and a 'whisked
-                balloon,' and the Maths teacher as a 'old stick in the mud.'<br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                a. The play is a satire on the present day education system. Do you think that our education system does
-                not prepare students for life? Discuss.<br>
-                <br>
-                &#10140; Yes, I believe that our educational system does not adequately prepare students for life. The
-                current educational system is disconnected from the concept of practical life. It has nothing to do with
-                a practical way of life. It has diverted people's attention away from creativity and rendered them
-                impractical. In today's world, there are many educated people with high certificate values who have no
-                knowledge of anything. They don't even have the ability to guide others. As a result, the current
-                educational system is producing ineffective workers in a variety of industries.<br>
-                <br>
-                <br>
-                b. Our education system focuses on memorisation rather than creative thinking. Do you think the
-                knowledge imparted by education may not have practical relevance in one&rsquo;s day-to-day life? Who do
-                you blame for this?<br>
-                <br>
-                &#10140; Yes, I believe that the knowledge imparted by education may not be practical in daily life. We
-                find education and its related knowledge far away from creative thinking in the context of the present
-                system of education. The education courses are designed in such a way that they are unrelated to
-                practical relevance in daily life. These educational materials have no application in real life. People
-                who are struggling in academic fields are also looking for an easy way to memorize rather than creative
-                thinking. The majority of students are on the wrong track, focusing solely on passing exams and
-                receiving certificates. For them, creativity has no place in their lives. They are only concerned with
-                obtaining excellent certificates through various means. This is directly attributable to the current
-                educational system, which has corrupted thousands of minds.<br>
-                <br>
-                <br>
-                c. Most of the students want to learn just for examination rather than knowledge. Do you think that
-                certificate will help them in their future career?<br>
-                <br>
-                &#10140; No, I do not believe that the certificate will benefit students in their future careers. At the
-                moment, the majority of students are on the wrong track. Their preparation for the exam has a time
-                limit. They are seen a lot more frequently before two or three months of their examination. They are far
-                from the concept of knowledge, but they believe in quick fixes to pass their exams. The method they've
-                chosen to pass their exam isn't good for their future. Because certificates never reveal true knowledge
-                or talent, they will undoubtedly face a lack of authentic knowledge in the future. Most students
-                nowadays obtain certificates through dubious means as well.<br>
-                <br>
+    <h3>Understanding the text</h3>
+    <br><br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. Why does Wasserkopf demand a refund of his tuition fees from the school?</span>
+    <br>
+    &#10140; Wasserkopf demands a refund of his tuition fees from the school because he finds himself good
+    for nothing in his life. He becomes failure many times in getting a proper job for him. He thinks
+    himself a loser at the age of forty only because of his education. He is not able to get any employment.
+    Even if he succeeds in getting a job, he cannot keep it for a long period. Wherever he goes to ask for
+    the job, people tell him that he is fit for nothing and he hasn&rsquo;t learned anything worth in his
+    school. His old classmate Leadrer even says the same and advises him to demand tuition fees from his old
+    school.
+    <br><br><br>
+    <span>b. Why does Wasserkopf consider himself good for nothing?</span>
+    <br>
+    &#10140; Wasserkopf considers himself good for nothing because he becomes failure many times in his life
+    in the matter of getting a job. He faces rejections many times in his life. He is completely broke. He
+    thinks himself worthless and good for nothing.
+    <br><br><br>
+    <span>c. What did the teachers decide to do when Wasserkopf asked for a refund?</span>
+    <br>
+    &#10140; The teachers decided to honor Wasserkopf's request for a re-examination and pass him in all
+    subjects, even if his answers were incorrect. They decided to band together and assist one another
+    during his examination. They agreed to prove Wasserkopf's answers to their questions correct.
+    <br><br><br>
+    <span>d. Why did Wasserkopf give ridiculous answers? Why did the teachers accept these answers?</span>
+    <br>
+    &#10140; Wasserkopf gave ridiculous answers in order to fail the exam by any means necessary and receive
+    a refund. Teachers accepted his answers because they wanted him to pass the exam for the sake of their
+    school's reputation.
+    <br><br><br>
+    <span>e. How does the Mathematics Master describe Wasserkopf&rsquo;s character?</span>
+    <br>
+    &#10140; Wasserkopf is described by the Mathematics Master as a sly and crafty individual who intends to
+    deliberately fail his exam in order to recoup his tuition fee. Wasserkopf, in his opinion, is a
+    bad-tempered man with a bad speaking style. He is a unique individual who irritates all of the teachers
+    with his abusive language.
+    <br><br><br>
+    <span>f. How did the teachers outwit Wasserkopf?</span>
+    <br>
+    &#10140; Teachers outwitted Wasserkopf by using their brains properly. Wasserkopf did everything he
+    could to fail his oral exam by giving absurd answers. However, the teachers proved his incorrect answers
+    for various reasons. Wasserkopf was surprised to find his answers correct. He received a pass in every
+    subject. His request for a refund was denied. Finally, he was expelled from school.
+    <br><br><br>
+    <span>g. What is the final judgment on Waserkopf&rsquo;s demand of refund?</span>
+    <br>
+    &#10140; The final judgement on Waserkopf's refund demand is a rejection of the refund. The outcome is
+    favourable to all teachers. Except for one, all of the teachers agree that Wasserkopf's answers are
+    correct. The school's principal declares Wasserkopf distinction in all subjects. He has received
+    certification and has been congratulated on his graduation.
+    <br><br><br><br><br>
+    <h3>Reference to the context</h3>
+    <br><br>
+    <span>a. Read the extract from the play given below and answer the questions that follow:</span>
+    <br>
+    <i>
+        &ldquo;It&rsquo;s possible I&rsquo;ve changed. What the hell&#8230;! Your class records will show
+        I&rsquo;ve got a right to come here.&rdquo;
+    </i>
+    <br><br>
+    <span>i. Who is the speaker? Who is he speaking to?</span>
+    <br>
+    &#10140; Wasserkopf is the speaker. He's speaking to the principal of his former school.
+    <br><br>
+    <span>ii. Why is the speaker say these words?</span>
+    <br>
+    &#10140; The speaker says these words because he is dissatisfied with his educational records from his
+    previous school, which he obtained eighteen years ago.
+    <br><br>
+    <span>iii. Where is the speaker at this moment?</span>
+    <br>
+    &#10140; The speaker is in the Principal's office at this moment.
+    <br><br><br>
+    <span>b. Read the extract dialogue given below and answer the questions that follow:</span>
+    <br>
+    <i>
+        &ldquo;THE STAFF: (bowing, heartily) How do you do?
+        <br>
+        WASSERKOPF: Who the hell are you? Sit down, you loafers! (He grins, waiting to be thrown out)
+        <br>
+        THE PRINCIPAL: How dare you &ndash;&rdquo;
+    </i>
+    <br><br>
+    <span>i. What is to be the response to &lsquo;How do you do?&rsquo;</span>
+    <br>
+    &#10140; 'I am fine' is to be the response to 'How do you do'.
+    <br><br>
+    <span>ii. Is Wasserkopf&rsquo;s response polite enough to the staff?</span>
+    <br>
+    &#10140; No, Wasserkopf's response to the staff isn't polite enough. He uses derogatory language against
+    them.
+    <br><br>
+    <span>iii. How does Wasserkopf rebuke the staff?</span>
+    <br>
+    &#10140; Wasserkopf rebukes the staff, calling them &quot;loafers&quot; and asking, &quot;Who the hell
+    are you?&quot;
+    <br><br>
+    <span>iv. What does the principal mean by &lsquo;How dare you -&rsquo;?</span>
+    <br>
+    &#10140; The Principal is referring to Wasserkopf's dare to make abusive remarks about masters when he
+    says, 'How dare you?'
+    <br><br><br>
+    <span>c. Explain the following line of the play:</span>
+    <br>
+    <i>&ldquo;Because I didn&rsquo;t get my money&rsquo;s worth, that&rsquo;s why!&rdquo;</i>
+    <br>
+    &#10140; This line was spoken by the play's main character, Wasserkopf. In this line, Wasserkopf
+    explains his reason for his arrival and demand to the school's principal. According to him, his
+    education from school did not provide him with his money's worth in his life. He has been rejected
+    numerous times in his life. He considers himself to be worthless.
+    <br><br><br>
+    <span>d. What is the theme of the play?</span>
+    <br>
+    &#10140; The play's theme is wit and cooperation. This play showcases teachers' wit and unity in the
+    face of an ill-natured old pupil Wasserkopf who returns to his old school with an absurd demand. This
+    play is a satire on today's educational system, which has failed to prepare students for life.
+    <br><br><br>
+    <span>e. Sketch the character of Wasserkopf.</span>
+    <br>
+    &#10140; Wasserkopf is a forty-year-old poor and greedy man. He was born in Hungary. He is a
+    bad-tempered man who has been fired several times for his bad manners and rude behaviour. He has no
+    knowledge of any subject. In his life, there is no such thing as shame or respect. He thinks he's good
+    for nothing. He walks into his school and demands his tuition fee without hesitation. He is immoral in
+    his interactions with the Principal and other teachers. He refers to the teachers as 'loafers.' He
+    refers to the History Master as a 'numskull,' the Physics Master as a 'cannibal' and a 'whisked
+    balloon,' and the Maths teacher as a 'old stick in the mud.'
+    <br><br><br><br>
+    <h3>Reference beyond the text</h3>
+    <br>
+    <span>
+        a. The play is a satire on the present day education system. Do you think that our education system does
+        not prepare students for life? Discuss.
+    </span>
+    <br><br>
+    &#10140; Yes, I believe that our educational system does not adequately prepare students for life. The
+    current educational system is disconnected from the concept of practical life. It has nothing to do with
+    a practical way of life. It has diverted people's attention away from creativity and rendered them
+    impractical. In today's world, there are many educated people with high certificate values who have no
+    knowledge of anything. They don't even have the ability to guide others. As a result, the current
+    educational system is producing ineffective workers in a variety of industries.
+    <br><br><br>
+    <span>
+        b. Our education system focuses on memorisation rather than creative thinking. Do you think the
+        knowledge imparted by education may not have practical relevance in one&rsquo;s day-to-day life? Who do
+        you blame for this?
+    </span>
+    <br><br>
+    &#10140; Yes, I believe that the knowledge imparted by education may not be practical in daily life. We
+    find education and its related knowledge far away from creative thinking in the context of the present
+    system of education. The education courses are designed in such a way that they are unrelated to
+    practical relevance in daily life. These educational materials have no application in real life. People
+    who are struggling in academic fields are also looking for an easy way to memorize rather than creative
+    thinking. The majority of students are on the wrong track, focusing solely on passing exams and
+    receiving certificates. For them, creativity has no place in their lives. They are only concerned with
+    obtaining excellent certificates through various means. This is directly attributable to the current
+    educational system, which has corrupted thousands of minds.
+    <br><br><br>
+    <span>
+        c. Most of the students want to learn just for examination rather than knowledge. Do you think that
+        certificate will help them in their future career?
+    </span>
+    <br><br>
+    &#10140; No, I do not believe that the certificate will benefit students in their future careers. At the
+    moment, the majority of students are on the wrong track. Their preparation for the exam has a time
+    limit. They are seen a lot more frequently before two or three months of their examination. They are far
+    from the concept of knowledge, but they believe in quick fixes to pass their exams. The method they've
+    chosen to pass their exam isn't good for their future. Because certificates never reveal true knowledge
+    or talent, they will undoubtedly face a lack of authentic knowledge in the future. Most students
+    nowadays obtain certificates through dubious means as well.
+    <br><br>
+    <br><br><br><br>
 
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
 
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br><br>
 </body>
 
 </html>

@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
-            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
-            // Prevent the default copy action
+            evt.clipboardData.setData("text/plain",
+                "Copying is not allowed on this webpage"); // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,173 +35,147 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-
-                <center>Essays</center>
-                <center>Unit 3 - What I Require from Life</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-
-
-                Understanding the text <br>
-                <br>
-                Answer the following questions.<br>
-                a. How does the writer distinguish between a peaceful age and a heroic age?<br>
-                &#10140; The writer distinguishes between a peaceful age and a heroic age by making a comparison between
-                two different ages. He refers to the time of his birth as a peaceful age whereas his youth age as a
-                heroic age. During his youth age (aged 22), the first world war broke out. He desired to live his
-                peaceful age but engaged himself in a heroic age of war.<br>
-                <br>
-                b. Why does the writer want more freedom of speech than most people?<br>
-                &#10140; The writer wants more freedom than other people to point out what is wrong in society. He sees
-                that medicines, newspapers and drinks do not maintain quality. He wants freedom of speech to tell the
-                public about such issues.<br>
-                <br>
-                c. According to the writer, what are the four general human needs?<br>
-                &#10140; According to the writer the four general human needs are work, freedom of speech, health and
-                friendship.<br>
-                <br>
-                d. What is the difference between desire and demand according to the writer?<br>
-                &#10140; Demand is related with the basic needs of life like food, clothes and shelter. But desire
-                includes things which improve living standard. We can do without them. The writer talks about car,
-                garden, bathing pool and nearby beach as desires.<br>
-                <br>
-                e. Why does the writer demand security?<br>
-                &#10140; The writer demands security because it is also an important need for a happy life. It is the
-                right of everyone. He lived in the age of war and saw the destruction. Armies may be involved in war,
-                but common people need security.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context <br>
-                Explain the following lines with reference to the context:<br>
-                a. &ldquo;The satisfaction of adventure is something much more solid than a thrill.&rdquo;<br>
-                &#10140; The author believes that adventure is not only about emotions, but also about satisfaction in
-                performing a creative activity. He served on the war front in Madrid for six months and looked forward
-                to reading a book of Rimbaud's poetry for a thrill.<br>
-                <br>
-                b. &ldquo;I want the workers to see the fruit of their own work not in profits for others, but in their
-                own and their friends&rsquo; well-being.&rdquo;<br>
-                &#10140; Here in this line, the author, as a socialist, wants the workers to exercise the fruits of
-                their labour so as not to enrich the bourgeois capitalists but to benefit from the wages of the workers
-                themselves for their own economic prosperity.<br>
-                <br>
-                c. Why do you think the essayist has taken reference from the ancient philosophers?<br>
-                &#10140; The essayist has taken reference from the ancient philosophers like Socrates and Aristotle to
-                support his ideas. He uses reference of Aristotle to support his idea of decent work. In the same way,
-                he brings reference of Socrates to support his idea of death.<br>
-                <br>
-                d. Discuss the essay in terms of its language, purpose, subject, point of view and mode of writing.<br>
-                &#10140; The writer has used very simple and clear language to present his ideas on socialism. His
-                purpose is to demand equality and democratic activities for all working class people in their working
-                places. He is against capitalism which doesn&rsquo;t favor the need of working class people. According
-                to him, capitalism is the main cause behind growing unemployment. The writer uses socialist point of
-                view to support his ideas. He uses descriptive style to persuade his ideas.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text<br>
-                a. What do you require from your life to be happy and satisfied?<br>
-                &#10140; To be happy and satisfied, I require good health, a job, friendship, freedom &amp; security
-                from my life.<br>
-                <br>
-                b. What is socialism? How is it different from capitalism?<br>
-                &#10140; Socialism is a system of social and economic equality in which private property and ownership
-                are not prioritized. It differs from capitalism because capitalism does not provide economic equality.
-                Capitalism, unlike socialism, ignores people's needs and does not promote equal opportunity.<br>
-                <br>
-                c. Write an essay about your dream house.<br>
-                &#10140; My Dream House<br>
-                My dream house is an ideal house that I always imagine. House becomes home when we pour love to our
-                family members. It is a place where different generation live together in a single bond. So, my dream
-                house will be full of love and happiness.<br>
-                <br>
-                My dream house will be in Ilam&rsquo;s hill. It will be surrounded by tea estates. When I will wake up
-                in the morning, I will enjoy the clean environment of the surroundings. My dream house will be made up
-                wood, cement and zinc. There will be 6 rooms in my house. It should be facing East direction because I
-                want to enjoy cool air as well as rising sun view. I will make small vegetable as well as fruit garden
-                where I will grow fresh vegetables and fruits for my family. I would like to avoid harmful vegetables
-                from market. I would like to maintain my house neat and clean. There will be a meditation room for
-                myself to do Yoga and meditation. I will also make one library room for my family and visitors. I will
-                make a special room for my parents and visitors because I believe in the motto &ldquo;Helping others is
-                as equal as praying gods&rdquo;. I won&rsquo;t add too much amenities in my dream house because it
-                creates laziness. I believe that physical exercises are necessary to be healthy and fit. There will be
-                solar panel in my house to maintain regular light. I will also add a big smart TV for my parents and
-                visitors. My house&rsquo;s wall will be decorated with beautiful wall paintings capturing nature&rsquo;s
-                true beauty.<br>
-                <br>
-                My dream home is a place of joy, peace and beauty. Right now it exists only in my dreams. But someday,
-                it will become a reality.<br>
-
-
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br>
+    <center>What I Require from Life</center> <br>
+    <h3>Understanding the text</h3>
+    <br><br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. How does the writer distinguish between a peaceful age and a heroic age?</span>
+    <br>
+    &#10140; The writer distinguishes between a peaceful age and a heroic age by making a comparison between
+    two different ages. He refers to the time of his birth as a peaceful age whereas his youth age as a
+    heroic age. During his youth age (aged 22), the first world war broke out. He desired to live his
+    peaceful age but engaged himself in a heroic age of war.
+    <br><br>
+    <span>b. Why does the writer want more freedom of speech than most people?</span>
+    <br>
+    &#10140; The writer wants more freedom than other people to point out what is wrong in society. He sees
+    that medicines, newspapers and drinks do not maintain quality. He wants freedom of speech to tell the
+    public about such issues.
+    <br><br>
+    <span>c. According to the writer, what are the four general human needs?</span>
+    <br>
+    &#10140; According to the writer the four general human needs are work, freedom of speech, health and
+    friendship.
+    <br><br>
+    <span>d. What is the difference between desire and demand according to the writer?</span>
+    <br>
+    &#10140; Demand is related with the basic needs of life like food, clothes and shelter. But desire
+    includes things which improve living standard. We can do without them. The writer talks about car,
+    garden, bathing pool and nearby beach as desires.
+    <br><br>
+    <span>e. Why does the writer demand security?</span>
+    <br>
+    &#10140; The writer demands security because it is also an important need for a happy life. It is the
+    right of everyone. He lived in the age of war and saw the destruction. Armies may be involved in war,
+    but common people need security.
+    <br><br><br><br><br>
+    <h3>Reference to the context</h3>
+    <br>
+    <span>Explain the following lines with reference to the context:</span>
+    <br>
+    <span>a. &ldquo;The satisfaction of adventure is something much more solid than a thrill.&rdquo;</span>
+    <br>
+    &#10140; The author believes that adventure is not only about emotions, but also about satisfaction in
+    performing a creative activity. He served on the war front in Madrid for six months and looked forward
+    to reading a book of Rimbaud's poetry for a thrill.
+    <br><br>
+    <span>
+        b. &ldquo;I want the workers to see the fruit of their own work not in profits for others, but in their
+        own and their friends&rsquo; well-being.&rdquo;
+    </span>
+    <br>
+    &#10140; Here in this line, the author, as a socialist, wants the workers to exercise the fruits of
+    their labour so as not to enrich the bourgeois capitalists but to benefit from the wages of the workers
+    themselves for their own economic prosperity.
+    <br><br>
+    <span>c. Why do you think the essayist has taken reference from the ancient philosophers?</span>
+    <br>
+    &#10140; The essayist has taken reference from the ancient philosophers like Socrates and Aristotle to
+    support his ideas. He uses reference of Aristotle to support his idea of decent work. In the same way,
+    he brings reference of Socrates to support his idea of death.
+    <br><br>
+    <span>d. Discuss the essay in terms of its language, purpose, subject, point of view and mode of writing.</span>
+    <br>
+    &#10140; The writer has used very simple and clear language to present his ideas on socialism. His
+    purpose is to demand equality and democratic activities for all working class people in their working
+    places. He is against capitalism which doesn&rsquo;t favor the need of working class people. According
+    to him, capitalism is the main cause behind growing unemployment. The writer uses socialist point of
+    view to support his ideas. He uses descriptive style to persuade his ideas.
+    <br><br><br><br><br>
+    <h3>Reference beyond the text</h3>
+    <br>
+    <span>a. What do you require from your life to be happy and satisfied?</span>
+    <br>
+    &#10140; To be happy and satisfied, I require good health, a job, friendship, freedom &amp; security
+    from my life.
+    <br><br>
+    <span>b. What is socialism? How is it different from capitalism?</span>
+    <br>
+    &#10140; Socialism is a system of social and economic equality in which private property and ownership
+    are not prioritized. It differs from capitalism because capitalism does not provide economic equality.
+    Capitalism, unlike socialism, ignores people's needs and does not promote equal opportunity.
+    <br><br>
+    <span>c. Write an essay about your dream house.</span>
+    <br>
+    &#10140; 
+    <center><b>My Dream House</b></center>
+    <br>
+    My dream house is an ideal house that I always imagine. House becomes home when we pour love to our
+    family members. It is a place where different generation live together in a single bond. So, my dream
+    house will be full of love and happiness.
+    <br><br>
+    My dream house will be in Ilam&rsquo;s hill. It will be surrounded by tea estates. When I will wake up
+    in the morning, I will enjoy the clean environment of the surroundings. My dream house will be made up
+    wood, cement and zinc. There will be 6 rooms in my house. It should be facing East direction because I
+    want to enjoy cool air as well as rising sun view. I will make small vegetable as well as fruit garden
+    where I will grow fresh vegetables and fruits for my family. I would like to avoid harmful vegetables
+    from market. I would like to maintain my house neat and clean. There will be a meditation room for
+    myself to do Yoga and meditation. I will also make one library room for my family and visitors. I will
+    make a special room for my parents and visitors because I believe in the motto &ldquo;Helping others is
+    as equal as praying gods&rdquo;. I won&rsquo;t add too much amenities in my dream house because it
+    creates laziness. I believe that physical exercises are necessary to be healthy and fit. There will be
+    solar panel in my house to maintain regular light. I will also add a big smart TV for my parents and
+    visitors. My house&rsquo;s wall will be decorated with beautiful wall paintings capturing nature&rsquo;s
+    true beauty.
+    <br><br>
+    My dream home is a place of joy, peace and beauty. Right now it exists only in my dreams. But someday,
+    it will become a reality.
+    <br>
+    <br><br><br><br> <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br><br>
 </body>
 
 </html>

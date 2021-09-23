@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
-            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
-            // Prevent the default copy action
+            evt.clipboardData.setData("text/plain",
+            "Copying is not allowed on this webpage"); // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,236 +35,207 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
+    <br>
+    <center>A Red, Red Rose</center>
 
-                <center>Poems</center>
-                <center>Unit 2 - A Red, Red Rose</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
+    <br>
+    <h3>Summary</h3>
+    <br>
+    The speaker describes his or her love&mdash;meaning either the person the speaker loves or the speaker's
+    feelings of love for that person&mdash;as being as beautiful, vivid, and fresh as a flower that has just
+    recently bloomed. This love is as sweet as a beautiful song played by a skilled musician.
+    <br><br>
+    The beloved is so beautiful that the speaker loves her with a deep and strong passion&mdash;so strong,
+    in fact, that the speaker's love will last until the oceans have become dry.
+    <br><br>
+    Even after the seas have evaporated and the earth has decayed, the speaker will still love the beloved.
+    This love will endure until their own lives have ended and even until all human life has ended.
+    <br><br>
+    The speaker concludes by saying goodbye to the beloved&mdash;who is, the speaker reminds her, the only
+    person the speaker loves. The speaker wishes her well during their temporary separation. The speaker
+    reaffirms his or her faithful love by promising to return even if the journey covers a very long
+    distance and takes a very long time.
+    <br><br><br><br><br>
+    <h3>Understanding the text</h3>
+    <br><br>
+    <span>Answer the following questions.</span>
+    <br><br>
+    <span>a. To which two things does the speaker compare his love in the first stanza?</span>
+    <br>
+    &#10140; The speaker compares his love in the first stanza are red rose and melody (music)
+    <br><br>
+    <span>b. What does the speaker promise in the second and third stanzas?</span>
+    <br>
+    &#10140; The speaker promises various things to his beloved in the second and third stanza. He promises
+    to love his beloved until the earthly seas have become dry, rocks have melted by the heat of the sun and
+    human life has ended.
+    <br><br>
+    <span>c. What imagery does he use in his promise, and why do you think he uses such language?</span>
+    <br>
+    &#10140; He uses the imagery of dry seas, melted rocks, ended human life in the second and third stanza.
+    He uses an image of a long journey in the fourth stanza. I think he uses such language because his love
+    is so deep and true for his beloved.
+    <br><br>
+    <span>d. In the last stanza, what event is about to happen by mentioning the number of miles?</span>
+    <br>
+    &#10140; Here, by mentioning the number of miles, the event of reconciliation is about to happen. After
+    a short temporary separation with his beloved or giving wishes and farewell, the speaker promises to
+    return to her life though the journey is so long and takes a long time.
+    <br><br>
+    <span>e. Which image in the poem do you find the most memorable or surprising and why?</span>
+    <br>
+    &#10140; Here in this poem, I find the most surprising image of the dry seas throughout the world,
+    because the speaker's promise is managed in a very interesting way. I keep on pondering the state of the
+    earth without water after reading his lovable promises.
+    <br><br><br><br><br>
+    <h3>Reference to the context</h3>
+    <br><br>
+    <span>a. What can you infer about the speaker&rsquo;s devotion to his beloved from the following lines?</span>
+    <br>
+    <i>And I will come again, my love, Tho&rsquo; it were ten thousand mile!</i>
+    <br>
+    &#10140; This beautiful promising line has been taken from Robert Burns love poem ' A Red, Red Rose. We
+    find this line at the end of the fourth stanza. Here, the speaker is in deep love with his beloved. He
+    is making a promise with his beloved to return to her life after their temporary separation. He promises
+    to be with her no matter how long the journey is.
+    <br><br><br>
+    <span>b. What is the theme of the poem?</span>
+    <br>
+    &#10140; The poem has the themes of love and passion. The poem is basically concerned with the
+    speaker&rsquo;s deep love for his beloved. He praises her beauty and expresses his inestimable love for
+    her. His love will remain forever no matter what happens. He bids goodbye to her before they separate,
+    and promises he will come to her even covering the distance of ten thousand miles.
+    <br><br><br>
+    <span>c. Paraphrase the whole poem into simple prose form.</span>
+    <br>
+    &#10140; The speaker is in deep love with his beloved. His feelings for his beloved are so deep and
+    pure.
+    <br><br>
+    His beloved isn't present right now with him. He keeps on remembering his beloved through making
+    comparisons, promises, wishes etc. He compares his beautiful beloved with a beautiful new delicate rose
+    of June and sweet melody. He promises to love her forever. He promises to love and live with her until
+    the seas gang have become dry, rocks have melted and human life has ended. He provides her with a fine
+    farewell for a short time and wishes for her bright future. He again promises to come back in her life
+    though the journey is quite long.
+    <br><br><br>
+    <span>
+        d. Literary devices are tools that enable the writers to present their ideas, emotions, and feelings and
+        also help the readers understand those more profound meanings. Analyze the poem in terms of the literary
+        devices such as simile, symbolism, imagery, alliteration, and assonance.
+    </span>
+    <br><br>
+    &#10140; The poet employs several literary devices to show the beauty of his beloved and the power of
+    his love. They are simile, symbolism, imagery, alliteration, and assonance.
+    <br><br>
+    The first literary tool used in the poem is simile. It is an expression which describes one thing
+    comparing it with another, using words as or like. The poem begins with two similes. They are used when
+    the speaker compares his beloved with a red rose and sweet melody.
+    <br><br>
+    Symbolism is another figure of speech, used in the poem. The rose is a traditional symbol of love. In
+    the poem, the rose symbolizes love between the speaker and his beloved. This symbolism dates back to
+    ancient Greek literature, which associates the rose with Aphrodite, the Greek goddess of love.
+    <br><br>
+    In the poem, imagery is created with simile and hyperbole. There is a visual picture of a red rose in
+    our mind when the speaker compares his beloved with a red rose. When he equates her to the sweet melody,
+    auditory imagery is used. Comparisons of both the rose and the melody shows his beloved lovely, sweet,
+    new, and young. To convey the intensity of his affection, he then switches to hyperbolic images, by
+    expressing that he will love until the seas become dry and the rocks melt in the sun. We can view the
+    world of dry seas and melted rocks in our mind.
+    <br><br>
+    The poet makes use of alliteration and assonance to emphasize his powerful feelings of love for his
+    beloved.
+    <br><br>
+    Alliteration is found in the line &lsquo;O, my love is like a red, red rose.&rsquo; It has the
+    repetition of the consonant sounds /l/ and /r/. Assonance is a literary device in which the repetition
+    of vowel sounds occurs in the same line. In the line &lsquo;And I will love thee still, my dear&rsquo;,
+    the vowel sound /i/ is repeated.
+    <br><br><br>
+    <span>e. What is hyperbole? Explain its purpose citing examples of hyperbole used in the poem.</span>
+    <br>
+    &#10140; Hyperbole is a literary technique which is used to exaggerate a sentence. The poet used this
+    literary device to present the intensity of the speaker's affection. In the second and third stanza we
+    find the use of hyperbole where the speaker claimed, &quot; And I will love thee still my dear, Till a'
+    the seas gang dry&quot; &quot; And the rocks melt wi' the sun!&quot;, &quot;While the sands o' life
+    shall run.&quot; Here, the speaker seems to be exaggerating his emotions in these lines to illustrate
+    his desire to love her forever. The last two lines, &quot; And I will come again, my love, Tho' it were
+    ten thousand mile!&quot; The speaker exaggerates the distance to demonstrate his firm love feelings.
+    <br><br><br>
+    <span>f. What is refrain? Why is it used in the poem? Explain citing an example from the poem.</span>
+    <br>
+    &#10140; Refrain is a poetic device in poetry that focuses only on repeated lines at a certain distance.
+    It is used to emphasize something and to produce rhythm in the poem as well. It is used to break up
+    stanzas. We find a refrain here in this poem in the second, third, and fourth stanzas.
+    <br>
+    The refrain in the poem are as follows:
+    <br>
+    And I will love thee still, my dear,
+    <br>
+    Till a' the seas gang dry.
+    <br>
+    And fare thee weel
+    <br><br><br><br><br>
+    <h3>Reference beyond the text</h3>
+    <br><br>
+    <span>a. What kind of love is expressed in &quot;A Red, Red Rose&quot;?</span>
+    <br>
+    &#10140; In this poem, A Red, Red Rose, the poet has expressed his romantic love for his beloved where
+    his feelings are so deep. He has compared his beloved with a new and beautiful rose of July and also
+    with a sweet melody. He has even made many promises to love his beloved forever.
+    <br><br><br>
+    <span>b. Do you think that love has power? Why do the poets compose poems addressing their beloved?</span>
+    <br>
+    &#10140; Yes, I think love has power. Love can sometimes lead people towards perfection whereas it may
+    bring destructive results too. I think poets are so passionate about their creations. Most of the poets
+    in the world prefer writing about love relationships. We find most of the poets composing their poems
+    addressing their beloved because they want to write their own experiences of love and share with others.
+    Their own experience of love supports them to create the best they can.
+    <br><br><br>
+    <span>c. Poetry is the expression of feeling and emotions. Explain.</span>
+    <br>
+    &#10140; Poetry is the representation of thoughts and feelings that enables people to express themselves
+    in writing. Poetry is a perfect way to relieve emotions, practice imagination, and exchange ideas and
+    thoughts with others. Writing poetry in just a few words is an art, a way of communicating and seeking
+    meaning. A melody of passion that flows through the pages, words that flow into each other and still
+    convey the innermost feelings and emotions of those who read the words. Via a few lines of verse, poets
+    can readily express their inner thoughts and emotions. The poets' works have a profound sense of human
+    thoughts and emotions. The poetic lines create incredible definitions of the feeling of man.
+    <br>
+    <br><br><br><br>
 
-                Summary<br>
-                The speaker describes his or her love&mdash;meaning either the person the speaker loves or the speaker's
-                feelings of love for that person&mdash;as being as beautiful, vivid, and fresh as a flower that has just
-                recently bloomed. This love is as sweet as a beautiful song played by a skilled musician.<br>
-                <br>
-                The beloved is so beautiful that the speaker loves her with a deep and strong passion&mdash;so strong,
-                in fact, that the speaker's love will last until the oceans have become dry.<br>
-                <br>
-                Even after the seas have evaporated and the earth has decayed, the speaker will still love the beloved.
-                This love will endure until their own lives have ended and even until all human life has ended.<br>
-                <br>
-                The speaker concludes by saying goodbye to the beloved&mdash;who is, the speaker reminds her, the only
-                person the speaker loves. The speaker wishes her well during their temporary separation. The speaker
-                reaffirms his or her faithful love by promising to return even if the journey covers a very long
-                distance and takes a very long time.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Understanding the text <br>
-                <br>
-                Answer the following questions.<br>
-                <br>
-                a. To which two things does the speaker compare his love in the first stanza?<br>
-                &#10140; The speaker compares his love in the first stanza are red rose and melody (music)<br>
-                <br>
-                b. What does the speaker promise in the second and third stanzas? <br>
-                &#10140; The speaker promises various things to his beloved in the second and third stanza. He promises
-                to love his beloved until the earthly seas have become dry, rocks have melted by the heat of the sun and
-                human life has ended.<br>
-                <br>
-                c. What imagery does he use in his promise, and why do you think he uses such language?<br>
-                &#10140; He uses the imagery of dry seas, melted rocks, ended human life in the second and third stanza.
-                He uses an image of a long journey in the fourth stanza. I think he uses such language because his love
-                is so deep and true for his beloved.<br>
-                <br>
-                d. In the last stanza, what event is about to happen by mentioning the number of miles?<br>
-                &#10140; Here, by mentioning the number of miles, the event of reconciliation is about to happen. After
-                a short temporary separation with his beloved or giving wishes and farewell, the speaker promises to
-                return to her life though the journey is so long and takes a long time.<br>
-                <br>
-                e. Which image in the poem do you find the most memorable or surprising and why?<br>
-                &#10140; Here in this poem, I find the most surprising image of the dry seas throughout the world,
-                because the speaker's promise is managed in a very interesting way. I keep on pondering the state of the
-                earth without water after reading his lovable promises.<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference to the context <br>
-                <br>
-                a. What can you infer about the speaker&rsquo;s devotion to his beloved from the following lines? <br>
-                And I will come again, my love, Tho&rsquo; it were ten thousand mile!<br>
-                &#10140; This beautiful promising line has been taken from Robert Burns love poem ' A Red, Red Rose. We
-                find this line at the end of the fourth stanza. Here, the speaker is in deep love with his beloved. He
-                is making a promise with his beloved to return to her life after their temporary separation. He promises
-                to be with her no matter how long the journey is.<br>
-                <br>
-                <br>
-                b. What is the theme of the poem?<br>
-                &#10140; The poem has the themes of love and passion. The poem is basically concerned with the
-                speaker&rsquo;s deep love for his beloved. He praises her beauty and expresses his inestimable love for
-                her. His love will remain forever no matter what happens. He bids goodbye to her before they separate,
-                and promises he will come to her even covering the distance of ten thousand miles.<br>
-                <br>
-                <br>
-                c. Paraphrase the whole poem into simple prose form.<br>
-                &#10140; The speaker is in deep love with his beloved. His feelings for his beloved are so deep and
-                pure.<br>
-                <br>
-                His beloved isn't present right now with him. He keeps on remembering his beloved through making
-                comparisons, promises, wishes etc. He compares his beautiful beloved with a beautiful new delicate rose
-                of June and sweet melody. He promises to love her forever. He promises to love and live with her until
-                the seas gang have become dry, rocks have melted and human life has ended. He provides her with a fine
-                farewell for a short time and wishes for her bright future. He again promises to come back in her life
-                though the journey is quite long.<br>
-                <br>
-                <br>
-                d. Literary devices are tools that enable the writers to present their ideas, emotions, and feelings and
-                also help the readers understand those more profound meanings. Analyze the poem in terms of the literary
-                devices such as simile, symbolism, imagery, alliteration, and assonance.<br>
-                <br>
-                &#10140; The poet employs several literary devices to show the beauty of his beloved and the power of
-                his love. They are simile, symbolism, imagery, alliteration, and assonance.<br>
-                <br>
-                The first literary tool used in the poem is simile. It is an expression which describes one thing
-                comparing it with another, using words as or like. The poem begins with two similes. They are used when
-                the speaker compares his beloved with a red rose and sweet melody.<br>
-                <br>
-                Symbolism is another figure of speech, used in the poem. The rose is a traditional symbol of love. In
-                the poem, the rose symbolizes love between the speaker and his beloved. This symbolism dates back to
-                ancient Greek literature, which associates the rose with Aphrodite, the Greek goddess of love.<br>
-                <br>
-                In the poem, imagery is created with simile and hyperbole. There is a visual picture of a red rose in
-                our mind when the speaker compares his beloved with a red rose. When he equates her to the sweet melody,
-                auditory imagery is used. Comparisons of both the rose and the melody shows his beloved lovely, sweet,
-                new, and young. To convey the intensity of his affection, he then switches to hyperbolic images, by
-                expressing that he will love until the seas become dry and the rocks melt in the sun. We can view the
-                world of dry seas and melted rocks in our mind.<br>
-                <br>
-                The poet makes use of alliteration and assonance to emphasize his powerful feelings of love for his
-                beloved.<br>
-                <br>
-                Alliteration is found in the line &lsquo;O, my love is like a red, red rose.&rsquo; It has the
-                repetition of the consonant sounds /l/ and /r/. Assonance is a literary device in which the repetition
-                of vowel sounds occurs in the same line. In the line &lsquo;And I will love thee still, my dear&rsquo;,
-                the vowel sound /i/ is repeated.<br>
-                <br>
-                <br>
-                e. What is hyperbole? Explain its purpose citing examples of hyperbole used in the poem.<br>
-                &#10140; Hyperbole is a literary technique which is used to exaggerate a sentence. The poet used this
-                literary device to present the intensity of the speaker's affection. In the second and third stanza we
-                find the use of hyperbole where the speaker claimed, &quot; And I will love thee still my dear, Till a'
-                the seas gang dry&quot; &quot; And the rocks melt wi' the sun!&quot;, &quot;While the sands o' life
-                shall run.&quot; Here, the speaker seems to be exaggerating his emotions in these lines to illustrate
-                his desire to love her forever. The last two lines, &quot; And I will come again, my love, Tho' it were
-                ten thousand mile!&quot; The speaker exaggerates the distance to demonstrate his firm love feelings.<br>
-                <br>
-                <br>
-                f. What is refrain? Why is it used in the poem? Explain citing an example from the poem.<br>
-                &#10140; Refrain is a poetic device in poetry that focuses only on repeated lines at a certain distance.
-                It is used to emphasize something and to produce rhythm in the poem as well. It is used to break up
-                stanzas. We find a refrain here in this poem in the second, third, and fourth stanzas.<br>
-                The refrain in the poem are as follows:<br>
-                And I will love thee still, my dear,<br>
-                Till a' the seas gang dry.<br>
-                And fare thee weel<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                <br>
-                a. What kind of love is expressed in &quot;A Red, Red Rose&quot;? <br>
-                &#10140; In this poem, A Red, Red Rose, the poet has expressed his romantic love for his beloved where
-                his feelings are so deep. He has compared his beloved with a new and beautiful rose of July and also
-                with a sweet melody. He has even made many promises to love his beloved forever.<br>
-                <br>
-                <br>
-                b. Do you think that love has power? Why do the poets compose poems addressing their beloved?<br>
-                &#10140; Yes, I think love has power. Love can sometimes lead people towards perfection whereas it may
-                bring destructive results too. I think poets are so passionate about their creations. Most of the poets
-                in the world prefer writing about love relationships. We find most of the poets composing their poems
-                addressing their beloved because they want to write their own experiences of love and share with others.
-                Their own experience of love supports them to create the best they can.<br>
-                <br>
-                <br>
-                c. Poetry is the expression of feeling and emotions. Explain.<br>
-                &#10140; Poetry is the representation of thoughts and feelings that enables people to express themselves
-                in writing. Poetry is a perfect way to relieve emotions, practice imagination, and exchange ideas and
-                thoughts with others. Writing poetry in just a few words is an art, a way of communicating and seeking
-                meaning. A melody of passion that flows through the pages, words that flow into each other and still
-                convey the innermost feelings and emotions of those who read the words. Via a few lines of verse, poets
-                can readily express their inner thoughts and emotions. The poets' works have a profound sense of human
-                thoughts and emotions. The poetic lines create incredible definitions of the feeling of man.<br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
 
-
-
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br><br>
 </body>
 
 </html>
