@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -40,286 +35,218 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-Unit 12 Down the Rabbit Hole<br>
-Ways with words<br>
-A. Find the meanings of the following words and phrases from a dictionary and make sentences by using them.<br>
-a. peep into<br>
- <br>
-Answer:<br>
-meaning- to get a quick look into something<br>
-I peeped into the oven to see what was being cooked for dinner<br>
- <br>
- <br>
-b. pop down<br>
- <br>
-Answer:<br>
-to go somewhere quickly<br>
-I popped down to the shop to get some coffee.<br>
- <br>
-c. remarkable<br>
- <br>
-Answer:<br>
-unusual, surprising, excellent or worthy of notice<br>
-The interior of the house is remarkable for its beauty.<br>
- <br>
- <br>
-d. hedge<br>
- <br>
-Answer:<br>
-a row of bushes or small trees planted close together along the edge of a garden, field or road<br>
-My sister kicked the ball so powerfully that it flew over the hedge.<br>
- <br>
- <br>
-e. wonder<br>
- <br>
-Answer:<br>
-desire to know something<br>
-I wonder why she left the job.<br>
- <br>
-f. tumble<br>
- <br>
-Answer:<br>
-to fall quickly without control<br>
-She has lost her footing and tumbled down the stairs.<br>
- <br>
-g. doze off<br>
- <br>
-Answer:<br>
-to sleep, especially during the day<br>
-He was just beginning to doze off when the telephone rang.<br>
- <br>
-h. earnestly<br>
- <br>
-Answer:<br>
-seriously<br>
-She earnestly hopes to come back in summer.<br>
- <br>
-i. tiny<br>
- <br>
-Answer:<br>
-very small<br>
-Look at her tiny fingers. Aren't they cute?<br>
- <br>
-j. creep<br>
- <br>
-Answer:<br>
-to move slowly, quietly and carefully in order to avoid being heard or noticed<br>
-She crept up the stairs, trying not to wake up them.<br>
- <br>
-B. Match the words below with their opposites.<br>
-beginning - vi. ending<br>
-stupid - iv. clever<br>
-natural - v. artificial<br>
-disappointment- i. happiness<br>
-ignorant - iii. educated<br>
-anxiously - ii. calmly<br>
-Comprehension<br>
-a. What did Alice do while her sister was reading a book?<br>
- <br>
-Answer:<br>
-She fell asleep while her sister was reading a book<br>
- <br>
-b. Why did Alice run across the field after the Rabbit?<br>
- <br>
-Answer:<br>
-Alice ran across the field after the Rabbit because she was curious to know more about the rabbit she had never seen before, in a waistcoat with a pocket watch.<br>
- <br>
-c. Why didn&rsquo;t she like to drop the jar? What did she do with it?<br>
- <br>
-Answer:<br>
-She did not like to drop the jar for fear of killing somebody underneath. She put it into one of the cupboards.<br>
- <br>
-d. What idea came to her mind when she saw a tiny golden key?<br>
- <br>
-Answer:<br>
-The idea of opening one of the doors of the hall came to her mind when she saw a tiny golden key.<br>
- <br>
-e. What was written on the bottle that she found? Did she follow what it said?<br>
- <br>
-Answer:<br>
-The words &ldquo;DRINK ME&rdquo; was written on the bottle that she found. Yes, she did.<br>
- <br>
-f. Alice was fond of pretending to be two people. Who were they?<br>
- <br>
-Answer:<br>
-They were Alice, herself.<br>
- <br>
-g. Why did she want to eat the cake that she found?<br>
- <br>
-Answer:<br>
- <br>
-She wanted to eat the cake that she found because it could make her grow bigger.<br>
- <br>
-B. Put these sentences in the right order as they happen in the story.<br>
-Alice saw a White Rabbit and ran after him.<br>
-Alice fell down a rabbit hole.<br>
-Alice found a small key and unlocked a very small door.<br>
-Alice drank something from a bottle and got very small.<br>
-Alice tried to climb a table leg to get the key again.<br>
-Alice ate a small cake, which said, &lsquo;EAT ME&rsquo;.<br>
- <br>
-Critical thinking<br>
-a. &ldquo;Down the rabbit hole&rdquo; is a sort of writing called fantasy. On the basis of your reading of the story point out some special elements of this kind of writing?<br>
-Fantasy is a fiction genre which contains people and situations that would be impossible to find in real life. A magical penguin, for example, is unlikely to be encountered in real life. Some of the best fantasy books are Alice's Adventures in Wonderland, Harry Potter and the Sorcerer's Stone, Charlie and the Chocolate Factory, and The Lord of the Rings.<br>
-The primary narrative, subject, and location of most fantasy stories are based on magic or other supernatural aspects. A fight between good and evil, the seasons, the cycle of life-birth, development, and death, a hero's quest, a heroine being rescued by a lovely guy, and confronting a make-believe monster are all part of the plot of a fantasy.<br>
- <br>
-Characters in fantasy stories include witches, wizards, fairies, princes and princesses, kings and queens, knights, dragons, talking animals, angels and demons, elves, gnomes, unicorns, and so on. A fantasy takes place in a distant country, an enchanted kingdom, a magical woodland, in mediaeval times, in an imagined universe, in paradise, or in the hereafter. The subject of protecting honour, loyalty, discovering a mystery item, fulfilling a mission, sacrificing something, and so on is used by fantasy writers.<br>
- <br>
-b. Is it good to imagine of things which are not possible to achieve in reality? Explain.<br>
-Most people believe that imagination has nothing to do with reality. They don&rsquo;t not relate it with success, achievement and reality. They consider it as impractical. But imagination shapes the way which influences our hopes, actions and behaviors.<br>
- <br>
-One of the most important elements to success is imagination. It's usually associated with daydreaming, wishing, and deception. The imagination is where a person's desire, aim, and plan begin, and it is only later that they become reality. Electric lights were a fantasy of Thomas Edison's, and he made them a reality. Walt Disney envisioned himself as the leader of the world's biggest animation empire and made it a reality despite tremendous criticism.<br>
- <br>
-Various studies indicate that a successful individual visualises his objective in his mind and then takes the necessary measures to make it a reality. A clear mental picture of what he wants to accomplish aids him in seeing his objective and the path to it in detail. Furthermore, he cultivates characteristics such as willingness, passion, commitment, and dedication in himself in order to bring things to fruition. Things are never unattainable when someone imagines something they really want and takes the necessary steps to get it. Things always appear impossible until they are shown to be true.<br>
- <br>
- <br>
- <br>
- <br>
-B. Express your wishes in the following situations in three different ways. Use I wish/If only&#8230;&#8230;.<br>
-a. You don&rsquo;t have a mobile phone (You need one).<br>
- <br>
-Answer:<br>
-I wish I talked to my father about it.<br>
-I wish I could buy one myself.<br>
-I wish somebody would gift me one.<br>
- <br>
-b. You don&rsquo;t know the answer of a question from the lesson.<br>
- <br>
-Answer:<br>
-I wish my frend told me the answer.<br>
-I wish my teacher would help me.<br>
-I wish I could read the lesson properly.<br>
- <br>
-c. You can&rsquo;t play the guitar.<br>
- <br>
-Answer:<br>
-I wish I brought a guitar lesson book.<br>
-I wish someone would teach me guitar chords.<br>
-I wish I could go to the guitar expert&rsquo;s.<br>
- <br>
-d. It&rsquo;s cold.<br>
- <br>
-Answer:<br>
-I wish I drank hot water.<br>
-I wish my mother would burn some firewood.<br>
-I wish I could stay inside the house.<br>
- <br>
-e. You are feeling sick.<br>
- <br>
-Answer:<br>
-I wish I were healthy.<br>
-I wish somebody would call a doctor.<br>
-I wish I could go to hospital.<br>
- <br>
- <br>
-f. You live in a crowded city.<br>
- <br>
-Answer:<br>
-I wish I lived in the country.<br>
-I wish the city would be peaceful.<br>
-I wish I could spend a couple of weeks far from the city.<br>
- <br>
- <br>
-g. You feel lonely.<br>
- <br>
-Answer:<br>
-I wish I listened to my favourite music.<br>
-I wish my friend would phone me.<br>
-I wish I could do the household works.<br>
- <br>
- <br>
-C. Rewrite the following sentences making correction if necessary.<br>
-a. I wish my father bought me a bike.<br>
- <br>
-Answer:<br>
-I wish my father bought me a bike.<br>
- <br>
-b. I wish I would write poems.<br>
- <br>
-Answer:<br>
-I wish I could write poems.<br>
- <br>
-c. I wish I could remember her name.<br>
- <br>
-Answer:<br>
-I wish I could remember her name.<br>
- <br>
-d. I wish I had a god job.<br>
- <br>
-Answer:<br>
-I wish I had a god job.<br>
- <br>
-e. I wish I would be rich.<br>
- <br>
-Answer:<br>
-I wish I were rich.<br>
-Done by Shriram Lamichhane<br>
-Visit: www.tsz.com.np for more notes<br>
-Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
- <br>
- <br>
- <br>
- <br>
- <br>
-                </div>
-        </div>
-    </div>
+    <br>
+    <center>Unit 12<br>Down the Rabbit Hole
+    </center>
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+<span>A. Find the meanings of the following words and phrases from a dictionary and make sentences by using them.</span>
+<br>
+<br> <b>a. peep into :</b> to get a quick look into something
+<br> I peeped into the oven to see what was being cooked for dinner
+<br>
+<br>
+<br> <b>b. pop down :</b> to go somewhere quickly
+<br> I popped down to the shop to get some coffee.
+<br>
+<br>
+<br> <b>c. remarkable :</b> unusual, surprising, excellent or worthy of notice
+<br> The interior of the house is remarkable for its beauty.
+<br>
+<br>
+<br> <b>d. hedge :</b> a row of bushes or small trees planted close together along the edge of a garden, field or road
+<br> My sister kicked the ball so powerfully that it flew over the hedge.
+<br>
+<br>
+<br> <b>e. wonder :</b> desire to know something
+<br> I wonder why she left the job.
+<br>
+<br>
+<br> <b>f. tumble :</b> to fall quickly without control
+<br> She has lost her footing and tumbled down the stairs.
+<br>
+<br>
+<br> <b>g. doze off :</b> to sleep, especially during the day
+<br> He was just beginning to doze off when the telephone rang.
+<br>
+<br>
+<br> <b>h. earnestly :</b> seriously
+<br> She earnestly hopes to come back in summer.
+<br>
+<br>
+<br> <b>i. tiny :</b> very small
+<br> Look at her tiny fingers. Aren't they cute?
+<br>
+<br>
+<br> <b>j. creep :</b> to move slowly, quietly and carefully in order to avoid being heard or noticed
+<br> She crept up the stairs, trying not to wake up them.
+<br>
+<br>
+<br>
+<br> 
+<span>B. Match the words below with their opposites.</span>
+<br> a. beginning = ending
+<br> b. stupid = clever
+<br> c. natural = artificial
+<br> d. disappointment = happiness
+<br> e. ignorant = educated
+<br> f. anxiously = calmly
+<br>
+<br>
+<br>
+<br>
+<h3><br> Comprehension</h3>
+<span><br> A. Answer these questions.</span>
+<br>
+<span><br> a. What did Alice do while her sister was reading a book?</span>
+<br> Ans: While her sister was reading a book, she fell asleep.
+<br>
+<br>
+<span><br> b. Why did Alice run across the field after the Rabbit?</span>
+<br> Ans: Alice ran across the field after the Rabbit because she was very much curious to know about the rabbit which she had never seen before.
+<br>
+<br>
+<span><br> c. Why didn’t she like to drop the jar? What did she do with it?</span>
+<br> Ans: She didn’t like to drop the jar because she was fear of killing somebody underneath. She put it onto one of the cupboards.
+<br>
+<br>
+<span><br> d. What idea came to her mind when she saw a tiny golden key?</span>
+<br> Ans: When she saw a tiny golden key, the idea of opening one of the doors of the hall came to her mind.
+<br>
+<br>
+<span><br> e. What was written on the bottle that she found? Did she follow what it said?</span>
+<br> Ans: “DRINK ME” was written on the bottle that she found. Yes, she followed what it said.
+<br>
+<br>
+<span><br> f. Alice was fond of pretending to be two people. Who were they?</span>
+<br> Ans: Alice was fond of pretending to Alice and herself.
+<br>
+<br>
+<span><br> g. Why did she want to eat the cake that she found?</span>
+<br> Ans: She wanted to eat cake that she found because it may make her grow bigger.
+<br>
+<br>
+<br>
+<span><br> B. Put these sentences in the right order as they happen in the story.</span>
+<br>1. Alice saw a White Rabbit and ran after him.
+<br>2. Alice fell down a rabbit hole.
+<br>3. Alice found a small key and unblocked a very small door.
+<br>4. Alice drank something from a bottle and got very small door.
+<br>5. Alice tried to climb a table leg to get the key again.
+<br>6. Alice ate a small cake, which said “EAT ME”
+<br>
+<br>
+<br>
+<h3><br> Critical thinking</h3>
+<br>
+<span><br> a. “Down the rabbit hole” is a sort of writing called fantasy. On the basis of your reading of the story point out some special elements of this kind of writing?</span>
+<br>
+<br> Fantasy is a fiction genre which contains people and situations that would be impossible to find in real life. A magical penguin, for example, is unlikely to be encountered in real life. Some of the best fantasy books are Alice's Adventures in Wonderland, Harry Potter and the Sorcerer's Stone, Charlie and the Chocolate Factory, and The Lord of the Rings.
+<br>
+<br> The primary narrative, subject, and location of most fantasy stories are based on magic or other supernatural aspects. A fight between good and evil, the seasons, the cycle of life-birth, development, and death, a hero's quest, a heroine being rescued by a lovely guy, and confronting a make-believe monster are all part of the plot of a fantasy.
+<br>
+<br> Characters in fantasy stories include witches, wizards, fairies, princes and princesses, kings and queens, knights, dragons, talking animals, angels and demons, elves, gnomes, unicorns, and so on. A fantasy takes place in a distant country, an enchanted kingdom, a magical woodland, in mediaeval times, in an imagined universe, in paradise, or in the hereafter. The subject of protecting honour, loyalty, discovering a mystery item, fulfilling a mission, sacrificing something, and so on is used by fantasy writers.
+<br>
+<br>
+<span><br> b. Is it good to imagine of things which are not possible to achieve in reality? Explain.</span>
+<br>
+<br> Most people believe that imagination has nothing to do with reality. They don’t not relate it with success, achievement and reality. They consider it as impractical. But imagination shapes the way which influences our hopes, actions and behaviors.
+<br>
+<br> One of the most important elements to success is imagination. It's usually associated with daydreaming, wishing, and deception. The imagination is where a person's desire, aim, and plan begin, and it is only later that they become reality. Electric lights were a fantasy of Thomas Edison's, and he made them a reality. Walt Disney envisioned himself as the leader of the world's biggest animation empire and made it a reality despite tremendous criticism.
+<br>
+<br> Various studies indicate that a successful individual visualizes his objective in his mind and then takes the necessary measures to make it a reality. A clear mental picture of what he wants to accomplish aids him in seeing his objective and the path to it in detail. Furthermore, he cultivates characteristics such as willingness, passion, commitment, and dedication in himself in order to bring things to fruition. Things are never unattainable when someone imagines something they really want and takes the necessary steps to get it. Things always appear impossible until they are shown to be true.
+<br>
+<br>
+<span><br> B. Express your wishes in the following situations in three different ways. Use I wish/If only…….</span>
+<br>
+<span><br> a. You don’t have a mobile phone (You need one).</span>
+<br> - I wish I talked to my father about it.
+<br> - I wish I could buy one myself.
+<br> - I wish somebody would gift me one.
+<br>
+<span><br> b. You don’t know the answer of a question from the lesson.</span>
+<br> - I wish my frend told me the answer.
+<br> - I wish my teacher would help me.
+<br> - I wish I could read the lesson properly.
+<br>
+<span><br> c. You can’t play the guitar.</span>
+<br> - I wish I brought a guitar lesson book.
+<br> - I wish someone would teach me guitar chords.
+<br> - I wish I could go to the guitar expert’s.
+<br>
+<span><br> d. It’s cold.</span>
+<br> - I wish I drank hot water.
+<br> - I wish my mother would burn some firewood.
+<br> - I wish I could stay inside the house.
+<br>
+<span><br> e. You are feeling sick.</span>
+<br> - I wish I were healthy.
+<br> - I wish somebody would call a doctor.
+<br> - I wish I could go to hospital.
+<br>
+<span><br> f. You live in a crowded city.</span>
+<br> - I wish I lived in the country.
+<br> - I wish the city would be peaceful.
+<br> - I wish I could spend a couple of weeks far from the city.
+<br>
+<span><br> g. You feel lonely.</span>
+<br> - I wish I listened to my favourite music.
+<br> - I wish my friend would phone me.
+<br> - I wish I could do the household works.
+<br>
+<br>
+<br>
+<span><br> C. Rewrite the following sentences making correction if necessary.</span>
+<br>
+<span><br> a. I wish my father bought me a bike.</span>
+<br> I wish my father bought me a bike.
+<br>
+<span><br> b. I wish I would write poems.</span>
+<br> I wish I could write poems.
+<br>
+<span><br> c. I wish I could remember her name.</span>
+<br> I wish I could remember her name.
+<br>
+<span><br> d. I wish I had a god job.</span>
+<br> I wish I had a god job.
+<br>
+<span><br> e. I wish I would be rich.</span>
+<br> I wish I were rich.
+<br> <br><br><br><br>
+<br> <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+<br>
+<br>
 </body>
 </html>

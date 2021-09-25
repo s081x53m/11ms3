@@ -1,253 +1,245 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
         /* NO SELECT + HIGHLIGHT COLOR */
         * {
             user-select: none;
             margin: 0;
             padding: 0;
         }
-
         *::selection {
             background: none;
         }
-
         *::-moz-selection {
             background: none;
         }
-
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
-
 <body>
+    
+<br>
+    <center>Unit 14
+<br>Napoleon Bonaparte
+        </center>
+        <br>
+        <br>
+<h3>Ways with words</h3>
+<br>
+<span>A. Choose the correct meaning of the underlined word.</span>
+<br>
+<br>
+<span>a. Many <u>portraits</u> of Napoleon show him with his right hand placed inside his coat.</span>
+<br>
+sketch
+<br><br>
+<span>b. Napoleon won one victory after another, <u>defeating</u> the Austrians in eighteen battles.</span>
+<br>
+beating
+<br><br>
+<span>c. Portrait painters thought this pose made men look more <u>dignified</u>.</span>
+<br>
+good-looking
+<br><br>
+<span>d. They <u>announced</u> France a republic.</span>
+<br>
+officially declared
+<br><br>
+<span>e. Napoleon <u>conquered</u> Austria in 1805.</span>
+<br>
+triumphed over
+<br><br>
+<span>f. There was no place to house his soldiers in the <u>bitter</u> Russian winter.</span>
+<br>
+Cold
+<br><br>
+<span>g. Napoleon was <u>humiliated</u> when he was defeated.</span>
+<br>
+shamed
+<br><br><br><br>
+<span>B. Guess the meanings to these words from the text and make sentences of your own.</span>
+<br>
+<br>
+<b>1. violent :</b> causing hurt
+<br>
+She shouts a lot but I don't think she's ever been physically violent towards him.
+<br><br>
+<b>2. execute :</b> kill somebody as a legal punishment
+<br>
+The prisoners were executed by firing squad.
+<br><br>
+<b>3. ancient :</b> very old
+<br>
+This philosophy dates back to ancient Greece.
+<br><br>
+<b>4. alliance :</b> a group of countries, political parties, or people who have agreed to work together because of shared interests or aims
+<br>
+NATO is sometimes called the Atlantic Alliance.
+<br><br>
+<b>5. brilliant :</b> very intelligent or skillful
+<br>
+His brother is brilliant at football.
+<br><br>
+<b>6. genius :</b> very great and rare natural ability or skill
+<br>
+Einstein was a mathematical genius.
+<br><br>
+<b>7. consul :</b> an official appointed by a state and is the representative of his or her country in a foreign city
+<br>
+His mother was a confidential secretary to the Russian Consul.
+<br><br>
+<b>8. invading :</b> entering a country by force with large numbers of soldiers in order to take conttrol of it
+<br>
+Arthur tried to seize Poitou while Philip Augustus was invading Normandy.
+<br><br><br><br>
+<h3>Comprehension</h3>
+<br>
+<span>Answer these questions.</span>
+<br>
+<span>a. Where was Napoleon from?</span>
+<br>
+Napoleon was from France.
+<br><br>
+<span>b. Why did poor and middle-class people declare France a republic?</span>
+<br>
+Poor and middle-class people declared France a republic because they were tired of paying heavy taxes for the luxurious life of the king and his nobles.
+<br><br>
+<span>c. When did Napoleon declare himself emperor of France?</span>
+<br>
+Napoleon declared himself emperor of France in 1804.
+<br><br>
+<span>d. What did he do when he ruled France?</span>
+<br>
+He restored law and order after the revolution. He reorganized the French government and the Bank of France. He built many fine roads and improved the old ones. He turned Paris into a beautiful city with wide streets, fine bridges, and beautiful buildings and monuments, such as the Arc de Triomphe. More importantly, he improved the laws.
+<br><br>
+<span>e. Which countries did he rule when he was the emperor?</span>
+<br>
+When he was the emperor, he ruled Italy, Switzerland, and Germany.
+<br><br>
+<span>f. What was the main cause of his destruction?</span>
+<br>
+Invasion of Russia was the main cause of his destruction.
+<br><br>
+<span>g. How did his rule as emperor end in Europe?</span>
+<br>
+His rule as emperor ended in Europe as the Europeans gathered their armies.
+<br><br>
+<span>h. How could Napoleon have been an even greater ruler?</span>
 
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
-Unit 14 Napoleon Bonaparte<br>
- <br>
-Ways with words<br>
-A. Choose the correct meaning of the underlined word.<br>
-a. Many portraits of Napoleon show him with his right hand placed inside his coat.<br>
-i. shape ii. hairstyle iii. sketch iv. movement<br>
- <br>
-Answer:<br>
-sketch<br>
- <br>
-b. Napoleon won one victory after another, defeating the Austrians in eighteen battles.<br>
-i. beating ii. joining iii. fighting iv. directing<br>
- <br>
-Answer:<br>
-beating<br>
- <br>
-c. Portrait painters thought this pose made men look more dignified.<br>
-i. good-looking ii. young iii. intelligent iv. energetic<br>
- <br>
-Answer:<br>
-good-looking<br>
- <br>
-d. They announced France a republic.<br>
-i. officially declared ii. informally decided ii. put into practice iv. voted into law<br>
- <br>
-Answer:<br>
-officially declared<br>
- <br>
-e. Napoleon conquered Austria in 1805.<br>
-i. lost ii. tried to control iii. triumphed over iv. attacked<br>
- <br>
-Answer:<br>
-triumphed over<br>
- <br>
-f. There was no place to house his soldiers in the bitter Russian winter.<br>
-i. difficult ii. cold iii. dark iv. empty<br>
- <br>
-Answer:<br>
-cold<br>
-g. Napoleon was humiliated when he was defeated.<br>
-i. tortured ii. punished iii. confused iv. shamed<br>
- <br>
-Answer:<br>
-shamed<br>
- <br>
-B. Guess the meanings to these words from the text and make sentences of your own.<br>
-1. violent<br>
- <br>
-Answer:<br>
-causing hurt- She shouts a lot but I don't think she's ever been physically violent towards him.<br>
- <br>
-2. execute<br>
- <br>
-Answer:<br>
-kill somebody as a legal punishment- The prisoners were executed by firing squad.<br>
- <br>
-3. ancient<br>
- <br>
-Answer:<br>
-very old- This philosophy dates back to ancient Greece.<br>
- <br>
-4. alliance<br>
- <br>
-Answer:<br>
-a group of countries, political parties, or people who have agreed to work together because of shared interests or aims- NATO is sometimes called the Atlantic Alliance.<br>
- <br>
-5. brilliant<br>
- <br>
-Answer:<br>
-very intelligent or skillful- His brother is brilliant at football.<br>
- <br>
-6. genius<br>
- <br>
-Answer:<br>
-very great and rare natural ability or skill- Einstein was a mathematical genius.<br>
- <br>
-7. consul<br>
- <br>
-Answer:<br>
-an official appointed by a state and is the representative of his or her country in a foreign city- His mother was a confidential secretary to the Russian Consul.<br>
- <br>
-8. invading<br>
- <br>
-Answer:<br>
-entering a country by force with large numbers of soldiers in order to take conttrol of it- Arthur tried to seize Poitou while Philip Augustus was invading Normandy.<br>
- <br>
-Comprehension<br>
-Answer these questions.<br>
-a. Where was Napoleon from?<br>
- <br>
-Answer:<br>
-Napoleon was from France.<br>
- <br>
-b. Why did poor and middle-class people declare France a republic?<br>
- <br>
-Answer:<br>
-Poor and middle-class people declared France a republic because they were tired of paying heavy taxes for the luxurious life of the king and his nobles.<br>
- <br>
-c. When did Napoleon declare himself emperor of France?<br>
- <br>
-Answer:<br>
-Napoleon declared himself emperor of France in 1804.<br>
- <br>
-d. What did he do when he ruled France?<br>
- <br>
-Answer:<br>
-He restored law and order after the revolution. He reorganized the French government and the Bank of France. He built many fine roads and improved the old ones. He turned Paris into a beautiful city with wide streets, fine bridges, and beautiful buildings and monuments, such as the Arc de Triomphe. More importantly, he improved the laws.<br>
- <br>
-e. Which countries did he rule when he was the emperor?<br>
- <br>
-Answer:<br>
-When he was the emperor, he ruled Italy, Switzerland, and Germany.<br>
- <br>
-f. What was the main cause of his destruction?<br>
- <br>
-Answer:<br>
-Invasion of Russia was the main cause of his destruction.<br>
- <br>
-g. How did his rule as emperor end in Europe?<br>
- <br>
-Answer:<br>
-His rule as emperor ended in Europe as the Europeans gathered their armies.<br>
- <br>
-h. How could Napoleon have been an even greater ruler?<br>
- <br>
-Answer:<br>
-Napoleon could have been an even greater ruler if he had not been driven by his love of power.<br>
- <br>
-Critical thinking<br>
-a. What can be the qualities of a great leader? Can a great leader remain in power for long in a country? Discuss.<br>
-There are many successful political leaders in the world, but only a handful live up to the leadership principles. Many political leaders, in reality, lack the most critical leadership characteristics. History &ndash; and current events &ndash; demonstrate that there are still a few who adhere to leadership principles and serve as excellent models of effective political leaders.<br>
-Characteristics of a good political leader include accountability, Honesty, Compassion, Integrity, Flexibility, Confidence etc.<br>
- <br>
- <br>
-b. The 16th president of the USA, Abraham Lincoln said democracy is government of the people for the people and by the people. Do you think it is perfectly applicable in the present context of Nepal? Explain.<br>
-In terms of democratic practise, Nepal is still immature. The concept of communal decision-making, which allows all individuals to participate equally, is guaranteed by the constitution, but it is not implemented in practise. <br>
- <br>
-In the current environment, the democratic system envisioned by Abraham Lincoln does not apply in Nepal, where corruption, paralysed constitutional and governmental institutions, illiteracy, and poverty are significant concerns. The effective functioning of constitutional organs and governmental institutions is critical to democratic norms and ideals. A certain set of individuals has crippled them. The function of bureaucracy is critical in keeping the administration running efficiently so that development plans may be implemented quickly. The corrupt bureaucrats, on the other hand, do not perform their duties without bribes, and they are backed by political leaders. <br>
- <br>
-The Nepalese people have never known a government that is responsible and accountable. Nepotism and favouritism have been rampant in government organisations. In our nation, illiteracy and poverty have always been issues. According to recent statistics, Nepal's literacy rate is increasing. However, a significant portion of the population is illiterate. They are more inclined to join the bandwagon and follow the throng. Because of this inability, people are readily swayed by political leaders. In the end, leaders are able to wield power and abuse it. People's hunger, on the other hand, provides a chance for opportunist parties to take advantage of impoverished people's political independence. <br>
- <br>
-In return for a vote, they provide monetary assistance or promise to improve the quality of life. Following that, the election is in the hands of such leaders. Even wealthy nations have difficulties in putting democratic ideals into practise. Institutionalizing democracy has been more challenging in nations such as Nepal. All constitutional entities, government institutions, and people should be held accountable in order to promote democratic ideals.<br>
-Done by Shriram Lamichhane<br>
-Visit: www.tsz.com.np for more notes<br>
-Subscribe our channel for notes and summaries &ldquo;The SR Zone&rdquo;<br>
- <br>
- <br>
- <br>
- <br>
-                </div>
-        </div>
-    </div>
+<br>
+Napoleon could have been an even greater ruler if he had not been driven by his love of power.
+<br><br><br><br><br>
+<h3>Critical thinking</h3>
+<br><br>
+<span>a. What can be the qualities of a great leader? Can a great leader remain in power for long in a country? Discuss.</span>
+<br>
+There are many successful political leaders in the world, but only a handful live up to the leadership principles. Many political leaders, in reality, lack the most critical leadership characteristics. History &ndash; and current events &ndash; demonstrate that there are still a few who adhere to leadership principles and serve as excellent models of effective political leaders.
+<br>
+Characteristics of a good political leader include accountability, Honesty, Compassion, Integrity, Flexibility, Confidence etc.
+<br><br>
+ 
+<br>
+<span>b. The 16th president of the USA, Abraham Lincoln said democracy is government of the people for the people and by the people. Do you think it is perfectly applicable in the present context of Nepal? Explain.</span>
+<br><br>
+Nepal is still immature in terms of practicing democracy. Though the constitution ensures the idea of collective-decision making which lets all the people participate equally, isn&rsquo;t practically applied. In the present contact, the political system Abraham Lincoln imagined isn&rsquo;t applicable in Nepal as corruption, paralyzed constitutional and governmental institutions, illiteracy and poverty are the major threats to it.
+<br><br>
+Democratic norms and values depend on the proper function of constitutions organs and governmental institutions. They have been crippled by a certain group of people. The role of bureaucracy is important to run the administration smoothly so that the development strategies could be easily executed. But the corrupt bureaucracy don&rsquo;t do their jobs without bribe and they are supported by the political leaders. Nepalese people have never experienced a responsible, accountable government. The government institutions have been the victims of nepotism and favoritism.
+<br><br>
+Illiteracy and poverty are long standing problems in our country. Recent data reveals that Nepal is improving its literacy rate. However, the remarkable population is illiterate. They are more likely to follow the crowd and get on bandwagon. Due to this incapability, they can be easily influenced by the political leaders. Ultimately, the leaders are able to hold the power and misuse it. On the other hand, people&rsquo;s hunger presents an opportunity for opportunist parties to exploit poor people&rsquo;s political freedom. They offer monetary help or promise to uplift the standard of living in exchange for a vote. The election then goes to the hand of such leaders.
+<br><br>
+Even developed countries are facing the challenges for the application of democratic principles. In the countries like Nepal, it has been more difficult for institutionalization of democracy. To strengthen democratic principles, all the constitutional bodies, government institutions and citizens should be responsible. 
+<br><br><br><br>
+<h3>Grammar</h3>
+<br>
+<span>B. Fill in the blanks with may, must or can&rsquo;t.</span>
+<br><br>
+a. Matthew <b><u>must</u></b> be at home. I can see his bike in front of his home.
+<br><br>
+b. They <b><u>may</u></b> be coming tomorrow.
+<br><br>
+c. She <b><u>can&rsquo;t</u></b> speak French very well. She&rsquo;s only lived in Paris for two weeks.
+<br><br>
+d. My key is not in my pocket or on my desk so it <b><u>must</u></b> be in the drawer.
+<br><br>
+e. I saw him yesterday. He <b><u>can&rsquo;t</u></b> be abroad.
+<br><br>
+f. You got the job? That&rsquo;s great. You <b><u>must</u></b> be very delighted.
+<br><br>
+g. I <b><u>may</u></b> finish it by tomorrow if I stay at work all night, but I&rsquo;m not sure.
+<br><br>
+h. Somebody is knocking on the door. It <b><u>must</u></b> be Sabina &ndash; she promised to come today.
+<br><br><br>
+<span>C. Rewrite the following sentences using may/might, must or can&rsquo;t.</span>
+<br><br>
+<span>a. I&rsquo;m sure he&rsquo;s not going to the cinema today.</span>
+<br>
+Ans: He can&rsquo;t be going to the cinema today.
+<br><br>
+<span>b. Perhaps she knows the answer.</span>
+<br>
+Ans: She may know the answer.
+<br><br>
+<span>c. I&rsquo;m sure he has a car.</span>
+<br>
+Ans: He must have a car.
+<br><br>
+<span>d. I doubt if it rains later on.</span>
+<br>
+Ans: It may rain later on.
+<br><br>
+<span>e. Perhaps she wants to be alone.</span>
+<br>
+Ans: She may want to be alone.
+<br><br>
+<span>f. I&rsquo;m sure Harina is in her office.</span>
+<br>
+Ans: Harina must be in her office.
+<br><br>
+<br>
+<br>
+<br>
+<span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+<br>
+<br><br>
 </body>
 </html>
