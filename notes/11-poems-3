@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,18 +19,23 @@
     </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
         /* NO SELECT + HIGHLIGHT COLOR */
         * {
             user-select: none;
             margin: 0;
             padding: 0;
         }
+
         *::selection {
             background: none;
         }
+
         *::-moz-selection {
             background: none;
-        }        /* styling text content */
+        }
+
+        /* styling text content */
         body {
             padding-top: 4px;
             padding-left: 15px;
@@ -40,178 +46,201 @@
             font-size: 16px;
             word-spacing: 2px;
         }
+
         center {
             font-weight: bold;
             font-size: 20px;
             line-height: 28px;
         }
+
         h3 {
             font-weight: bold;
             font-size: 18px;
         }
+
         span {
             font-weight: bold;
             font-size: 16px;
         }
     </style>
 </head>
-<body>
-    
-<br>
-    <center>All the World's a Stage</center><br><h3>Summary</h3>
-<br>
-Shakespeare seems to have the impression, in the poem, that human life is not real. What we see and hear
-isn&rsquo;t a reality. Human life is a play of make-believe. Here Shakespeare traces human life through
-the famous seven ages &ndash; the infant in arms, the schoolboy, the lover, the soldier, the justice,
-the retired man, and the worn-out senior, sinking back into dissolution. The whole world&rsquo;s a
-stage. We&lsquo;re only actors. We enter the stage and we go off it again. One man in his lifetime plays
-a lot of roles. At first, he plays the part of the infant, crying and throwing milk in the arms of the
-nurse.
-<br><br>
-Then he plays the part of a schoolboy who is not willing to go to school. With his shining face of the
-morning, he trudges at the pace of the snail. Then there comes the lover. He sighs like a furnace, and
-writes pitiful verses, addressing his mistress. He plays the role of a soldier. It&rsquo;s stocked with
-all the violent oaths. He&rsquo;s wearing a wonderful beard. In a quarrel, he is too sensitive and fast
-and hasty. He is willing to sacrifice his life for the sake of unsubstantial glory. Then he will play
-the role of judge. He&rsquo;s a bulging belly man, with severe eyes. He&rsquo;s a very wise man.
-<br><br>
-Then Shakespeare describes his old age. It&rsquo;s pretty funny. The old man is in slippers, wearing
-glasses. His mannish voice once more turns into a child&rsquo;s shrill tone. The last role is the second
-child. It&rsquo;s so full of forgetfulness. It&rsquo;s without teeth, without eyes, without taste,
-without everything.
-<br><br><br><br>
-<h3>Understanding the text</h3> 
-<br>
-<span>Answer the following questions.</span>
-<br>
-<span>a. Why does the poet compare the world with a stage?</span>
-<br>
-&#10140; The poet compares the world to a stage because he considers all men and women like the actors performing their different roles here in this stage. By stage he means the world.
-<br><br>
-<span>b. What is the first stage in a human's life? In what sense can it be a troubling stage?</span>
-<br>
-&#10140; The first stage in a human's life is childhood. It can be a troubling stage in the sense that this stage is a fully dependent stage and the infant can cry and even vomit anytime in mother's arms.
-<br><br>
-<span>c. Describe the second stage of life based on the poem.</span>
-<br>
-&#10140; The second stage of life is the stage of boyhood. In this stage, the boy is a school going student. He complains all the time. His face is like shinning morning. He carries his bag and reluctantly goes to school as slowly as a snail.
-<br><br>
-<span>d. Why is the last stage called second childhood?</span>
-<br>
-&#10140; The last stage is called second childhood because in this stage the man loses his senses of sight, hearing, smell and taste and behaves as like a child.
-<br><br>
-<span>e. In what sense are we the players in the world stage?</span>
-<br>
-&#10140; We are the players in the world stage as we appear on the world stage when we get birth and leave it when we die like the actors do on the stage in a theater.
-<br><br><br><br>
-<h3>Reference to the context</h3> 
-<br>
-<span>a. Explain the following lines:</span>
-<br>
-<i>
-    All the world's a stage,
-    <br>
-    And all the men and women merely players
-</i>
-<br>
-<br>
-&#10140; In the given lines, the poet has compared the whole world with a stage where men and women are the actors. After birth, every person perform their roles here in this worldly stage and finally, leave this stage moving towards their final destination called death.
-<br><br><br>
-<span>b. Explain the following lines briefly with Reference to the context.</span>
-<br>
-<i>
-    They have their exits and their entrances;
-    <br>
-    And one man in his time plays many parts,
-</i>
-<br>
-<br>
-&#10140; The given lines are taken from the poem ‘All the world’s a stage’, composed by William Shakespeare. These lines express similarity between the roles the actors play on the stage and humans in their lives.
-<br><br>
-Here, the poet has said that the people arrive here in this worldly stage through birth and leave this stage through death. Like the actors in a drama, we are assigned various roles to be performed. When we get our roles completed we quit the stage of our life. The poet wants us to realize the fact that human life is like the stage of a theatre. A man is fated to act several roles in his life.
-<br><br><br>
-<span>c. Read the given lines and answer the questions that follow.</span>
-<br>
-<i>
-    Then the whining schoolboy, with his satchel
-    <br>
-    And shining morning face, creeping like snail
-    <br>
-    Unwillingly to school.
-</i>
-<br><br>
-<b>i. Which stage of life is being referred to here by the poet?</b>
-<br>
-&#10140; The childhood stage of life is being referred to here by the poet.
-<br><br>
-<b>ii. Which figure of speech has been employed in the second line?</b>
-<br>
-&#10140; In the second line, simile, a figure of speech has been employed where the boy has been
-compared with snail using like.
-<br><br>
-<b>iii. Who is compared to the snail?</b>
-<br>
-&#10140; The school-going boy is compared to the snail.
-<br><br>
-<b>iv. Does the boy go to the school willingly?</b>
-<br>
-&#10140;No, the boy doesn't go to the school willingly. His unwillingness can easily be the motion of
-snail towards his school.
-<br><br><br>
-<span>
-    d. Simile and metaphor are the two major poetic devices used in this poem. Explain citing examples of
-    each.
-</span>
-<br>
-&#10140; Here in this poem, we find major poetic devices as simile and metaphor. The poet has used these
-poetic devices a lot. The examples of simile and metaphor of this poem are as follows:
-<br><br>
-a) &quot;All the world's a stage&quot; - Metaphor
-<br>
-b) &quot;And all the men and women merely players&quot; - Metaphor
-<br>
-c) &quot;And shining morning face, creeping like a snail&quot; - Simile
-<br>
-d) &quot;Full of strange oaths, and bearded like the pard,&quot; - Simile
-<br>
-e) &quot;Seeking the bubble reputation&quot; - Metaphor
-<br>
-f) &quot;His youthful hose, well sav'd, a world too wide&quot; - Metaphor.
-<br>
-g) &quot;and his big manly voice, Turning again toward childish treble&quot; - Metaphor.
-<br><br><br>
-<span>
-    e. Which style does the poet use to express his emotions about how he thinks that the world is a stage
-    and all the people living in it are mere players?
-</span>
-<br>
-&#10140; The poem is written in blank verse with regular metrical but unrhymed lines. The style of the poem is narrative. In this poem he has expressed his innermost emotions about how he thinks that the world is a stage and all the people living in it are mere players or characters. These characters go through seven different phases in their lives. He has explained the real aspects of human life for all readers to understand the reality of life.
-<br><br><br>
-<span>f. What is the theme of this poem?</span>
-<br>
-&#10140; In ‘All the world’s a stage’ Shakespeare discusses the futility of humanity’s place in the world. He explores themes of time, aging, memory, and the purpose of life. Through the monologue’s central conceit, that everyone is simply a player in a larger game that they have no control over, he brings the themes together. Shakespeare takes the reader through the stages of life, starting with infancy and childhood and ending up with an old man who’s been a lover, a soldier, and a judge. The “man” dies after reverting back to a state that’s close to childhood and infancy.
-<br><br><br><br>
-<h3>Reference beyond the text</h3> 
-<br><br>
-<span>
-    a. Describe the various stages of human life picturised in the poem &quot;All the world's a
-    stage.&quot;
-</span>
-<br>
-&#10140; According to Shakespeare, the world is a stage and everyone is a player. He says that every man has seven stages during his lifetime. The first stage of a man is childhood. He plays in the arms of his mother. He often vomits and cries in this stage. In his second stage, the man is an unwilling school going student. He becomes a lover in his third stage. He is very busy composing ballads for his beloved and yearns for her attention. In the fourth stage, he is aggressive and ambitious. He seeks reputation in all that he does. He is ready to guard his country and becomes a soldier. In his fifth stage, he becomes a fair judge with maturity and wisdom. In the sixth stage, he is seen with loose pantaloons and spectacles. His manly voice changes into a childish treble. The last stage of all is his second childhood. Slowly, he loses his faculties of sight, hearing, smell and taste and exits from the roles of his life. Thus, Shakespeare has presented the pictures of the seven stages of a man’s life in the poem ‘All the World’s a Stage.'
-<br><br><br>
-<span>b. Is Shakespeare's comparison of human's life with a drama stage apt? How?</span>
-<br>
-&#10140; Shakespeare has compared human life to a play or drama played by every man and woman. He has described seven stages of life, which are like the seven acts of a play.
-<br><br>
-The comparison of the world to a stage and people to actors goes before Shakespeare. We find such comparisons made in many philosophical books too. 
-<br><br>
-But, even if nobody had written about it, it is by a simple observation of life around us we find the same thing happening. Everybody takes birth, grows, and with every growth, man's life changes. He works, fulfils duties and responsibilities according to age, and finally leaves the world.  
-<br><br>
-This simple observation tells us Shakespeare's comparison of human life with a drama is very apt.
 
-<br>
-<br><br><br><br>
-<span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span><br><br>
+<body>
+
+    <br>
+    <center>All the World's a Stage</center>
+    <br>
+    <h3>Summary</h3>
+    <br>
+    Shakespeare seems to have the impression, in the poem, that human life is not real. What we see and hear
+    isn&rsquo;t a reality. Human life is a play of make-believe. Here Shakespeare traces human life through
+    the famous seven ages &ndash; the infant in arms, the schoolboy, the lover, the soldier, the justice,
+    the retired man, and the worn-out senior, sinking back into dissolution. The whole world&rsquo;s a
+    stage. We&lsquo;re only actors. We enter the stage and we go off it again. One man in his lifetime plays
+    a lot of roles. At first, he plays the part of the infant, crying and throwing milk in the arms of the
+    nurse.
+    <br><br>
+    Then he plays the part of a schoolboy who is not willing to go to school. With his shining face of the
+    morning, he trudges at the pace of the snail. Then there comes the lover. He sighs like a furnace, and
+    writes pitiful verses, addressing his mistress. He plays the role of a soldier. It&rsquo;s stocked with
+    all the violent oaths. He&rsquo;s wearing a wonderful beard. In a quarrel, he is too sensitive and fast
+    and hasty. He is willing to sacrifice his life for the sake of unsubstantial glory. Then he will play
+    the role of judge. He&rsquo;s a bulging belly man, with severe eyes. He&rsquo;s a very wise man.
+    <br><br>
+    Then Shakespeare describes his old age. It&rsquo;s pretty funny. The old man is in slippers, wearing
+    glasses. His mannish voice once more turns into a child&rsquo;s shrill tone. The last role is the second
+    child. It&rsquo;s so full of forgetfulness. It&rsquo;s without teeth, without eyes, without taste,
+    without everything.
+    <br><br><br><br>
+    <h3>Understanding the text</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. Why does the poet compare the world with a stage?</span>
+    <br>
+    &#10140; The poet compares the world to a stage because he considers all men and women like the actors performing
+    their different roles here in this stage. By stage he means the world.
+    <br><br>
+    <span>b. What is the first stage in a human's life? In what sense can it be a troubling stage?</span>
+    <br>
+    &#10140; The first stage in a human's life is childhood. It can be a troubling stage in the sense that this stage is
+    a fully dependent stage and the infant can cry and even vomit anytime in mother's arms.
+    <br><br>
+    <span>c. Describe the second stage of life based on the poem.</span>
+    <br>
+    &#10140; The second stage of life is the stage of boyhood. In this stage, the boy is a school going student. He
+    complains all the time. His face is like shinning morning. He carries his bag and reluctantly goes to school as
+    slowly as a snail.
+    <br><br>
+    <span>d. Why is the last stage called second childhood?</span>
+    <br>
+    &#10140; The last stage is called second childhood because in this stage the man loses his senses of sight, hearing,
+    smell and taste and behaves as like a child.
+    <br><br>
+    <span>e. In what sense are we the players in the world stage?</span>
+    <br>
+    &#10140; We are the players in the world stage as we appear on the world stage when we get birth and leave it when
+    we die like the actors do on the stage in a theater.
+    <br><br><br><br>
+    <h3>Reference to the context</h3>
+    <br>
+    <span>a. Explain the following lines:</span>
+    <br>
+    <i>
+        All the world's a stage,
+        <br>
+        And all the men and women merely players
+    </i>
+    <br>
+    <br>
+    &#10140; In the given lines, the poet has compared the whole world with a stage where men and women are the actors.
+    After birth, every person perform their roles here in this worldly stage and finally, leave this stage moving
+    towards their final destination called death.
+    <br><br><br>
+    <span>b. Explain the following lines briefly with Reference to the context.</span>
+    <br>
+    <i>
+        They have their exits and their entrances;
+        <br>
+        And one man in his time plays many parts,
+    </i>
+    <br>
+    <br>
+    &#10140; The given lines are taken from the poem ‘All the world’s a stage’, composed by William Shakespeare. These
+    lines express similarity between the roles the actors play on the stage and humans in their lives.
+    <br><br>
+    Here, the poet has said that the people arrive here in this worldly stage through birth and leave this stage through
+    death. Like the actors in a drama, we are assigned various roles to be performed. When we get our roles completed we
+    quit the stage of our life. The poet wants us to realize the fact that human life is like the stage of a theatre. A
+    man is fated to act several roles in his life.
+    <br><br><br>
+    <span>c. Read the given lines and answer the questions that follow.</span>
+    <br>
+    <i>
+        Then the whining schoolboy, with his satchel
+        <br>
+        And shining morning face, creeping like snail
+        <br>
+        Unwillingly to school.
+    </i>
+    <br><br>
+    <b>i. Which stage of life is being referred to here by the poet?</b>
+    <br>
+    &#10140; The childhood stage of life is being referred to here by the poet.
+    <br><br>
+    <b>ii. Which figure of speech has been employed in the second line?</b>
+    <br>
+    &#10140; In the second line, simile, a figure of speech has been employed where the boy has been
+    compared with snail using like.
+    <br><br>
+    <b>iii. Who is compared to the snail?</b>
+    <br>
+    &#10140; The school-going boy is compared to the snail.
+    <br><br>
+    <b>iv. Does the boy go to the school willingly?</b>
+    <br>
+    &#10140;No, the boy doesn't go to the school willingly. His unwillingness can easily be the motion of
+    snail towards his school.
+    <br><br><br>
+    <span>
+        d. Simile and metaphor are the two major poetic devices used in this poem. Explain citing examples of
+        each.
+    </span>
+    <br>
+    &#10140; Here in this poem, we find major poetic devices as simile and metaphor. The poet has used these
+    poetic devices a lot. The examples of simile and metaphor of this poem are as follows:
+    <br><br>
+    a) &quot;All the world's a stage&quot; - Metaphor
+    <br>
+    b) &quot;And all the men and women merely players&quot; - Metaphor
+    <br>
+    c) &quot;And shining morning face, creeping like a snail&quot; - Simile
+    <br>
+    d) &quot;Full of strange oaths, and bearded like the pard,&quot; - Simile
+    <br>
+    e) &quot;Seeking the bubble reputation&quot; - Metaphor
+    <br>
+    f) &quot;His youthful hose, well sav'd, a world too wide&quot; - Metaphor.
+    <br>
+    g) &quot;and his big manly voice, Turning again toward childish treble&quot; - Metaphor.
+    <br><br><br>
+    <span>
+        e. Which style does the poet use to express his emotions about how he thinks that the world is a stage
+        and all the people living in it are mere players?
+    </span>
+    <br>
+    &#10140; The poem is written in blank verse with regular metrical but unrhymed lines. The style of the poem is narrative. In this poem he has expressed his innermost emotions about how he thinks that the world is a stage and all the people living in it are mere players or characters. These characters go through seven different phases in their lives. He has explained the real aspects of human life for all readers to understand the reality of life.
+    <br><br><br>
+    <span>f. What is the theme of this poem?</span>
+    <br>
+    &#10140; In ‘All the world’s a stage’ Shakespeare discusses the futility of humanity’s place in the world. He explores themes of time, aging, memory, and the purpose of life. Through the monologue’s central conceit, that everyone is simply a player in a larger game that they have no control over, he brings the themes together. Shakespeare takes the reader through the stages of life, starting with infancy and childhood and ending up with an old man who’s been a lover, a soldier, and a judge. The “man” dies after reverting back to a state that’s close to childhood and infancy.
+    <br><br><br><br>
+    <h3>Reference beyond the text</h3>
+    <br><br>
+    <span>
+        a. Describe the various stages of human life picturised in the poem &quot;All the world's a
+        stage.&quot;
+    </span>
+    <br>
+    &#10140; According to Shakespeare, the world is a stage and everyone is a player. He says that every man has seven stages during his lifetime. The first stage of a man is childhood. He plays in the arms of his mother. He often vomits and cries in this stage. In his second stage, the man is an unwilling school going student. He becomes a lover in his third stage. He is very busy composing ballads for his beloved and yearns for her attention. In the fourth stage, he is aggressive and ambitious. He seeks reputation in all that he does. He is ready to guard his country and becomes a soldier. In his fifth stage, he becomes a fair judge with maturity and wisdom. In the sixth stage, he is seen with loose pantaloons and spectacles. His manly voice changes into a childish treble. The last stage of all is his second childhood. Slowly, he loses his faculties of sight, hearing, smell and taste and exits from the roles of his life. Thus, Shakespeare has presented the pictures of the seven stages of a man’s life in the poem ‘All the World’s a Stage.'
+    <br><br><br>
+    <span>b. Is Shakespeare's comparison of human's life with a drama stage apt? How?</span>
+    <br>
+    &#10140; Shakespeare has compared human life to a play or drama played by every man and woman. He has described
+    seven stages of life, which are like the seven acts of a play.
+    <br><br>
+    The comparison of the world to a stage and people to actors goes before Shakespeare. We find such comparisons made
+    in many philosophical books too.
+    <br><br>
+    But, even if nobody had written about it, it is by a simple observation of life around us we find the same thing
+    happening. Everybody takes birth, grows, and with every growth, man's life changes. He works, fulfils duties and
+    responsibilities according to age, and finally leaves the world.
+    <br><br>
+    This simple observation tells us Shakespeare's comparison of human life with a drama is very apt.
+
+    <br>
+    <br><br><br><br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span><br><br>
 </body>
+
 </html>
