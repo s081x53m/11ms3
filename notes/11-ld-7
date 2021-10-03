@@ -1,20 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+        *::selection {
+            background: none;
+        }
+        *::-moz-selection {
+            background: none;
+        }
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
-
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
-    <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-</body>
+    <center>Unit 7 <br>
+        Foresters without Diplomas</center>
+<br>
+<h3>Ways with words</h3>
+<br>
+<span>A. Match the words with their meanings.</span>
+<br>
+<b>Constituency</b> &ndash; electoral district
+<br>
+<b>Pursue</b> &ndash; to follow in an effort to overtake or capture
+<br>
+<b>Infiltrate</b> &ndash; to enter or gain access to (an organization, place, etc.) secretly and gradually
+<br>
+<b>Nomadic</b> &ndash; living the life of roaming
+<br>
+<b>Anatomy</b> &ndash; art of studying the different parts of any organized body
+<br>
+<b>Subversive</b> &ndash; seeking or intended to overthrow an established system or institution
+<br><br>
+<span>C. Make two other words by using each prefix given above and use them in sentences.</span>
+<br>
+<span>mal</span>
+<br>
+Malodor - Oral malodor is common for smokers.
+<br>
+Malware - Many hackers use malware for hacking.
+<br><br>
+<b>mis</b>
+<br>
+Misspell - Many words are easy to misspell.
+<br>
+Mismatch - Don&rsquo;t mismatch my socks.
+<br><br>
+<b>un</b>
+<br>
+Uncover -Don&rsquo;t eat uncovered street foods.
+<br>
+Unsafe - Many countries are unsafe for girls.
+<br><br>
+<b>in</b>
+<br>
+Inedible - Is coconut oil inedible?
+<br>
+Incapable - Is our Prime Minister incapable?
+<br><br>
+<b>pre</b>
+<br>
+Prevent - Rain prevent them to go out.
+<br>
+Preplan - Now, it is time to preplan new trip.
+<br><br>
+<b>il</b>
+<br>
+Illogical - Your question is illogical.
+<br>
+Illusion - She's under the illusion that she'll get the job.
+<br><br>
+<b>dis</b>
+<br>
+Discomfort - This chair is discomfort.
+<br>
+Disengage - She disengaged from her relationship.
+<br><br>
+<b>im</b>
+<br>
+Immature - Don&rsquo;t behave like immature.
+<br>
+Immortal - Nowadays, people are being immortal.
+<br><br>
+<b>Re</b>
+<br>
+Return - Interest is return on investment.
+<br>
+Rewrite - Rewrite your name here, please.
+<br><br>
+<b>ir</b>
+<br>
+Irremovable - Nowadays, most of smartphone have irremovable battery.
+<br>
+Irrational - His decision is irrational.
+<br><br>
+<b>de</b>
+<br>
+Deactivate &ndash; He had deactivated his Google account.
+<br>
+Defrost &ndash; I have defrosted the freezer.
+<br><br>
+<b>non</b>
+<br>
+Nonstick - Nonstick cookware are expensive. 
+<br>
+Nonverbal - This includes verbal and nonverbal communication.
+<br><br><br><br>
+<h3>Comprehension</h3>
+<br>
+<span>Answer these questions.</span>
+<br>
+<span>a. What did Maathai decide to do for the community?</span>
+<br>
+Maathai decided to create jobs for the community.
+<br><br>
+<span>b. Mention the problems faced by women in Kenya.</span>
+<br>
+The problems faced by women in Kenya were malnutrition, lack of food and adequate water, uemployment and soil erosion.
+<br><br>
+<span>c. Why did the speaker go to the women to talk about planting trees?</span>
+<br>
+The speaker went to the women to talk about planting trees because the women in Kneya were most affected by the problems of firewood, malnutrition, lack of food and adequate water, unemployment and soil erosion, and were concerned about children and future.
+<br><br>
+<span>d. What is the most important achievement of the movement described in the text?</span>
+<br>
+The most important achievement of the movement described in the text is women were independent, had acquired knowledge and techniques, had become empowered. They have been teaching each other.
+<br><br>
+<span>e. Why were the foresters&rsquo; ways not helpful to the women for planting trees?</span>
+<br>
+The foresters’ ways were not helpful to the women for planting trees because they have complicated the ways of dealing with a very simple thing like looking for seeds and planting trees.
+<br><br>
+<span>f. When and how did she start The Green Belt Movement?</span>
+<br>
+She started The Green Belt Movement on World Environment Day by planting the first seven trees
+<br><br>
+<span>g. Why do the donors want to provide money to the women?</span>
+<br>
+The donors want to provide money to the women because their efforts were providing satisfactory results.
+<br><br>
+<span>h. What happened when the speaker criticized the political leadership?</span>
+<br>
+The speaker has been portrayed as subversive when the speaker criticized the political leadership.
+<br><br>
+<span>i. Mention the agencies that supported her movement.</span>
+<br>
+The agencies that supported her movement are as follows:
+<br>
+- United Nations Development Fund for Women
+<br>
+- Danish Voluntary Fund
+<br>
+- Norwegian Agency for International Development
+<br>
+- African Development Foundation
+<br><br><br>
+ 
+<br>
+<h3>Critical thinking</h3>
+<br>
+<span>a. Do you think that the title &ldquo;Foresters without Diplomas&rdquo; is suitable to the essay? How?</span>
+<br>
+Yes I think that the essay's title, "Foresters without Diplomas," is appropriate.  The writer and her team initially summoned the foresters to show how they grow trees to the ladies. Because they possessed degrees, the foresters proved to be very difficult to work with. They developed complicated ways for coping with outwardly basic tasks like as searching for seeds and growing trees. Finally, the writer and her colleagues instructed the ladies on how to do the task using common sense, which they accomplished. They were able to search the area for seeds and learn to identify seedlings as they germinate from seeds that had fallen to the ground. Women did not have the same opportunities as males.
+<br><br><br>
+<span>b. Can a person make a difference in a society? Discuss with an example from a person who has made a difference in your society.</span>
+<br>
+It’s easy to feel like one can person can’t make a difference. The world has so many big problems, and they often seem impossible to solve. We know that while many common ways to do well, such as becoming a doctor, have less impact than you might first think; others have allowed certain people to achieve an extraordinary impact. In other words, one person can make a difference, but you might have to do something a little unconventional.
+<br><br>
+Numerous folks have made outstanding and significant change, not only for our society, but the entirety of all people, the world over. Some of those examples are Dr. Jonas Salk found the vaccine that prevented people from contracting Polio, Thomas Edison discovered the light bulb, a major innovation to society, the world over. So we can see that a person can make a positive difference in the lives of people not in our society but throughout the world.
+<br><br><br>
+<span>c. Write an essay on 'The Community Forest in Nepal'. Describe how these community forests have contributed to maintain ecology in our environment.</span>
+<br><br>
+<p style="text-align: center; font-weight: bold;">The Community Forest in Nepal</p>
+<br>
+The Community Forestry Program in Nepal is a global innovation in participatory environmental governance that encompasses well-defined policies, institutions, and practices. The program addresses the twin goals of forest conservation and poverty reduction. As more than 70 percent of Nepal's population depends on agriculture for their livelihood, community management of forests has been a critically important intervention. 
+<br><br>
+Through legislative developments and operational innovations over three decades, the program has evolved from a protection-oriented, conservation-focused agenda to a much more broad-based strategy for forest use, enterprise development, and livelihood improvement. By April 2009, one-third of Nepal's population was participating in the program, directly managing more than one-fourth of Nepal's forest area.
+<br><br>
+The immediate livelihood benefits derived by rural households bolster strong collective action wherein local communities actively and sustainably manage forest resources. Community forests also became the source of diversified investment capital and raw material for new market-oriented livelihoods. Community forestry shows traits of political, financial, and ecological sustainability, including emergence of a strong legal and regulatory framework, and robust civil society institutions and networks.
+<br><br>
+However, a continuing challenge is to ensure equitable distribution of benefits to women and marginalized groups. Lessons for replication emphasize experiential learning, establishment of a strong civil society network, flexible regulation to encourage diverse institutional modalities, and responsiveness of government and policymakers to a multistakeholder collaborative learning process.
+<br><br>
+ 
+<br><br>
+<h3>Grammar</h3>
+<br>
+<span>c. Underline the verb in each sentence and write whether it is transitive, intransitive or linking.</span>
+<br><br>
+<b>a. His father looks handsome.</b>
+<br>
+looks = linking verb
+<br><br>
+<b>b. Bhawana drinks milk every day.</b>
+<br>
+drinks = transitive verb
+<br><br>
+<b>c. He became a watchman.</b>
+<br>
+became = linking verb
+<br><br>
+<b>d. This bread smells good.</b>
+<br>
+smells = linking verb
+<br><br>
+<b>e. The dog barked loudly.</b>
+<br>
+barked = intransitive verb
+<br><br>
+<b>f. He chased the dog.</b>
+<br>
+chased = transitive verb
+<br><br>
+<b>g. My sister swims fast.</b>
+<br>
+intransitive verb
+<br><br>
+<b>h. He painted a picture.</b>
+<br>
+painted = transitive verb
+<br><br>
+<b>i. Radhika always asks questions.</b>
+<br>
+asks = transitive verb
+<br><br>
+<b>j. Anjana has a long hair. </b>
+<br>
+has = linking verb
+<br><br>
+<b>k. Hungry lion roars.</b>
+<br>
+intransitive verb
+<br><br>
+<b>l. He tried again and again.</b>
+<br>
+tried = intransitive verb
+<br><br>
+<b>m. The weather is hot.</b>
+<br>
+is = linking verb
+<br><br>
+<b>n. Owls hide in the daytime.</b>
+<br>
+hide = intransitive verb
+<br><br>
 
+<br><br><br><br>
+<span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+<br><br>
+<br>
+</body>
 </html>
