@@ -108,19 +108,33 @@
     <span>B. Use the following words in sentences of your own.</span>
     <br>
     <br>
-    <b>Massive</b>: A massive earthquake hit last night.
+    <b>Massive</b>: <br>
+    He died from a massive heart attack.
     <br>
-    <b>Consciousness</b>: We have to follow the social consciousness.
     <br>
-    <b>Catch-as-catch-can</b>: They will win the match catch-as-catch-can.
+    <b>Consciousness</b>: <br>
+    He moaned with pain before losing consciousness.
     <br>
-    <b>Give up</b>: I never want to give up my good habits.
     <br>
-    <b>Abandon</b>: The boys abandon me in the middle of the forest.
+    <b>Catch-as-catch-can</b>:<br>
+    We went hitchhiking for a week and lived catch-as-catch-can.
     <br>
-    <b>Lousy</b>: He has got lousy remarks from his boss.
     <br>
-    <b>Editing</b>: I keep on editing my script.
+    <b>Give up</b>: <br>
+    I'm too close to my goal to give up now.
+    <br>
+    <br>
+    <b>Abandon</b>: <br>
+    As a baby he was abandoned by his mother.
+    <br>
+    <br>
+    <b>Lousy</b>: <br>
+    He blamed Shreya for a lousy weekend.
+    <br>
+    <br>
+    <b>Editing</b>: <br>
+    He's editing a book of essays by Ritesh Berlin.
+    <br>
     <br>
 
     <br>
@@ -135,92 +149,164 @@
         adjectives.
     </span>
     <br>
-    <i>
-        [rain, careful, bush, spice, perfect, automatic, snow, blood, certain, cloud, fair, general, heavy, bag,
-        proud, rapid, mood, noise, proper, air, final, common, beautiful, frequent, hungry, cream, dust, ease,
-        ice, oil, fun, hand, greed, health, hill]
-    </i>
     <br>
-
-    <br>
-
-    <b>Adjectives &nbsp; Adverbs</b>
-    <br>
-    <br>
-    Careful &#10140; Carefully
-    <br>
-    Perfect &#10140; Perfectly
-    <br>
-    Automatic &#10140; Automatically
-    <br>
-    Certain &#10140; Certainly
-    <br>
-    Fair &#10140; Fairly
-    <br>
-    General &#10140; Generally
-    <br>
-    Proud &#10140; Proudly
-    <br>
-    Rapid &#10140; Rapidly
-    <br>
-    Proper &#10140; Properly
-    <br>
-    Final &#10140; Finally
-    <br>
-    Common &#10140; Commonly
-    <br>
-    Beautiful &#10140; Beautifully
-    <br>
-    Frequent &#10140; Frequently
-    <br>
-    Heavy &#10140; Heavily
-    <br>
-    Hungry &#10140; Hungrily
-    <br>
-
-    <br>
-
-    <br>
-    <b>Nouns &nbsp; Adjectives</b>
-    <br>
-    <br>
-    Rain &#10140; Rainy
-    <br>
-    Bush &#10140; Bushy
-    <br>
-    Spice &#10140; Spicy
-    <br>
-    Snow &#10140; Snowy
-    <br>
-    Blood &#10140; Bloody
-    <br>
-    Cloud &#10140; Cloudy
-    <br>
-    Bag &#10140; Baggy
-    <br>
-    Mood &#10140; Moody
-    <br>
-    Air &#10140; Airy
-    <br>
-    Cream &#10140; Creamy
-    <br>
-    Dust &#10140; Dusty
-    <br>
-    Ice &#10140; Icy
-    <br>
-    Fun &#10140; Funny
-    <br>
-    Ease &#10140; Easy
-    <br>
-    Hand &#10140; Handy
-    <br>
-    Oil &#10140; Oily
-    <br>
-    Greed &#10140; Greedy
-    <br>
-    Health &#10140; Healthy
-    <br>
-    Hill &#10140; Hilly
+    <table style="width: 50%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Adjectives</th>
+                <th>Adverbs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Careful</td>
+                <td>Carefully</td>
+            </tr>
+            <tr>
+                <td>Perfect</td>
+                <td>Perfectly</td>
+            </tr>
+            <tr>
+                <td>Automatic</td>
+                <td>Automatically</td>
+            </tr>
+            <tr>
+                <td>Certain</td>
+                <td>Certainly</td>
+            </tr>
+            <tr>
+                <td>Fair</td>
+                <td>Fairly</td>
+            </tr>
+            <tr>
+                <td>General</td>
+                <td>Generally</td>
+            </tr>
+            <tr>
+                <td>Proud</td>
+                <td>Proudly</td>
+            </tr>
+            <tr>
+                <td>Rapid</td>
+                <td>Rapidly</td>
+            </tr>
+            <tr>
+                <td>Proper</td>
+                <td>Properly</td>
+            </tr>
+            <tr>
+                <td>Final</td>
+                <td>Finally</td>
+            </tr>
+            <tr>
+                <td>Common</td>
+                <td>Commonly</td>
+            </tr>
+            <tr>
+                <td>Beautiful</td>
+                <td>Beautifully</td>
+            </tr>
+            <tr>
+                <td>Frequent</td>
+                <td>Frequently</td>
+            </tr>
+            <tr>
+                <td>Heavy</td>
+                <td>Heavily</td>
+            </tr>
+            <tr>
+                <td>Hungry</td>
+                <td>Hungrily</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table style="width: 50%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Nouns</th>
+                <th>Adjectives</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rain </td>
+                <td>Rainy</td>
+            </tr>
+            <tr>
+                <td>Bush </td>
+                <td>Bushy</td>
+            </tr>
+            <tr>
+                <td>Spice </td>
+                <td>Spicy</td>
+            </tr>
+            <tr>
+                <td>Snow </td>
+                <td>Snowy</td>
+            </tr>
+            <tr>
+                <td>Blood </td>
+                <td>Bloody</td>
+            </tr>
+            <tr>
+                <td>Cloud </td>
+                <td>Cloudy</td>
+            </tr>
+            <tr>
+                <td>Bag</td>
+                <td>Baggy</td>
+            </tr>
+            <tr>
+                <td>Mood</td>
+                <td>Moody</td>
+            </tr>
+            <tr>
+                <td>Air</td>
+                <td>Airy</td>
+            </tr>
+            <tr>
+                <td>Cream</td>
+                <td>Creamy</td>
+            </tr>
+            <tr>
+                <td>Dust</td>
+                <td>Dusty</td>
+            </tr>
+            <tr>
+                <td>Ice</td>
+                <td>Icy</td>
+            </tr>
+            <tr>
+                <td>Fun</td>
+                <td>Funny</td>
+            </tr>
+            <tr>
+                <td>Ease</td>
+                <td>Easy</td>
+            </tr>
+            <tr>
+                <td>Hand</td>
+                <td>Handy</td>
+            </tr>
+            <tr>
+                <td>Oil</td>
+                <td>Oily</td>
+            </tr>
+            <tr>
+                <td>Greed</td>
+                <td>Greedy</td>
+            </tr>
+            <tr>
+                <td>Health</td>
+                <td>Healthy</td>
+            </tr>
+            <tr>
+                <td>Hill</td>
+                <td>Hilly</td>
+            </tr>
+        </tbody>
+    </table>
     <br>
 
     <br>
@@ -228,71 +314,54 @@
     <br>
     <span>c. Fill in the gaps with the appropriate adjective or adverb.</span>
     <br>
-    <span>i. Pramila is playing &#8230;&#8230; (quiet/quietly).</span>
     <br>
-    &#10140; quietly
+    i. Pramila is playing <b><u>quietly</u></b> (quiet/quietly).
     <br>
-
     <br>
-    <span>ii. Hari speaks very &#8230;&#8230; (loud/loudly).</span>
+    ii. Hari speaks very <b><u>loudly</u></b> (loud/loudly).
     <br>
-    &#10140; loudly
     <br>
-
+    iii. Mukesh is a <b><u>careful</u></b> (careful/carefully) driver.
     <br>
-    <span>iii. Mukesh is a &#8230;&#8230; (careful/carefully) driver.</span>
     <br>
-    &#10140; careful
+    iv. The test was <b><u>easy</u></b> (easy/easily) and we finished in time.
     <br>
-
     <br>
-    <span>iv. The test was &#8230;&#8230; (easy/easily) and we finished in time.</span>
+    v. He is fitting the <b><u>automatic</u></b> (automatic/automatically) door in my house.
     <br>
-    &#10140; easy
     <br>
-
+    vi. My uncle speaks <b><u>perfect</u></b> (perfect/perfectly) Chinese.
     <br>
-    <span>v. He is fitting the &#8230;&#8230; (automatic/automatically) door in my house.</span>
     <br>
-    &#10140; automatic
+    vii. It was raining very <b><u>heavily</u></b> (heavy/heavily).
     <br>
-
     <br>
-    <span>vi. My uncle speaks &#8230;&#8230; (perfect/perfectly) Chinese.</span>
-    <br>
-    &#10140; perfect
-    <br>
-
-    <br>
-    <span>vii. It was raining very &#8230;&#8230; (heavy/heavily).</span>
-    <br>
-    &#10140; heavily
-    <br>
-
-    <br>
-    <span>viii. She looked very &#8230;&#8230; (calm/calmly), but I am sure she was feeling very nervous.</span>
-    <br>
-    &#10140; calm
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
+    viii. She looked very <b><u>calm</u></b> (calm/calmly), but I am sure she was feeling very nervous.
+    <br><br><br>
+    <br><br>
     <h3>Comprehension</h3>
+    <br>
     <br>
     <span>Answer the following questions.</span>
     <br>
+    <br>
     <span>a. Why is freewriting also called &lsquo;automatic writing&rsquo;?</span>
     <br>
-    &#10140; Free writing is also called automatic writing because we write in paper without consciousness or simply we write without doing any edits or modification in the words that come in our mind.
+    <br>
+    &#10140; Free writing is also called automatic writing because we write in paper without consciousness or simply
+    we
+    write without doing any edits or modification in the words that come in our mind.
+    <br>
     <br>
 
     <br>
     <span>b. How do you differentiate writing from speaking?</span>
     <br>
-    &#10140; Writing is editable and can be made more logical but it’s not possible in speaking. Writing is something evidential because it can be examined in future too but speaking is non evidential.
+    <br>
+    &#10140; Writing is editable and can be made more logical but it’s not possible in speaking. Writing is
+    something
+    evidential because it can be examined in future too but speaking is non evidential.
+    <br>
     <br>
 
     <br>
@@ -301,19 +370,32 @@
         Why not?
     </span>
     <br>
-    &#10140; The biggest obstacles in the writing process are the thoughts like what to write, contemplation of wrong grammar, wordiness of right editing etc. according to the Elbow. I favor his words. If writer started caring about his grammar, spelling, coherence and editing from first he can’t learn free writing properly.
+    <br>
+    &#10140; The biggest obstacles in the writing process are the thoughts like what to write, contemplation of
+    wrong
+    grammar, wordiness of right editing etc. according to the Elbow. I favor his words. If writer started caring
+    about
+    his grammar, spelling, coherence and editing from first he can’t learn free writing properly.
+    <br>
     <br>
 
     <br>
     <span>d. How can freewriting overcome &lsquo;writer&rsquo;s block&rsquo;?</span>
     <br>
-    &#10140; Writers block are thoughts like what to write, how to write coherently, how to write right words and so on. Such methods tends to be writing than free writing. But free writing allows writer to write whatever he/she want without any limitations. Hence free writing overcome writes block.
+    <br>
+    &#10140; Writers block are thoughts like what to write, how to write coherently, how to write right words and so
+    on.
+    Such methods tends to be writing than free writing. But free writing allows writer to write whatever he/she want
+    without any limitations. Hence free writing overcome writes block.
+    <br>
     <br>
 
     <br>
     <span>e. What do you mean by &lsquo;voice&rsquo; in writing?</span>
     <br>
+    <br>
     &#10140; Words, vocabularies and writing style is considered as voice in writing.
+    <br>
     <br>
 
     <br>
@@ -322,13 +404,18 @@
         bottle in the sea.&rdquo; What does this mean? Explain.
     </span>
     <br>
-    &#10140; If we put something in bottle and put it in the sea, nobody will go to sea again in search of that bottle and see what’s inside that. Similarly, if we write something in our copy and leave that, it won’t be examined by anybody else later.
+    <br>
+    &#10140; If we put something in bottle and put it in the sea, nobody will go to sea again in search of that
+    bottle
+    and see what’s inside that. Similarly, if we write something in our copy and leave that, it won’t be examined by
+    anybody else later.
     <br>
 
     <br>
 
     <br>
 
+    <br>
     <br>
     <h3>Critical thinking</h3>
     <br>
@@ -337,10 +424,21 @@
         readers?
     </span>
     <br>
-    &#10140; The essay ‘Free Writing’ explains how free writing helps one to improve his/her writing skills. The author has presented his idea with relevant evidence and supportive discussion to persuade the readers.
+    <br>
+    &#10140; The essay ‘Free Writing’ explains how free writing helps one to improve his/her writing skills. The
+    author
+    has presented his idea with relevant evidence and supportive discussion to persuade the readers.
     <br>
     <br>
-    According to the author, the most effective way to improve one’s writing is to do free writing exercises repeatedly. The free writing is spontaneous and accepts no feedback. It must never comment at all. The essay reveals that the main thing about free writing is that it is non-editable. Editing is necessary if we want to end up our writing with some satisfactory. The habit of compulsive and premature editing makes our writing hard and dead. The essayist believes that there is a mixture of a sound, texture and rhythm called as voice. The voice is the main source of power in our writing and carries over into the regular writing.
+    According to the author, the most effective way to improve one’s writing is to do free writing exercises
+    repeatedly.
+    The free writing is spontaneous and accepts no feedback. It must never comment at all. The essay reveals that
+    the
+    main thing about free writing is that it is non-editable. Editing is necessary if we want to end up our writing
+    with
+    some satisfactory. The habit of compulsive and premature editing makes our writing hard and dead. The essayist
+    believes that there is a mixture of a sound, texture and rhythm called as voice. The voice is the main source of
+    power in our writing and carries over into the regular writing.
     <br>
 
     <br>
@@ -351,7 +449,19 @@
         putting them down on the page.&rdquo; Do you agree with his statement? Why? Why not?
     </span>
     <br>
-    &#10140; Yes, I agree with his statement. Freewriting is an exercise in bringing together the process of producing words and putting them down on the page. It can be done in a short period of time without stopping, no matter how coherent or incoherent it is. In free writing one doesn’t need to be concentrated on spelling, grammar and similar ideas. When we do free writing, we express whatever comes into our mind on the specific topic. By practicing regular, free writing undergoes the inbuilt habit of editing at the same time we are trying to produce. It will make writing less blocked. It doesn’t matter what we write as freewriting is only for us to read unless we share our work with others. It will solve our editing and enhance our writing skills.
+    <br>
+    &#10140; Yes, I agree with his statement. Freewriting is an exercise in bringing together the process of
+    producing
+    words and putting them down on the page. It can be done in a short period of time without stopping, no matter
+    how
+    coherent or incoherent it is. In free writing one doesn’t need to be concentrated on spelling, grammar and
+    similar
+    ideas. When we do free writing, we express whatever comes into our mind on the specific topic. By practicing
+    regular, free writing undergoes the inbuilt habit of editing at the same time we are trying to produce. It will
+    make
+    writing less blocked. It doesn’t matter what we write as freewriting is only for us to read unless we share our
+    work
+    with others. It will solve our editing and enhance our writing skills.
     <br>
 
     <br>
@@ -362,94 +472,129 @@
         What are some of the challenges that you still face while writing?
     </span>
     <br>
-    &#10140; Writing was one of the most difficult task for me. When I was in the intermediate grade, I could hardly manage to write half of the paragraph on the assigned topic. My work would lose proper grammatical structure, suitable vocabularies and coherence. The most problematic part was generation of vocabularies. When I sat for any piece of writing, words come easily. Some of my friends would deal through any writing assignment comfortably. Their writings were greatly admired in the classroom. I wished I could write like them. I talked to my teacher about my difficulty. She suggested me not to be panicked and practice free writing exercises regularly. She also encouraged me to recall as many English text as I could. Then I followed her advice very strictly. I enriched my vocabulary and learnt the sentences structure with correct grammatical rules. Now I can allow myself to complete any sort of writing easily but I still get trouble with accumulation of appropriate words.
+    <br>
+    &#10140; Writing was one of the most difficult task for me. When I was in the intermediate grade, I could hardly
+    manage to write half of the paragraph on the assigned topic. My work would lose proper grammatical structure,
+    suitable vocabularies and coherence. The most problematic part was generation of vocabularies. When I sat for
+    any
+    piece of writing, words come easily. Some of my friends would deal through any writing assignment comfortably.
+    Their
+    writings were greatly admired in the classroom. I wished I could write like them. I talked to my teacher about
+    my
+    difficulty. She suggested me not to be panicked and practice free writing exercises regularly. She also
+    encouraged
+    me to recall as many English text as I could. Then I followed her advice very strictly. I enriched my vocabulary
+    and
+    learnt the sentences structure with correct grammatical rules. Now I can allow myself to complete any sort of
+    writing easily but I still get trouble with accumulation of appropriate words.
+    <br>
     <br>
     <br>
     <br>
     <br>
 
     <h3>Writing</h3>
-<br>
-<span>C. Write a paragraph on any one of the following topics.</span>
-<br>
-<br>
-<span>a. My School Library</span>
-<br>
-My School Library is a storehouse of books. It has a lot of different types of books. There are different subjects&rsquo; books in my School library. Students can get book issued in their library card. There re also many journals and magazines in my school library. Books are journals are issued for 15 days, then they should renew for next 15 days or I can get other book. There are three big rooms in library building. In one room, there are etxt books of science, commerce, education, humanities, la and information technology faculties. In second room, there are history, literature, journal and other books in different languages. The books are arranged in almarihs and shelves. The third room of the library is the reading room. It is a quiet place. It remains open all working day.<br>
-<br>
-<br>
-<span>b. Moral Values I Like Most </span>
-<br>
-Moral values are the principles and ethics that help us to live an honest life. It keeps our life on the right path. besides this, honesty and truthfulness are great moral values I like most. When we are honest and live by truth, there is not fear of corruption and violence. In this condition, there will be greater peace all around. We need to be courageous, bold, honest and truthful. It is easy to tell a lie and get benefit but we should try to live by truth. The truth may hurt us or someone but we may have to uphold the reality. We have to accept the truth at all times even the unfavorable time. We shouldn&rsquo;t be jealous others&rsquo; belongings. We should do smart work to earn money without cheating other persons. <br>
-<br>
-<br>
-<br>
-<h3>Grammar</h3>
-<br>
-<br>
-<span>B. Rewrite the following sentences with the adverbs in the appropriate place.<br></span>
-<br>
- <span>i. I watch television. (often)<br></span>
-<br>
-Ans: I often watch television.<br>
-<br>
-<span>ii. Have you been to Janakput? (ever)<br></span>
-<br>
-Ans: Have you ever been to Janakpur.<br>
-<br>
-<span>iii. They play football on Saturday. (sometimes)<br></span>
-<br>
-Ans: They sometimes play football on Saturday.<br>
-<br>
-<span>iv. The weather is bad in November. (always)<br></span>
-<br>
-Ans: The weather is always bad in November. <br>
-<br>
-<span>v. We have fish for dinner. (seldom)<br></span>
-<br>
-Ans: We seldom have fish for dinner.<br>
-<br>
-<span>vi. Pritam doesn&rsquo;t get up before seven. (usually)<br></span>
-<br>
-Ans: Pritam usually gets up after seven.<br>
-<br>
-<span>vii. I was very tired and I was hungry. (also)<br></span>
-<br>
-Ans: I was very tired and I was also hungry.<br>
-<br>
-<span>viii. Did you enjoy the flight? (both)<br></span>
-<br>
-Ans: Did you both enjjoy the flight?<br>
-<br>
-<span>C. Rewrite the following sentences placing the underlined words in the right position.<br></span>
-<br>
-<span>i. I never have understood her.<br></span>
-<br>
- Ans: I have never understood her.<br>
-<br>
-<span>ii. We are often invited to the parties.<br></span>
-<br>
-Ans: We are often invited to the parties.<br>
-<br>
-<span>iii. We all were tired, so we all fell asleep.<br></span>
-<br>
-Ans: We were all tired, so we all fell asleep.<br>
-<br>
-<span>iv. Rajan drives always to work.<br></span>
-<br>
-Ans: Rajan always drives to work.<br>
-<br>
-<span>v. Pradip hardly ever watches television, but he reads newspapers a lot.<br></span>
-<br>
-Ans: Pradip hardly ever watches television, but he read newspaper a lot.<br>
-<br>
-<span>vi. We enjoyed very much the party.<br></span>
-<br>
-Ans: We enjoyed the party very much.<br>
-<br>
-<span>vii. My brother speaks fluently English.<br></span>
-<br>
-Ans: My brother speaks English fluently.
+    <br>
+    <span>C. Write a paragraph on any one of the following topics.</span>
+    <br>
+    <br>
+    <span>a. My School Library</span>
+    <br>
+    My School Library is a storehouse of books. It has a lot of different types of books. There are different
+    subjects&rsquo; books in my School library. Students can get book issued in their library card. There re also
+    many
+    journals and magazines in my school library. Books are journals are issued for 15 days, then they should renew
+    for
+    next 15 days or I can get other book. There are three big rooms in library building. In one room, there are etxt
+    books of science, commerce, education, humanities, la and information technology faculties. In second room,
+    there
+    are history, literature, journal and other books in different languages. The books are arranged in almarihs and
+    shelves. The third room of the library is the reading room. It is a quiet place. It remains open all working
+    day.<br>
+    <br>
+    <br>
+    <span>b. Moral Values I Like Most </span>
+    <br>
+    Moral values are the principles and ethics that help us to live an honest life. It keeps our life on the right
+    path.
+    besides this, honesty and truthfulness are great moral values I like most. When we are honest and live by truth,
+    there is not fear of corruption and violence. In this condition, there will be greater peace all around. We need
+    to
+    be courageous, bold, honest and truthful. It is easy to tell a lie and get benefit but we should try to live by
+    truth. The truth may hurt us or someone but we may have to uphold the reality. We have to accept the truth at
+    all
+    times even the unfavorable time. We shouldn&rsquo;t be jealous others&rsquo; belongings. We should do smart work
+    to
+    earn money without cheating other persons. <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <br>
+    <span>B. Rewrite the following sentences with the adverbs in the appropriate place.<br></span>
+    <br>
+    <span>i. I watch television. (often)<br></span>
+    <br>
+    Ans: I often watch television.<br>
+    <br>
+    <span>ii. Have you been to Janakput? (ever)<br></span>
+    <br>
+    Ans: Have you ever been to Janakpur.<br>
+    <br>
+    <span>iii. They play football on Saturday. (sometimes)<br></span>
+    <br>
+    Ans: They sometimes play football on Saturday.<br>
+    <br>
+    <span>iv. The weather is bad in November. (always)<br></span>
+    <br>
+    Ans: The weather is always bad in November. <br>
+    <br>
+    <span>v. We have fish for dinner. (seldom)<br></span>
+    <br>
+    Ans: We seldom have fish for dinner.<br>
+    <br>
+    <span>vi. Pritam doesn&rsquo;t get up before seven. (usually)<br></span>
+    <br>
+    Ans: Pritam usually gets up after seven.<br>
+    <br>
+    <span>vii. I was very tired and I was hungry. (also)<br></span>
+    <br>
+    Ans: I was very tired and I was also hungry.<br>
+    <br>
+    <span>viii. Did you enjoy the flight? (both)<br></span>
+    <br>
+    Ans: Did you both enjjoy the flight?<br>
+    <br>
+    <span>C. Rewrite the following sentences placing the underlined words in the right position.<br></span>
+    <br>
+    <span>i. I never have understood her.<br></span>
+    <br>
+    Ans: I have never understood her.<br>
+    <br>
+    <span>ii. We are often invited to the parties.<br></span>
+    <br>
+    Ans: We are often invited to the parties.<br>
+    <br>
+    <span>iii. We all were tired, so we all fell asleep.<br></span>
+    <br>
+    Ans: We were all tired, so we all fell asleep.<br>
+    <br>
+    <span>iv. Rajan drives always to work.<br></span>
+    <br>
+    Ans: Rajan always drives to work.<br>
+    <br>
+    <span>v. Pradip hardly ever watches television, but he reads newspapers a lot.<br></span>
+    <br>
+    Ans: Pradip hardly ever watches television, but he read newspaper a lot.<br>
+    <br>
+    <span>vi. We enjoyed very much the party.<br></span>
+    <br>
+    Ans: We enjoyed the party very much.<br>
+    <br>
+    <span>vii. My brother speaks fluently English.<br></span>
+    <br>
+    Ans: My brother speaks English fluently.
 
     <br>
     <br>
