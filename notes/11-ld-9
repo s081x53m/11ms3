@@ -5,16 +5,297 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 9
+        <br>
+        Democracy and Human Rights</center><br>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Find the words in the text that mean the same as the following. The first letters are given.</span>
+    <br>
+    <br>
+    a. the system that completely separated black people from white people (<b>apartheid</b>)
+    <br><br>
+    b. formal objection (<b>protest</b>)
+    <br><br>
+    c. an ethnical group of people (<b>tribe</b>)
+    <br><br>
+    d. an act undertaken to achieve a set goal (<b>campaign</b>)
+    <br><br>
+    e. the formal beginning of any movement (<b>inauguration</b>)
+    <br><br>
+    f. a strong feeling of excitement and happiness (<b>exhilaration</b>)
+    <br><br>
+    g. being set free from legal, social, or political restrictions (<b>emancipation</b>)
+    <br><br><br><br>
+    <span>B. Find these words in a dictionary and write their meanings as they are used in the text.</span>
+    <br>
+    <br>
+    <span>a. liberty</span>
+    <br>
+    the state of being free within society from oppressive restrictions imposed by authority on one's way of life,
+    behaviour, or political views.
+    <br><br>
+    <span>b. conflict</span>
+    <br>
+    a serious disagreement or argument, typically a protracted one.
+    <br><br>
+    <span>c. ideology</span>
+    <br>
+    a system of ideas and ideals, especially one which forms the basis of economic or political theory and policy.
+    <br><br>
+    <span>d. oppression</span>
+    <br>
+    prolonged cruel or unjust treatment or exercise of authority.
+    <br><br>
+    <span>e. privilege</span>
+    <br>
+    a special right, advantage, or immunity granted or available only to a particular person or group.
+    <br><br>
+    <span>f. dignity</span>
+    <br>
+    the state or quality of being worthy of honour or respect.
+    <br><br>
+    <span>g. surrender</span>
+    <br>
+    stop resisting to an enemy or opponent and submit to their authority.
+    <br><br>
+    <span>h. reconciliation</span>
+    <br>
+    the restoration of friendly relations.
+    <br><br><br><br>
+    <span>C. The 'd' or 'ed' in the following verbs have different pronunciation. Put these verbs in the correct
+        box.</span>
+    <br>
+    <br>
+    <i>[asked, killed, missed, ended, decided, washed, visited, lasted, watched, picked, smiled, fixed, walked, blessed,
+        brushed, stopped, wanted, reached, laughed, enjoyed]</i>
+    <br>
+    <br>
+    <span>/t/</span>
+    <br>
+    asked, missed, washed, watched, picked, fixed, walked, blessed (v), brushed, stopped, reached, laughed
+    <br><br>
+    <span>/d/</span>
+    <br>
+    killed, smiled
+    <br><br>
+    <span>/&#618;d/</span>
+    <br>
+    ended, decided, visited, lasted, blessed (adj), wanted, enjoyed
+    <br><br><br><br>
+    <span>D. Put these nouns into the correct box according to the pronunciation of the plural suffix: s/es.</span>
+    <br>
+    <i>[cats, dogs, horses, houses, books, roofs, boys, rooms, girls, noises, shops, trees, pages, babies, benches,
+        classes]</i>
+    <br>
+    <span>/s/</span>
+    <br>
+    cats, books, roofs, shops
+    <br><br>
+    <span>/z/</span>
+    <br>
+    dogs, boys, rooms, girls, trees,
+    <br><br>
+    <span>/&#618;z/</span>
+    <br>
+    horses, houses, noises, pages, babies, benches, classes
+    <br><br><br><br><br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. What were the restrictions imposed on the Blacks in South Africa?</span>
+    <br>
+    The restrictions imposed on the Blacks in South Africa were Racial segregation, and political and economic
+    discrimination.
+    <br><br>
+    <span>b. Why was Mandela arrested?</span>
+    <br>
+    Mandela was arrested because he was charged with organizing an armed wing of the African National Congress (ANC).
+    <br><br>
+    <span>c. How did he describe racism and racial oppression?</span>
+    <br>
+    He described racism and racial oppression as the pernicious ideology and practice.
+    <br><br>
+    <span>d. Why did he thank all the international guests?</span>
+    <br>
+    He thanked all the international guests for coming to take possession about peace and justice with the people of his
+    country.
+    <br><br>
+    <span>e. Why did he think that people in his country had achieved political emancipation?</span>
+    <br>
+    He thought that people in his country had achieved political emancipation to liberate themselves from the continuing
+    bondage of poverty, deprivation, suffering, gender and other discrimination.
+    <br><br>
+    <span>f. What is the main point of Mandela's speech?</span>
+    <br>
+    The main point of Mandela’s speech is that people of South Africa should build a society where there will be
+    justice, peace and equality for all peoples.
+    <br><br><br><br><br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. What does Mandela mean when he says - a rainbow nation at peace with itself and the world?</span>
+    <br>
+    <br>
+    Whe Mandela says - a rainbow nation at peace with itself and the world he means that South Africans should build a
+    society where both black and white will be able to walk, talk with each other without any fear. We know that rainbow
+    is the combination of seven different colors. So by saying a rainbow nation he is trying to convey us a message that
+    whenever all the peoples unite as like the colors in the rainbow then only there will be peace.
+    <br><br>
+    In South Africans cultures, the rainbow symbolizes hope and bright future. South Africa is referred to a Rainbow
+    Nation to describe the unity of various cultural, racial or ethnic groups in
+    the country. During the segregation period, peoples were divided on the basis of skin color. Mandela wants
+    them to live and work together in unity like the colors in a rainbow. He wished they could forget the ferocious and
+    brutal past and put their hand in hand with each other and maintain a peaceful nation.
+    <br><br><br>
+    <span>b. Mandela should have avenged those who imprisoned him for such a long period. Instead, he followed the path
+        of reconciliation. Why do you think he did so?</span>
+    <br>
+    <br>
+    If Mandela has avenged those ho had prisoned him then he won't be able to reach his destination. Mandela led his
+    country wisely and promoted national reconciliation. He was a man of true words. He fought for his own people for a
+    long period and was also imprisoned when he raised his voice against the authorities. However, after coming out of
+    jail he did not avenge those who had put him in trouble. Because he believed that avenge and enmity cause disorder
+    among people and by doing so he would lose the support of the majority.
+    <br><br><br>
+    <span>c. Why and how have societies struggled with segregation in the world? Do you find any evidence of segregation
+        in your society? Discuss.</span>
+    <br>
+    <br>
+    Segregation is the separation or isolation of a race, class, or ethnic group by enforced or voluntary residence in a restricted area, by barriers to social intercourse or separate educational facilities or by other discriminatory means. Many people of the world are struggling with social separation problem in the world.  Racial segregation is one of many types of segregation, which can range from deliberate and systematic persecution through more subtle types of discrimination to self-imposed separation. Cast segregation is one of the most common forms of segregation in the Hindu culture. Any types of segregation can lead to chaos and voilence.
+    <br><br>
+    Yes I have found the evidneces of segregation in my society. Although, the Nepalese Constitution Law doesn&rsquo;t allow any segregation in terms of religion, caste and ethnicity but still it is prevalent in our society. However, since the unification of Nepal in the 18th century, Nepal's various non-Hindu ethnic nationalities and tribes, previously called "Matwalis" (alcohol-drinkers) and now termed as "Adivasi/Janajati" (indigenous/nationalities), have been incorporated within the caste hierarchy to varying degrees of success. Despite the forceful integration by the state into the pan-Hindu social structure, the traditionally non-Hindu groups and tribes do not necessarily adhere to the customs and practices of the caste segregation.
+
+    <br><br><br><br><br>
+
+    <h3>Writing</h3>
+    <br>
+    <span>a. Nepal has topsy-turvy political history. Many changes have been observed in different times. Write a short
+        biography of any Nepali freedom fighter incorporating the changes brought under his/her leadership.</span>
+    <br><br>
+    <p style="text-align: center; font-weight: bold;">Ganesh Man Singh</p>
+    <br>
+    Ganesh Man Singh was born on November 9, 1915 and was commander of the popular 1990 Janaandolan. Singh was also one
+    of the main leaders of the Nepali Congress movement of 1951, which overthrew the Rana regime. More than anything
+    else, Ganesh Man was a rebel and a freedom fighter. He was a popular hero and his exploits are legendary. He was a
+    man of small proportions but charismatic, fearless, and physically very strong. He was never afraid of taking risks
+    in his political career. He was a straightforward and frank leader in dealing with all.
+
+    <br><br>
+
+    Ganesh Man was a rare breed amongst Nepali politicians—a man of integrity. He demonstrated his greatness through his
+    leadership, rising above petty personal interests. Recognising his outstanding contribution to the field of
+    democracy and human rights, Ganesh Man was honored by the United Nations with the ‘Human Rights Award’ in 1993. He
+    was the first statesman from South Asia to receive this prestigious award. He also received the ‘United States Peace
+    Run Prize’ in 1990 for his contribution to peace in Nepal and the world. He was also decorated with the ‘U Thant
+    Peace Award’. He has become immortalised as a great leader that the nation and its citizens, without any political
+    barriers, feel proud of. No other national leader has been able to fill the political vacuum after his death.
+    <br><br><br><br><br>
+    <h3>Grammar</h3>
+    <br>
+    <br>
+    <span>B. Complete the sentences with should or shouldn't. Use one of these verbs.</span>
+    <br>
+    <br>
+    <i>[drink, visit, leave, roam, quit]</i>
+    <br><br>
+    a. You have really done a wonderful job. I recommend you <b><u>shouldn&rsquo;t leave</u></b> it.
+    <br><br>
+    b. That's a very dangerous area. Tourists <b><u>shouldn&rsquo;t visit</u></b> there.
+    <br><br>
+    c. I'm going to be late. Do you think I <b><u>should leave</u></b> now?
+    <br><br>
+    d. Children <b><u>shouldn&rsquo;t drink</u></b> sugary drinks. It's not very healthy.
+    <br><br>
+    e. I have lots of homework. I <b><u>shouldn&rsquo;t roam</u></b> here and there today.
+    <br><br><br><br>
+    <span>C. Put in had better or should.</span>
+    <br><br>
+    a. I think you <b><u>should</u></b> learn English to enroll a university course.
+    <br><br>
+    b. It's a great film. You <b><u>should</u></b> go and see it.
+    <br><br>
+    c. I have to meet my friend in ten minutes. I <b><u>had better</u></b> go now or I'll be late.
+    <br><br>
+    d. These biscuits are delicious. You <b><u>should</u></b> try one.
+    <br><br>
+    e. We <b><u>had better</u></b> get to the airport by 2 pm or else we may miss the flight.
+    <br><br>
+    f. When people are driving, they <b><u>should</u></b> keep their eyes on the road.
+    <br><br>
+    g. I <b><u>should</u></b> get up early tomorrow. I've got a lot to do.
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br><br>
 </body>
 
 </html>

@@ -1,20 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+        *::selection {
+            background: none;
+        }
+        *::-moz-selection {
+            background: none;
+        }
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
-
 <body>
+    
+<br>
+    <center>Unit 10
+<br>
+    The Tattered Blanket</center>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+<h3>Ways with words</h3><br>
+<span>A. Fill in the blanks with an appropriate words.</span>
+<br>
+<br>
+a. All my efforts to convince her for the tour were <b><u>futile</u></b>.
+<br><br>
+b. The lost traveller <b><u>huddled up</u></b> under a shelter made of branches and leaves.
+<br><br>
+c. Her rude behaviour was the main cause of <b><u>irritation</u></b> for him.
+<br><br>
+d. She moved <b><u>awkwardly</u></b> in the room, thinking that I was watching.
+<br><br>
+e. She is <b><u>mumbling</u></b> something, but I can&rsquo;t hear her.
+<br><br>
+f. When I met my sister after a long time, she talked to me in a <b><u>feeble</u></b> voice. 
+<br><br><br><br>
+<span>B. Tick (&#8730;) the correct words that are similar in meaning to the underlined words.</span>
+<br>
+<br>
+<span>a. Rupa studied Science reluctantly due to her father&rsquo;s pressure.</span>
+<br>
+ii. unwillingly
+<br><br>
+<span>b. She moved her fingers exasperatedly through her hair.</span>
+<br>
+iv. annoyingly
+<br><br>
+<span>c. My grandmother is over eighty. She lifted her hands feebly.</span>
+<br>
+iii. weakly
+<br><br>
+<span>d. She is wearing a tattered shawl.</span>
+<br>
+ii. torn
+<br><br>
+<span>e. I have to work at two jobs to make ends meet in this expensive city.</span>
+<br>
+iv. earn just enough money
+<br><br>
+<br><br>
+<span>D. Syllable</span>
+<br>
+<br>
+<span>c. Consult an English dictionary and find the number of syllables in the following words.</span>
+<br>
+<br>
+<b>bury</b> : bur-y 
+<br>
+2 syllables
+<br><br>
+<b>development</b> : de-vel-op-ment
+<br>
+4 syllables
+<br><br>
+<b>syllabic</b> : syl-lab-ic
+<br>
+3 syllables
+<br><br>
+<b>Vowel</b> : vow-el
+<br>
+2 syllables
+<br><br>
+<b>education</b> : ed-u-ca-tion
+<br>
+4 syllables
+<br><br>
+<b>discipline</b> : dis-ci-pline
+<br>
+3 syllables
+<br><br>
+<b>examination</b> : ex-am-i-na-tion
+<br>
+5 syllables
+<br><br>
+<b>children</b> : chil-dren
+<br>
+2 syllables
+<br><br>
+<b>separately</b> : sep-a-rate-ly
+<br>
+4 syllables
+<br><br>
+<b>pronunciation</b> : pro-nun-cia-tion
+<br>
+5 syllables
+<br><br><br><br><br>
+<h3>Comprehension</h3>
+<br>
+<span>Answer the following questions.</span>
+<br>
+<br>
+<span>a. Why didn't the mother recognise her son Gopi?</span>
+<br>
+The mother didn&rsquo;t recognize her son Gopi because she was eighty years old and lost her memory.
+<br><br><br>
+<span>b. Why is the sister living with her mother?</span>
+<br>
+The sister is living with her mother because she is a widow and there is nobody to take care of her mother.
+<br><br><br>
+<span>c. What is the sister&rsquo;s attitude towards her brother?</span>
+<br>
+She is serious towards her brother's behaviour.
+<br><br><br>
+<span>d. Does the son love his mother very much? How do you know that?</span>
+<br>
+Yes, the son love his mother very much. He shows his love by bending down and bringing his face close to his mother's wrinkled cheeks.
+<br><br><br>
+<span>e. What does the mother actually need: a blanket or the warmth of her son&rsquo;s love?</span>
+<br>
+The mother actually needs the warmth of her son&rsquo;s love. Here, the blanket symbolizes love and care.
+<br><br><br>
+<span>f. What does the phrase 'the tattered blanket&rsquo; mean? Is it only the blanket that is tattered?</span>
+<br>
+The phrase 'the tattered blanket&rsquo; means the hurted feelings of his mother.
+<br><br><br>
+<span>g. The son says, &lsquo;Amma can't remember who I am&rsquo;. Do you think that he remembered his mother? Why didn&rsquo;t he answer when his sister asked, &lsquo;Do you remember your Amma?&rsquo;</span>
+<br>
+He didn&rsquo;t answer her question because he can't do so as it had been a year since he wrote to his mother and more than five years since he saw her.
+<br><br><br><br><br>
+<h3>Critical thinking</h3>
+<br>
+<span>a. What can be the expectations of the parents from their offspring at the old age?</span>
+<br>
+<br>
+Every human is different. Often times what one desires the other does not even see fit. Our parents are also one among the same crowd, like us. There must be some expectations they have from their children, our work is to understand and fulfill them.
+<br><br>
+When people get old, they get sensitive and even the slightest of things hurt them. Same goes for the elderly parent. They have lived a full life, worked, earned respect, and fulfilled their responsibilities. So when they are old, they want us not to forget this and treat them with dignity and respect.
+<br><br>
+After retirement the elderly people do not find purpose and meaning in their day, most of the time they do not have routine. So most of them stay usually alone at home. Often times we hear them complain that no one spends time with them, they miss company, they have nothing to do, no one to talk to, etc.
+<br><br>
+Your father was the one taking care of everything before he retired, your mother was so busy all her life looking after her family and now because they are old they have near to nothing to do during their day. They want their children to involve them in conversations, decisions or any other big and small thing. 
+<br><br>
+These were just some common things that the elderly parents miss and want from you or want their children to know. But again every person and their wants are different, so we do the things according to our parent’s desire.
+<br>
+<br>
+<br>
+<br>
+<span>b. Some children who live in a distance tend to be indifferent to the feelings of their parents. Why do you think they are like that? Discuss.</span>
+<br>
+<br>
+There are various reasons for children to live in a distance from their parents. The reason may be study, job, business and so on. For achieving their goal and fulfilling their self desires, they have to invest more time and efforts and hence their realtion with parents becomes weaker due to of their busy schedule. When children live in a distance, they gradually keep away relation from their parents. Finally, it creates a gap or distance between parents and their children. In todays world childrens think that money and success are more important than the parents&rsquo; feelings. They do hard work for earning and saving but not making the parents happy.
+<br><br>
+Some children begin a new life with their family far from their parents. Their wife and children become more important than their old-age parents. That is why they have no time to call them and visit their parents. This indifference not only degrades the relationship between the parents and their children but also makes the parents live a lonely and miserable life.
+<br><br><br><br>
+<span>c. A mother's love is everlasting and indispensable. Justify.</span>
+<br>
+<br>
+There is nothing that can come close to the love that a mother feels for her children. Women are inherently good mothers. Till birth women carry their young and then continue their love & affection throughout their childhood and even into adulthood. Every Mother always makes sure that their children are safe and happy throughout their childhood. It is the love for their child that a mother feels that drives these feelings. 
+<br><br>
+After birth, a child finds his mom as the first friend who plays with him along with extra care and nourishment. Without any expectation, a mother keeps on working for the betterment of her child. She plays all roles including mom like a mentor, a teacher, a friend, a caretaker. When a child born; it is the mother who easily understands the feelings or requirements of her child. She spends every second around her child for fulfilling his all needs. Since childhood, our mother keeps telling us what is wrong and what is right in a manner to build us as a good human being and also encourage us to do good things in life.
+<br><br>
+We as a child always take our mother for granted but without her our life becomes worthless. Mother is a precious gift by God which we need to keep with love and care. She does her job of motherhood with a pure heart and complete devotion. The first teacher is a mother for any child and if he keeps learning life’s lessons under her guidance nothing can stop him in achieving the heights of success.
+<br><br><br><br><br>
+<h3>Grammar</h3>
+<br>
+<br>
+<span>B. Complete the following sentences with however, although or in spite of.</span>
+<br>
+<br>
+a. <b><u>In spite of,</u></b> the fact that he is an octogenarian; he still leads an active life.
+<br><br>
+b. I still enjoyed the week <b><u>although,</u></b> the weather was bad.
+<br><br>
+c. He has passed MA. <b><u>However,</u></b> he hasn&rsquo;t got a job.
+<br><br>
+d. <b><u>Although,</u></b> I had a headache, I enjoyed the movie.
+<br><br>
+e. Ramila didn&rsquo;t get the job, <b><u>in spite of,</u></b> the fact that she had all the necessary qualifications.
+<br><br>
+f. <b><u>In spite of,</u></b> the fact that he had no money, he bought the car anyway.
+<br><br>
+g. We can go to the park for lunch <b><u>although,</u></b> the weather report says it's going to rain.
+<br><br>
+h. <b><u>However,</u></b> I speak English well, my first language is actually Maithili.
+<br><br><br><br>
+<span>C. Combine the following sentences using the words given in brackets.</span>
+<br>
+<br>
+<span>a. He was annoyed. He didn&rsquo;t say anything. (although)</span>
+<br>
+Although he was annoyed, he didn&rsquo;t say anything.
+<br><br>
+<span>b. Playing the stock market is exciting. It can be risky. (however)</span>
+<br>
+Playing the stock market is exciting, however, it can be risky.
+<br><br>
+<span>c. He works slowly. He never makes a mistake. (even though)</span>
+<br>
+Even though he works slowly, he never makes a mistake.
+<br><br>
+<span>d. It was raining. We still went to the park. (in spite of)</span>
+<br>
+In spite of rain, we still went to the park.
+<br><br>
+<span>e. Hark bought the watch. It was expensive. (despite)</span>
+<br>
+Despite being expensive, Hark bought the watch.
+<br><br>
+<span>f. He is very poor. He wears expensive clothes. (but)</span>
+<br>
+He is very poor but wears expensive clothes.
+<br><br><br><br>
+<span>D. Rewrite the following sentences using (a) although and (b) in spite of.</span>
+<br>
+<br>
+<span>a. He had very little time, but he offered to help us.</span>
+<br>
+- Although he had very little time, he offered to help us.
+<br>
+- In spite of having very little time, he offered to help us.
+<br><br><br>
+<span>b. She is very poor, but she still wears expensive clothes.</span>
+<br>
+- Although she is very poor, she still wears expensive clothes.
+<br>
+- In spite of being very poor, she still wears expensive clothes.
+<br><br><br>
+<span>c. He's a millionaire, but he lives in a very small flat.</span>
+<br>
+- Although he's a millionaire, he lives in a very small flat.
+<br>
+- In spite of being a millionaire, he lives in a very small flat.
+<br><br><br>
+<span>d. They have a lot of money, but they are still not happy.</span>
+<br>
+- Although they have a lot of money, they are still not happy.
+<br>
+- In spite of having a lot of money, they are still not happy.
+<br><br><br>
+<span>e. The traffic was heavy, but we got there in time.</span>
+<br>
+- Although the traffic was heavy, we got there in time.
+<br>
+- In spite of the heavy traffic, we got there in time.
+<br><br><br>
+<br>
+<br>
+<br>
+<span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+<br>
+<br><br>
 </body>
-
 </html>
