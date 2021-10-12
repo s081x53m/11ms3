@@ -5,16 +5,463 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 11
+        <br>
+        Arts and Creations</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <br>
+    <span>A. Circle the correct meanings of the underlined words.</span>
+    <br>
+    <br>
+    a. Martin Luther started a revolt against the conventions of the Roman Catholic Church.
+    <br>
+    <span>creations</span>
+    <br>
+    <br>
+    b. It blended classical styles with new ideas.
+    <br>
+    <span>mixed together</span>
+    <br>
+    <br>
+    c. The dome marks the beginning of Renaissance architecture.
+    <br>
+    <span>serves as a sign of</span>
+    <br>
+    <br>
+    d. The arts flourished during the Renaissance.
+    <br>
+    <span>grew and improved</span>
+    <br>
+    <br>
+    e. The new passion for learning also led to amazing discoveries in science.
+    <br>
+    <span>enthusiasm</span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>C. What do the following idioms mean? Use them in sensible sentences.</span>
+    <br>
+    <br>
+    <b>a. a hot potato :</b> a controversial situation
+    <br>
+    The racial discrimination issue is a political hot potato.
+    <br>
+    <br>
+    <b>b. once in a blue moon :</b> not very often or rarely
+    <br>
+    Dad is working in Japan and he visits home once in a blue moon.
+    <br>
+    <br>
+    <b>c. a bed of roses :</b> easy or comfortable situation or activity
+    <br>
+    It's to be remembered that life is not a bed of roses.
+    <br>
+    <br>
+    <b>d. when pigs fly :</b> used to say that something will never happen
+    <br>
+    He plans to clean his house every week, but he will probably do it only when pigs fly.
+    <br>
+    <br>
+    <b>e. miss the boat :</b> miss an opportunity
+    <br>
+    If you don't buy now, you may find that you've missed the boat.
+    <br>
+    <br>
+    <b>f. zip your lip :</b> shut up
+    <br>
+    She zipped her lip at the meeting yesterday, as it was pointless saying anything.
+    <br>
+    <br>
+    <b>g. fight tooth and nail :</b> to fight with great ferocity
+    <br>
+    I want this job so I'm going to fight tooth and nail for it.
+    <br>
+    <br>
+    <b>h. when life gives you lemon, make lemonade :</b> change something negative into a positive
+    <br>
+    My grandfather lost his job due to the coronavirus, but he decided to keep busy and active. He says, &ldquo;When
+    life gives you lemons, make lemonade.&rdquo;
+    <br>
+    <br>
+    <b>i. goose egg :</b> a score of zero
+    <br>
+    We had a good game, but the score was goose egg.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>D. Match the following phrasal verbs with their meanings.</span>
+    <br>
+    <br>
+    <b>a. break down :</b> to stop functioning
+    <br>
+    <br>
+    <b>b. check out :</b> to leave a hotel
+    <br>
+    <br>
+    <b>c. fed up :</b> tired of something or someone
+    <br>
+    <br>
+    <b>d. fill out :</b> to complete a form
+    <br>
+    <br>
+    <b>e. get away :</b> to escape
+    <br>
+    <br>
+    <b>f. give away :</b> to give something to someone for free
+    <br>
+    <br>
+    <b>g. give up :</b> to quit a habit
+    <br>
+    <br>
+    <b>h. look forward to :</b> to wait anxiously for something or an event
+    <br>
+    <br>
+    <b>i. make up :</b> to invent a story or lie
+    <br>
+    <br>
+    <b>j. pass away :</b> to die
+    <br>
+    <br>
+    <b>k. put out :</b> to extinguish
+    <br>
+    <br>
+    <b>l. take off :</b> to remove clothes or shoes from the body, to depart as in airplane
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <br>
+    <span>A. Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. What does the word Renaissance mean? Which language is it derived from?</span>
+    <br>
+    The word Renaissance means &lsquo;rebirth&rsquo;. It is derived from French word &lsquo;renaitre&rsquo;.
+    <br>
+    <br>
+    <br>
+    <span>b. What did the Greek scholars do in their new locations after leaving the Greek city?</span>
+    <br>
+    After leaving the Greek city, Greek scholars taught Greek and shared their precious books in their new locations.
+    <br>
+    <br>
+    <br>
+    <span>c. How did &lsquo;new learning&rsquo; teach people to think in different ways?</span>
+    <br>
+    &lsquo;New Learning&rsquo; taught people to think in different ways by encouraging them to paint pictures, make
+    statues, buildings and write great literatures.
+    <br>
+    <br>
+    <br>
+    <span>d. Describe the artistic developments of Renaissance in brief.</span>
+    <br>
+    The artistic developments of the Renaissance first happened in Florence; then they spread to other Italian cities.
+    Trade and banking made people living in cities like Florence, Venice and Milam rich. They spent their money and
+    time to enjoy music, art and poetry. Greatest artists such as Leonardo da Vinci, Michelangelo, Raphel, Filipo,
+    Brunelleshchi, Shakespeare, and Cervantes produced their master pieces. William
+    Shakespeare became one of the greatest literary figure at that time.
+    <br>
+    <br>
+    <br>
+    <span>e. Name the three Renaissance scientists who made great discoveries?</span>
+    <br>
+    Name of the three Renaissance scientists are Galileo Galilei, Nicolas Copernicus and Sir Isaac Newton.
+    <br>
+    <br>
+    <br>
+    <span>f. Who developed the printing press? Which country was he from?</span>
+    <br>
+    Johannes Gutenberg developed the printing press. He was from Germany.
+    <br>
+    <br>
+    <br>
+    <span>g. Why is the development of the printing press considered as one of the gifts of Renaissance?</span>
+    <br>
+    Before development of the printing press, books were hand written and expensive. The development of the printing
+    press is considered as one of the gifts of Renaissance because it helped writers to publish their books at low
+    price.
+    <br>
+    <br>
+    <br>
+    <span>h. Name the five famous explorers of the Renaissance?</span>
+    <br>
+    The five famous explorers of the Renaissance were Christopher Columbus, Vasco de Gama, John Cabot, Ferdinand
+    Magellan and Sir Francis Drake.
+    <br>
+    <br>
+    <br>
+    <span>i. Why do some people think of the Renaissance as the beginning of modern history?</span>
+    <br>
+    The Renaissance brought revolution in art, architecture, literature, culture, navigation, science etc. That is why
+    people think thank that the Renaissance is the beginning of modern history.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>B. What do you infer from the reading? Tick (&#8730;) the best answer.</span>
+    <br>
+    <br>
+    <b>a. Before the Renaissance&#8230;</b>
+    <br>
+    education was limited to scholars and privileged
+    <br>
+    <br>
+    <b>b. Which statement is true?</b>
+    <br>
+    The Greeks had a strong influence on Renaissance thinking
+    <br>
+    <br>
+    <b>c. What did the Renaissance do?</b>
+    <br>
+    It caused people to make changes in their lives
+    <br>
+    <br>
+    <b>d. What were the major causes of the Renaissance?</b>
+    <br>
+    printing, reading and learning
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical Thinking</h3>
+    <br>
+    <span>
+        a. Do you agree with Machiavelli&rsquo;s view that a good leader can do bad and dishonest things in order to
+        preserve his power and protect his government? Explain.
+    </span>
+    <br>
+    <br>
+    Yes I agree with Machiavelli&rsquo;s view that a good leader can do bad and dishonest things in order to preserve
+    his power and protect his government. Machiavelli was a politician and writer. Machiavelli reveals several facts
+    that how a good leader can turn into immoral and evil. He says that in order to maintain power and protect nation or
+    territory, a leader makes a number of mistakes.
+    <br>
+    <br>
+    It&rsquo;s the duty of a leader to protect his government. So he can go beyond the rules and perform dishonest
+    things to preserve his power. But the leaders whose goal is the pursuit of power, unlimited wealth, or the fame that
+    accompanies success often appear self-centered. This desire is so strong that the leaders violate the moral
+    standards that once governed their conduct. Many leaders reach the top by imposing their will on others, or even
+    destroying those who stand in their way. When they reach the top, they may suspect that others are trying to knock
+    them off their base and hence perform some out of the rules things to protect their leadership.
+    <br>
+    <br>
+    <br>
+    <span>b. Do you think that art and literature are important assets of a country? Give reasons.</span>
+    <br>
+    <br>
+    Art and literature are the foundation of life. It places an emphasis on many topics from human tragedies to tales of
+    the ever-popular search for love. While it is physically written in words, these words come alive in the imagination
+    of the mind, and its ability to comprehend the complexity or simplicity of the text.
+    <br>
+    <br>
+    Art and literature serves the people, and help them in their struggle for a better life, by arousing the
+    people&rsquo;s emotions against oppression and injustice and increasing their sensitivity regarding the
+    people&rsquo;s sufferings. Our country is facing the tremendous challenge of abolishing poverty, unemployment,
+    inflation, ignorance, casteism, communalism, and other social evils, and hence artists and writers must join the
+    ranks of those who are struggling for a better Nepal, they must inspire the people by their writings, and write
+    against oppression and injustice. Thus we can say that art and literature are important assets of a country.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>a. Write an essay on &ldquo;Literature is the reflection of society.&rdquo;</span>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Literature is the Reflection of Society</p>
+    <br>
+    Since the dawn of man, the art of storytelling was utilized to pass on critically deemed information about society,
+    life, and everything. During the early days, much of our history was transposed orally through song and spoken word.
+    Literature, like many art forms, is expressionism. It&rsquo;s taking a thought and converting it into a tangible
+    object that can be interpreted by others.
+    <br>
+    <br>
+    Many authors have been represented social, political, ecological, historical, scientific phenomenon in their works.
+    All our glorious past has secured in the literary pages so that today&rsquo;s generation gain knowledge about the
+    myth of The Ramayana, The Mahabharata, The Old Testament and The Bible, etc. it is only possible by the literary
+    sources that present generation know who were our forefathers and how human came into existence.
+    <br>
+    <br>
+    Thus, society creates literature because all traditions, customs, religious stories reflect through the literary
+    works, but the excellence and natural surroundings of the reflection hinge on a writer's approach of mind, whether
+    he is enlightened in his outlook or conservative. That&rsquo;s why literature is the mirror of society because it
+    stuffed with all human emotions and activities including good and bad and social and political happenings.
+    <br>
+    <br>
+    <br>
+    <span>b. It is said that today’s reader is tomorrow’s leader. Do you agree with this
+        statement? Explain. </span>
+    <br>
+    <br>
+    Yes, I agree with the statement that today’s reader is tomorrow’s leader. Undoubtedly, reading is essential for all-round development of the personality. Reading is an essential basic skills building activity. One’s language fluency is determined by the quality of reading. Besides, vocabulary enrichment, ideas collection, familiarization with different types of writing formats, speaking fluency, etc, all depend upon reading.
+    <br><br>
+    It is true a person who has the reading habit, never feels lonely and bored. The books open up a magical world for him or her and he lives among angels in the pages of the books. Books never let go the readers astray. They make them wise and pragmatic. We must endeavour to develop this fabulous habit of reading. 
+    <br><br>
+    Thus, one thing is absolutely clear, if we want to become great leaders in future, we must be great readers in the present.
+    <br>
+    <br>
+    <br>
+    <span>c. Write a short biography of a national literary, artistic or historical figure you
+        appreciate most. </span>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Bhanubhakta Acharya</p>
+    <br>
+    The first Nepali poet who also translated the great epic ‘Ramayana’ from Sanskrit to Nepali, Bhanubhakta Acharya was born on 29 Ashar, 1814 in Tanahu district of Nepal. Acharya was born to a Brahmin family and received excellent education with a strong leaning towards religion from his grandfather at home. He is honored with the title Adikabi for the contributions he has made in the field of poetry and Nepali literature and every year, his birthday is celebrated as a festival of Bhanujayanti (13 July) by conducting various programs, usually academics and poem recitation.
+    <br><br>
+    He wrote two masterpieces in his life among which, one is the Bhanubhaktey Ramayan and the other is a letter he wrote in verse form to the Prime Minister while he was in prison. He was made a scapegoat and sent to prison due to some misunderstanding in signing the papers. His letter became one of his great works. He not only won his freedom with his poem but was also given a bag of money. When he died in 1868, he did not know he would one day be one of the most revered poets of Nepal. His creation, however, was not published and he died without receiving credit for his contribution. His works were published by Motiram Bhatta in 1887. Although he is one of the most celebrated and revered poets of Nepal, his works are not as famous as other poets in the history of Nepali literature.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>
+        B. Complete the following sentences with correct relative pronouns and write whether the clauses are defining or
+        non-defining.
+    </span>
+    <br>
+    <br>
+    a. That&rsquo;s the house where I was born.
+    <br>
+    <br>
+    b. My aunt Nita, whoa journalist, is coming to visit next week.
+    <br>
+    <br>
+    c. People wholike outdoor activities will love our holidays.
+    <br>
+    <br>
+    d. The early 1960s, when the Beatles first started, was a very exciting time in pop culture.
+    <br>
+    <br>
+    e. My essay on Shakespeare, which I found quite difficult, got a really good mark in the end.
+    <br>
+    <br>
+    f. The Mayans, who lived in Central America, built many stunning temples.
+    <br>
+    <br>
+    g. That&rsquo;s the girl whose brother is in your class.
+    <br>
+    <br>
+    h. The snake that was in the garden last week belongs to our next-door neighbor.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>C. Join the following pairs of sentences with an appropriate relative clauses.</span>
+    <br>
+    <br>
+    <span>a. He is a musician. His albums have sold millions.</span>
+    <br>
+    He is a musician whose albums have sold millions.
+    <br>
+    <br>
+    <span>b. Amelia speaks English and Chines fluently. She is from Shanghai.</span>
+    <br>
+    Amelia who is from Shanghai speaks English and Chines fluently.
+    <br>
+    <br>
+    <span>c. That&rsquo;s the stadium. Real Madrid plays there.</span>
+    <br>
+    That&rsquo;s the stadium where Real Madrid plays there.
+    <br>
+    <br>
+    <span>d. Dublin is my favourite city. It is the capital of Ireland.</span>
+    <br>
+    Dublin is my favourite city which is the capital of Ireland.
+    <br>
+    <br>
+    <span>e. The person was really helpful. They spoke to him.</span>
+    <br>
+    The person to whom they spoke was really helpful.
+    <br>
+    <br>
+    <span>f. This smartphone takes great photos. I bought it last week.</span>
+    <br>
+    This smartphone takes great photos whioch I bought it last week.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com<br>
+    <br>
+    <br>
+    <br><br>
 </body>
 
 </html>
