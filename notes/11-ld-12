@@ -5,16 +5,416 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
+    <center>Unit 12<br>
+        Down the Rabbit Hole
     </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Find the meanings of the following words and phrases from a dictionary and make sentences by using
+        them.</span>
+    <br>
+    <br>
+    <b>a. peep into :</b> to get a quick look into something
+    <br>
+    He peeped into the box and saw that his wife had gotten him a new watch.
+    <br>
+    <br>
+    <b>b. pop down :</b> to go somewhere quickly
+    <br>
+    I'll try to pop down tomorrow evening after dinner.
+    <br>
+    <br>
+    <b>c. remarkable :</b> unusual, surprising, excellent or worthy of notice
+    <br>
+    She has made remarkable progress.
+    <br>
+    <br>
+    <b>d. hedge :</b> a row of bushes or small trees planted close together along the edge of a garden, field or
+    road
+    <br>
+    Buying a house is the best hedge against inflation.
+    <br>
+    <br>
+    <b>e. wonder :</b> desire to know something
+    <br>
+    I wonder what the world is doing now.
+    <br>
+    <br>
+    <b>f. tumble :</b> to fall quickly without control
+    <br>
+    He took a tumble in the hay with the farmers' daughter.
+    <br>
+    <br>
+    <b>g. doze off :</b> to sleep, especially during the day
+    <br>
+    He was just beginning to doze off when the telephone rang.
+    <br>
+    <br>
+    <b>h. earnestly :</b> seriously
+    <br>
+    Even when I studied most earnestly it seemed more like play than work.
+    <br>
+    <br>
+    <b>i. tiny :</b> very small
+    <br>
+    He made a tiny hole in the paper.
+    <br>
+    <br>
+    <b>j. creep :</b> to move slowly, quietly and carefully in order to avoid being heard or noticed
+    <br>
+    She crept toward the edge of the roof and looked over.
+    <br>
+    <br>
+    <br>
+    <span>B. Match the words below with their opposites.</span>
+    <br>
+    a. beginning = ending
+    <br>
+    b. stupid = clever
+    <br>
+    c. natural = artificial
+    <br>
+    d. disappointment = happiness
+    <br>
+    e. ignorant = educated
+    <br>
+    f. anxiously = calmly
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>
+        A. Answer these questions.</span>
+    <br>
+    <br>
+    <span>
+        a. What did Alice do while her sister was reading a book?</span>
+    <br>
+    Alice felt asleep while her sister was reading a book.
+    <br>
+    <br>
+    <span>
+        b. Why did Alice run across the field after the Rabbit?</span>
+    <br>
+    Alice ran across the field after the Rabbit because of her curiosity to know about the rabbit which she had
+    never seen before.
+    <br>
+    <br>
+    <span>
+        c. Why didn’t she like to drop the jar? What did she do with it?</span>
+    <br>
+    She didn’t like to drop the jar because she was afraid of killing somebody underneath. She put it onto one of
+    the cupboards.
+    <br>
+    <br>
+    <span>
+        d. What idea came to her mind when she saw a tiny golden key?</span>
+    <br>
+    When she saw a tiny golden key, the idea of opening one of the doors of the hall came to her mind.
+    <br>
+    <br>
+    <span>
+        e. What was written on the bottle that she found? Did she follow what it said?</span>
+    <br>
+    “DRINK ME” was written on the bottle that she found. Yes, she followed what it said.
+    <br>
+    <br>
+    <span>
+        f. Alice was fond of pretending to be two people. Who were they?</span>
+    <br>
+    They were Alice and herself.
+    <br>
+    <br>
+    <span>
+        g. Why did she want to eat the cake that she found?</span>
+    <br>
+    She wanted to eat the cake that she found because it may make her grow bigger.
+    <br>
+    <br>
+    <br>
+    <span>
+        B. Put these sentences in the right order as they happen in the story.</span>
+    <br>
+    f. Alice saw a White Rabbit and ran after him.
+    <br>
+    c. Alice fell down a rabbit hole.
+    <br>
+    b. Alice found a small key and unblocked a very small door.
+    <br>
+    d. Alice drank something from a bottle and got very small door.
+    <br>
+    e. Alice tried to climb a table leg to get the key again.
+    <br>
+    a. Alice ate a small cake, which said “EAT ME”
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. “Down the rabbit hole” is a sort of writing called fantasy. On the basis of your reading of the story
+        point out some special elements of this kind of writing?</span>
+    <br>
+    <br>
+    The word fantasy refers to an illusion or an imaginative idea. The fantastic, a related word, also describes
+    something that is imaginary and unrealistic. As its name suggests, the literary genre of fantasy refers to stories
+    filled with imaginary and unrealistic elements.
+    <br>
+    <br>
+    Events in a fantasy operate outside the laws of the real universe and typically involve supernatural elements, like
+    magic or magical creatures. Unlike science fiction, which is generally set in the future, fantasy is commonly set in
+    the past. Fantasy stories often contain elements of medieval life, such as castles, knights, kings, magical swords,
+    and references to ancient spells. Characters in fantasy stories often live in a pre-industrial setting with limited
+    technology, other than the advantages of magical power.
+    <br>
+    <br>
+    The basic elements of fantasy have existed for centuries, and fantasy has roots in ancient myths, legends, and fairy
+    tales. The course toward modern fantasy, however, began in the Victorian era when writers began developing their own
+    distinct fantastical worlds, rather than building on established cultural tradition.
+    <br>
+    <br>
+    <br>
+    <span>b. Is it good to imagine of things which are not possible to achieve in reality? Explain.</span>
+    <br>
+    <br>
+    Imagination is the ability to form mental images of things, ideas or stimulation with no input from the five
+    senses. It’s your imagination that allows you to fantasize or dream of something you want that is not in your
+    reality yet.
+    <br>
+    <br>
+    Most poeple use their imagination to build pictures of a better lifestyle or what they want to hace in life and
+    to predict something positive or negative that may happen. As we practice deliberately using our imagination, it
+    will enhance our creative abilities, which means we will have better thoughts about our life. It helps to develop
+    visions of what is possible, which means it will give clearer picture of our needs and the life we want to live. It
+    will build up more self-confidence and improve our health and wellness by reducing stress. It helps to cut through
+    mental clutter and noise.
+    <br>
+    <br>
+    Using imagination makes it possible to experience reality in a world inside our mind. A well-developed
+    imagination will make us a powerful creator and allow us to shape the future that we want. Hence it is good to
+    imagine of things which are not possible to achieve in reality.
+    <br>
+    <br>
+    <br>
+    <span>c. Do you talk to yourself when you are in a trouble? If yes, how does it help you?</span>
+    <br>
+    <br>
+    Yes I talk to myself when I am in a trouble. I talk to myself everyday! I don't know exactly since how long I have
+    been doing that but all past years that I recall I admit I have done it. And guess what! I love to.
+    <br>
+    <br>
+    It helps me in many ways. I have so much to tell myself and maybe things that I wouldn't say to anyone. Nobody
+    understands me better than myself. I can just say anything and everything and not be judged! I think self-talk is
+    good as it doesn't require any effort unlike maintaining diaries etc. Self-talk happens mostly when I'm thinking
+    through ideas, when debating decisions, or when I need of a pep talk. I feel better doing self-talk as it gives me
+    feel of presence of someone around me. It helps me to make decisions more easily and motivate me to do things I may
+    be putting off. To sum up, I do self-talk to work through extreme emotions - including anger, sadness, confusion and
+    stress - and to sort out personal conundrums.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>b. Describe a strange dream that you have seen recently.</span>
+    <br>
+    <br>
+    I was 10 when this happened. One night, when I had gone to bed, I saw a dream. In a dream I woke up to hear a noise
+    and looked to my open bedroom door, where I saw a dark figure staring at me with red eyes. Thinking that it was my
+    mother, I had called out to her multiple times, each time getting louder and louder. By the third time I called out
+    to her, her red eyes did not move and I was getting frantic, screaming out to my mom and hiding beneath my covers.
+    <br>
+    <br>
+    Come to find out my mother was in the living room fast asleep and had woken up from my calls, running into my room.
+    When I looked at her, the black figure had gone and I have not seen it since. But I guess I had always been afraid
+    after that of what might be watching me or threatening to harm me at any given moment. I know that was a demon it
+    was too dark and felt too evil.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>
+        B. Express your wishes in the following situations in three different ways. Use I wish/If only…….</span>
+    <br>
+    <br>
+    <span>
+        a. You don’t have a mobile phone (You need one).</span>
+    <br>
+    - I wish I talked to my father about it.
+    <br>
+    - I wish I could buy one myself.
+    <br>
+    - I wish somebody would gift me one.
+    <br>
+    <br>
+    <span>
+        b. You don’t know the answer of a question from the lesson.</span>
+    <br>
+    - I wish my frend told me the answer.
+    <br>
+    - I wish my teacher would help me.
+    <br>
+    - I wish I could read the lesson properly.
+    <br>
+    <br>
+    <span>
+        c. You can’t play the guitar.</span>
+    <br>
+    - I wish I brought a guitar lesson book.
+    <br>
+    - I wish someone would teach me guitar chords.
+    <br>
+    - I wish I could go to the guitar expert’s.
+    <br>
+    <br>
+    <span>
+        d. It’s cold.</span>
+    <br>
+    - I wish I drank hot water.
+    <br>
+    - I wish my mother would burn some firewood.
+    <br>
+    - I wish I could stay inside the house.
+    <br>
+    <br>
+    <span>
+        e. You are feeling sick.</span>
+    <br>
+    - I wish I were healthy.
+    <br>
+    - I wish somebody would call a doctor.
+    <br>
+    - I wish I could go to hospital.
+    <br>
+    <br>
+    <span>
+        f. You live in a crowded city.</span>
+    <br>
+    - I wish I lived in the country.
+    <br>
+    - I wish the city would be peaceful.
+    <br>
+    - I wish I could spend a couple of weeks far from the city.
+    <br>
+    <br>
+    <span>
+        g. You feel lonely.</span>
+    <br>
+    - I wish I listened to my favourite music.
+    <br>
+    - I wish my friend would phone me.
+    <br>
+    - I wish I could do the household works.
+    <br>
+    <br>
+    <br>
+    <span>
+        C. Rewrite the following sentences making correction if necessary.</span>
+    <br>
+    <br>
+    <span>
+        a. I wish my father bought me a bike.</span>
+    <br>
+    I wish my father bought me a bike.
+    <br>
+    <br>
+    <span>
+        b. I wish I would write poems.</span>
+    <br>
+    I wish I could write poems.
+    <br>
+    <br>
+    <span>
+        c. I wish I could remember her name.</span>
+    <br>
+    I wish I could remember her name.
+    <br>
+    <br>
+    <span>
+        d. I wish I had a god job.</span>
+    <br>
+    I wish I had a god job.
+    <br>
+    <br>
+    <span>
+        e. I wish I would be rich.</span>
+    <br>
+    I wish I were rich.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br>
 </body>
 
 </html>
