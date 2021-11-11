@@ -5,16 +5,336 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
+    <center>Unit 14
+        <br>Napoleon Bonaparte
     </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Choose the correct meaning of the underlined word.</span>
+    <br>
+    <br>
+    a. Many <u>portraits</u> of Napoleon show him with his right hand placed inside his coat.
+    <br>
+    <span>sketch</span>
+    <br><br>
+    b. Napoleon won one victory after another, <u>defeating</u> the Austrians in eighteen battles.
+    <br>
+    <span>beating</span>
+    <br><br>
+    c. Portrait painters thought this pose made men look more <u>dignified</u>.
+    <br>
+    <span>good-looking</span>
+    <br><br>
+    d. They <u>announced</u> France a republic.
+    <br>
+    <span>officially declared</span>
+    <br><br>
+    e. Napoleon <u>conquered</u> Austria in 1805.
+    <br>
+    <span>triumphed over</span>
+    <br><br>
+    f. There was no place to house his soldiers in the <u>bitter</u> Russian winter.
+    <br>
+    <span>Cold</span>
+    <br><br>
+    g. Napoleon was <u>humiliated</u> when he was defeated.
+    <br>
+    <span>shamed</span>
+    <br><br><br>
+    <span>B. Guess the meanings to these words from the text and make sentences of your own.</span>
+    <br>
+    <br>
+    <b>1. violent :</b> causing hurt
+    <br>
+    The love that is too violent will not last long.
+    <br><br>
+    <b>2. execute :</b> kill somebody as a legal punishment
+    <br>
+    He was captured and executed for murder.
+    <br><br>
+    <b>3. ancient :</b> very old
+    <br>
+    The pyramids were built in ancient times.
+    <br><br>
+    <b>4. alliance :</b> a union between people, groups, countries, etc.
+    <br>
+    The two parties were still too much apart to form an alliance.
+    <br><br>
+    <b>5. brilliant :</b> very intelligent or skillful
+    <br>
+    Brilliant students are favourite of teachers.
+    <br><br>
+    <b>6. genius :</b> very great and rare natural ability or skill
+    <br>
+    You don't have to be a genius to see that this plan will never work.
+    <br><br>
+    <b>7. consul :</b> an official chosen by a government to live in a foreign city
+    <br>
+    The Consul spoke slowly and with great gravity.
+    <br><br>
+    <b>8. invading :</b> to enter a place in order to take control by military force
+    <br>
+    During the Second World War the island was invaded by the Axis powers.
+    <br><br><br><br>
+
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. Where was Napoleon from?</span>
+    <br>
+    Napoleon was from France.
+    <br><br>
+    <span>b. Why did poor and middle-class people declare France a republic?</span>
+    <br>
+    Poor and middle-class people declared France a republic because they were tired of paying heavy taxes for the
+    luxurious life of the king and his nobles.
+    <br><br>
+    <span>c. When did Napoleon declare himself emperor of France?</span>
+    <br>
+    Napoleon declared himself emperor of France in 1804.
+    <br><br>
+    <span>d. What did he do when he ruled France?</span>
+    <br>
+    When he ruled France, he restored and reorganized the French government and the Bank of France, built beautiful
+    cities with wide streets, fine
+    bridges, and beautiful buildings and monuments, such as the Arc de Triomphe.
+    <br><br>
+    <span>e. Which countries did he rule when he was the emperor?</span>
+    <br>
+    He ruled Italy, Switzerland, and Germany when he was the emperor.
+    <br><br>
+    <span>f. What was the main cause of his destruction?</span>
+    <br>
+    Invasion of Russia was the main cause of his destruction.
+    <br><br>
+    <span>g. How did his rule as emperor end in Europe?</span>
+    <br>
+    His rule as emperor ended in Europe after the Europeans gathered their armies against him.
+    <br><br>
+    <span>h. How could Napoleon have been an even greater ruler?</span>
+    <br>
+    Napoleon could have been an even greater ruler if he had not been driven by his love of power.
+    <br><br><br><br>
+
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. What can be the qualities of a great leader? Can a great leader remain in power for long in a country?
+        Discuss.</span>
+    <br>
+    <br>
+    Leadership refers to the quality of leading people. Probably, it is one of the most important aspects of life. Above
+    all, Leadership by a good leader has led to the progress of human civilization. Without a good leader, no
+    organization or group can succeed. Furthermore, not everyone has this quality. This is because effective Leadership
+    requires certain important characteristics.
+    <br><br>
+    First of all, confidence is the most quality. A leader must have strong self-confidence. A person lacking in
+    confidence can never be a good leader. A person must be confident enough to ensure others follow him. A good leader
+    must certainly inspire others. A leader must be a role model for his followers. Furthermore, he must
+    motivate them whenever possible. Also, in difficult situations, a leader must not lose hope. Honesty is another
+    notable quality of a leader. Honesty and Integrity are important to earn the love of followers. Probably, every
+    Leadership which loses trust is
+    bound to fail. People will not work with full effort due to an immoral leader.
+    Another important quality is good communication and decision making. Above all, if a leader makes poor
+    communications and poor decisions then other qualities will not matter. Furthermore, good decision making ensures
+    the success of the entire group. If the leader makes poor
+    decisions, then the efforts of followers won’t matter.
+    <br><br>
+    In conclusion, a good leader must be an excellent innovator. He must display a creative attitude in his work. Most
+    noteworthy,
+    innovation is a guarantee of survival of a group or innovation. Without creative thinking, progress is not possible.
+    <br><br>
+    If a leader is good, capable and have all the above traits then he/she can easily remain in power for long in a
+    country.
+    <br><br><br>
+
+    <span>b. The 16th president of the USA, Abraham Lincoln said democracy is government of the people for the people
+        and by the people. Do you think it is perfectly applicable in the present context of Nepal? Explain.</span>
+    <br><br>
+    The literal meaning of `democracy' is `rule by the people', or, in other words, a political system in which ultimate
+    authority is shared equally by all members of the community. In Nepal as elsewhere such a system is widely endorsed
+    as a desirable state of affairs but there is no precise, shared understanding of what it implies in practice. In
+    Nepal, even more than in most other places, there is also a sense of deep disillusionment with what a system
+    describing itself as democratic has actually achieved.
+    <br><br>
+    The political system presented by
+    Abraham Lincoln does not apply to Nepal, as corruption had paralyzed constitutional and government agencies. The
+    Constitution guarantees the idea of ​​collective
+    decision-making that includes all people equally, but it does not actually apply.
+    Democratic norms and values ​​depend on the proper functioning of constitutional and state institutions. But it has
+    been
+    crippled by a group of certain people. The role of bureaucrats is important to keep the administration running
+    smoothly so that development strategies can be easily implemented. However, corrupt bureaucracy does not do its job
+    without bribes and is endorsed by political leaders. Nepalese people have never experienced a
+    responsible, accountable government. State institutions are victims of nepotism and discrimination.
+    Thus, in a country like Nepal,
+    institutionalizing democracy is more difficult. To strengthen the principles of democracy, all constitutional
+    agencies, government agencies and citizens must be responsible.
+    <br><br><br><br>
+
+    <h3>Writing</h3>
+    <br>
+    <span>a. Write an essay on Power and Politics in about 500 words.</span>
+    <br><br>
+    <p style="text-align: center; font-weight: bold;">Power and Politics</p>
+    <br>
+    Power is usually defined as the ability to influence people’s behavior by getting people to do what the person
+    wants. Politically, having the ability to influence people is a huge responsibility. Being a leader means having the
+    abilities to not only convince people, but also to inspire them and influence their decision by making them see the
+    sense that the person with power is acting in their best interest. Therefore, political power is about not only
+    persuasion, but also manipulation. Politics is the act of persuasion, acquisition, and exercise of political power.
+    <br><br>
+
+    Political power shapes and control people’s attitude towards the leader and the governing system. The leader guides
+    the behavior of his followers in a direction he desires to achieve the common political objectives. Occupying a
+    political position means having the power and the ability to effect the desired change of behavior of other people
+    involved through persuasion or manipulation. For example, if an individual has the political power over the other
+    person, the degree in which a leader can motivate, incite, inspire, stimulate, and makes other people modify their
+    political behavior. This process is termed as having the political power.
+    <br><br>
+
+    Illegitimate political power implies exercising powers that violate the existing rules; these may include sabotage,
+    protests, and whistle blowing. Extreme illegitimate forms of political power pose a risk of loss of membership.
+    Since most political organization is made up of individuals with different values and interest, this presents the
+    potential for conflict over resources. A leader in power uses his position to attain group goals. However, power is
+    applied in different forms. Coercive power is based on fear. Coercive power includes sanctions, restrictions, and
+    control by force.
+    <br><br>
+
+    Power plays an important role in politics because its consequences can yield positive or negative results. Power in
+    politics is a two-way relationship depending on how people interact based on the resources or values they hold or
+    are in control of. Conflict arises due to pressure to achieve specific goals that might not be realistic. That is
+    why leaders manipulate his followers to serve their needs at the expense of others. In a democratic system, use of
+    power should not involve force; instead of obtaining power should be more of influence that is known as soft power.
+    <br><br><br>
+
+    <span>b. Write a couple of paragraphs about a national hero who fought bravely in the Anglo-Nepal War.</span>
+    <br><br>
+    <p style="text-align: center; font-weight: bold;">Balbhadra Kunwar Chhetri</p>
+    <br>
+    Balbhadra Kunwar Chhetri (30 January 1789 – 13 March 1823) was a Nepalese military commander and administrator in the Kingdom of Nepal. He is one of the National heroes of Nepal. He was highly praised for his military skill for the defence of the Nalapani fort in the Anglo-Nepalese War (1814–1816). He was Captain in the Nepalese military and was tasked as commander to protect the forts of Dehradun.
+    <br><br>
+    As commander of the Gorkhali forces in Dheradun, Capt. Balbhadra Kunwar was handed the responsibility of defending the area. The expanding Nepali/Gorkhali State had since the mid-late 18th century expanded the nation's border on all sides, which eventually led to conflict with the British East India Company and a war followed. Realizing he could not defend the town of Dehradun, Capt. Balbhadra Kunwar withdrew to the strategic hill fort of Khalanga with an army strength of 600 including women and children against the British East India Company British stronghold of 3000–3500 troops. He turned down an incentive proposal of the British who would make him Governor of the Western Garhwal should he surrender or leave Nepal.
+    <br><br><br><br>
+
+    <h3>Grammar</h3>
+    <br>
+    <span>B. Fill in the blanks with may, must or can&rsquo;t.</span>
+    <br><br>
+    a. Matthew <b><u>must</u></b> be at home. I can see his bike in front of his home.
+    <br><br>
+    b. They <b><u>may</u></b> be coming tomorrow.
+    <br><br>
+    c. She <b><u>can&rsquo;t</u></b> speak French very well. She&rsquo;s only lived in Paris for two weeks.
+    <br><br>
+    d. My key is not in my pocket or on my desk so it <b><u>must</u></b> be in the drawer.
+    <br><br>
+    e. I saw him yesterday. He <b><u>can&rsquo;t</u></b> be abroad.
+    <br><br>
+    f. You got the job? That&rsquo;s great. You <b><u>must</u></b> be very delighted.
+    <br><br>
+    g. I <b><u>may</u></b> finish it by tomorrow if I stay at work all night, but I&rsquo;m not sure.
+    <br><br>
+    h. Somebody is knocking on the door. It <b><u>must</u></b> be Sabina &ndash; she promised to come today.
+    <br><br><br>
+    <span>C. Rewrite the following sentences using may/might, must or can&rsquo;t.</span>
+    <br><br>
+    <span>a. I&rsquo;m sure he&rsquo;s not going to the cinema today.</span>
+    <br>
+    Ans: He can&rsquo;t be going to the cinema today.
+    <br><br>
+    <span>b. Perhaps she knows the answer.</span>
+    <br>
+    Ans: She may know the answer.
+    <br><br>
+    <span>c. I&rsquo;m sure he has a car.</span>
+    <br>
+    Ans: He must have a car.
+    <br><br>
+    <span>d. I doubt if it rains later on.</span>
+    <br>
+    Ans: It may rain later on.
+    <br><br>
+    <span>e. Perhaps she wants to be alone.</span>
+    <br>
+    Ans: She may want to be alone.
+    <br><br>
+    <span>f. I&rsquo;m sure Harina is in her office.</span>
+    <br>
+    Ans: Harina must be in her office.
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br><br>
 </body>
 
 </html>
