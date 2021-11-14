@@ -5,16 +5,349 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
+    <center>Unit 16
+        <br>Critical Thinking
     </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. The words in the crossword puzzle are from the text. Find them from the text to solve the puzzle based on
+        the meaning clues given below.</span>
+    <br>
+    <br>
+    <span>1. unquestionable, impossible to doubt</span>
+    <br>
+    indubitable
+    <br>
+    <br>
+    <span>2. never done or known before</span>
+    <br>
+    unprecedented
+    <br>
+    <br>
+    <span>3. emergence or origination</span>
+    <br>
+    emanation
+    <br>
+    <br>
+    <span>4. obviously or clearly</span>
+    <br>
+    evidently
+    <br>
+    <br>
+    <span>5. impossible to achieve or overcome</span>
+    <br>
+    insuperable
+    <br>
+    <br>
+    <span>6. moved with a violent, irregular action</span>
+    <br>
+    agitated
+    <br>
+    <br>
+    <span>7. appropriate or suitable</span>
+    <br>
+    apt
+    <br>
+    <br>
+    <span>8. force back</span>
+    <br>
+    repel
+    <br>
+    <br>
+    <span>9. conservative</span>
+    <br>
+    orthodox
+    <br>
+    <br>
+    <span>10. up to now</span>
+    <br>
+    hitherto
+    <br>
+    <br>
+    <br>
+    <span>B. Find the words from the text that mean the following.</span>
+    <br>
+    <br>
+    a. misleading or illusionary (<b>deceptive</b>)
+    <br>
+    <br>
+    b. in a natural state; not yet processed or refined (<b>crude</b>)
+    <br>
+    <br>
+    c. a mystical horse like animal with a single straight horn projecting from its forehead
+    (<b>unicorn</b>)
+    <br>
+    <br>
+    d. never dying or decaying (<b>immortal</b>)
+    <br>
+    <br>
+    e. come to an end; stop (<b>cease</b>)
+    <br>
+    <br>
+    f. to activate or put into motion (<b>actuate</b>)
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. What&rsquo;s the difference between the body and the soul?</span>
+    <br>
+    The body exists in time and space whereas the soul exists in time only. In simple words, body is visible entity
+    where as soul is not visible.
+    <br>
+    <br>
+    <span>b. What do you understand by the psychologists&rsquo; saying that there is no such thing as mind?</span>
+    <br>
+    Psychologists believe that there is no existence of mind as they study mental processes and human behaviors by
+    observing, interpreting, and recording how people relate to one another and the environment.
+    <br>
+    <br>
+    <span>c. How can a mental activity be reduced to a physical activity?</span>
+    <br>
+    Mental activity can be reduced to a physical activity by saying mind is just an emation of body which is really an
+    elaborate scientific construction.
+    <br>
+    <br>
+    <span>d. How are mind and body related?</span>
+    <br>
+    Mind and body are related as they are merely convenient ways of collecting and organizing events inside a man's head
+    into two groups according to causal relations.
+    <br>
+    <br>
+    <span>e. What is the relation between mind and memory? Does memory survive a person's death?</span>
+    <br>
+    Memory is the most essential characteristic of mind. No, memory doesn't survive a person's death because it is
+    connected with certain kind of brain structure which decays at death. Thus, memory also dies.
+    <br>
+    <br>
+    <span>f. How is our power on the earth's surface entirely dependent upon the sun?</span>
+    <br>
+    Our power on the earth's surface is entirely dependent upon the sun as it warms our seas, regulates our weather
+    patterns, and gives energy to the growing green plants that provide the food and oxygen for life on Earth.
+    <br><br><br><br>
+
+    <h3>Critical Thinking</h3>
+    <br>
+    <span>a. Do you believe that soul really exists? Write your arguments in support of your answer.</span>
+    <br><br>
+    I believe that souls do exist.
+    <br><br>
+    Have you ever imagined about your own death? Have you ever thought that what happens after the incident that the
+    world calls death? Could you ever convince yourself that your existence on this planet earth would be finished once
+    you die?
+    <br><br>
+    I couldn't ever convince myself with the fact that I'll be finished once I die. Death would cause the degradation of
+    my physical body but it's just unimaginable that I will too get over once the death occurs. This “I” is nothing but
+    the soul.
+    <br><br>
+    I know that the science that we're familiar with hasn't proved the existence of souls yet. But we shouldn't be
+    hopeless. The boundary of science is expanding day by day. Even the fans and lights that we use everyday were once
+    unimaginable but we know that today they exist. There are new fields added to science everyday. Some of the fields
+    that have tried to progress in this topic are metaphysics, para psychology etc.
+    <br><br>
+    As far as the ancient science is concerned, it had proved the existence of soul long ago. It also developed
+    methods by which one can experience one's soul. But anyways, I hope that there would be a day when the modern
+    science will too prove the existence of soul.
+    <br><br><br>
+
+    <span>b. If you want to change your body, you first have to change your mind. Discuss.</span>
+    <br><br>
+    I support the statement that "If you want to change your body, you first have to change your mind." Psychologists
+    say our “self talk” or “internal dialogue” can make or break a fitness routine.
+    <br><br>
+    The problem is that many people simply aren’t aware of how destructive their thoughts are. The thing that precedes
+    our behavior is a thought, and we sometimes aren’t good at getting in touch with our
+    thoughts. Let me take my fitness example. The first step in charting the right course to fitness is to recognize how
+    my thoughts are undermining
+    my exercise plans. The second step is to challenge the negative thinking – and there’s certainly no
+    shortage of that when it comes to exercise.
+    <br><br>
+    It can be tough for beginners to master the skills necessary to adhere to an exercise plan, but give it time. If I
+    could stick it out for
+    six months, it starts to become a part of who I am versus what I do.
+    Plus, I'll probably see some positive results that can motivate me to keep at it. Among them: better muscle tone,
+    feeling stronger and more fit, weight loss, improved mood and better sleep.
+
+
+    <br><br><br><br>
+
+
+    <h3>Writing</h3>
+    <br>
+    <span>Write critically on the given topics.</span>
+    <br>
+    <br>
+    <span>a. The existence of God</span>
+    <br>
+    <br>
+    The existence of God is foundational to the study of theology. The Bible does not seek to prove God’s existence, but
+    rather takes it for granted. Scripture expresses a strong doctrine of natural revelation: the existence and
+    attributes of God are evident from the creation itself, even though sinful human beings suppress and distort their
+    natural knowledge of God. The dominant question in the Old and New Testaments is not whether God is, but rather who
+    God is. Philosophers both Christian and non-Christian have offered a wide range of arguments for God’s existence,
+    and the discipline of natural theology (what can be known or proven about God from nature alone) is flourishing
+    today.
+    <br><br>
+    Some philosophers, however, have proposed that belief in God is rationally justified even without theistic
+    arguments or evidences. Meanwhile, professing atheists have offered arguments against God’s existence; the most
+    popular is the argument from evil, which contends that the existence and extent of evil in the world gives us good
+    reason not to believe in God. In response, Christian thinkers have developed various theodicies, which seek to
+    explain why God is morally justified in permitting the evils we observe.
+    <br><br>
+    If theology is the study of God and his works, then the existence of God is as foundational to theology as the
+    existence of rocks is to geology. Two basic questions have been raised regarding belief in God’s existence: (1) Is
+    it true? (2) Is it rationally justified (and if so, on what grounds)? The second is distinct from the first because
+    a belief can be true without being rationally justified (e.g., someone might irrationally believe that he’ll die on
+    a Thursday, a belief that turns out by chance to be true). Philosophers have grappled with both questions for
+    millennia. In this essay, we will consider what the Bible says in answer to these questions, before sampling the
+    answers of some influential Christian thinkers.
+
+
+    <br><br><br><br>
+
+    
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Rewrite the following sentences using &lsquo;used to&rsquo;. You can make an affirmative/ negative
+        statement or a question.</span>
+    <br>
+    <br>
+    <span>a. I/live in a flat when I was a child.</span>
+    <br>
+    I used to live in a flat when I was a child.
+    <br>
+    <br>
+    <span>b. She/love eating chocolate but now she hates it.</span>
+    <br>
+    She used to love eating chocolate but now she hates it.
+    <br>
+    <br>
+    <span>c. He/go to fishing in the summer?</span>
+    <br>
+    Did he use to go fishing in the summer?
+    <br>
+    <br>
+    <span>d. My sister/play tennis when she was at school.</span>
+    <br>
+    My sister used to play tennis when she was at school.
+    <br>
+    <br>
+    <span>e. He/play football every weekend?</span>
+    <br>
+    Did he use to play football every weekend?
+    <br>
+    <br>
+    <span>f. My grandfather/speak five languages.</span>
+    <br>
+    My grandfather used to speak five languages.
+    <br>
+    <br>
+    <span>g. I/not hate school from the beginning.</span>
+    <br>
+    I did not use to hate school from the beginning.
+    <br>
+    <br>
+    <span>h. You/live in Kathmandu?</span>
+    <br>
+    Did you use to live in Kathmandu?
+    <br>
+    <br>
+    <span>i. He/play Dandibiyo when he was a small child.</span>
+    <br>
+    He used to play Dandibiyo when he was a small child.
+    <br>
+    <br>
+    <span>j. She/wear a frock when she was small but nowadays she wears jeans.</span>
+    <br>
+    She used to wear a frock when she was small but nowadays she wears jeans.
+    <br>
+    <br>
+    <br>
+    <span>B. Write a short paragraph describing your past habits.</span>
+    <br>
+    For five years, I lived with my uncle. I used to begin my regular tasks in the mornings at my uncle's home. Despite
+    having a full-time job at home, I used to strive for first place in my class. My instructors utilised locally
+    accessible materials to make their lessons successful, despite the fact that my school lacked enough resources.
+    They'd cheer us up in class by being nice. Project work was assigned by our English instructor. It proved to be very
+    beneficial to our academic endeavours.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
