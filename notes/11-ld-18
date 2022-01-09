@@ -5,16 +5,320 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
+    <center>Unit 18
+        <br>Immigration and Identity
     </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Words from the text to solve the crossword puzzle:</span>
+    <br>
+    <br>
+    <b>Across</b>
+    <br>
+    2. as is certain to happen - <b>inevitably</b>
+    <br>
+    4. famous and respected - <b>eminent</b>
+    <br>
+    6. a temporary stay - <b>sojourn</b>
+    <br>
+    7. knowing everything - <b>omniscient</b>
+    <br>
+    <br>
+    <b>Down</b>
+    <br>
+    1. the state of being preoccupied - <b>preoccupation</b>
+    <br>
+    3. anxious or fearful that something bad will happen - <b>apprehensive</b>
+    <br>
+    5. a person of mixed white and black ancestry - <b>mulatto</b>
+    <br>
+    <br>
+    <br>
+    <span>B. Find the meanings of the following words in a dictionary as they are used in the text.</span>
+    <br>
+    <br>
+    <span>a. melancholy</span>
+    <br>
+    a deep feeling of sadness that lasts for a long time and often cannot be explained
+    <br>
+    <br>
+    <span>b. elusive</span>
+    <br>
+    difficult to find, define or achieve
+    <br>
+    <br>
+    <span>c. motif</span>
+    <br>
+    a subject, an idea that is developed in a work of literature
+    <br>
+    <br>
+    <span>d. disdain</span>
+    <br>
+    the feeling that somebody is not good enough to deserve your respect or attention
+    <br>
+    <br>
+    <span>e. fabricate</span>
+    <br>
+    to produce something false to decieve someone
+    <br>
+    <br>
+    <span>f. intoxicate</span>
+    <br>
+    to cause somebody to lose control of their behaviour or their physical and mental abilities
+    <br>
+    <br>
+    <span>g. resentment</span>
+    <br>
+    a feeling of anger or unhappiness about something that you think is unfair Homophones
+    <br>
+    <br>
+    <br>
+    <span>D. Choose the right word to fill in the blanks.</span>
+    <br>
+    <br>
+    a. Can you <b><u>bury</u></b> the box in the back garden? <i>(bury/berry)</i>
+    <br>
+    <br>
+    b. Alex could not <b><u>break</u></b> the branch off the tree. <i>(break/brake)</i>
+    <br>
+    <br>
+    c. <b><u>Whose</u></b> pencil is on the floor? <i>(Who's/Whose)</i>
+    <br>
+    <br>
+    d. We have got very <b><u>few</u></b> <i>(phew/few)</i> tasks left.
+    <br>
+    <br>
+    e. Some tribes worship their gods before they <b><u>prey</u></b>. <i>(prey/pray)</i>
+    <br>
+    <br>
+    f. <b><u>Damn</u></b> it. Everything is messed up. <i>(Dam /Damn)</i>
+    <br>
+    <br>
+    g. What a wonderful <b><u>lesson</u></b> the professor presented. <i>(lesson/lessen)</i>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. How is Willie Chandran different from the rest of his family?</span>
+    <br>
+    Willie Chandran is different from the rest of his family as he is insecure about himself and his own identity.
+    <br>
+    <br>
+    <span>b. Who is the main character of Half A Life? How is he described?</span>
+    <br>
+    Willie Chandran is the main character of Half A Life. He was born in India to a Brahmin father and a poor mother
+    40-some years ago. His middle name comes from the name of an English writer called Somerest Maugham.
+    <br>
+    <br>
+    <span>c. Why does Willie leave India?</span>
+    <br>
+    Willie leaves India because he had no identity in India being born as a child of a high caste father and a low caste
+    mother. He is hateful to his father and manages to get a scholarship to a college in London.
+    <br>
+    <br>
+    <span>d. What is the revelation that Willie begin to feel in college and in London?</span>
+    <br>
+    Willie begin to feel that he is secure and free unlike in India where racial discrimination plays a vital role.
+    There he
+    could remake himself, his past and his ancestry.
+    <br>
+    <br>
+    <span>e. Why does Willie accompany Ana?</span>
+    <br>
+    Willie accompanies Ana because she has a kind of high status in her colonial world and he can also find a complete
+    acceptance there.
+    <br>
+    <br>
+    <span>f. What is the central issue Naipal has raised in the novel?</span>
+    <br>
+    In the novel Naipal has raised an issue of identity crisis regarding ethnicity and culture.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical Thinking</h3>
+    <br>
+    <span>a. What kind of divided identity is depicted in the novel 'Half a Life'? How do characters in the novel try to
+        create new identities for themselves? Explain.</span>
+    <br><br>
+    According to the review of the novel 'Half A Life', there are three characters having mixed racial or divided
+    identities. They are Willie, Ana and a big light eyed man. Willie, the central character of the novel has divided
+    identity because of his birth from a Brahmin father and a low caste mother. Because of racial discrimination that
+    prevails in India, Willie feels unsecure and loss of identity. He is unhappy in India and to find his freedom and
+    identity he migrates to London. Ana is another character having same kind of divided identity. She belongs to a
+    mixed African identity (part Portuguese and part African) similar to the identity of Willie. Willie and Ana like
+    each other. Ana has also come in London in search of her identity but later after meeting Willie, she feels that she
+    may have a high status in her Portuguese African country even to be a second rank Portuguese than mimicking other's
+    behavior to hide her past. Willie also follows her to her home country in a hope of a complete acceptance there. But
+    he also feels there lack of identity. He sees the plight of an illegitimate man illegally born out of and African
+    mother and a Portuguese landowner father. Such people are abused by Portuguese people because of the same of their
+    birth.
+    <br><br><br>
+
+    <span>b. Discuss the similaries between the author and the protagonist in the noivel?</span>
+    <br>
+    <br>
+    Surprisingly, there is a startling amount of parallelism between Willie Chandran and the Nobel Prize-winning author
+    V.S. Naipaul. Naipul is of Indian descent and was born in the country of Trinidad in 1932. He left his home country
+    at the age of 18 to pursue a higher education and went to England on a scholarship grant in the year 1950. Naipul
+    studied at University College of Oxford and after four years he realized he wanted to be an author. He took up the
+    pen and paper and found himself, realizing that his occupation would forever be as a writer. His prowess as a writer
+    is incredible. In addition to Half a Life, Naipaul has written A House for Mr. Biswas, A Bend in the River, Between
+    Father and Son, A Way in the World, Beyond Belief, and many more, totaling more than 20 fiction and non-fiction
+    books in his lifetime. As mentioned before, he is a Nobel Laureate and now lives his life in Wiltshire, England. The
+    similarities of all these characteristics with Willie Chandran is so astounding that some would have guessed Naipaul
+    was writing an autobiography. Willie is also of Indian descent and left his home country at the age of 18 to go
+    study abroad; both of them were able to do this because of a scholarship. Willie went to England to study at a
+    university for four years as well. He took up writing and published a book while he was studying in London and
+    briefly pursued writing, which is Naipaul's occupation. They both eventually find themselves living in a foreign
+    country other than the one they were born in. It is clear that V.S. Naipaul used aspects of his own life to craft
+    and mold a protagonist and a story that would be powerful and compelling enough to keep readers glued to the page.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>Change the following into indirect speech.</span>
+    <br>
+    <br>
+    <span>a. She said, &quot;While I was having dinner, the phone rang.&quot;</span>
+    <br>
+    She said that while she was having dinner, the phone rang.
+    <br>
+    <br>
+    <span>b. My friend said, &quot;Where are they staying?&quot;</span>
+    <br>
+    My friend asked where they were staying.
+    <br>
+    <br>
+    <span>c. Jamila said, &quot;I travel a lot in my job.&quot;</span>
+    <br>
+    Jamila said that she travelled a lot in her job.
+    <br>
+    <br>
+    <span>d. She said to me, &quot;We lived in China for five years.&quot;</span>
+    <br>
+    She told me that they had lived in China for five years.
+    <br>
+    <br>
+    <span>e. He said to me, &quot;Do you like ice-cream?&quot;</span>
+    <br>
+    He told me if I had liked ice-cream.
+    <br>
+    <br>
+    <span>f. They said, &quot;Hurray! We've won the match.&quot;</span>
+    <br>
+    They exclaimed with delight that they had won the match.
+    <br>
+    <br>
+    <span>g. He said, &quot;I'd tried everything without success, but this new medicine is great.&quot;</span>
+    <br>
+    He said that he'd tried everything without success, but this new medicine was great.
+    <br>
+    <br>
+    <span>h. Sony said, &quot;I go to the gym next to your house.&quot;</span>
+    <br>
+    Sony said that she went to the gym next to my house.
+    <br>
+    <br>
+    <span>i. He said, &quot;Be quiet after 10 o'clock.&quot;</span>
+    <br>
+    He told me to be quiet after 10 o'clock.
+    <br>
+    <br>
+    <span>j. He said, &quot;I don't want to go to the party unless he invites me.&quot;</span>
+    <br>
+    He said that he didn't want to go to the party unless he invited him.
+    <br>
+    <br>
+    <span>k. He said to me, &quot;I will see you tomorrow if you meet me.&quot;</span>
+    <br>
+    He told me that he would see me the following day if I met him.
+    <br>
+    <br>
+    <span>l. She said, &quot;If I were you, I would give up the work.&quot;</span>
+    <br>
+    She said that if she were me, she would give up the work.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
