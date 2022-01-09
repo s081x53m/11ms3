@@ -5,16 +5,388 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
+    <center>Unit 19
+        <br>Travel and Tourism
     </center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Ways with words</h3>
+    <br>
+    <span>A. Find the words form the text which mean the following.</span>
+    <br>
+    <br>
+    a. became fuller and softer by shaking &ndash; <b>fluffed</b>
+    <br>
+    <br>
+    b. sound mental health &ndash; <b>sanity</b>
+    <br>
+    <br>
+    c. consisting of or easily breaking into small pieces &ndash; <b>crumbly</b>
+    <br>
+    <br>
+    d. neither very hot nor very cold &ndash; <b>temperate</b>
+    <br>
+    <br>
+    e. land that does not have enough water to support the growth of plants &ndash; <b>arid region</b>
+    <br>
+    <br>
+    f. only slightly warm &ndash; <b>lukewarm</b>
+    <br>
+    <br>
+    <br>
+    <span>B. Find the meanings of the following words in an English dicitonary, write their word classes adn use them in
+        your own sentences.</span>
+    <br>
+    <br>
+    <span>a. hazy (adjective) : </span> not clear, especially because of heat
+    <br>
+    The mountains were hazy in the distance.
+    <br>
+    <br>
+    <span>b. frontier (noun) : </span> a line that separates two countries, etc.; the land near this line
+    <br>
+    Many people travelling across the frontier were illegal immigrants.
+    <br>
+    <br>
+    <span>c. lush (adjective) : </span> covered in healthy grass and plants
+    <br>
+    He glanced at the lush green hills.
+    <br>
+    <br>
+    <span>d. flipflops (noun) : </span> open shoes
+    <br>
+    She took off her flipflops before crossing the stream.
+    <br>
+    <br>
+    <span>e. altitude (noun) : </span> height above sea level
+    <br>
+    My friends are flying at an altitude of 10000 m.
+    <br>
+    <br>
+    <span>f. fatal (adjective) : </span> causing death
+    <br>
+    If her sister gets ill again it could prove to be fatal.
+    <br>
+    <br>
+    <span>g. magnificent (adjective) : </span> extremely attractive and impressive
+    <br>
+    Pashupati temple looks magnificent in the evening.
+    <br><br><br>
+
+    <span>C. make a list of the Nepali words used in the text and write their English equivalents.</span>
+    <br><br>
+    bideshi : foreign
+    <br>
+    Tatopani : lukewarm water
+    <br>
+    raksi : wine
+    <br>
+    bahini : younger sister
+    <br>
+    mathi : up
+    <br>
+    tala : down
+    <br>
+    sutne : sleep
+    <br>
+    panipuri : water balls/water bowels
+    <br>
+    pani - water
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer these questions.</span>
+    <br>
+    <br>
+    <span>a. How did the author feel when she saw a colourful rooster in the western Himalayas?</span>
+    <br>
+    The author felt amused when she saw a colourful rooster in the western Himalayas. Furthermore she felt the roster
+    glancing her for a brief moment and winked at her.
+    <br>
+    <br>
+    <span>b. How does she describe the houses on the trails of western Nepal?</span>
+    <br>
+    She describe the house on the trails of western Nepal as made by the stones under a rock over a river. They looked
+    too crumble to live in but people were comfortable with them.
+    <br>
+    <br>
+    <span>c. What does she mean when she says &quot;I walked towards a village15 kilometres further as the crow
+        flies?&quot;</span>
+    <br>
+    When she says &quot;I walked towards a village 15 kilometres further as the crow flies&quot; she means the distance
+    she
+    had to cover was measured between two places.
+    <br>
+    <br>
+    <span>d. Describe the village Thankur in brief.</span>
+    <br>
+    The village Thankur have had only two houses. The village is located in an arid region. There is not much human
+    mobility. Shiny and rainbow colored large birds called Himalayan monal are found there.
+    <br>
+    <br>
+    <span>e. What happened when she reached Jumla and how was she relieved?</span>
+    <br>
+    When she reached Jumla she was ill with an unknown virus and a bad tummy. She was relieved after having medicine and
+    pani puri.
+    <br>
+    <br>
+    <span>f. How does the author describe the bucket water in Khali Lagna?</span>
+    <br>
+    The water surface on the bucket was frozen. When she cracked it, she felt satisfied as the water underneath was
+    surprisingly lukewarm.
+    <br>
+    <br>
+    <span>g. How was Rara Lake on the day she reached there?</span>
+    <br>
+    The water in Rara Lake was glistening in its dark blue glory when she reached there.
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Critical Thinking</h3>
+    <br>
+    <br>
+    <span>
+        a. It is said that travelling a place equals to reading three books. Do you agree?
+        Why?
+    </span>
+    <br><br>
+    I totally agree with the saying that travelling a place equals to reading three books. The world is a great book, of
+    which they who never stir from home read only a page. It is a well established fact now that travelling gives a
+    character to our knowledge. While travelling we have firsthand knowledge about the place we are travelling. We
+    actually see the place with our own eyes, and its memory stays with us throughout our life. For example reading
+    about a place may be entertaining and appealing, but visiting it in person will surely be thousand times more
+    entertaining and gratifying.
+    <br><br>
+    Traveling is wonderful in many ways. As we travel we meet more new people, cultures, and lifestyles. With all the
+    newness in our life, we are also opened to new insights, outlook, and perception of the world and living, which
+    often gives us a new purpose for our lives. While travelling, we have to be prepared for unplanned emergencies and
+    schedules. We have to make arrangements for
+    our travelling, lodging and boarding. This makes us more organized and self-reliant. Thus, travelling makes the
+    inhabitants interconnected. We start feeling ourselves as members of one big family of mankind living on one home
+    planet. This makes life more wonderful.
+    <br><br>
+    In conclusion it can be said that travelling is one of the most precious gifts of life, and we must relish it and
+    enjoy its sundry life-transforming benefits.
+
+    <br><br><br>
+
+    <span>
+        b. The author spent five-week long walk along the western Himalayas. Do you
+        think it was adventurous? Why?
+    </span>
+    <br>
+    <br>
+    Yes, it was adventurous because she had covered a distance that totals up to 25 percent of the Nepal Himalaya via
+    the lower Great Himalayan Trail, along with some funky detours. She experienced places where few tourists go. She
+    chose the Dhaulagiri Circuit. She witnessed and experienced as medieval and raw. She learnt to survive the wild
+    western region with primal instincts, human intuition, and oneness with nature. She was able to break the monotony of life and work. Life is a mad rush but she became to able to escape it to
+    participate in adventure from one place to another, from one activity to another, trying to gather as much as
+    possible. Trekking through glaciers, crossing rivers, walking through arid regions, spending cold nights at high altitude, walking in the snow being frozen is a challenging task. That’s why this journey is really and adventurous one.
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Grammar</h3>
+    <br>
+    <span>B. Complete these sentences using the verbs given in the brackets.</span>
+    <br>
+    <br>
+    a. Letters <b><u>are delivered</u></b> by the postman every day. (deliver)
+    <br>
+    <br>
+    b. This bag <b><u>was found</u></b> in the bus yesterday. (find)
+    <br>
+    <br>
+    c. The gate <b><u>is locked</u></b> at 7:00 pm every evening. (lock)
+    <br>
+    <br>
+    d. I <b><u>was invited</u></b> to the party last week. (invite)
+    <br>
+    <br>
+    e. The telephone <b><u>was invented</u></b> by Graham Bell. (invent)
+    <br>
+    <br>
+    f. Muna Madan <b><u>was written</u></b> by Devkota. (write)
+    <br>
+    <br>
+    g. How much money <b><u>was stolen</u></b> in the robbery? (steal)
+    <br>
+    <br>
+    h. Do you know cheese <b><u>is made</u></b> from milk? (make)
+    <br>
+    <br>
+    i. I was born in Kathmandu, but <b><u>was grown</u></b> in Dhangadhi. (grow)
+    <br>
+    <br>
+    <br>
+    <span>C. Change the following sentences into passive.</span>
+    <br>
+    <br>
+    <span>a. I didn&rsquo;t fix the problem.</span>
+    <br>
+    The problem wasn't fixed by me.
+    <br>
+    <br>
+    <span>b. Police protect the town.</span>
+    <br>
+    The town is protected by police.
+    <br>
+    <br>
+    <span>c. John&rsquo;s mother raised him in a small town.</span>
+    <br>
+    He was raised in a small town by John&rsquo;s mother.
+    <br>
+    <br>
+    <span>d. Someone painted the building last year.</span>
+    <br>
+    The building was built last year.
+    <br>
+    <br>
+    <span>e. Alexander Fleming discovered penicillin in 1928.</span>
+    <br>
+    Penicillin was discovered in 1928 by Alexander Fleming.
+    <br>
+    <br>
+    <span>f. Some students study grammar on the Internet.</span>
+    <br>
+    Grammar is studied on the internet by some students.
+    <br>
+    <br>
+    <span>g. Someone had broken the window by 3:00 p.m.</span>
+    <br>
+    The window had been broken by 3: p.m.
+    <br>
+    <br>
+    <span>h. A strange man was watching us.</span>
+    <br>
+    We were being watched by a strange man.
+    <br>
+    <br>
+    <span>i. Tokyo will hold the Olympics in 2020.</span>
+    <br>
+    The Olympics will be held in 2020 by Tokyo.
+    <br>
+    <br>
+    <span>j. We are working on the report right now.</span>
+    <br>
+    The report is being worked in right now by us.
+    <br>
+    <br>
+    <span>k. My manager has told him to arrive earlier.</span>
+    <br>
+    He has been told to arrive earlier by my manager.
+    <br>
+    <br>
+    <span>l. They could not have made the mistake.</span>
+    <br>
+    The mistake could not have been made by them.
+    <br>
+    <br>
+    <span>m. I hope they are going to hire me soon.</span>
+    <br>
+    I hope I am going to be hired soon by them.
+    <br>
+    <br>
+    <span>n. I don't like people staring at me.</span>
+    <br>
+    I don't like being statered at.
+    <br>
+    <br>
+    <span>o. She likes people waving at her.</span>
+    <br>
+    She likes being waved at.
+    <br>
+    <br>
+    <span>p. Who told you the story?</span>
+    <br>
+    By whom were you told the story ?
+    <br>
+    <br>
+    <span>q. Is he repairing the bicycle?</span>
+    <br>
+    Is the bicycle being repaired by him?
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
